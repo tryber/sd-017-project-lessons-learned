@@ -1,8 +1,29 @@
 body {
+  margin: 0;
+  padding: 0;
   background-color: rgb(253, 251, 251);
+}
+
+main {
+  margin-top: 200px;
+}
+
+#minha_foto {
+  border: 2px solid black;
+  margin-left: 20px;
 }
 
 header {
   position: fixed;
+  text-align: center;
   top: 0;
+  background-color: green;
+  width: 100%;
+}
+
+nav ul li {
+  text-align: center;
+  color: white;
+  display: inline-block;
+  margin: 20px;
 }
