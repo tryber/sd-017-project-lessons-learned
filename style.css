@@ -7,9 +7,14 @@ body {
 #cabecalho {
   position: fixed;
   background-color: #30e48c;
-  text-align: center;
+  display: flex;
   top: 0;
-  border: 100%;
+  border-right: 100%;
+  width: 100%;
+  
+}#conteudo_principal{
+  display: inline-block
+  margin-top: 4%;
 }
 #titulo {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -17,29 +22,36 @@ body {
   font-size: 35px;
 }
 #meu_aprendizado {
-  margin-top: 6%;
+  display: flex;
+  margin-right: 20%
+  
 }
 #meu_aprendizado p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 500;
   font-size: 19px;
+  color: rgb(14, 0, 0);
+  
 }
 #minha_foto {
   border-radius: 50%;
   display: inline-block;
-  margin-left: 200px;
   margin-right: 50px;
   margin-top: 30px;
 }
 #listas {
-  display: inline-block;
+  display: flex;
 }
 #licoes_aprendidas {
   background-color: #30e48c;
-  text-align: left;
+  display: inline-block;
 }
 #licoes_a_aprender {
   list-style-type: square;
-
+  margin-left: 10px;
+  display: inline-block;
   background-color: #30e48c;
+} #rodape{
+  display: block;
+  font-weight: 600;
 }
