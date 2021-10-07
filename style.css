@@ -44,3 +44,21 @@ a {
     color: white;
     text-decoration: none;
 }
+
+p {
+    line-height: 1.2;
+    font-size: 20px;
+    font-family: Roboto Mono , monospace;
+    color: #3d3d3d;
+}
+
+footer p{
+  line-height: 1.2;
+  font-size: 15px;
+  color: #3d3d3d;
+  font-weight: bold;
+}
+
+dt {
+  font-weight: bold;
+}
