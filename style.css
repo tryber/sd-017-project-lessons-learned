@@ -2,5 +2,11 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-
 /* Requisito 1 plano fundo RGB no body para pagina toda */
+
+#cabecalho {
+  top: 0;
+  background-color: rgb(176, 196, 222);
+}
+
+/* Requisito 2 A barra  ID " cabecalho " fixa top tendo 0. O título deve estar dentro da barra e ser um elemento h1 com ID " titulo " */
