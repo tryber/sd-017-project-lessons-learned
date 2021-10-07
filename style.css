@@ -29,4 +29,13 @@ body {
   font-style: italic;
 }
 
+#adicional_softskills {
+  top:150px;
+  margin-left: 400px;
+  margin-right: 50px;
+  right: auto;
+  position: fixed;
+  text-align: justify;
+
+}
 
