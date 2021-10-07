@@ -2,7 +2,8 @@ body {
   background-color: rgb(253, 251, 251);
   margin: 0;
   padding: 0;
-  border: 0;
+  /* overflow-x: hidden; */
+  width: 100%;
 }
 
 header {
@@ -26,27 +27,49 @@ img {
 }
 
 main {
-  margin-top: 130px;
-  margin-left: 30px;
+  margin: 130px 30px 10px 30px;
+  display: block;
+  width: 100%;
+}
+
+a {
+  margin: 0;
   display: block;
 }
 
-p {
-  margin: 0;
-}
-
-article {
+#licoes {
   width: 30%;
   align-content: top;
   margin: 50px 10px 10px;
 }
 
-ul ,ol {
+ul , ol {
   display: inline-block;
 }
 
 h3 {
   margin: 0;
+}
+
+.artigos {
+  display: flex;
+  align-content: top;
+  align-items: top;
+  width: 100%;
+}
+
+.lado-esquerdo , .lado-direito {
+  width: 50%;
+  text-align: justify;
+  border: 1px solid red;
+  padding: 5px;
+}
+
+aside {
+  margin: 0;
+  border: 1px solid blue;
+  text-align: justify;
+  width: 100%;
 }
 
 footer {
