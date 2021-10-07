@@ -5,13 +5,14 @@ body {
 }
 
 #cabecalho {
-    position: absolute;
+    position: fixed;
     width: 100%;
     border: 0;
     top: 0;
     left: 0;
     padding: 10px;
     background-color: rgb(78, 78, 78);
+    z-index: -1;
     
 }
 
@@ -20,6 +21,7 @@ body {
     margin: auto;
     text-align: center;
     font-size: 24px;
+    
 }
 
 #minha_foto {
@@ -29,22 +31,32 @@ body {
     margin-right: 30px;
     width: 15%;
     margin-top: 0px;
+    z-index: 2;
 }
 
 .licoes_tabela {
     margin-top: 80px;
     text-align: left;
+    float: left;
 }
 
 #licoes_aprendidas {
     margin-right: 30px;
+    letter-spacing: 1px;
     
     
 }
 
 #licoes_a_aprender {
+    letter-spacing: 1px;
     
     
+}
+
+.meu_aprendizado {
+    float: right;
+    
+    font-size: 14px;
 }
 
 #rodape {
