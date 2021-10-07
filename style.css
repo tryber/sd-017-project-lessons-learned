@@ -1,22 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 body {
     background-color: rgb(253, 251, 251);
     
-    font-family: monospace;
-    margin: 0;
-    box-sizing: border-box;
+    font-family: monospace;    
 }
 
 header {
     position: fixed;
     top: 0;
 
-    text-align: center;
-    width: 100%;
-    padding: 10px;    
-    background-color: #ff5050;
 }
 
+
+main {
+    margin-top: 100px;
+}
 main section .img-perfil {
     width: 200px;    
     border-radius: 50%;
+}
+
+
+
+header, footer {
+    width: 100%;
+    background-color: #ff5050;
+    padding: 10px;
+
+    text-align: center;
 }
