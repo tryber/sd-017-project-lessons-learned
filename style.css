@@ -38,6 +38,7 @@ table {
   font-size: 15px;
   color: teal;
   line-height: 20px;
+  clear: both;
 }
 
 #licoes_a_aprender {
@@ -74,6 +75,21 @@ table {
 
 #inicio {
   top: 0;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 50%;
+  vertical-align: top;
+  margin-bottom: px;
+}
+
+.lado-direito {
+  float: right;
+  width: 40%;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  vertical-align: top;
 }
 
 .center {
