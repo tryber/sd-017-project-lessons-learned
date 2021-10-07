@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+    background-color: rgb(81, 190, 77);
+    text-align: center;
+    position: fixed;
+    top: 0;
+    border: 1px solid black;
+    width: 1340px;
+}
+
+#minha_foto {
+    width: 200px;
+    top: 100px;
+    margin-top: 10px;
+}
+
+.listas {
+    float: left;
+    width: 50%;
+}
+
+#curiosidades {
+    position: absolute;
+    width: 200px;
+    top: 80px;
+    right: 50px;
+    background-color: rgb(81, 190, 77);
+    padding: 10px;
+    border: 1px solid black;
+}
+
+main {
+    position: absolute;
+    top: 90px;
+}
+
+#artigo {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: rgb(81, 190, 77);
+    line-height: 25px;
+}
+
+table, th, td {
+    margin-bottom: 10px;
+    border: 1px solid black;
+    text-align: center;
+  }
