@@ -50,25 +50,29 @@ table {
   border: 3px solid turquoise;
   border-radius: 10%;
 }
+
 .lado-esquerdo {
   float: left;
   width: 50%;
+
 }
+
 .lado-direito {
   float: right;
   width: 50%;
 }
 
 #rodape {
-    margin-top: 200px;
-    background-color: green;
-    text-align: center;
+  margin-top: 200px;
+  background-color: green;
+  text-align: center;
   font-style: italic;
   color: turquoise;
   font-family: fantasy;
 }
 
 #nave a {
-    list-style: none;
-    color: turquoise;
+  list-style: none;
+  color: turquoise;
 }
+
