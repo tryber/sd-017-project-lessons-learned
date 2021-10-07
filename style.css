@@ -44,3 +44,9 @@ article {
 	left: 983px;
 	padding: 2px 10px;
 }
+
+table {
+	position: relative;
+	bottom: 100px;
+	border-color: green;
+}
