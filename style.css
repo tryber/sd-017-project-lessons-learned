@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(253, 251, 251);
+    width: 100vw;  
+    font-family: 'Epilogue', sans-serif;
+}
+
+#cabecalho{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 90px 10px 94px;
+    background-color: #036b52;
+    border-bottom: 7px solid #2fc18c;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;   
+    align-items: baseline;
+}
+#cabecalho a img{
+    width: 80px;    
+}
+span{
+    width: 80px;
+}  
+
+#titulo{     
+    font-weight: 900;
+    font-size: 50px;
+    color: #fff;
+}
