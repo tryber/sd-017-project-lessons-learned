@@ -38,7 +38,7 @@ body {
   border-radius: 10%;
 }
 
-.artigo-sobre-aprendizado-8, .seçao-passagem-aprendizado-9 {
+.artigo-sobre-aprendizado-8 , .seçao-passagem-aprendizado-9 {
   display: inline-block;
-  right: 0px;
+  right: 10px;
 }
