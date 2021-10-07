@@ -16,7 +16,7 @@ body {
   top: 0;
   display: flex;
   flex-direction: column;
-  background-color: cadetblue;
+  background-color: darkgrey;
   width: 100%;
 
 }
@@ -38,4 +38,15 @@ img {
 nav ul {
   display: inline;
 
+}
+
+.listas {
+  margin-top: 23%;
+}
+
+#rodape {
+	background-color: darkgrey;
+	color: white;
+  padding: 30px;
+  text-align: center;
 }
