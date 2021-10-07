@@ -13,9 +13,21 @@ body {
   top: 0;
   background-color: rgb(75, 101, 135);
   width: 100%;
-  padding: 20px;
   color: rgb(247, 246, 242);
   z-index: 2;
+}
+
+.titulo {
+  padding: 20px;
+  display: flex;
+}
+
+.titulo h1 {
+  padding-right: 20px;
+}
+
+.titulo img {
+  width: 30px;
 }
 
 article h2 {
@@ -26,14 +38,20 @@ article h2 {
 
 article p {
   line-height: 24px;
+  font-weight: 300;
 }
 
 .lista-sem-estilo {
   list-style: none;
 }
 
-.navegacao .lista-sem-estilo {
-  padding: 10px 0 0;
+.navegacao {
+  background-color: rgb(247, 246, 242);
+}
+
+.navegacao .lista-sem-estilo li {
+  display: inline-block;
+  padding: 10px;
 }
 
 a {
@@ -41,7 +59,12 @@ a {
 }
 
 .navegacao a {
-  color: rgb(253, 251, 251);
+  color: rgb(75, 101, 135);
+}
+
+.navegacao li:hover , .navegacao li:hover>a {
+  background-color: rgb(222, 221, 217);
+  color: rgb(103, 138, 184);
 }
 
 main {
@@ -57,13 +80,14 @@ main {
 
 th {
   font-weight: 400;
+  color: rgb(104, 104, 104);
 }
 
 td {
   font-weight: 300;
 }
 
-th, td {
+th , td {
   text-align: left;
   border: 1px solid rgb(240, 229, 207);
   padding: 10px;
@@ -101,9 +125,10 @@ th, td {
 
 .aprendizados-container li {
   padding: 5px 0;
+  font-weight: 300;
 }
 
-aside{
+aside {
   position: absolute;
   top: 650px;
   margin: 0 20px;
