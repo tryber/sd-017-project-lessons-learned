@@ -14,6 +14,7 @@ body {
 }
 
 #titulo {
+  font-size: 35px;
   color: white;
   display: inline-block;
   padding-left: 25px;
@@ -67,8 +68,10 @@ body {
   right: 25px;
 }
 
-.lado-direito p{
+.lado-direito p {
+  font-family: sans-serif;
   width: 250px;
+  line-height: 20px;
   text-align: justify;
 }
 
@@ -77,6 +80,7 @@ body {
 }
 
 .lado-esquerdo p {
+  font-family: sans-serif;
   width: 500px;
   text-align: justify;
 }
