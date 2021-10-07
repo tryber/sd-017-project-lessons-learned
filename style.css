@@ -1,12 +1,12 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
-
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Arial, Helvetica, sans-serif;
 }
-#cabecalho  {
+#cabecalho {
   top: 0;
   width: 100%;
   padding: 10px 10px;
@@ -19,11 +19,9 @@ body {
 nav.menu-header {
   display: inline-block;
 }
-
 .menu-header ul {
   display: inline-block;
 }
-
 .menu-header ul li {
   margin-left: 20px;
   background-color: black;
@@ -33,7 +31,6 @@ nav.menu-header {
   margin: 50px 20px;
   width: 150px;
 }
-
 #licoes_aprendidas {
   margin-left: 30px;
 }
