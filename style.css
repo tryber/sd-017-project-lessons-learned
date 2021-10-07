@@ -9,6 +9,14 @@ header {
 
 #cabecalho {
   background-color: blueviolet;
-  margin: 0;
-  padding: 10px;
+  margin: auto;
+  padding: 10px 500px;
+  border: 1px solid blueviolet;
+  color: white;
+  font-family: monospace;
+  
+}
+
+#titulo {
+  width: 500px;
 }
