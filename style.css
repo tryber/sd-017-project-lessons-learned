@@ -39,3 +39,8 @@ body {
 #minha_foto {
   border-radius: 10px;
 }
+
+#perfil a{
+  display: block;
+  margin-top: 5px;
+}
