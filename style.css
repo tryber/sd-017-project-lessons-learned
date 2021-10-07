@@ -1,3 +1,7 @@
+* {
+  border: 3px solid red;
+}
+
 body {
   background-color: rgb(253, 251, 251);
 }
@@ -16,13 +20,12 @@ body {
   color: white;
 }
 
-.menu{
+.menu a {
   display: block;
   margin: 5px;
-  padding: 5px;
 }
 
-#cor{
+#cor {
   color: white;
   text-decoration: none;
   font-size: 18px;
