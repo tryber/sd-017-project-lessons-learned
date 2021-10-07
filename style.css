@@ -1,16 +1,25 @@
 body {
-    background-color: rgb(253, 251, 251);
+  margin:0;
+  background-color: rgb(253, 251, 251);
 }
 #cabecalho {
-position:fixed;
-top:0;
+  position:fixed;
+  top:0;
+  width: 100%;
+  background-color: green;
 }
 #titulo {
-  color: brown;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #minha_foto {
-  margin-top: 70px;
+  margin-top: 80px;
+  display: block;
 }
 #licoes_aprendidas {
-  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+display: inline-block;
+}
+#licoes_a_aprender {
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+display:inline-block
 }
