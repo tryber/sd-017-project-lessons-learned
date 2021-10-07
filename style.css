@@ -49,15 +49,27 @@ body {
     right: 600px;
     text-align: justify;
 }
+
 h4.artigo {
     top: 500px;
     left: 10px;
     text-align: center;
 }
 
+.emocoes {
+    position: absolute;
+    top: 550px;
+    left: 400px;
+    right: 250px;
+    text-align: justify;
+}
+
+h4.emocoes {
+    top: 500px;
+}
+
 #rodape {
     position: absolute;
     top: 900px;
     left: 350px;
-
 }
