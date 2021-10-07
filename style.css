@@ -22,6 +22,60 @@ background-color: rgb(253, 251, 251);
     display: inline-block;
 }
 
+a {
+    color: rgb(253, 251, 251);
+    margin-inline: 5px;
+}
+
+a:link{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(253, 251, 251);
+}
+
+article, aside {
+    display: inline-block;
+    margin: 5px;
+}
+
+article {
+    background-color: green;
+    color: rgb(253, 251, 251);
+    border: 2px black solid;
+    border-radius: 15px;
+    height: 100px;
+    width: 800px;
+    text-align: center;
+    padding: 0.1cm;
+}
+
+h2{
+    font-size: 1cm;
+}
+
+#minha_foto{
+    font-size: 1cm;
+    font-style: oblique;
+}
+
+aside {
+    background-color: green;
+    color: rgb(253, 251, 251);
+    border: 2px black solid;
+    border-radius: 15px;
+    height: 100px;
+    width: 800px;
+    text-align: center;
+    padding: 0.1cm;
+}
+
+li {font-size: 20px;
+}
+
 #tela {
     margin-top: 110px;
 }
