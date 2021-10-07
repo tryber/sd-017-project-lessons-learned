@@ -2,14 +2,21 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
-#cabecalho{
-    background-color: rgb(46, 224, 138);;
-}
+#cabecalho {
+    background-color: rgb(46, 224, 138);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 110px;
+  }
 
-h1 {
-    text-align: center;
-}
-
+#titulo {
+        font-size: 20px;
+        font-family: Montserrat, sans-serif;
+        margin-top: 10px;
+        text-align: center;
+  }
 .trybe-color {
     color: green;
     font-family: monospace;
@@ -18,4 +25,12 @@ h1 {
 a {
     text-decoration: none;
     color: blue;
+}
+
+#licoes_aprendidas {
+        padding-top: 100px;
+}
+
+#minha_foto {
+        margin-top: 200px;
 }
