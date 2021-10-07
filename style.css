@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+
+
+.fotoPerfil{
+    margin-top:100px;
+}
+
+#cabecalho {    
+    position: fixed;
+    top: 0%;
+    background-color:#6A96E1;
+}
+
+aside table {
+    float: right;
+    margin-top: -400px;
+    margin-right: 900px;
+}
+
+.lado-direito {
+    float: right;
+    margin-right: 100px;
+    border-style: dashed;
+    border-color: black;
+    border-width:3px;
+    padding:10px;
+    
+
+}
+
+.lado-esquerdo {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:burlywood;
+    font-size: 20px;
+    line-height:30px;
+    border-style: dashed;
+    border-color: black;
+    border-width:3px;
+    padding:10px;
+    position: fixed;
+}
+
+
+
+
+
+
+
+
