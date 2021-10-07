@@ -1,15 +1,75 @@
+* {
+  margin: 0;
+}
+
 body {
   background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
+  color: grey;
+}
+
+h1, a{
+  color: rgb(90, 90, 90);
 }
 
 #cabecalho {
   top: 0;
   position: fixed;
+  background-color: rgb(179, 179, 255);
+  width: 100%;
+  display: flex;
+  text-align: center;
+  padding: 20px;
+}
+
+#titulo {
+  margin: 5px;
+  padding: 5px;
+  width: 65%
+}
+
+#social {
+  width: 30%;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+main {
+  margin-top: 100px;
+}
+
+#navegacao {
+  list-style: none;
 }
 
 #minha_foto {
   width: 200px;
-  margin-top: 60px;
   margin-left: 35%;
+  border: solid rgb(179, 179, 255) 5px;
+  border-radius: 50%;
 }
 
+p{
+  line-height: 25px;
+}
+
+.principal {
+  display: flex;
+  flex-direction: row;
+}
+
+.lado-esquerdo {
+  flex: 1;
+}
+
+.lado-direito {
+  flex: 1;
+}
