@@ -7,3 +7,9 @@ body {
   top: 0;
   background-color: green;
 }
+
+#minha_foto {
+  margin-top: 80px;
+  border-style: solid;
+  padding: 10px;
+}
