@@ -28,12 +28,22 @@ body {
   margin-top: 10vh;
 }
 
+.licoes_aprendidas{
+  width: 45vw;
+  float: left;
+  margin-left: 30px;
+}
+
 #minha_foto {
   width: 50px;
 }
 
 .aprendizado {
   margin: 10px;
+}
+
+.paragrafo-trybe{
+  margin: 20px;
 }
 
 .texto-aprendizado {
@@ -57,3 +67,4 @@ body {
   float: left;
   margin-right: 10px;
 }
+/* fim =D */
