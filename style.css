@@ -14,7 +14,6 @@ header {
   border: 1px solid blueviolet;
   color: white;
   font-family: monospace;
-  
 }
 
 #titulo {
@@ -23,7 +22,7 @@ header {
 }
 
 #minha_foto {
-width: 200px;
+  width: 200px;
 }
 
 #licoes_aprendidas {
