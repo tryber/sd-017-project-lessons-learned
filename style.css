@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 10px;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+}
+
+.nav-bar li {
+  display: inline;
+  padding: 10px;
+  border: 3px solid black;
+}
+
+#minha_foto {
+  margin-top: 150px;
+  width: 200px;
+  height: 300px;
+  margin-left: 20px;
+}
+
+.hiperlink {
+  padding-top: 30px;
+  margin-left: 20px;
+}
+
+.list-lessons {
+  margin: 20px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.text-aside {
+  font-size: 18px;
+}
+
+.articles {
+  color: blue;
+  font-family: monospace;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.tabela {
+  color: red;
+  font-size: 18px;
+  line-height: -10px;
+}
+
+.position {
+  display: flex;
+}
+
+.lado-esquerdo {
+  float: left;
+  margin: 20px;
+}
+
+.lado-direito {
+  float: right;
+  margin: 20px;
+}
