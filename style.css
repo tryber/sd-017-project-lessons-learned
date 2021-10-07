@@ -3,8 +3,9 @@ body {
 }
 
 #titulo {
+  letter-spacing: 10px;
   position: fixed;
   background-color: rgb(59, 40, 16);
-  top: 0;
-  height: initial;
+  margin-top: 0;
+  padding: 10px;
 }
