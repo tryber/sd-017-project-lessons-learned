@@ -1,5 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: rgb(253, 251, 251);
+   background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
@@ -9,7 +15,27 @@ body {
   text-align: center;
  
 }
+.lado-esquerdo{
+   float: left;
+   width: 10vw;
+   margin-left: 40px;
+   
+}
+.lado-direito {
+    display: flex;
+    width: 10vw;
+    
+}
 
 #minha_foto{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #000;
     width: 300px;
+}
+article p {
+    font-size:20px;
+    color: tomato;
+    line-height:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
