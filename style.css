@@ -45,6 +45,10 @@ li {
   line-height: 25px;
 }
 
+section , aside , article {
+  display: inline-block;
+}
+
 .lado-esquerdo {
   float: left;
 }
