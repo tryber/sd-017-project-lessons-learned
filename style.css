@@ -29,7 +29,7 @@ body {
 
 #rodape {
   border: solid red;
-  margin: 250px auto;
+  margin: 270px auto;
   width: 90%;
 }
 
@@ -72,24 +72,16 @@ table {
   width: 90%;
 }
 
-#licoes_aprendidas {
-
-}
-
-#licoes_a_aprender{
-
-}
-
 article {
-  width: 50%;
-  margin: 20px auto;
-  border: solid red;
+  width: 40%;
+  margin: 20px 64px;
+  border: solid blue;
 }
 
 aside {
-  border: solid red;
+  border: solid green;
   width: 40%;
-  margin: 20px;
+  margin: 20px 61px;
 }
 
 .lado-esquerdo {
