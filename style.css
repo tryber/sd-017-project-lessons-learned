@@ -19,3 +19,24 @@ body {
   color: white;
   font-size: 28px;
 }
+
+.profile {
+  top: 150px;
+  position: relative;
+}
+
+#minha_foto {
+  width: 200px;
+  position: absolute;
+  left: 50px;
+  border-radius: 10px;
+  border: 2px solid turquoise;
+}
+
+#meu-nome {
+  position: absolute;
+  left: 300px;
+  font-size: 24px;
+  color: black;
+  text-decoration: none;
+}
