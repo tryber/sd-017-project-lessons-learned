@@ -11,6 +11,20 @@ body {
 
 }
 
+h2 {
+  text-align: center;
+}
+
+.artigo h1 {
+  text-align: center;
+}
+
+p {
+  padding: 2px;
+  text-align: justify;
+  line-height: 12px;
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
@@ -53,4 +67,24 @@ nav ul {
   width: 100%;
   height: 5%;
   text-align: center;
+}
+
+.artigo , .passagem {
+  font-size: 14px;
+  font-family: system-ui;
+  border: 1px solid black;
+}
+
+.artigo {
+  max-width: 49%;
+  display: inline;
+  float: left;
+  margin-left: 8px;
+}
+
+.passagem {
+  max-width: 49%;
+  display: inline;
+  float: right;
+  margin-right: 8px;
 }
