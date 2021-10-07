@@ -44,3 +44,11 @@ ol {
 li {
   line-height: 25px;
 }
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
