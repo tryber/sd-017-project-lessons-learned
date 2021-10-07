@@ -1,4 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 1px solid red;
+}
 body{
   background-color: rgb(253, 251, 251);
-  
+}
+#cabecalho{
+  background-color: green;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+#cabecalho h1{
+  font-size: 35px;
+  text-align: center;
+  font-weight: 900;
+  color: white;
+  padding: 10px;
+}
+#cabecalho nav{
+  padding: 10px;
+  color: white;
+}
+#cabecalho li{
+  list-style: none;
+  line-height: 20px;
+}
+#minha_foto{
+  width: 300px;
+  left: 30px;
 }
