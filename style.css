@@ -1,11 +1,16 @@
 body {
     background-color: rgb(253, 251, 251);
 }
-
 #cabecalho {
 position:fixed;
 top:0;
 }
 #titulo {
   color: brown;
+}
+#minha_foto {
+  margin-top: 70px;
+}
+#licoes_aprendidas {
+  
 }
