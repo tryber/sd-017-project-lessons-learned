@@ -5,4 +5,14 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  left: 0;
+  background-color: cyan;
+  width: 100%;
+  text-align: center;
+  height: 100px;
+  float: left;
+}
+
+#minha_foto{
+  margin-top: 200px;
 }
