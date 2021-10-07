@@ -1,3 +1,8 @@
+html , body {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: rgb(253, 251, 251);
 }
@@ -5,5 +10,18 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  background-color: cadetblue;
+  width: 100%;
+}
 
+#titulo {
+  font-size: 32px;
+  margin-left: 39%;
+  margin-top: 2px;
+  color: blue;
+}
+
+img {
+  width: 180px;
+  height: 120px;
 }
