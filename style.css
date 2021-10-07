@@ -1,19 +1,19 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-color: rgb(253, 251, 251);
+body {
+  background-color: rgb(253, 251, 251);
 }
 
-#cabecalho{
-    width: 100%;
-    position: fixed;
-    top: 0;
-    background-color: rgb(78, 19, 84);
-    color: white;
-    text-align: center;
-    padding: 8px 0;
+#cabecalho {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgb(78, 19, 84);
+  color: white;
+  text-align: center;
+  padding: 8px 0;
 }
 
