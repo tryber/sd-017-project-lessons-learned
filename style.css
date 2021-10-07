@@ -3,8 +3,32 @@
   margin: 10px;
   padding: 10px;
   border: 10px;
+  font-size: 32px;
+  color: blue;
+  line-height: 50px;
+  font-family: sans-serif;
 }
 
-#cabecalho {
+#cabecalho #titulo{
   top: 0px;
+  position: fixed;
+}
+
+.lado-esquerdo {
+  width: 40%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: left;
+  font-style: italic;
+  background-color: lightgray;
+}
+
+
+.lado-direito {
+  width: 40%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
 }
