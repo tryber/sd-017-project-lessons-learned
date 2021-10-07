@@ -3,12 +3,13 @@ body {
 }
 
 .header {
-    position: fixed;
+    position: center;
     top: 0;
 }
 
 .my-picture {
     width: 180;
-    margin-top: 70px;
+    margin-top: 40px;
 }
 
+ 
