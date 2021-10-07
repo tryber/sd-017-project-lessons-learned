@@ -20,7 +20,7 @@ body {
 #minha_foto {
   display: block;
   position: absolute;
-  width: 21%;
+  width: 19%;
 }
 
 section {
@@ -40,4 +40,11 @@ section {
   position: relative;
   display: inline-block;
   left: 470px;
+}
+#meulink {
+  position: absolute;
+  float: left;
+  left: 0;
+  bottom: 0;
+
 }
