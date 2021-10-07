@@ -1,6 +1,6 @@
-* {
+/* * {
   border: 1px solid red;
-}
+} */
 
 body {
   background-color: rgb(253, 251, 251);
@@ -9,11 +9,10 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  left: 0;
+  width: 100%;
   background-color: rgb( 2, 115, 83);
   border: 2px solid rgb(3, 166, 120);
   border-radius: 4px;
-  width: 1366px;
 }
 
 #titulo {
@@ -39,9 +38,9 @@ body {
   border-radius: 10%;
 }
 
-.artigo-sobre-aprendizado-8 , .seçao-passagem-aprendizado-9 {
-  display: inline-block;
-  right: 10px;
+.lista-ol-ul {
+  font-size: 19px;
+  font-family: monospace;
 }
 
 .lista-ol-ul > h2 {
@@ -49,11 +48,6 @@ body {
   font-size: 35px;
   color: rgb(242, 61, 61);
   margin-left: 20px;
-}
-
-.lista-ol-ul {
-  font-size: 19px;
-  font-family: monospace;
 }
 
 .lado-esquerdo {
@@ -64,4 +58,13 @@ body {
 .lado-direito {
   display: inline-block;
   right: 20px;
+}
+
+.aprendizado {
+  display: block;
+  border: 2px solid rgb(242, 61, 61);
+}
+
+.meu-aprendizado {
+  line-height: 20px;
 }
