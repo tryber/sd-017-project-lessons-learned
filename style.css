@@ -54,5 +54,11 @@ body{
   position: absolute;
   top: 700px;
   left: 10px;
+}
 
+.sessao{
+  position: absolute;
+  top: 250px;
+  left: 350px;
+  width: 300px;
 }
