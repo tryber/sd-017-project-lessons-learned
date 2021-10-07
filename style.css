@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#cabecalho {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+}
+
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+#minha_foto {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-radius: 50%;
+    color: rgb(252, 163, 17);
+    border-width: 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
