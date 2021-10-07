@@ -23,10 +23,11 @@ body {
   font-size: 80px;
 }
 
-#navegacao { 
+#navegacao {
   margin-top: 10px;
   margin-bottom: 0;
 }
+
 #navegacao ul li {
   display: inline-block;
   background-color: rgb(191 0 0);
@@ -35,6 +36,7 @@ body {
   text-align: center;
   margin: -1px;
 }
+
 #navegacao ul li a {
   text-decoration: none;
   letter-spacing: 1px;
@@ -43,6 +45,7 @@ body {
 #main {
   padding-top: 180px;
 }
+
 #principal {
   box-shadow: 0 2px 10px rgb(227 2 32);
   background-color: rgb(36 32 36);
@@ -51,6 +54,7 @@ body {
   margin-left: 10%;
   border-radius: 5px;
 }
+
 #minha_foto {
   width: 150px;
   float: left;
