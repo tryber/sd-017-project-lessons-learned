@@ -30,7 +30,6 @@ body {
 
 }
 
-
 #minha_foto {
   width: 250px;
   margin-top: 170px;
@@ -53,20 +52,37 @@ section h2{
 }
 
 .lado-esquerdo {
-  color: red;
   margin-top: 20px;
   margin-bottom: 20px;
   display: inline-block;
   border: 1px  dashed black;
-  width: 500px;
+  width: 40%;
   padding: 8px;
+  float: ;
   text-align: justify;
 }
 
 .lado-direito {
-  color: blue;
+  margin-top: 20px;
+  margin-bottom: 20px;
   display: inline-block;
   border: 1px  dashed black;
   padding: 8px;
+  float: right;
+  width: 40%;
   text-align: justify;
+}
+
+#tabela {
+  margin-top: 20px;
+  margin-left: 50px;
+  border-radius: 5%;
+  border-color: green;
+  background-color: green;
+  text-align: center;
+}
+
+.bold{
+  font-weight: bold; 
+  color: white;
 }
