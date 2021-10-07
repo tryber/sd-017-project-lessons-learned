@@ -43,6 +43,14 @@ body {
     bottom: 70px;
 }
 
+#artigo {
+    position: absolute;
+    display: inline-block;
+    width: 40%;
+    right: 30px;
+    bottom: 70px;
+}
+
 #rodape {
     position: fixed;
     bottom: 5px;
