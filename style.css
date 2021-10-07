@@ -13,10 +13,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-
 }
-
-
 
 .lado-esquerdo {
   width: 40%;
@@ -26,7 +23,6 @@
   font-style: italic;
   background-color: lightgray;
 }
-
 
 .lado-direito {
   width: 40%;
