@@ -32,3 +32,11 @@ body {
   position: relative;
   left: 20px;
 }
+
+#licoes_a_aprender {
+  margin-left: 80px;
+}
+
+.lessonslearned {
+  display: flex;
+}
