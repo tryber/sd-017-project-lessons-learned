@@ -1,6 +1,17 @@
 body {
   background-color: rgb(253, 251, 251);
   padding-top: 95px;
+  top: 0;
+  font-family: sans-serif;
+}
+
+table , th , td {
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
 }
 
 #cabecalho {
@@ -27,14 +38,12 @@ body {
   font-size: 15px;
   color: teal;
   line-height: 20px;
-  font-family: sans-serif;
 }
 
 #licoes_a_aprender {
   font-size: 15px;
   color: darkgray;
   line-height: 20px;
-  font-family: sans-serif;
 }
 
 #rodape p {
@@ -63,10 +72,19 @@ body {
   font-weight: 800;
 }
 
+#inicio {
+  top: 0;
+}
+
 .center {
   text-align: center;
 }
 
-#inicio {
-  top: 0;
+.center li {
+  list-style-position: inside;
+}
+
+.table-title {
+  text-align: center;
+  margin-bottom: 5px;
 }
