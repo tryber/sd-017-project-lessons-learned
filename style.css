@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -8,10 +8,14 @@ body {
 }
 
 #cabecalho {
-  box-shadow: 0px 2px 10px #E30220;
+  box-shadow: 0 2px 10px rgb(227 2 32);
+  background-color: rgb(36 32 36);
   width: 80%;
   margin-left: 10%;
-  border-radius: 3px;
+  border-radius: 0 0 5px 5px;
   position: fixed;
 }
 
+#titulo {
+  color: rgb(243 244 245);
+}
