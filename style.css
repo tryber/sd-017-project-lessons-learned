@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: rgb(253, 251, 251);
+}
+
+.cabecalho {
+  position: fixed;
+  top: 0;
+  background: rgb(32 107 83);
+  width: 100vw;
+  height: 10vh;
+  border-bottom: 1vh solid rgb(67 193 140);
+  color: white;
+}
+
+.titulo {
+  font-size: 15px;
+  margin: 5px 10px;
+}
+
+.sobre-mim {
+  margin-top: 10vh;
+}
+
+.licoes_aprendidas{
+  width: 45vw;
+  float: left;
+  margin-left: 30px;
+}
+
+#minha_foto {
+  width: 50px;
+}
+
+.aprendizado {
+  margin: 10px;
+}
+
+.paragrafo-trybe{
+  margin: 20px;
+}
+
+.texto-aprendizado {
+  text-align: justify;
+  margin-left: 10px;
+  line-height: 20px;
+}
+
+.passagem-aprendizado {
+  margin: 10px;
+}
+
+.texto-passagem-aprendizado {
+  text-align: justify;
+  margin-left: 10px;
+  line-height: 20px;
+}
+
+.lado-esquerdo {
+  width: 45vw;
+  float: left;
+  margin-right: 10px;
+}
+/* fim =D */
