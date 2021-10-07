@@ -36,7 +36,7 @@ aside {
   text-align: center;
   position: relative;
   top: -109px;
-  left: 70%;
+  left: 69%;
 }
 
 aside p, aside h3 {
@@ -52,7 +52,7 @@ article {
   top: 150px;
 }
 
-p {
+aside p, article p {
   margin-top: -10px;
   text-align: justify;
   padding: 10px;
