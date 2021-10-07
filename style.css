@@ -48,6 +48,7 @@ body {
   border-radius: 50%;
 
 }
+
 #perfil {
 
      
@@ -60,6 +61,7 @@ body {
     float: left;
     margin-top: 350px;
 }
+
 #licoes_aprendidas{
 
     float: left;
@@ -89,9 +91,10 @@ aside {
     margin-top: 700px;
     margin-left: 90px;
 }
+
 #rodape {
 
-    color: cornsilk;
+    
     float: right;
     margin-top: 100px;
 }
