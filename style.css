@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
+  color: rgb(31, 31, 31);
+  line-height: 20px;
 }
 
 body {
@@ -22,6 +25,13 @@ body {
 #cabecalho nav ul {
   display: flex;
   gap: 50px;
+  list-style: none;
+}
+
+#cabecalho nav ul a {
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: 800;
 }
 
 main {
@@ -31,6 +41,10 @@ main {
 main #minha_foto {
   width: 250px;
   margin-bottom: 25px;
+}
+
+main table {
+  text-align: center;
 }
 
 main .align-container {
@@ -57,9 +71,8 @@ main .lectures-container {
   padding: 25px 50px;
 }
 
-main article {
+main .articles {
   width: 500px;
   display: flex;
-  flex-direction: column;
   justify-content: space-evenly;
 }
