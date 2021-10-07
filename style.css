@@ -88,3 +88,20 @@ nav ul {
   float: right;
   margin-right: 8px;
 }
+
+table {
+  display: flex;
+  width: 90%;
+  margin-top: 200px;
+  border: 2px solid black;
+  padding: 52px;
+
+}
+
+table td {
+  border: 2px solid black;
+}
+
+caption {
+  text-align: center;
+}
