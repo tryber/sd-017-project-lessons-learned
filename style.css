@@ -30,6 +30,9 @@ nav ul li {
 #titulo {
   font-size: 30px;
   font-weight: 500;
+  color: rgb(34, 34, 34);
+  letter-spacing: -1px;
+  line-height: 30px;
 }
 
 #cabecalho {
