@@ -13,10 +13,25 @@ body {
 	margin-top: 100px;
 }
 
-article {
+ul , ol {
 	display: inline-block;
+	margin-right: 50px;
 }
 
 footer {
 	text-align: center;
+}
+
+#cursos {
+	padding: 7px;
+	width: 300px;
+	background-color: rgb(207, 201, 201);
+	left: 580px;
+	top: 175px;
+	position: relative;
+	display: inline-block;
+}
+
+article {
+	max-width: 400px;
 }
