@@ -46,3 +46,17 @@ body {
   color:red;
   line-height: -10px;
 }
+
+.position {
+  display: flex;
+}
+
+.lado-esquerdo{
+  float: left;
+  margin: 20px;
+}
+
+.lado-esquerdo{
+  float: right;
+  margin: 20px;
+}
