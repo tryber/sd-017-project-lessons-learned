@@ -5,5 +5,32 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  left: 0;
   background-color: green;
+  border: 2px solid lightgreen;
+  width: 1366px;
+}
+
+#titulo {
+  text-align: center;
+  color: white;
+}
+
+.menu{
+  display: block;
+  margin: 5px;
+  padding: 5px;
+}
+
+#cor{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.adiciona-foto-3 img {
+  display: inline-block;
+  margin-top: 160px;
+  margin-left: 20px;
+  border-radius: 10%;
 }
