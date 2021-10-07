@@ -2,6 +2,8 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+html, body {height:100%;}
+
 #cabecalho {
   top: 0;
   position: fixed;
@@ -17,13 +19,46 @@ body {
 
 #titulo {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 nav ul li {
   display: inline;
   padding: 20px;
+  font-size: 20px;
 }
 
 #licoes_aprendidas , #licoes_a_aprender {
   display: inline;
+}
+
+p {
+  line-height: 20px;  
+}
+
+#artigo {
+  float: left;
+  width: 40%;
+  margin-right: 50px;
+  background-color:rgb(168, 168, 230);
+  margin-left: 40px;
+}
+
+#aside {
+  float: right;
+  width: 40%;
+  margin-left: 50px;
+  background-color: rgb(168, 168, 230);
+  margin-right: 40px;
+}
+#rodape {
+  margin-top: 200px;
+}
+#rodape p {
+  bottom: 0;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: black;
 }
