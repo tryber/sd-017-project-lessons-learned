@@ -4,7 +4,8 @@
 }
 
 body {
-  background-color: rgb(253, 251, 251);  }  
+    background-color: rgb(253, 251, 251);  
+}  
 
 #cabecalho {
   position: fixed;
@@ -22,8 +23,8 @@ body {
 
 nav {
   margin-left: 20px;
-  float: left; }
-
+  float: left; 
+}
 #image2 {
   float: left;
   display: inline-block;
@@ -68,13 +69,15 @@ article {
   margin-left: -200px;
   width: 300px;
   text-align: justify; 
-  letter-spacing: 2px; }
+  letter-spacing: 2px; 
+}
 
 aside {
   float: left;
   display: inline-block;
   margin-top: 700px;
-  margin-left: 90px; }
+  margin-left: 90px; 
+}
 
 #rodape {  
   float: right;
