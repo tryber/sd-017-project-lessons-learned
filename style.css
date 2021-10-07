@@ -27,7 +27,7 @@ body {
   margin-bottom: 0;
 }
 
-#navegacao ul li {
+#cabecalho nav ul li {
   display: inline-block;
   background-color: rgb(191 0 0);
   width: 10%;
@@ -74,24 +74,7 @@ body {
   padding-bottom: 10px;
 }
 
-#licoes_aprendidas li {
-  font-size: 18px;
-  margin-left: 70px;
-  text-align: left;
-}
-
-.list {
-  display: inline-block;
-  padding-top: 25px;
-  width: 40%;
-}
-
-.list h2 {
-  text-align: center;
-  padding-bottom: 10px;
-}
-
-#licoes_a_aprender li {
+.itens {
   font-size: 18px;
   margin-left: 70px;
   text-align: left;
