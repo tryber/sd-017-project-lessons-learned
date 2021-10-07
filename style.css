@@ -38,3 +38,10 @@ body {
     position: absolute;
     top: 700px;
 }
+
+.links {
+    position: absolute;
+    top: 170px;
+    left: 200px;
+    text-align: center;
+}
