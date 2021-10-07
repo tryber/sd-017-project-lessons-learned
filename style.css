@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Lato", sans-serif;
 }
 
 .clear {
@@ -51,13 +52,11 @@ table {
 #licoes_aprendidas {
   width: 45%;
   float: left;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #licoes_a_aprender {
   width: 45%;
   float: left;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 section {
@@ -66,7 +65,6 @@ section {
 
 .sec2 {
   color: rgb(56, 12, 61);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .sec2 p {
@@ -76,7 +74,6 @@ section {
 .aprendizado {
   float: left;
   width: 45%;
-  
 }
 
 .passagem {
