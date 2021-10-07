@@ -51,15 +51,32 @@ body {
 }
 
 #licoes_aprendidas {
+  margin: 25px;
   font-family: sans-serif;
   display: inline-block;
 }
 
 #licoes_a_aprender {
+  margin: 25px;
   font-family: sans-serif;
   display: inline-block;
 }
 
 .lado-direito {
-  width: 50px;
+  position: absolute;
+  right: 25px;
+}
+
+.lado-direito p{
+  width: 250px;
+  text-align: justify;
+}
+
+.lado-esquerdo {
+  margin: 25px;
+}
+
+.lado-esquerdo p {
+  width: 500px;
+  text-align: justify;
 }
