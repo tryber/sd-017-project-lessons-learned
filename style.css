@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(253,251,251)
+}
+
+#cabecalho {
+    position: fixed;
+    width: 100%;
+    border: 0;
+    top: 0;
+    padding: 10px;
+    background-color: rgb(196, 196, 196);
+    
+}
+
+#titulo {
+    margin: auto;
+    text-align: center;
+    font-size: 24px;
+}
+
+#minha_foto {
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    float: right;
+    margin-right: 30px;
+    width: 15%;
+}
+
+#licoes_aprendidas {
+    margin-top: 100px;
+}
+
+#licoes_a_aprender {
+
+}
+
+#rodape {
+
+}
