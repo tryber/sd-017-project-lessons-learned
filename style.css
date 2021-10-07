@@ -1,3 +1,6 @@
+{
+    " extends " : " stylelint-config-standard " 
+ }
 * {
 margin: 0;
 padding: 0;
