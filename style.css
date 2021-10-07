@@ -1,3 +1,6 @@
+*{
+	font-family: 'Courier New', Courier, monospace;
+}
 body{
     background-color: rgb(253, 251, 251);
 		position: fixed;
@@ -17,5 +20,4 @@ ol,ul,li{
 	padding: 1px;
 	margin: 1px;
 	padding-left: 20px;
-
 }
