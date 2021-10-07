@@ -42,6 +42,12 @@ figcaption {
   font-weight: bold;
   margin-top: 20px;
 }
+article {
+  display: inline-block; 
+  width: 300px; 
+  margin:  40px 20px;
+}
+
 #rodape {
   width: 100%;
   background-color: #555;
@@ -55,3 +61,4 @@ footer p{
 footer img {
   width: 40px;
 }
+
