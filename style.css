@@ -49,3 +49,10 @@ body{
   border-top: groove;
   z-index: 1
 }
+
+.artigo{
+  position: absolute;
+  top: 700px;
+  left: 10px;
+
+}
