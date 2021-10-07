@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(253, 251, 251);
+  margin-top: 120px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-bar li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.nav-bar li:hover {
+  background-color: rgb(255, 203, 251);
+  cursor: pointer;
+}
+
+#minha_foto {
+  display: block;
+}
+
+.section-title {
+  display: none;
+}
