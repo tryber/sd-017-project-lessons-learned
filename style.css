@@ -35,4 +35,28 @@ a {
 
 main {
   margin-top: 120px;
+  display: grid;
+}
+
+.lado-esquerdo {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.lado-direito {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+#rodape {
+  background-color: rgb(75, 101, 135);
+  color: rgb(247, 246, 242);
+  padding: 20px;
+  margin-top: 100px;
+  font-size: 14px;
+}
+
+#rodape a{
+  color: rgb(247, 246, 242);
+  text-decoration: underline;
 }
