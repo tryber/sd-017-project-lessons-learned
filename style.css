@@ -15,8 +15,13 @@ main {
   z-index: 2;
   top: 0;
   left: 0;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(0, 48, 73); /* <-- Isso não foi pedido */
   color: white;
+}
+
+#cabecalho nav {
+  font-size: 17pt;
 }
 
 #cabecalho li {
@@ -29,19 +34,30 @@ main {
   top: 300px;
 }
 
+.lado-esquerdo ol , .lado-esquerdo ul  {
+  line-height: 30px;
+}
+
 aside {
   width: 30%;
   height: 255px;
   border: 2px solid black;
   text-align: center;
   position: relative;
-  top: -109px;
-  left: 69%;
+  float: right;
+  top: -480px;
+  right: -3%;
 }
 
-aside p,aside h3 {
+aside p , aside h3 {
   position: relative;
   top: 19%;
+}
+
+aside p , article p {
+  margin-top: -10px;
+  text-align: justify;
+  padding: 10px;
 }
 
 article {
@@ -49,13 +65,9 @@ article {
   border: 2px solid black;
   text-align: center;
   position: relative;
-  top: 150px;
-}
-
-aside p,article p {
-  margin-top: -10px;
-  text-align: justify;
-  padding: 10px;
+  float: right;
+  top: -800px;
+  right: 30%;
 }
 
 #rodape p {
