@@ -1,8 +1,32 @@
+* {
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 body {
   background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
+  color: white;
   position: fixed;
   top: 0;
+  background-color: rgb(48,158,118);
+  padding: 40px; 
+  width: 100%;
+  text-align: center;
 }
+
+.container {
+  line-height: 25px;
+}
+
+.artigo p{
+  font-size: 15px;
+  line-height: 18px;
+}
+
+#minha_foto {
+  border: 2px solid black;
+}
+
