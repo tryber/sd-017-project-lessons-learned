@@ -29,4 +29,20 @@ body {
 .list-lessons {
   margin: 20px;
   padding: 5px;
+  font-size: 20px;
+}
+
+.articles, .text-aside, .tabela {
+  font-size: 18px;
+}
+
+.articles {
+  color:blue;
+  font-family: monospace;
+  text-align: justify;
+}
+
+.tabela {
+  color:red;
+  line-height: -10px;
 }
