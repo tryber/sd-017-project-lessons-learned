@@ -15,12 +15,8 @@ main {
   top: 0;
   left: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(0, 48, 73); /* <-- Isso não foi pedido */
+  background-color: rgb(0, 48, 73);
   color: white;
-}
-
-#cabecalho ul {
-  padding: 0px;
 }
 
 #cabecalho nav {
@@ -39,6 +35,10 @@ main {
 
 .lado-esquerdo ol , .lado-esquerdo ul {
   line-height: 30px;
+}
+
+#cabecalho ul {
+  padding: 0;
 }
 
 aside {
@@ -80,7 +80,7 @@ article {
   background-color: rgb(0, 48, 73);
   position: absolute;
   left: -10px;
-  text-align: center; 
+  text-align: center;
 }
 
 #rodape div {
