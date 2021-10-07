@@ -7,8 +7,11 @@ body {
   top: 0;
   background-color: green;
   height: 80px;
-  width: 100%;
+  width: 100vw;
   color: white;
   text-align: center;
 }
 
+#minha_foto {
+  margin: 200px 0 0;
+}
