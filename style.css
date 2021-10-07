@@ -1,5 +1,8 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 10%;
+  padding: 5%;
+  border: 2px solid black;
 }
 
 #cabecalho {
@@ -9,4 +12,11 @@ body {
 
 #minha_foto {
   width: 20%;
+}
+
+article {
+  font-size: 120%;
+  color: blue;
+  line-height: 120%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
