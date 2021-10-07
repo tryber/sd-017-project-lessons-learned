@@ -19,6 +19,12 @@ body {
     top: 100px;
 }
 
+#link_github {
+    position: absolute;
+    left: 70px;
+    top: 300px;
+}
+
 #licoes {
     position: absolute;
     bottom: 260px;
