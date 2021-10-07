@@ -6,4 +6,11 @@ body{
     top: 0;
     color: white;
     background-color: green;
+    left: 0;
+    right: 0;
+    height: 150px;
+}
+img{
+    position: fixed;
+    margin-top: 100px;
 }
