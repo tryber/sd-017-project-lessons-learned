@@ -10,3 +10,8 @@ body {
 #minha_foto {
   width: 200px;
 }
+
+#logo-trybe {
+  width: 35px;
+  border-radius: 50%;
+}
