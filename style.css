@@ -19,4 +19,14 @@ body {
 #minha_foto{
   width: 200px;
   padding: 15px;
+  display: block;
+}
+
+.sec-foto a{
+  display: inline-block;
+  margin-left: 15px;
+}
+
+#rodape{
+  text-align: center;
 }
