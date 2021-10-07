@@ -44,11 +44,14 @@ figcaption {
 }
 #rodape {
   width: 100%;
-  height: 50px;
   background-color: #555;
+  padding-bottom: 10px;
 }
 footer p{
   text-align: center;
   color: white;
   padding-top: 15px;  
+}
+footer img {
+  width: 40px;
 }
