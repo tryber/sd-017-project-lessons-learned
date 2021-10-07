@@ -16,7 +16,7 @@ main {
 }
 
 #cabecalho {
-  background: #ebebeb;
+  background-color: rgb(235, 235, 235);
   position: fixed;
   top: 0;
   width: 100%;
@@ -31,10 +31,11 @@ main {
   border-radius: 50%;
 }
 
-#licoes_aprendidas {
+#licoes_aprendidas , #licoes_a_aprender {
   margin-left: 30px;
+  margin-bottom: 50px;
 }
 
-#licoes_aprendidas li {
+#licoes_aprendidas li , #licoes_a_aprender li {
   margin-bottom: 10px;
 }
