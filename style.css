@@ -50,11 +50,10 @@ h1 {
     font-size: 8px;
 }
 
-
-}
 body {
     background-color: rgb(253, 251, 251);
 }
+
 #artigo {
     width: 100%;
     font-size: 15px;
@@ -62,6 +61,7 @@ body {
     text-align: center;
     background-color: thistle;
 }
+
 #rodape {
     text-align: center;
     font-size: 6px;
