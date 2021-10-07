@@ -19,11 +19,11 @@ table {
   margin: 15px 0;
 }
 
-table , th , {
+table , th {
   border: 1px solid green;
 }
 
-th , tr , {
+th , tr {
   padding: 10px 30px;
   text-align: center;
 }
