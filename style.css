@@ -1,20 +1,20 @@
 * {
-    margin: 0;
+  margin: 0;
 	padding: 0;
 }
 
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 
 }
 
 #cabecalho {
-    background-color: green;
-    position: fixed;
-    width: 100%;
-    padding: 50px 50px 50px 50px;
+  background-color: green;
+  position: fixed;
+  width: 100%;
+  padding: 50px;
 }
 
 h1 {
-    color: white;
+  color: white;
 }
