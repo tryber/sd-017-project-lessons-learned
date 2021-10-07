@@ -8,13 +8,42 @@ body{
 
 }
 
+img {
+  border-radius:  50px;
+  width: 400px;
+  margin: 5px;
+  padding: auto;
+  border: rgb(253, 251, 251);
+}
 
 #cabecalho{
 
   position:fixed;
 
  background-color:green;
- 
+ width: 1366px;
+ height: 45px;
  top: 0px;
  
   }
+
+
+  article{
+    font-size: 20px;
+    line-height: 5px;
+  }
+
+  h1 {
+    color: White;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .lado-esquerdo{
+    float: left;
+  }
+
+  .lado-esquerdo{
+    float:right;
+  }
+  
