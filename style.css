@@ -6,3 +6,6 @@ body{
     position: fixed;
     top: 0px;
 }
+a:link{
+    text-decoration: none;
+}
