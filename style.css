@@ -1,7 +1,4 @@
- * {
-   margin: 0;
-   padding: 0;
- }
+
 
 body {
   background-color: rgb(253, 251, 251);
@@ -13,7 +10,7 @@ body {
 
 }
 #titulo {
-  font-size: 16px;
+
 }
 
 #minha_foto {
@@ -21,9 +18,9 @@ body {
 }
 
 #licoes_aprendidas {
-  margin: 30px;
+
 }
 
 #licoes_a_aprender {
-  margin: 30px;
+
 }
