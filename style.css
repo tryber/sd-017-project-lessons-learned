@@ -50,12 +50,12 @@ body {
   margin-top: 40px;
 }
 
-.lista{
+.lista {
   display: inline-block;
   padding: 40px;
 }
 
-article , aside{
+article , aside {
   max-width: 40%;
   border: 1px dashed black;
   position: flex;
