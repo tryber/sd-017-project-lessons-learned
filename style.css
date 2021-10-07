@@ -20,7 +20,7 @@ aside table {
     margin-right: 900px;
 }
 
-.artigo2 {
+.lado-direito {
     float: right;
     margin-right: 100px;
     border-style: dashed;
@@ -31,10 +31,11 @@ aside table {
 
 }
 
-.artigo {
+.lado-esquerdo {
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: larger;
+    font-size: 20px;
+    line-height:30px;
     border-style: dashed;
     border-color: black;
     border-width:3px;
