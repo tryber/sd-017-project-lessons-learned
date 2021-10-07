@@ -1,9 +1,9 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 header {
-    position: fixed;
-    top: 0;
-    background-color: rgb(255, 95, 95); /* <-- Isso não foi pedido */
+  position: fixed;
+  top: 0;
+  background-color: rgb(255, 95, 95); /* <-- Isso não foi pedido */
 }
