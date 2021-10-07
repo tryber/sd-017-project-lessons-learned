@@ -5,6 +5,9 @@ body {
   color: rgb(23, 23, 34);
   font-weight: 100;
   line-height: 101%;
+  margin:5px;
+  padding: 5px;
+  border: 5px;
 }
 
 #cabecalho {
