@@ -10,3 +10,11 @@ body {
     color: white;
     text-align: center;
 }
+
+#minha_foto {
+    max-width: 200px;
+    border-radius: 50%;
+    position: relative;
+    left: 20px;
+    top: 100px;
+}
