@@ -4,5 +4,36 @@ body {
 
 #titulo {
     top: 0;
+    text-align: center;
+}
+
+.licoes {
+    width: 300px;
+    position: absolute;
+    top: 293px;
+    left: 9px;
     
+}
+
+#licoes_a_aprender {
+
+}
+
+#minha_foto {
+    position: absolute;
+    top: 241px;
+    right: 48px;
+    width: 203px;
+}
+
+.licoes_aprendidas {
+    top: 295px;
+    left: 260px;
+    position: absolute;
+}
+
+#links {
+    position: absolute;
+    bottom: 18px;
+    right: 83px;
 }
