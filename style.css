@@ -1,3 +1,15 @@
-body{
+body {
     background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  text-align: center;
+ 
+}
+
+#titulo h1 {
+    
 }
