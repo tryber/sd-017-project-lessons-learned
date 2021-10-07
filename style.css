@@ -41,5 +41,11 @@ main {
     font-size: 18px;
     font-family: sans-serif;
     color: rgb(81, 190, 77);
-
+    line-height: 25px;
 }
+
+table, th, td {
+    margin-bottom: 10px;
+    border: 1px solid black;
+    text-align: center;
+  }
