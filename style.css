@@ -1,5 +1,8 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 22px;
 }
 
 header {
@@ -19,7 +22,6 @@ section {
   display: inline-block;
   margin-right: 50px;
   margin-left: 50px;
-  
 }
 
 main {
@@ -43,7 +45,7 @@ h1 {
   margin-bottom: 10px;
 }
 
-.lado-esquerdo, .lado-direito {
+.lado-esquerdo , .lado-direito {
   display: inline-block;
   margin-right: 50px;
   vertical-align: top;
@@ -66,7 +68,7 @@ footer {
 }
 
 h4 {
-  font-size: 13px;
+  font-size: 11px;
   margin-inline-start: 250px;
   color: white;
 }
