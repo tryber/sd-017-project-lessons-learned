@@ -20,3 +20,9 @@ body {
 main {
   padding: 100px 50px;
 }
+
+main .lectures-container {
+  display: flex;
+  gap: 50px;
+  margin-top: 25px;
+}
