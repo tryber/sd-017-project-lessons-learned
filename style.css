@@ -1,9 +1,20 @@
 body {
   background-color: rgb(253, 251, 251);
+  width: 100%;
 }
 
-#cabecalho {
+
+
+main {
+  margin-top: 120px;
+}
+
+header {
   position: fixed;
   top: 0;
+  border-style: hidden;
+  background-color: green;
+  padding: 10px 100px;
+  width: 77%;
 }
 
