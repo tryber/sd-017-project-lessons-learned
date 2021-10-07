@@ -37,10 +37,20 @@ p{
   max-width: 220px;
 }
 
-#texto-1, #texto-2{
+.lado-direito, .lado-esquerdo{
   padding: 10px;
   margin-bottom: 20px;
   max-width: 450px;
 }
+.lado-esquerdo{
+  display: inline-block;
+  border: green solid 1px;
+}
 
-
+.lado-direito{
+  display: inline-block;
+  border: green solid 1px;
+  position: absolute;
+  margin-left: 650px;
+  top: 1000px;
+}
