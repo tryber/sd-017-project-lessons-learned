@@ -15,6 +15,13 @@ body {
   top: 0;
   background-color: tomato;
   padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#cabecalho nav ul {
+  display: flex;
+  gap: 50px;
 }
 
 main {
@@ -24,6 +31,15 @@ main {
 main #minha_foto {
   width: 250px;
   margin-bottom: 25px;
+}
+
+main .align-container {
+  display: flex;
+  gap: 50px;
+}
+
+main .container {
+  display: flex;
 }
 
 main .learned-skills h1 {
@@ -40,4 +56,10 @@ main .lectures-container {
   text-align: center;
   padding: 25px 50px;
 }
+
+main article {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
