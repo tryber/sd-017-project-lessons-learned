@@ -14,10 +14,15 @@ header {
   border: 1px solid blueviolet;
   color: white;
   font-family: monospace;
+  margin-bottom: 200px;
 }
 
 #titulo {
   width: 500px;
+}
+
+#minha_foto {
+width: 200px;
 }
 
 #licoes_aprendidas {
