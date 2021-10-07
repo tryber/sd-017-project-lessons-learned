@@ -13,12 +13,13 @@ header {
 
 #minha_foto {
   width: 200px;
-  display: block;
 }
 
 section {
   display: inline-block;
   margin-right: 50px;
+  margin-left: 50px;
+  
 }
 
 main {
@@ -32,7 +33,7 @@ a {
   padding: 5px 10px;
   color: white;
   display: inline-block;
-  margin-left: 65px;
+  margin-left: 60px;
   margin-bottom: 15px;
   margin-right: 20px;
 }
@@ -40,4 +41,32 @@ a {
 h1 {
   margin-inline-start: 20px;
   margin-bottom: 10px;
+}
+
+.lado-esquerdo, .lado-direito {
+  display: inline-block;
+  margin-right: 50px;
+  vertical-align: top;
+}
+
+.lado-esquerdo {
+  width: 50%;
+}
+
+.lado-direito {
+  width: 30%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: seagreen;
+  width: 100%;
+  left: 0;
+}
+
+h4 {
+  font-size: 13px;
+  margin-inline-start: 250px;
+  color: white;
 }
