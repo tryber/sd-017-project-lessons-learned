@@ -6,9 +6,9 @@ body {
 }
 
 
-.cabecalho{
-background-color: green;
+header{
  top: 0px;
  position: fixed;
+
  
   }
