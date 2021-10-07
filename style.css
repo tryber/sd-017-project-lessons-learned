@@ -19,7 +19,8 @@ body { background-color: rgb(253, 251, 251); }
   margin-top: 60px;
   margin-left: -850px; }
 
-nav { margin-left: 20px; float: left; }
+nav { margin-left: 20px;
+     float: left; }
 
 #image2 {
   float: left;
