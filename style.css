@@ -9,6 +9,24 @@ top: 0px;
 }
 
 img {
-  width: 200px;
+  width: 150px;
   margin-left: 10px;
+margin-top: -10px;
+}
+
+.bloco {
+  position: absolute;
+  right: 960px;
+}
+
+.esquerda {
+  position:absolute;
+  left: -330px;
+  padding: 20px;
+}
+
+.direita {
+right: -50px;
+position: absolute;
+padding: 20px;
 }
