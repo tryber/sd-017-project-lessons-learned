@@ -1,34 +1,31 @@
 body {
-    background-color: rgb(253, 251, 251);
-    padding: 0;
-    margin: 0;
+  background-color: rgb(253, 251, 251);
+  padding: 0;
+  margin: 0;
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    background-color: rgb(92, 33, 186);
-    
-    width: 100%;
-    display: inline;
+  position: fixed;
+  top: 0;
+  background-color: rgb(92, 33, 186);
+  width: 100%;
+  display: inline;
 }
 
 #titulo {
-    font-family: sans-serif;
-    color: white;
+  font-family: sans-serif;
+  color: white;
 }
 
 #trybe {
-    text-decoration: none;
-    color: white;
-    text-align: end;
+  text-decoration: none;
+  color: white;
+  text-align: end;
 }
 
 #navegacao {
-    position: fixed;
-    background-color: rgb(53, 21, 104);
-    color: white;
-    width: 100%;
+  position: fixed;
+  background-color: rgb(53, 21, 104);
+  color: white;
+  width: 100%;
 }
-
-
