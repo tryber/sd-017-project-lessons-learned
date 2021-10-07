@@ -6,6 +6,7 @@
 #cabecalho {
 top: 0;
 position: fixed;
+z-index: 1;
 }
 
 #titulo {
@@ -14,4 +15,16 @@ position: fixed;
 
 body {
     background-color: rgb(253, 251, 251);
+}
+
+#minha_foto {
+    top: 100px;
+    width: 200px;
+    position: absolute;
+    border-radius: 500px;
+}
+
+#licoes_aprendidas {
+    position: absolute;
+    top: 300px;
 }
