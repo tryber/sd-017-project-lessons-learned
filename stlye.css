@@ -50,7 +50,7 @@ section {
   left: 470px;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 6mm;
-  font-size: large
+  font-size: large;
 }
 
 #meulink {
@@ -58,6 +58,13 @@ section {
   float: left;
   left: 0;
   bottom: 0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: none;
+  font-size: x-large;
+}
+
+#meulink:hover {
+  color: aqua;
 }
 
 .artigos {
@@ -65,17 +72,26 @@ section {
   display: block;
 }
 
-.artigos article, aside {
+.artigos article,
+aside {
   position: relative;
   display: inline-block;
-  width: 200px;
+  width: 230px;
   left: 80px;
   margin: 0 200px;
   margin-bottom: 100px;
+  padding-bottom: ;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  text-align: left;
+  color: black;
 }
 
 table, tr, td {
-  border: 1px solid grey;
+  border: 1px solid rgb(7, 7, 7);
   border-collapse: collapse;
   width: 400px;
   color: blue;
@@ -87,5 +103,5 @@ table {
   margin: 20px 20px;
   width: 400px;
   left: 376px;
+  background-color: cadetblue;
 }
-
