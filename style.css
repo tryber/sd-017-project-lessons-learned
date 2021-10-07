@@ -1,8 +1,9 @@
 body {
-      background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
-#cabecalho {
+header div {
   top: 0px;
   text-align: center;
   background-color: gold;
+  position: fixed;
 }
