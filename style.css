@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  padding: 0;
   background-color: rgb(253, 251, 251);
 }
 
@@ -15,15 +14,24 @@ main {
 
 header {
   position: fixed;
-  text-align: center;
   top: 0;
+  text-align: center;
+  color: white;
   background-color: green;
   width: 100%;
 }
 
+nav {
+  background-color: darkgreen;
+}
+
 nav ul li {
   text-align: center;
-  color: white;
   display: inline-block;
   margin: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
 }
