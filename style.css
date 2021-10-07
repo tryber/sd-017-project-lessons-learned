@@ -49,6 +49,11 @@ article p {
   background-color: rgb(247, 246, 242);
 }
 
+.aprendizados-container li {
+  padding: 5px 0;
+  font-weight: 300;
+}
+
 .navegacao .lista-sem-estilo li {
   display: inline-block;
   padding: 10px;
@@ -62,7 +67,7 @@ a {
   color: rgb(75, 101, 135);
 }
 
-.navegacao li:hover , .navegacao li:hover>a {
+.navegacao li:hover , .navegacao li:hover > a {
   background-color: rgb(222, 221, 217);
   color: rgb(103, 138, 184);
 }
@@ -121,11 +126,6 @@ th , td {
   color: rgb(104, 104, 104);
   font-weight: 500;
   padding-bottom: 20px;
-}
-
-.aprendizados-container li {
-  padding: 5px 0;
-  font-weight: 300;
 }
 
 aside {
