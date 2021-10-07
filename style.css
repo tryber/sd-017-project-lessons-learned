@@ -1,5 +1,11 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  color: #222831;
+  line-height: 17px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #cabecalho {
@@ -21,8 +27,8 @@ img {
 
 .licoes {
   display: flex;
-  background-color: indigo;
   width: 50%;
+
 }
 
 ol ul {
@@ -33,12 +39,28 @@ h2 {
   margin-bottom: 0;
 }
 
-aside {
-  display: flex;
-  background-color: indigo;
+.article {
   width: 50%;
 }
 
-.licoes_aside {
-  display: inline-block;
+.aside {
+  display: flex;
+  width: 50%;
+}
+
+.lado-esquerdo {
+  display: flex;
+  width: 100%;
+}
+
+#rodape {
+  text-align: center;
+}
+
+/* https://www.w3schools.com/css/css_boxmodel.asp */
+table {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
 }
