@@ -1,3 +1,17 @@
 body {
+  margin: 0;
+  padding: 0;
   background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  top: 0;
+  background-color: #338106;
+  text-align: center;
+  height: 100px;
+}
+
+#titulo {
+  margin: 0;
+  color: white;
 }
