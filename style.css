@@ -13,3 +13,13 @@ header {
   position: fixed;
   top: 0;
 }
+
+.lado-esquerdo{
+  float: left;
+  width: 50%;
+}
+
+.lado-direito{
+  float: right;
+  width: 50%;
+}
