@@ -3,6 +3,10 @@ body {
 }
 
 #cabecalho {
-    position: fixed;
+    position: relative;
     top: 0%;
+}
+
+#licoes_aprendidas {
+  list-style: decimal;
 }
