@@ -1,3 +1,12 @@
 body {
   background-color: rgb(253, 251, 251);
 }
+
+header {
+  position: fixed;
+  background-color: rgb(0, 129, 34);
+}
+
+#titulo h1 {
+  top: 0;
+}
