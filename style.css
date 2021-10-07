@@ -3,13 +3,13 @@ body {
   font-size: 15px;
   color: rgb(17, 17, 17);
   line-height: 1.5;
-  font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #cabecalho {
   background: linear-gradient(
     to bottom right,
-    rgb(0, 128, 0),
+    green,
     rgb(119, 213, 111)
   );
   position: fixed;
@@ -18,7 +18,7 @@ body {
   z-index: 10;
 }
 
-#titulo,
+#titulo, 
 nav ul {
   color: rgb(253, 251, 251);
 }
@@ -73,13 +73,14 @@ img {
 .licoes h2 {
   padding-left: 20px;
 }
+
 .listas {
   display: flex;
   max-width: 500px;
   margin-left: 20px;
 }
+
 table {
-  /* border: 1px solid greenyellow; */
   border-collapse: separate;
   border-spacing: 60px 0;
   width: 1366px;
