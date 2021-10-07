@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #cabecalho {
@@ -16,6 +17,7 @@ body {
 ul , ol {
 	display: inline-block;
 	margin-right: 50px;
+	line-height: 25px;
 }
 
 footer {
@@ -36,7 +38,7 @@ article {
 	max-width: 400px;
 }
 
-#aprendizado {
+#lado-direito {
 	width: 300px;
 	background-color: rgb(207, 201, 201);
 	position: relative;
@@ -49,4 +51,17 @@ table {
 	position: relative;
 	bottom: 100px;
 	border-color: green;
+}
+
+#titulo {
+	color: green;
+	text-align: center;
+}
+
+header {
+	width: 100%;
+}
+
+p {
+	font-size: 20px;
 }
