@@ -14,4 +14,20 @@ body {
 
 #minha_foto {
   margin-top: 100px;
+  border-radius: 50px;
+}
+
+.listas {
+  border: 1px;
+  display: flex;
+  margin-top: 20px;
+}
+
+.lista2 {
+  margin-left: 100px;
+}
+
+.lista1 {
+  margin-left: 100px;
+  margin-right: 200px;
 }
