@@ -19,7 +19,9 @@ body {
   padding-top: 110px;
 }
 
-#listas ul,
+#listas ul {
+  display: inline-block;
+}
 #listas ol {
   display: inline-block;
 }
