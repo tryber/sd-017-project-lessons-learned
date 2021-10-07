@@ -23,3 +23,11 @@ header {
 #licoes_aprendidas {
   line-height: 20px;
 }
+
+.lado-direito {
+  float: right;
+}
+
+.lado-esquerdo {
+  float: right;
+}
