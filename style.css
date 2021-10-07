@@ -31,6 +31,13 @@ nav ul li {
   margin: 20px;
 }
 
+footer , footer a {
+  background-color: green;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
 nav ul li a {
   text-decoration: none;
   color: white;
