@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Andale Mono, monospace;
+  font-size: 15px;
+  font-weight: 100px;
+  color: darkblue;
+  line-height: 1.5;
+  padding: 10px;
+  margin: 10px;
+  border:  solid darkblue;
+
+}
+
+#cabecalho {
+top: 0px;
+position: fixed;
+
+}
+
+#minha_foto {
+height: 300px;
+
+  
+}
+main {
+  margin-top: 100px;
+}
