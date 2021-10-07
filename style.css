@@ -7,14 +7,12 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    position: fixed;
+    position: absolute;
     border: 5px solid #2f064dde;
     background-color: indigo;
-    height: 110px; 
 }
 
 #titulo {
-   margin-top: 35px;
    text-align: center; 
 }
 
@@ -86,10 +84,50 @@ a {
     text-align: center;
     padding: 30px;
     background-color: indigo;
+    margin-bottom: 8%;
 }
 
 .softconteudo {
-    font-size: 14px;
+    font-size: 15px;
     text-align: center;
     word-wrap: break-word;
 }
+
+#rodape {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: indigo;
+   border: 3px solid #8f8992de;
+   color: black;
+   text-align: center;
+}
+
+  .navi > a {
+    padding-left:30px;
+    padding-right:30px;
+  }
+
+  nav {
+    height: 48px;
+}
+
+nav ul {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav li {
+    display: inline-block;
+    height: 100%;
+    width: 20%;
+}
+
+nav li a {
+    font-family: cursive;
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+}    
