@@ -1,28 +1,76 @@
-.body {
+
+body {
 background-color: rgb(253, 251, 251);
 }
 
-.cabecalho {
-    position: fixed;
+#cabecalho {
+    /* position: fixed; */
+    top: 0;
+    background-color: #FCA311;
+    width: 100%;
+}
+
+#titulo {
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    
+}
+
+img {
+    border-radius: 80%;
+    position: relative;
+    float: left;
+    min-height: 1px;
+    box-sizing: content-box;
 
 }
 
-.titulo {
+section article {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    max-width: 50%;
+    min-width: 50%;
+    float: right;
+    box-sizing:border-box;
 
 }
 
-.minha-foto {
+#bottom  {
+    font-family: Montserrat, sans-serif;
+    border: #FCA311;
+    display: inline-block;
+    text-decoration: none;
+    color: #14213D;
+    background: white;
+    scroll-behavior: smooth;
+   background-size: contain;
+   justify-content: center;
+   box-sizing: border-box;
+   padding: 0 100px;
+}
+
+#bottom:hover {
+    background-color:#FCA311;
+}
+
+
+#minha-foto {
 
 }
 
-.licoes_aprendidas{
+#licoes_aprendidas{
+    display:table-column;
 
 }
 
-.licoes_a_aprender{
+#licoes_a_aprender{
 
 }
 
-.rodape {
+#rodape {
 
 }
