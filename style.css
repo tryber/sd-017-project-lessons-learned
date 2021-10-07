@@ -14,11 +14,12 @@ header {
   border: 1px solid blueviolet;
   color: white;
   font-family: monospace;
-  margin-bottom: 200px;
+  
 }
 
 #titulo {
   width: 500px;
+  font-size: 110%;
 }
 
 #minha_foto {
