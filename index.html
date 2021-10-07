@@ -7,19 +7,24 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+ 
+  <header id="cabecalho">
+    <h1 id="titulo">Conteúdo aprendido até então na <a href="https://www.betrybe.com/" target="_blank">Trybe!</a></h1>
+    
+  </header>
   <nav id="nav_menu">
     <a href="#cabecalho">início</a>
-    <a href="#licoes_aprendidas">lições</a>
+    <a href="#licoes_aprendidas">aprendizados</a>
+    <a href="#main_article">trybe</a>
     <a href="#rodape">fim</a>
   </nav>
-  <header id="cabecalho">
-    <h1 id="titulo">Lições Aprendidas até então na <a href="https://www.betrybe.com/" target="_blank">Trybe!</a></h1>
-    <img id="minha_foto" src="rsz_retratoelthon02.jpg" alt="foto_elthon" />
-  </header>
   <body>
+    <img id="minha_foto" src="rsz_retratoelthon02.jpg" alt="foto_elthon" />
+    <section>
     <article>
-      <section>
+      
         <ol id="licoes_aprendidas">
+          <h2> O que já aprendi</h2>
           <li>HTML</li>
           <li>CSS</li>
           <li>Unix</li>
@@ -31,26 +36,39 @@
           <li>GitHub</li>
           <li>TCPIP</li>
         </ol>
-      </section>
+      
 
-      <section>
+      
         <ul id="licoes_a_aprender">
+          <h2>O que vou aprender</h2>
           <li>REST</li>
           <li>JavaScript</li>
           <li>ES6</li>
           <li>MySql</li>
           <li>NodeJS</li>
           <li>Python</li>
-          <li>Aprender a Aprender</li>
+          <li>MongoDB</li>
           <li>Redux</li>
           <li>PM2</li>
           <li>React</li>
         </ul>
-      </section>
+      
+      
     </article>
-    <aside id="adicional_softskills">
-      <p>A Trybe não é uma instituição comum, além de estudar de forma ativa e aprimorando hardskills exigidas <strong>hoje</strong> no mercado de trabalho, nós também desenvolvemos diariamente softskills como: inteligência emocional, comunicação, colaboração, pensamento crítico, criatividade e liderança.</p>
+  </section>
+    <article id="main_article" class="lado-esquerdo">
+      <h2>Sobre a Trybe</h2>
+      <p>A Trybe é SENSACIONAL! Sou muito feliz e grato por fazer parte dessa tribo!</p>
+    </article>
+    <aside id="adicional_softskills" class="lado-direito">
+      <h2>Um pouco mais sobre a Trybe</h2>
+      <p>A Trybe não é uma instituição comum, além de estudar de forma ativa e aprimorando hardskills exigidas <strong>hoje</strong> no mercado de trabalho, também desenvolvemos diariamente softskills como: comunicação, colaboração, pensamento crítico, criatividade e liderança.</p>
     </aside>
+    
+
+  </body>
+    
+
     <footer id="rodape">
       <p>Conteúdo compilado por <strong>Elthon Villa</strong> em <strong>Outubro de 2021.</strong></p>
     </footer>
