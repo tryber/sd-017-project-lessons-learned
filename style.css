@@ -1,7 +1,3 @@
-/* * {
-  border: 1px solid red;
-} */
-
 body {
   background-color: rgb(253, 251, 251);
 }
@@ -62,7 +58,6 @@ body {
 
 .aprendizado {
   display: block;
-  border: 2px solid rgb(242, 61, 61);
 }
 
 .meu-aprendizado {
