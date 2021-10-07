@@ -6,3 +6,9 @@ header {
   top: 0;
   position: fixed;
 }
+
+#cabecalho {
+  background-color: blueviolet;
+  margin: 0;
+  padding: 10px;
+}
