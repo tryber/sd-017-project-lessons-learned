@@ -1,3 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background: rgb(253, 251, 251);
+}
+
+#cabecalho {
+    background: #ebebeb;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
 }
