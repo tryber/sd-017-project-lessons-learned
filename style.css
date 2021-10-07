@@ -6,3 +6,17 @@ body {
 	position: fixed;
 	top: 0;
 }
+
+#minha_foto {
+	width: 400px;
+	height: 400px;
+	margin-top: 100px;
+}
+
+article {
+	display: inline-block;
+}
+
+footer {
+	text-align: center;
+}
