@@ -7,10 +7,13 @@ body {
   top: 0;
   background-color: green;
   width: 100%;
+}
+
+#titulo {
   text-align: center;
 }
 
 img {
   width: 150px;
-  margin-top: 80px;
+  margin-top: 95px;
 }
