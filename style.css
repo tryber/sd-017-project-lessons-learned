@@ -7,7 +7,7 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-.cabecalho {
+#cabecalho {
   position: fixed;
   width: 100%;
   background-color: green;
@@ -15,7 +15,7 @@ body {
   padding: 20px 40px;
 }
 
-.titulo {
+#titulo {
   text-align: center;
 }
 
@@ -23,19 +23,19 @@ body {
   color: white;
 }
 
-.cabecalho a {
+#cabecalho a {
   text-decoration: none;
 }
 
-.cabecalho ul {
+#cabecalho ul {
   list-style: none;
 }
 
-.perfil {
+#perfil {
   margin-top: 150px;
   margin-left: 30px;
 }
 
-.minha_foto {
+#minha_foto {
   border-radius: 10px;
 }
