@@ -18,5 +18,8 @@ body {
 }
 
 #minha_foto {
+  position: absolute;
+  top: 18%;
   float: left;
+  width: 300px;
 }
