@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
 
 * {
-	margin: 0;
-	padding: 0;
-  font-family: 'Roboto Mono', monospace;
+	  margin: 0;
+	  padding: 0;
+    font-family: Roboto Mono , monospace;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 	position: fixed;
 	width: 100%;
 	height: 100px;
-	background-color: #3D3D3D;
+	background-color: #3d3d3d;
 }
 
 #minha_foto {
@@ -24,23 +24,20 @@ body {
 
 #titulo {
 	margin: 10px;
+  color: white;
 }
 
 #rodape {
   border: solid red;
 }
 
-nav{
+nav {
   padding: 5px 10px;
 }
 
 section {
 	border: solid red;
   width: 100%;
-}
-
-#titulo {
-    color: white;
 }
 
 a {
