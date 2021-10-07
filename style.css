@@ -5,6 +5,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #cabecalho {
@@ -58,8 +59,11 @@ body {
 article , aside {
   max-width: 40%;
   border: 1px dashed black;
-  position: flex;
   margin: 30px;
+  padding: 10px;
+  font-size: 20px;
+  line-height: 30px;
+  color: gray;
 }
 
 .lado-esquerdo {
