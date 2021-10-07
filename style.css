@@ -63,35 +63,35 @@ body {
   text-align: center;
 }
 
-#licoes_aprendidas {
+.list {
   display: inline-block;
   padding-top: 25px;
   width: 40%;
 }
 
-#licoes_aprendidas h2 {
+.list h2 {
   text-align: center;
   padding-bottom: 10px;
 }
 
-#licoes_aprendidas ol li {
+#licoes_aprendidas li {
   font-size: 18px;
   margin-left: 70px;
   text-align: left;
 }
 
-#licoes_a_aprender {
+.list {
   display: inline-block;
   padding-top: 25px;
   width: 40%;
 }
 
-#licoes_a_aprender h2 {
+.list h2 {
   text-align: center;
   padding-bottom: 10px;
 }
 
-#licoes_a_aprender ol li {
+#licoes_a_aprender li {
   font-size: 18px;
   margin-left: 70px;
   text-align: left;
@@ -117,3 +117,15 @@ body {
   padding: 20px 20px 4px;
 }
 
+#texto {
+  text-align: center;
+}
+
+#texto h2 {
+  padding: 20px 0;
+}
+
+#texto p {
+  text-align: justify;
+  padding: 20px;
+}
