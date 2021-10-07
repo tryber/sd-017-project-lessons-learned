@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 10%;
+  padding: 5%;
+  border: 2px solid black;
+}
+
+#cabecalho {
+  top: 0;
+  position: fixed;
+}
+
+#minha_foto {
+  width: 20%;
+}
+
+article {
+  font-size: 120%;
+  color: blue;
+  line-height: 120%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 60%;
+  margin: 15px;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 20%;
+  margin: 15px;
+  float: right;
+}
+
+main {
+  margin: auto;
+  text-align: justify;
+}
