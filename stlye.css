@@ -18,8 +18,20 @@ body {
 }
 
 #minha_foto {
+  display: block;
   position: absolute;
-  top: 18%;
-  float: left;
-  width: 300px;
+  width: 21%;
+}
+
+section {
+  display: block;
+  position: relative;
+  border: 2px solid black;
+  margin: 135px auto;
+}
+
+#licoes_aprendidas {
+  position: relative;
+  display: inline-block;
+  left: 400px;
 }
