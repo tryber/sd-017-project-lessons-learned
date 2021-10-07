@@ -1,3 +1,28 @@
-body {
-    background-color:rgb(253, 251, 251);
+.body {
+background-color: rgb(253, 251, 251);
+}
+
+.cabecalho {
+    position: fixed;
+
+}
+
+.titulo {
+
+}
+
+.minha-foto {
+
+}
+
+.licoes_aprendidas{
+
+}
+
+.licoes_a_aprender{
+
+}
+
+.rodape {
+
 }
