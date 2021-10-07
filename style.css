@@ -19,3 +19,11 @@ p {
   line-height: 3;
   font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
