@@ -18,11 +18,26 @@ body {
 }
 
 main {
-  padding: 100px 50px;
+  padding: 100px 50px 0;
+}
+
+main #minha_foto {
+  width: 250px;
+  margin-bottom: 25px;
+}
+
+main .learned-skills h1 {
+  margin-bottom: 25px;
 }
 
 main .lectures-container {
   display: flex;
   gap: 50px;
-  margin-top: 25px;
+}
+
+#rodape {
+  width: 100%;
+  text-align: center;
+  padding: 25px 50px;
+}
 }
