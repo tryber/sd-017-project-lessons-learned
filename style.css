@@ -28,6 +28,9 @@
   #titulo {
     text-align: center;
     font-family: 'Gemunu Libre', sans-serif;
+    color: rgb(14, 13, 13);
+    font-size: 30px;
+    line-height: 25px;
 }
 
   #minha_foto {
@@ -57,6 +60,10 @@
     padding-left: 50px;
     text-align: center;
     font-family: 'Gemunu Libre', sans-serif;
+    color: rgb(14, 13, 13);
+    font-size: 20px;
+    line-height: 25px;
+
 }
 
  #licoes_a_aprender {
@@ -68,11 +75,16 @@
     padding-top: 30px;
     text-align: center;
     font-family: 'Gemunu Libre', sans-serif;
+    color: rgb(14, 13, 13);
+    font-size: 20px;
+    line-height: 25px;
 }
 
   h2 {
       padding-bottom: 10px;
       font-family: 'Gemunu Libre', sans-serif;
+      font-size: 30px;
+      line-height: 25px;
   }
 
 
@@ -80,6 +92,9 @@
       display: block;
       text-align: center;
       font-family: 'Gemunu Libre', sans-serif;
+      color: rgb(14, 13, 13);
+      font-size: 20px;
+      line-height: 25px;
   }
 
 #linkedin, a {
@@ -94,4 +109,7 @@ aside, p {
    text-align: center; 
    padding-top: 20px;
    font-family: 'Gemunu Libre', sans-serif;
+   color: rgb(14, 13, 13);
+   font-size: 20px;
+   line-height: 25px;
 }
