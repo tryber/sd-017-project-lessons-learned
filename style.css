@@ -21,5 +21,22 @@ h1 {
   width: 200px;
   margin-top: 60px;
 }
-
-
+.foto {
+  margin-left: 20px;
+  width: 180px;
+}
+figcaption {
+  text-align: center;
+  font-weight: bold ;
+}
+.licoes{
+  margin: 40px;
+  line-height: 25px;
+}
+.licoes p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular';
+  font-size: 20px;
+  font-style: italic;
+  color: #0096B9;
+  font-weight: bold;
+}
