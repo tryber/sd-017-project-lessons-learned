@@ -17,6 +17,15 @@ body {
   color: rgb(247, 246, 242);
 }
 
+article h2 {
+  color: rgb(104, 104, 104);
+  font-weight: 500;
+  line-height: 50px;
+}
+
+article p {
+  line-height: 24px;;
+}
 .lista-sem-estilo {
   list-style: none;
 }
@@ -34,8 +43,10 @@ a {
 }
 
 main {
+  padding: 0 20px;
   margin-top: 120px;
   display: grid;
+  column-gap: 100px;
 }
 
 .lado-esquerdo {
@@ -48,6 +59,22 @@ main {
   grid-column-end: 4;
 }
 
+.aprendizados-container {
+  border: 1px solid rgb(240, 229, 207);
+  padding: 30px;
+  margin: 10px;
+  border-radius: 3px;
+}
+
+.aprendizados-container h3 {
+  color: rgb(104, 104, 104);
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.aprendizados-container li {
+  padding: 5px 0;
+}
+
 #rodape {
   background-color: rgb(75, 101, 135);
   color: rgb(247, 246, 242);
@@ -56,7 +83,7 @@ main {
   font-size: 14px;
 }
 
-#rodape a{
+#rodape a {
   color: rgb(247, 246, 242);
   text-decoration: underline;
 }
