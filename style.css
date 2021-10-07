@@ -19,20 +19,28 @@ a {
   background-color: black;
   width: 100%;
   height: 150px;
-  z-index: 3;
+  z-index: 2;
 }
 
-#titulo, #cabecalho li {
+#minha_foto,
+#aprendidas,
+#a_aprender {
+  z-index: 1;
+}
+
+#titulo,
+#cabecalho li {
   color: white;
   font-weight: bold;
 }
 
 #titulo {
   text-align: center;
-  padding-top: 32px;  
+  padding-top: 32px;
 }
 
-#ul, #licoes {
+#ul,
+#licoes {
   position: relative;
   width: 380px;
 }
@@ -41,7 +49,7 @@ a {
   display: inline-block;
   font-size: 18px;
   padding: 15px;
-  text-align: center;  
+  text-align: center;
   margin: 15px;
 }
 
@@ -53,24 +61,26 @@ a {
   left: 2%;
   border: 2px solid white;
   box-shadow: -8px 8px black;
-  z-index: 1;
+  
 }
 
-#aprendidas, #a_aprender {
+#aprendidas,
+#a_aprender {
   position: absolute;
   top: 38%;
-  z-index: 2;
+
 }
 
-#aprendidas {  
-  left: 28%;    
+#aprendidas {
+  left: 28%;
 }
 
 #a_aprender {
-  left: 55%;  
+  left: 55%;
 }
 
-#licoes_aprendidas li, #licoes_a_aprender li{
+#licoes_aprendidas li,
+#licoes_a_aprender li {
   padding: 5px;
 }
 
@@ -78,27 +88,32 @@ a {
   list-style: none;
 }
 
-article, aside {
-  position: absolute;   
+.lado-esquerdo,
+.lado-direito {
+  position: absolute;
   top: 115%;
 }
 
-article {
-  left: 5%;  
+.lado-esquerdo {
+  left: 5%;
 }
 
-aside {
+.lado-direito {
   float: right;
   left: 55%;
 }
 
-article p, aside p {
-  width: 550px;
+.lado-esquerdo p,
+.lado-direito p {
+  width: 500px;
   height: 100px;
-  padding: 15px;
+  padding: 15px 0;
+  line-height: 20px;
+  text-align: justify;
 }
 
-article h3, aside h3 {
+.lado-esquerdo h3,
+.lado-direito h3 {
   border: 1px solid black;
   box-shadow: -5px 5px black;
   width: 200px;
@@ -110,10 +125,10 @@ article h3, aside h3 {
 #rodape {
   width: 100%;
   top: 165%;
-  bottom: 0;  
+  bottom: 0;
   padding: 18px 0;
   margin: 18px 0;
   text-align: center;
-  position: absolute;    
+  position: absolute;
   font-weight: bold;
 }
