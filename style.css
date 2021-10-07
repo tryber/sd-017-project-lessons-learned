@@ -2,7 +2,7 @@ body{
     background-color: rgb(253, 251, 251);
 }
 #cabecalho{
-    position: fixed;
+    position: absolute;
     top: 0;
     color: white;
     background-color: green;
@@ -11,6 +11,10 @@ body{
     height: 150px;
 }
 img{
-    position: fixed;
+    position: absolute;
     margin-top: 100px;
+}
+main{
+    position: absolute;
+    top: 300px;
 }
