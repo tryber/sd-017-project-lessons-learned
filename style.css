@@ -27,12 +27,21 @@ body {
   padding: 8px 0;
 }
 
+h1 {
+  font-size: 35px;
+}
+
 img {
   display: block;
   margin: 80px auto 40px;
   height: 250px;
   width: 300px;
   border: 3px solid rgb(56, 12, 61);
+}
+
+table {
+  width: 300px;
+  margin: auto;
 }
 
 .listas {
@@ -50,6 +59,31 @@ img {
   float: left;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+section {
+  padding: 30px 0;
+}
+
+.sec2 {
+  color: rgb(56, 12, 61);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec2 p {
+  line-height: 25px;
+}
+
+.aprendizado {
+  float: left;
+  width: 45%;
+  
+}
+
+.passagem {
+  float: right;
+  width: 45%;
+}
+
 
 
 
