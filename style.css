@@ -59,7 +59,7 @@ h2{
 
 #minha_foto{
     font-size: 1cm;
-    font-style: oblique;
+    font-style:oblique;
 }
 
 aside {
@@ -71,6 +71,7 @@ aside {
     width: 800px;
     text-align: center;
     padding: 0.1cm;
+    font-size: 0.57cm;
 }
 
 li {font-size: 20px;
