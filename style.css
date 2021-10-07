@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, ('Arial Narrow Bold'), sans-serif;
 }
 
 #cabecalho {
@@ -14,8 +14,7 @@ body {
   margin-top: 100px;
 }
 
-ul,
-ol {
+ul , ol {
   display: inline-block;
   margin-right: 50px;
   line-height: 25px;
