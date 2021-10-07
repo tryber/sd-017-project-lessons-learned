@@ -10,7 +10,9 @@ body {
   top: 0;
   position: fixed;
 }
-
+.menu-header {
+  display: inline-block;
+}
 #minha_foto {
   margin: 50px 20px;
   width: 150px;
