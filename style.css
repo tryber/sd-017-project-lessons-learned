@@ -37,7 +37,8 @@ nav {
 
 section {
 	border: solid red;
-  width: 100%;
+  width: 90%;
+  margin: auto;
 }
 
 a {
@@ -50,6 +51,7 @@ p {
     font-size: 20px;
     font-family: Roboto Mono , monospace;
     color: #3d3d3d;
+    margin: 10px;
 }
 
 footer p{
@@ -61,4 +63,28 @@ footer p{
 
 dt {
   font-weight: bold;
+}
+
+table {
+  margin: 20px auto;
+  width: 90%;
+}
+
+#licoes_aprendidas {
+
+}
+
+#licoes_a_aprender{
+
+}
+
+#artigo {
+  width: 40%;
+  margin: 20px auto;
+}
+
+aside {
+  border: solid red;
+  width: 40%;
+  margin: 20px auto;
 }
