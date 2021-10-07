@@ -6,9 +6,22 @@ body {
   top: 0;
   position: fixed;
   background-color:blue;
+  width: 100%;
+  color: aliceblue;
 }
 
 #minha_foto {
   width: 300px;
   margin-top: 100px;
+}
+
+#titulo {
+  text-align: center;
+}
+nav ul li {
+  display: inline;
+  padding: 20px;
+}
+#licoes_aprendidas, #licoes_a_aprender{
+  display: inline;
 }
