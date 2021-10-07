@@ -16,7 +16,56 @@ body {
   height: 90px;
 }
 
+#headline {
+  position: fixed;
+  width: 50px;
+  top: 17px;
+  left: 50px;
+}
+
+#trybe-logo {
+  width: 90px;
+  margin-left: 120px;
+  margin-right: 10px;
+  position: fixed;
+}
+
 #titulo {
   font-family: 'Bitter', serif;
-  margin-left: 15px;
+  margin-left: 250px;
+  width: 440px;
+}
+
+#cabecalho div {
+  float: right;
+  position: relative;
+  right: 10px;
+  bottom: 67px;
+  font-family: 'Bitter', serif;
+  margin-right: 30px;
+  text-align: center;
+}
+
+#cabecalho div:hover {
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#cabecalho div img {
+  width: 30px;
+}
+
+#cabecalho div p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#minha_foto {
+  height: 300px;
+  position: absolute;
+  top: 100px;
+  border-radius: 15px;
+  border: solid 3px;
 }
