@@ -8,4 +8,10 @@ body {
     width: 1270px;
     border: solid rgba(47, 6, 77, 0.877);
     background-color: indigo;
+    height: 110px;
+    text-align: center;
+}
+
+#titulo {
+   margin-top: 35px;
 }
