@@ -5,4 +5,13 @@ body {
 header {
   top: 0;
   position: fixed;
+  background-color: aqua;
+}
+
+main{
+  margin-top: 100px;
+}
+
+img {
+  max-width: 25vw;
 }
