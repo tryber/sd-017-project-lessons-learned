@@ -1,11 +1,21 @@
 * {
-    margin: 0;
-    padding: 0;
+		margin: 0;
+  	padding: 0;
 }
 body {
-    background-color: rgb(253, 251, 251);
+		background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    background-color: aqua;
+		background-color: aqua;
+		top: 0;
+		height: 150px;
+}
+
+#titulo {
+		text-align: center;
+}
+
+#minha_foto {
+		height: 300px;
 }
