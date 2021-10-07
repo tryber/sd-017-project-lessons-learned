@@ -12,6 +12,16 @@ background-color: rgb(253, 251, 251);
     text-align: center;
 }
 
+#link{
+    color: rgb(253, 251, 251); 
+    text-decoration: none; 
+    font-weight: normal; 
+}
+
+#licoes_a_aprender, #licoes_aprendidas {
+    display: inline-block;
+}
+
 #tela {
-    margin-top: 100px;
+    margin-top: 110px;
 }
