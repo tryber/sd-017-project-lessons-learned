@@ -49,7 +49,7 @@ body {
 
 #rodape {
   font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
   color: rgb(97, 97, 97);
   margin-top: 20px;
   background-color: rgb(207, 207, 207);
@@ -61,7 +61,7 @@ body {
   padding: 5px;
   border-radius: 10%;
   font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 #tabela {
@@ -79,7 +79,7 @@ article , aside {
   display: inline-block;
   width: 40%;
   text-align: justify;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
   color: rgb(97, 97, 97);
 }
 
