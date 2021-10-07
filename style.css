@@ -14,27 +14,29 @@ body {
   background-color: black;
   width: 100%;
   height: 150px;
+  z-index: 2;
 }
 
-#titulo, li {
+#titulo, #cabecalho li {
   color: white;
 }
 
 #titulo {
   text-align: center;
-  padding: 18px;  
+  padding-top: 32px;  
 }
 
-#ul {
+#ul, #licoes {
   position: relative;
   width: 380px;
 }
 
-li {
+#cabecalho li {
   display: inline-block;
   font-size: 18px;
-  padding: 20px;
+  padding: 15px;
   text-align: center;  
+  margin: 15px;
 }
 
 #minha_foto {
@@ -44,4 +46,26 @@ li {
   top: 38%;
   left: 2%;
   box-shadow: -8px 8px black;
+  z-index: 1;
+}
+
+#aprendidas, #a_aprender {
+  position: absolute;
+  top: 85%;
+}
+
+#licoes_aprendidas, #licoes_a_aprender {
+  padding: 5px;
+}
+
+#aprendidas {  
+  left: 8%;    
+}
+
+#a_aprender {
+  left: 35%;  
+}
+
+#licoes_a_aprender {
+  list-style: none;
 }
