@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  color: rgb(34, 40, 49);
+  line-height: 17px;
+  font-family: Times, serif;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-color: green;
+  width: 100%;
+}
+
+#titulo {
+  text-align: center;
+}
+
+img {
+  width: 150px;
+  margin-top: 95px;
+  display: block;
+}
+
+.licoes {
+  display: flex;
+  width: 50%;
+
+}
+
+ol ul {
+  display: inline-block;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+.article {
+  width: 50%;
+}
+
+.aside {
+  display: flex;
+  width: 50%;
+}
+
+.lado-esquerdo {
+  display: flex;
+  width: 100%;
+}
+
+#rodape {
+  text-align: center;
+}
+
+/* https://www.w3schools.com/css/css_boxmodel.asp */
+table {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
