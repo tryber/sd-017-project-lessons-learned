@@ -1,12 +1,16 @@
+*{
+ margin: 0px;
+}
 
 body {
-  background-color: rgb(253, 251, 251);
+  background-color:rgb(253, 251, 251);
 
 }
 
-  header {
-  top: 0px;
-background-color: red;
 
-}
-    
+.cabecalho{
+background-color: green;
+ top: 0px;
+ 
+ 
+  }
