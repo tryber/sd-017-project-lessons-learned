@@ -1,5 +1,5 @@
 * {
-  border: 3px solid red;
+  border: 1px solid red;
 }
 
 body {
@@ -25,7 +25,7 @@ body {
   margin: 5px;
 }
 
-#cor {
+.cor {
   color: white;
   text-decoration: none;
   font-size: 18px;
@@ -36,4 +36,9 @@ body {
   margin-top: 160px;
   margin-left: 20px;
   border-radius: 10%;
+}
+
+.artigo-sobre-aprendizado-8, .seçao-passagem-aprendizado-9 {
+  display: inline-block;
+  right: 0px;
 }
