@@ -47,9 +47,7 @@ aside {
   border: 2px solid black;
   text-align: center;
   position: relative;
-  float: right;
-  top: -480px;
-  right: -3%;
+  top: -20px;
 }
 
 aside p , aside h3 {
@@ -69,7 +67,7 @@ article {
   text-align: center;
   position: relative;
   float: right;
-  top: -800px;
+  top: -700px;
   right: 30%;
 }
 
