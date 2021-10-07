@@ -35,6 +35,20 @@ body {
     filter: drop-shadow(0px 0px 30px rgb(12, 15, 207, 0.5)) grayscale(0%);
 }
 
+#aprendizado {
+    line-height: 26px;
+    margin-left: 100px;
+    list-style: none;
+    display: table-cell;
+    padding-left: 30px;
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Gemunu Libre', sans-serif;
+    color: rgb(14, 13, 13);
+    font-size: 20px;
+    line-height: 25px;
+}
+
 #licoes_aprendidas {
     margin-bottom: 20px;
     line-height: 26px;
