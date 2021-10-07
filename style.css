@@ -14,10 +14,15 @@ body {
   position: fixed;
   height: 100px;
   top: 0;
+  width: 100%;
   background-color: black;
 }
 
 #titulo {
   text-align: center;
   color: white;
+}
+
+#minha_foto {
+  margin-top: 100px;
 }
