@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -17,3 +17,9 @@ h1 {
   text-align: center;
   padding-top: 10px;
 }
+#minha_foto {
+  width: 200px;
+  margin-top: 60px;
+}
+
+
