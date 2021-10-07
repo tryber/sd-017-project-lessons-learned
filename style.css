@@ -14,9 +14,12 @@ header {
   border: 1px solid blueviolet;
   color: white;
   font-family: monospace;
-  
 }
 
 #titulo {
   width: 500px;
+}
+
+#licoes_aprendidas {
+  line-height: 20px;
 }
