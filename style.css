@@ -1,28 +1,45 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-image: url(https://image.freepik.com/fotos-gratis/parede-de-textura-branca-textura-de-fundo_1368-6402.jpg) ;
+  background-image: url(https://image.freepik.com/fotos-gratis/parede-de-textura-branca-textura-de-fundo_1368-6402.jpg);
+  color: #5e6973;
 }
 #cabecalho {
+  position: fixed;
+  background-color: #30e48c;
+  text-align: center;
   top: 0;
-  background-color: #30e48c ;
-  padding-top: 20px;
-  padding-bottom: 2px;
+  border: 100%;
 }
 #titulo {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
+  font-size: 35px;
+}
+#meu_aprendizado {
+  margin-top: 6%;
+}
+#meu_aprendizado p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 500;
+  font-size: 19px;
 }
 #minha_foto {
   border-radius: 50%;
+  display: inline-block;
+  margin-left: 200px;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+#listas {
+  display: inline-block;
 }
 #licoes_aprendidas {
   background-color: #30e48c;
   text-align: left;
-  display: inline-block;
 }
 #licoes_a_aprender {
   list-style-type: square;
-  display: inline-block;
+
   background-color: #30e48c;
 }
