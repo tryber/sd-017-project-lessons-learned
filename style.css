@@ -25,6 +25,7 @@ body {
 
 #minha_foto {
   margin-top: 100px;
+  border-radius: 50%;
 }
 
 #licoes_aprendidas {
@@ -39,4 +40,10 @@ body {
 
 .lessonslearned {
   display: flex;
+}
+
+#articles {
+  margin: 10px;
+  padding: 10px 20px;
+  border: solid;
 }
