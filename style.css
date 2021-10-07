@@ -8,7 +8,7 @@ body {
   color: grey;
 }
 
-h1, a{
+h1 , a {
   color: rgb(90, 90, 90);
 }
 
@@ -25,7 +25,7 @@ h1, a{
 #titulo {
   margin: 5px;
   padding: 5px;
-  width: 65%
+  width: 65%;
 }
 
 #social {
@@ -57,7 +57,7 @@ main {
   border-radius: 50%;
 }
 
-p{
+p {
   line-height: 25px;
 }
 
