@@ -9,7 +9,7 @@
   </head>
   <body>
     <header id="cabecalho">
-      <h1 id="titulo">Lições aprendidas</h1>
+      <h1 id="titulo">Lições aprendidas</h1><br>
       <nav class="menu-header">
         <ul class="menu-header">
           <a href="#"><li>Home</li></a>
@@ -20,25 +20,29 @@
       </nav>
     </header>
     <main class="sector-main">
-      <article class="article-main">
-        <img id="minha_foto" src="img-marcos.jpg" alt="Marcos foto" />
-        <h2> Meu aprendizado: </h2>
-        <ol id="licoes_aprendidas">
-          <li>UNIX & BASH</li>
-          <li>GitHub</li>
-          <li>Internet como ela funciona</li>
-          <li>HTML</li>
-          <li>Estrutura da pagina HTML</li>
-          <li>Tags HTML</li>
-          <li>HTML Semantico</li>
-          <li>CSS</li>
-          <li>Posicionamento</li>
-          <li>Seletores</li>
-        </ol>
-      </article>
+      <img id="minha_foto" src="img-marcos.jpg" alt="Marcos foto" />
     </main>
-    <section class="section-aprender">
-      <article class="article-aprender">
+    <h2 class="alone"> Meu aprendizado: </h2>
+    <section class="article-main lado-esquerdo">
+    <div class="border-style box-design alone">
+      <h3>Resumo do que ja aprendi</h3>
+      <ol id="licoes_aprendidas">
+        <li>UNIX & BASH</li>
+        <li>GitHub</li>
+        <li>Internet como ela funciona</li>
+        <li>HTML</li>
+        <li>Estrutura da pagina HTML</li>
+        <li>Tags HTML</li>
+        <li>HTML Semantico</li>
+        <li>CSS</li>
+        <li>Posicionamento</li>
+        <li>Seletores</li>
+      </ol>
+    </div>
+  </section>
+    <section class="section-aprender lado-direito">
+      <div class="border-style alone">
+      <h3>Ainda vou aprender</h3>
         <ul id="licoes_a_aprender">
           <li>JavaScript</li>
           <li>Functions JavaScript</li>
@@ -51,9 +55,15 @@
           <li>Front-end</li>
           <li>Soft-Skills</li>
         </ul>
-      </article>
+      </div>
     </section>
-    <aside><p>Meu aprendizado na trybe está sendo muito importante para mim pois estou desenvolvendo coisas que eu jamais tinha feito e isso tudo somente em algumas semanas, espero continuar aprendendo.</p></aside>
+  <section class="palavras-aprendizado">
+    <h2>Sobre meu aprendizado</h2>
+    <article class="his-aprendizado">
+      <p>O meu aprendizado na trybe está sendo muito eficiente na trybe em poucas semanas já estamos conseguindo manipular o HTML e CSS com mais facilidade. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </article>
+    <aside class="informacao-mais"><p>Meu aprendizado na trybe está sendo muito importante para mim pois estou desenvolvendo coisas que eu jamais tinha feito e isso tudo somente em algumas semanas, espero continuar aprendendo. E elaborando projetos de alta qualidade na Trybe.<br> #VQV #TRYBE  </p></aside>
+  </section>
     <footer id="rodape"> <a href="https://www.betrybe.com/" target="_blank">Trybe</a></footer>
   </body>
 </html>

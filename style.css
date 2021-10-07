@@ -8,13 +8,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 20px;
   color: darkgray;
+  text-align: center;
 }
 
 #cabecalho {
   top: 0;
   width: 100%;
   padding: 10px;
-  height: 50px;
+  height: 80px;
   background-color: green;
   color: white;
   position: fixed;
@@ -23,6 +24,7 @@ body {
 
 #cabecalho h1 {
   display: inline-block;
+  margin-bottom: 10px;
 }
 
 .menu-header {
@@ -57,13 +59,65 @@ body {
 
 h2 {
   font-size: 40px;
-  margin-bottom: 10px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-bottom: 30px;
   color: chartreuse;
 }
 
 #minha_foto {
   border-radius: 10%;
+  display: block;
   border: darkgreen solid;
-  margin: 100px 20px 20px 40px;
+  margin: 100px 20px 20px 80px;
   width: 150px;
+}
+
+.border-style {
+  border: darkgreen solid;
+  padding: 30px;
+  display: inline-block;
+}
+
+.alone{
+  text-align: center;
+}
+
+.lado-direito {
+  text-align: center;
+  display: inline-block;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+}
+
+#licoes_a_aprender li {
+  list-style-type: none;
+}
+
+p {
+  width: 500px;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.his-aprendizado {
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.informacao-mais {
+  display: inline-block;
+}
+
+
+.palavras-aprendizado {
+  margin-top: 30px;
+  background-color: darkslategrey;
+  border-top: darkseagreen solid;
+}
+
+footer {
+  background-color: darkgreen;
 }
