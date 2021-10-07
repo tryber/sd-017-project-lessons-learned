@@ -3,9 +3,33 @@
   padding: 0;
 }
 
-body { background-color: rgb(253, 251, 251);
+body { 
+    background-color: rgb(253, 251, 251);
 
 }  
+
+article {
+    float: left; 
+    display: inline-block; 
+    margin-top: 700px; 
+    margin-left: -200px; 
+    width: 300px; 
+    text-align: justify;
+    letter-spacing: 2px; 
+}
+
+aside {
+    float: left;
+    display: inline-block;
+    margin-top: 700px;
+    margin-left: 90px;
+}
+
+nav {
+    margin-left: 20px;
+    float: left;
+}
+
 
 #cabecalho {
   position: fixed;
@@ -20,10 +44,6 @@ body { background-color: rgb(253, 251, 251);
   display: inline-block;
   margin-top: 60px;
   margin-left: -850px; }
-
-nav { margin-left: 20px;
-     float: left;
-}
 
 #image2 {
   float: left;
@@ -60,22 +80,8 @@ nav { margin-left: 20px;
   margin-top: 400px; 
   color: grey;
   font-size: 10px;
-  font-family: 'Times New Roman', Times, serif; }
-
-article { float: left; 
-          display: inline-block; 
-          margin-top: 700px; 
-          margin-left: -200px; 
-          width: 300px; 
-          text-align: justify;
-          letter-spacing: 2px; 
+  font-family: 'Times New Roman', Times, serif; 
 }
-
-aside { float: left;
-        display: inline-block;
-        margin-top: 700px;
-        margin-left: 90px;
- }
 
 #rodape {  
   float: right;
