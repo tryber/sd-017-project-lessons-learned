@@ -4,7 +4,8 @@
 }
 
 body { background-color: rgb(253, 251, 251);
- }  
+
+}  
 
 #cabecalho {
   position: fixed;
@@ -22,7 +23,7 @@ body { background-color: rgb(253, 251, 251);
 
 nav { margin-left: 20px;
      float: left;
- }
+}
 
 #image2 {
   float: left;
@@ -61,18 +62,19 @@ nav { margin-left: 20px;
   font-size: 10px;
   font-family: 'Times New Roman', Times, serif; }
 
-article { float: left; display: inline-block; 
-    margin-top: 700px; 
-    margin-left: -200px; 
-    width: 300px; 
-    text-align: justify;
-    letter-spacing: 2px; 
+article { float: left; 
+          display: inline-block; 
+          margin-top: 700px; 
+          margin-left: -200px; 
+          width: 300px; 
+          text-align: justify;
+          letter-spacing: 2px; 
 }
 
 aside { float: left;
-     display: inline-block;
-     margin-top: 700px;
-     margin-left: 90px;
+        display: inline-block;
+        margin-top: 700px;
+        margin-left: 90px;
  }
 
 #rodape {  
