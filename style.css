@@ -15,17 +15,30 @@ body {
     max-width: 200px;
     border-radius: 50%;
     position: relative;
-    left: 20px;
+    left: 30px;
     top: 100px;
+}
+
+#licoes {
+    position: absolute;
+    bottom: 260px;
+    left: 30px;
 }
 
 #licoes_aprendidas {
     position: absolute;
     bottom: 70px;
+    left: 30px;
 }
 
 #licoes_a_aprender {
     position: absolute;
     left: 400px;
     bottom: 70px;
+}
+
+#rodape {
+    position: fixed;
+    bottom: 5px;
+    right: 40%;
 }
