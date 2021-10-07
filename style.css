@@ -50,7 +50,22 @@ body {
   margin-top: 40px;
 }
 
-#licoes_aprendidas , #licoes_a_aprender {
+.lista{
   display: inline-block;
   padding: 40px;
+}
+
+article , aside{
+  max-width: 40%;
+  border: 1px dashed black;
+  position: flex;
+  margin: 30px;
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
 }
