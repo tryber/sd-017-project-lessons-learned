@@ -8,17 +8,23 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: rgb(167, 6, 167);
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
   background-color: black;
   width: 100%;
   height: 150px;
-  z-index: 2;
+  z-index: 3;
 }
 
 #titulo, #cabecalho li {
   color: white;
+  font-weight: bold;
 }
 
 #titulo {
@@ -45,27 +51,69 @@ body {
   height: 203px;
   top: 38%;
   left: 2%;
+  border: 2px solid white;
   box-shadow: -8px 8px black;
   z-index: 1;
 }
 
 #aprendidas, #a_aprender {
   position: absolute;
-  top: 85%;
-}
-
-#licoes_aprendidas, #licoes_a_aprender {
-  padding: 5px;
+  top: 38%;
+  z-index: 2;
 }
 
 #aprendidas {  
-  left: 8%;    
+  left: 28%;    
 }
 
 #a_aprender {
-  left: 35%;  
+  left: 55%;  
+}
+
+#licoes_aprendidas li, #licoes_a_aprender li{
+  padding: 5px;
 }
 
 #licoes_a_aprender {
   list-style: none;
+}
+
+article, aside {
+  position: absolute;   
+  top: 115%;
+}
+
+article {
+  left: 5%;  
+}
+
+aside {
+  float: right;
+  left: 55%;
+}
+
+article p, aside p {
+  width: 550px;
+  height: 100px;
+  padding: 15px;
+}
+
+article h3, aside h3 {
+  border: 1px solid black;
+  box-shadow: -5px 5px black;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+}
+
+
+#rodape {
+  width: 100%;
+  top: 165%;
+  bottom: 0;  
+  padding: 18px 0;
+  margin: 18px 0;
+  text-align: center;
+  position: absolute;    
+  font-weight: bold;
 }
