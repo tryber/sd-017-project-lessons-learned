@@ -5,8 +5,38 @@ body {
 header {
   position: fixed;
   top: 0;
+  background-color: seagreen;
+  width: 100%;
+  left: 0;
+  color: white;
 }
 
 #minha_foto {
   width: 200px;
+  display: block;
+}
+
+section {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+main {
+  margin-top: 100px;
+}
+
+a {
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  display: inline-block;
+  margin-left: 65px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+}
+
+h1 {
+  margin-inline-start: 20px;
 }
