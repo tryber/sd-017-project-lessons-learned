@@ -39,3 +39,25 @@ main {
 #licoes_aprendidas li , #licoes_a_aprender li {
   margin-bottom: 10px;
 }
+
+#rodape {
+  background: rgb(34, 34, 34);
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+
+#rodape a {
+  background: white;
+  display: block;
+  border-radius: 100px;
+  width: 45px;
+  height: 45px;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+#github-icon {
+  width: 30px;
+  margin-top: 1.5px;
+}
