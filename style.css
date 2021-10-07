@@ -29,16 +29,17 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.lado-esquerdo {
-  float: left;
-  border: 2px solid black;
+.x {
   display: inline-block;
-  clear: both;
+}
+
+.lado-esquerdo {
+  border: red 2px solid;
+  margin-inline-end: 60%;
+  float: left;
 }
 
 .lado-direito {
-  display: inline-block;
-  float: right;
   border: 2px solid black;
-  clear: both;
+  margin-inline-start: 60%;
 }
