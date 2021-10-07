@@ -17,7 +17,7 @@ body {
   position: fixed;
   top: 0;
   background-color: tomato;
-  padding: 20px 50px;
+  padding: 25px 100px;
   display: flex;
   justify-content: space-between;
 }
@@ -35,44 +35,69 @@ body {
 }
 
 main {
-  padding: 100px 50px 0;
+  padding: 100px 100px 0;
 }
 
-main #minha_foto {
+.first-container {
+  display: flex;
+  background-color: rgb(226, 222, 222);
+  padding: 20px;
+  border-radius: 20px;
+  justify-content: space-between;
+  align-items: center;
+  height: fit-content;
+  margin-bottom: 20px;
+}
+
+.first-container #minha_foto {
   width: 250px;
-  margin-bottom: 25px;
+  border-radius: 20px;
+  display: block;
 }
 
-main table {
-  text-align: center;
-}
-
-main .align-container {
+.first-container .skills {
+  width: 50%;
   display: flex;
-  gap: 50px;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
 }
 
-main .container {
-  display: flex;
+.first-container .skills h1 {
+  margin-right: 20px;
 }
 
-main .learned-skills h1 {
-  margin-bottom: 25px;
-}
-
-main .lectures-container {
-  display: flex;
-  gap: 50px;
-}
-
-#rodape {
+.first-container .skills .lectures-container {
   width: 100%;
-  text-align: center;
-  padding: 25px 50px;
+  display: flex;
+  justify-content: space-around;
 }
 
-main .articles {
+.second-container {
+  display: flex;
+  background-color: rgb(226, 222, 222);
+  padding: 20px;
+  border-radius: 20px;
+  justify-content: space-between;
+  align-items: center;
+  height: fit-content;
+  margin-bottom: 20px;
+}
+
+.second-container table {
+  width: 250px;
+  text-align: center;
+}
+
+.second-container .articles {
   width: 500px;
   display: flex;
   justify-content: space-evenly;
+}
+
+#rodape {
+  background-color: tomato;
+  width: 100%;
+  text-align: center;
+  padding: 25px 50px;
 }
