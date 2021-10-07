@@ -35,3 +35,9 @@ section {
   display: inline-block;
   left: 400px;
 }
+
+#licoes_a_aprender {
+  position: relative;
+  display: inline-block;
+  left: 470px;
+}
