@@ -1,11 +1,12 @@
 body {
   background-color: rgb(253, 251, 251);
 }
+
 #cabecalho {
   width: 100%;
   position: fixed;
   top: 0;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   letter-spacing: 5px;
   color: rgb(32, 167, 66);
   font-size: 17px;
