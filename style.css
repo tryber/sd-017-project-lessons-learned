@@ -30,3 +30,23 @@ body {
 #minha_foto {
   width: 50px;
 }
+
+.aprendizado {
+  margin: 10px;
+}
+
+.texto-aprendizado {
+  text-align: justify;
+  margin-left: 10px;
+  line-height: 20px;
+}
+
+.passagem-aprendizado {
+  margin: 10px;
+}
+
+.texto-passagem-aprendizado {
+  text-align: justify;
+  margin-left: 10px;
+  line-height: 20px;
+}
