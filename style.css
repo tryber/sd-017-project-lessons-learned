@@ -39,7 +39,7 @@ aside {
   left: 69%;
 }
 
-aside p, aside h3 {
+aside p,aside h3 {
   position: relative;
   top: 19%;
 }
@@ -52,7 +52,7 @@ article {
   top: 150px;
 }
 
-aside p, article p {
+aside p,article p {
   margin-top: -10px;
   text-align: justify;
   padding: 10px;
