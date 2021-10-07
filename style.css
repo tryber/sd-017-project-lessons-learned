@@ -6,13 +6,15 @@ body {
 .titulo {
 position: fixed; 
 top:0;
-
+border: 10px;
+padding: -10px;
+margin: 3px;
 }
 
 img {
   width: 150px;
   margin-left: 10px;
-margin-top: 50px;
+margin-top: 60px;
 }
 
 .bloco {
@@ -31,3 +33,4 @@ right: -50px;
 position: absolute;
 padding: 20px;
 }
+
