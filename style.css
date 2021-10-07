@@ -10,8 +10,9 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: green;
-  border: 2px solid lightgreen;
+  background-color: rgb( 2, 115, 83);
+  border: 2px solid rgb(3, 166, 120);
+  border-radius: 4px;
   width: 1366px;
 }
 
@@ -21,14 +22,14 @@ body {
 }
 
 .menu a {
-  display: block;
-  margin: 5px;
-}
-
-.cor {
+  display: inline-block;
   color: white;
   text-decoration: none;
+  font-family: monospace;
   font-size: 18px;
+  background-color: rgb(242, 61, 61);
+  margin: 5px;
+  padding: 5px;
 }
 
 .adiciona-foto-3 img {
@@ -41,4 +42,26 @@ body {
 .artigo-sobre-aprendizado-8 , .seçao-passagem-aprendizado-9 {
   display: inline-block;
   right: 10px;
+}
+
+.lista-ol-ul > h2 {
+  font-family: serif;
+  font-size: 35px;
+  color: rgb(242, 61, 61);
+  margin-left: 20px;
+}
+
+.lista-ol-ul {
+  font-size: 19px;
+  font-family: monospace;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  left: 20px;
+}
+
+.lado-direito {
+  display: inline-block;
+  right: 20px;
 }
