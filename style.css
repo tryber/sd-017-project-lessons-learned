@@ -3,17 +3,32 @@ body {
     padding: 0;
     margin: 0;
 }
+
 #cabecalho {
     position: fixed;
     top: 0;
     background-color: rgb(92, 33, 186);
-    color: white;
+    
     width: 100%;
-    padding-left: 50px;
-    font-family: sans-serif;
+    display: inline;
 }
+
+#titulo {
+    font-family: sans-serif;
+    color: white;
+}
+
 #trybe {
     text-decoration: none;
     color: white;
     text-align: end;
 }
+
+#navegacao {
+    position: fixed;
+    background-color: rgb(53, 21, 104);
+    color: white;
+    width: 100%;
+}
+
+
