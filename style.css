@@ -1,0 +1,21 @@
+body {
+ background: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: red;
+}
+
+#menu li {
+  display: inline;
+  margin: 10px;
+}
+
+#minha_foto {
+  width: 10%;
+}
+
