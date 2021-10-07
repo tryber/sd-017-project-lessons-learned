@@ -1,6 +1,5 @@
 body {
   background-color: rgb(253, 251, 251);
-  margin-top: 100px;
 }
 
 header {
@@ -10,4 +9,5 @@ header {
 
 #minha_foto {
   width: 200px;
+  padding-top: 100px;
 }
