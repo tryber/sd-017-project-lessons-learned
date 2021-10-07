@@ -10,3 +10,8 @@ body {
 #minha_foto {
   width: 200px;
 }
+
+.tabela {
+  border: 2px solid black;
+  margin-top: 200px;
+}
