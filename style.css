@@ -1,7 +1,9 @@
 body {
     background-color: rgb(253, 251, 251);
+    padding: 0;
+    margin: 0;
 }
-header {
+#cabecalho {
     position: fixed;
     top: 0;
 }
