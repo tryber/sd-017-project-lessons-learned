@@ -5,9 +5,9 @@ body{
     width: 100%;
     position: fixed;
     top: 0;
-    border: 1px solid red;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #minha_foto{
-    display: block;
+    margin-top: 100px;
 }
