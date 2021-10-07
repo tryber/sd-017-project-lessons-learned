@@ -29,6 +29,8 @@ body {
 
 #rodape {
   border: solid red;
+  margin: 250px auto;
+  width: 90%;
 }
 
 nav {
@@ -78,13 +80,22 @@ table {
 
 }
 
-#artigo {
-  width: 40%;
+article {
+  width: 50%;
   margin: 20px auto;
+  border: solid red;
 }
 
 aside {
   border: solid red;
   width: 40%;
-  margin: 20px auto;
+  margin: 20px;
+}
+
+.lado-esquerdo {
+    float: left;
+}
+
+.lado-direito {
+  float: right;
 }
