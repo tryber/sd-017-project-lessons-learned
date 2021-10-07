@@ -30,3 +30,14 @@ body {
   border: 2px solid black;
 }
 
+.lado-esquerdo {
+  display: inline-block;
+  width: 250px;
+  margin: auto;
+  margin-left: 25px;
+}
+
+.lado-direito {
+  float: right;
+  width: 250px;
+}
