@@ -28,3 +28,17 @@ body {
   line-height: 40px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.lado-esquerdo {
+  float: left;
+  border: 2px solid black;
+  display: inline-block;
+  clear: both;
+}
+
+.lado-direito {
+  display: inline-block;
+  float: right;
+  border: 2px solid black;
+  clear: both;
+}
