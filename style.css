@@ -1,0 +1,21 @@
+#cabecalho {
+    top: 0px;
+}
+
+#titulo {}
+
+#minha_foto {
+    width: 200px;
+}
+
+#licoes_aprendidas {
+    font-size: 8px;
+}
+
+#licoes_a_aprender {
+    font-size: 8px;
+}
+
+body {
+    background-color: rgb(253, 251, 251);
+}
