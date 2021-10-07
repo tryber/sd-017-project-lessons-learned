@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body { 
     background-color: rgb(253, 251, 251);
 }
@@ -9,4 +10,13 @@ body {
 
 #minha_foto {
     margin-top: 50px;
+=======
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+.cabecalho {
+  position: fixed;
+  top: 0;
+>>>>>>> 3c8f13308b00c184f46720c52eaa3cc07d5f8acc
 }
