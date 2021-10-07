@@ -3,10 +3,9 @@ body{
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 16px;
 }
-#cabecalho{
-    top: 0%;
-    color: black;
-		position: fixed;
+header{
+	position: fixed;
+	top: 0%;
 }
 aside{
 	margin: 1px;
