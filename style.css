@@ -1,9 +1,38 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 20px 30px 30px 40px;
 }
 
 #cabecalho {
   top: 0;
   position: fixed;
 }
+
+#linkk{
+  text-decoration: none;
+}
+
+#titulo{
+  font-family: cursive;
+  font-size: 20px;
+  margin-left: 450px;
+}
+
+#minha_foto{
+  margin-top: 40px;
+  width: 250px;
+  margin-left: 450px;
+  border-radius: 25px;
+}
+
+p{
+  margin-left: 500px;
+}
+
+#texto-1, #texto-2{
+  padding: 10px;
+  margin-bottom: 20px;
+  max-width: 450px;
+}
+
 
