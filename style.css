@@ -8,7 +8,7 @@ body {
   top: 0;
 }
 
-.nav-bar>li {
+.nav-bar li {
   display: inline;
   padding: 10px;
   border: 3px solid black;
@@ -32,18 +32,20 @@ body {
   font-size: 20px;
 }
 
-.articles, .text-aside, .tabela {
+.text-aside {
   font-size: 18px;
 }
 
 .articles {
-  color:blue;
+  color: blue;
   font-family: monospace;
+  font-size: 18px;
   text-align: justify;
 }
 
 .tabela {
-  color:red;
+  color: red;
+  font-size: 18px;
   line-height: -10px;
 }
 
@@ -51,12 +53,12 @@ body {
   display: flex;
 }
 
-.lado-esquerdo{
+.lado-esquerdo {
   float: left;
   margin: 20px;
 }
 
-.lado-esquerdo{
+.lado-direito {
   float: right;
   margin: 20px;
 }
