@@ -1,8 +1,14 @@
-body{
-    background-color: rgb(253, 251, 251);
+* {
+	margin: 0px;
 }
 
-header{
-    top: 0;
-    background-color: aquamarine;
+body {
+  background-color:rgb(253, 251, 251);
+
+}
+
+header {
+top: 0px;
+background-color: red;
+
 }
