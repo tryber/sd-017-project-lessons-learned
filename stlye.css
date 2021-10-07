@@ -22,6 +22,9 @@ body {
   display: block;
   position: absolute;
   width: 19%;
+  border-radius: 50%;
+  left: 30px;
+  bottom: 34px;
 }
 
 section {
@@ -29,18 +32,25 @@ section {
   position: relative;
   border: 2px solid black;
   margin: 135px auto;
+  background-color: blanchedalmond;
 }
 
 #licoes_aprendidas {
   position: relative;
   display: inline-block;
   left: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 6mm;
+  font-size: large;
 }
 
 #licoes_a_aprender {
   position: relative;
   display: inline-block;
   left: 470px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 6mm;
+  font-size: large
 }
 
 #meulink {
@@ -68,6 +78,7 @@ table, tr, td {
   border: 1px solid grey;
   border-collapse: collapse;
   width: 400px;
+  color: blue;
 }
 
 table {
