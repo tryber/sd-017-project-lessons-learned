@@ -41,7 +41,7 @@ article {
   margin: 50px 10px 10px;
 }
 
-ul, ol {
+ul ,ol {
   display: inline-block;
 }
 
@@ -49,7 +49,7 @@ h3 {
   margin: 0;
 }
 
-hooper {
+footer {
   margin: 30px;
   display: block;
 }
