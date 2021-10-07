@@ -7,3 +7,9 @@ p { padding: 10px;
   border: 20px;
   margin: 10px;
 }
+
+li {font-size: large;
+  color: green;
+  line-height: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
