@@ -6,7 +6,7 @@ body {
   font-size: 1.25rem;
   color: blue;
   line-height: 35px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -14,12 +14,12 @@ header {
   top: 0;
 }
 
-.lado-esquerdo{
+.lado-esquerdo {
   float: left;
   width: 50%;
 }
 
-.lado-direito{
+.lado-direito {
   float: right;
   width: 50%;
 }
