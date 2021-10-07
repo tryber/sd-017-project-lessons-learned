@@ -6,4 +6,9 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
+    background-color: #5b21b8;
+    color: white;
+    width: 100%;
+    padding-left: 50px;
+    font-family: sans-serif;
 }
