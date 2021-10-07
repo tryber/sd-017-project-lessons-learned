@@ -6,10 +6,7 @@ body{
     top: 0;
     color: white;
     background-color: green;
-    left: 0;
-    right: 0;
-    height: 150px;
-}
+    }
 img{
     position: absolute;
     margin-top: 100px;
@@ -17,4 +14,4 @@ img{
 main{
     position: absolute;
     top: 300px;
-}
+    }
