@@ -4,6 +4,11 @@ body {
 
 #cabecalho {
     top: 0;
+    position: fixed;
+    background-color: green;
+    color: white;
+    left: 500px;
+    height: 110px;
 }
 
 #titulo {
@@ -11,5 +16,21 @@ body {
 }
 
 #minha_foto {
+    height: 200px;
+    width: 270px;
+    position: absolute;
+    top: 130px;
+    left: 20px;
+}
+
+#licoes_aprendidas {
     
+}
+
+#licoes_a_aprender {
+
+}
+
+.negrito {
+    font-weight: bold;
 }
