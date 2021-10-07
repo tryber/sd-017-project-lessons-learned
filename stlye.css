@@ -10,6 +10,7 @@ body {
   right: 0;
   background-color: green;
   width: 100%;
+  z-index: 1;
 }
 
 #titulo {
@@ -47,5 +48,14 @@ section {
   float: left;
   left: 0;
   bottom: 0;
+}
+
+table, tr, td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  width: 400px;
+}
+table {
+  width: 400px;
 }
 
