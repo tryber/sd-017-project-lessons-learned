@@ -38,3 +38,10 @@ body {
   margin-bottom: -2px;
   text-align: center;
 }
+
+#rodape a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: -15px;
+}
