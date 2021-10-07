@@ -5,7 +5,11 @@ body {
 #titulo {
   letter-spacing: 10px;
   position: fixed;
-  background-color: rgb(59, 40, 16);
-  margin-top: 0;
+  border-style: solid;
+  background-color: rgb(134, 107, 84);
+  border-color: rgb(59, 40, 16);
+  height: initial;
+  top: 0;
+  margin: 0px;
   padding: 10px;
 }
