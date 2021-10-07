@@ -33,3 +33,8 @@ body {
   line-height: 20px;
   font-family: sans-serif;
 }
+
+#rodape p {
+  margin-bottom: -2px;
+  text-align: center;
+}
