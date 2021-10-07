@@ -1,18 +1,22 @@
 body {
-    background-color: rgb(253,251,251)
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(253,251,251);
+    
 }
 
 #cabecalho {
-    position: fixed;
+    position: absolute;
     width: 100%;
     border: 0;
     top: 0;
+    left: 0;
     padding: 10px;
-    background-color: rgb(196, 196, 196);
+    background-color: rgb(78, 78, 78);
     
 }
 
 #titulo {
+    color: white;
     margin: auto;
     text-align: center;
     font-size: 24px;
@@ -24,16 +28,31 @@ body {
     float: right;
     margin-right: 30px;
     width: 15%;
+    margin-top: 0px;
+}
+
+.licoes_tabela {
+    margin-top: 80px;
+    text-align: left;
 }
 
 #licoes_aprendidas {
-    margin-top: 100px;
+    margin-right: 30px;
+    
+    
 }
 
 #licoes_a_aprender {
-
+    
+    
 }
 
 #rodape {
-
+    position: fixed;
+    bottom: 0%;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(189, 189, 189);
+    padding: 10px;
+    left: 0%;
 }
