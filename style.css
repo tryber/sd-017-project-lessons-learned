@@ -37,6 +37,27 @@ body {
   margin-left: 30px;
 }
 
+.tabela {
+  border: 1px solid black;
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+.tabela th , td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.tabela th {
+  background-color: green;
+  color: white;
+}
+
+.tabela td {
+  background-color: rgb(187, 224, 187);
+}
+
+
 #minha_foto {
   border-radius: 10px;
 }
@@ -72,4 +93,9 @@ article , aside {
 
 .lado-direito {
   float: right;
+}
+
+#rodape {
+  clear: both;
+  padding: 20px;
 }
