@@ -19,11 +19,18 @@ body {
 .lado-esquerdo {
   display: flex;
   width: 35%;
+  border: 2px solid green;
+  padding: 2%;
+  height: fit-content;
 }
 
 .lado-direito {
   width: 35%;
   margin-left: 10%;
+  margin-bottom: 10%;
+  border: 2px solid green;
+  text-align: center;
+  padding: 2%;
 }
 
 .container {
@@ -38,13 +45,22 @@ body {
 main {
   width: 70%;
   margin-left: 2%;
-  margin-top: 15%;
+  margin-top: 17%;
 }
 
 nav a {
   display: block;
   text-decoration: none;
   color: white;
-  text-align: left;
   margin-left: 2%;
+  border: 2px solid white;
+  width: 5%;
+  text-align: center;
+  margin-bottom: 1%;
 }
+
+table {
+  border: 2px solid green;
+  margin-left: 10%;
+}
+
