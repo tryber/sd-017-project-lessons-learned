@@ -6,10 +6,25 @@ body {
   position: fixed;
   top: 0;
   background-color: green;
+  font-size: 15px;
 }
 
 #minha_foto {
-  margin-top: 80px;
+  margin-top: 100px;
   border-style: solid;
   padding: 10px;
+}
+
+#nav {
+  position: fixed;
+  margin-top: 70px;
+}
+
+#tit-art {
+  color: red;
+}
+
+#text-art {
+  line-height: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
