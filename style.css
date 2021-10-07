@@ -30,3 +30,11 @@ body {
   display: inline-block;
   align-content: center;
 }
+
+section h2 {
+  text-align: center;
+}
+
+article {
+  display: inline-block;
+}
