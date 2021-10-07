@@ -1,18 +1,25 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    background: #ebebeb;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding: 30px;
-    text-align: center;
+  background: #ebebeb;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 25px;
+  text-align: center;
+}
+
+#minha_foto {
+  margin: 200px auto;
+  display: block;
+  width: 300px;
+  border-radius: 50%;
 }
