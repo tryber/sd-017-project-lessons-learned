@@ -5,14 +5,40 @@ body {
 
 #cabecalho {
     top: 0;
+    left: 0;
+    right: 0;
     position: fixed;
-    width: 1270px;
-    border: solid rgba(47, 6, 77, 0.877);
+    border: 5px solid #2f064dde;
     background-color: indigo;
-    height: 110px;
-    text-align: center;
+    height: 110px; 
 }
 
 #titulo {
    margin-top: 35px;
+   text-align: center; 
+}
+
+#minha_foto {
+    max-width: 13%;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 500px;
+}
+
+#licoes_aprendidas {
+    border: 5px solid #8f8992de;
+    background-color: indigo;
+    float: left;
+    font-weight: 700;
+    width: 1000px;
+    max-width: 30%;
+    padding: 40px;
+}
+
+.ajuste {
+    margin-top: 10%
+}
+
+.left {
+    float: right;
 }
