@@ -4,6 +4,11 @@ body {
 }
 
 .cabecalho {
-  margin-top: 0;
-border: 2px solid green;
+position: absolute; 
+top: 0px;
+}
+
+img {
+  width: 200px;
+  margin-left: 10px;
 }
