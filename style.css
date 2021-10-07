@@ -38,15 +38,12 @@ body {
   vertical-align: top;
 }
 
-article,
-aside {
+article , aside {
   font-size: 1.2em;
   line-height: 1.5em;
 }
 
-table,
-th,
-td {
+table , th , td {
   border: 1px solid black;
 }
 
