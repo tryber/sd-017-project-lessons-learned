@@ -26,3 +26,9 @@ body {
 #minha_foto {
   margin-top: 100px;
 }
+
+#licoes_aprendidas {
+  display: block;
+  position: relative;
+  left: 20px;
+}
