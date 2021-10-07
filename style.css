@@ -8,9 +8,25 @@ body {
 }
 #cabecalho  {
   top: 0;
+  width: 100%;
+  padding: 10px 10px;
+  background-color: green;
   position: fixed;
 }
-.menu-header {
+#cabecalho h1 {
+  display: inline-block;
+}
+nav.menu-header {
+  display: inline-block;
+}
+
+.menu-header ul {
+  display: inline-block;
+}
+
+.menu-header ul li {
+  margin-left: 20px;
+  background-color: black;
   display: inline-block;
 }
 #minha_foto {
