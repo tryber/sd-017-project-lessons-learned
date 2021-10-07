@@ -6,3 +6,24 @@
 body {
   background-color: rgb(253, 251, 251);
 }
+
+#cabecalho {
+  margin-top: 0;
+  padding-top: 0;
+
+}
+#titulo {
+  font-size: 16px;
+}
+
+#minha_foto {
+
+}
+
+#licoes_aprendidas {
+  margin: 30px;
+}
+
+#licoes_a_aprender {
+  margin: 30px;
+}
