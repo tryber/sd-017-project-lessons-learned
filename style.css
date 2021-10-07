@@ -13,3 +13,10 @@ li {font-size: large;
   line-height: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.lado-direito { float: right;
+  bottom: -60px;
+  position: relative;
+}
+
+.lado-esquerdo { float: left;}
