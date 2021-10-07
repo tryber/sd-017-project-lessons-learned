@@ -15,3 +15,10 @@ header {
     padding: 10px;    
     background-color: #ff5050;
 }
+
+main section .img-perfil {
+    width: 200px;
+    
+    border-radius: 50%;
+    
+}
