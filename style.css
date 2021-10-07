@@ -18,3 +18,8 @@ body {
     left: 20px;
     top: 100px;
 }
+
+#licoes_aprendidas {
+    position: absolute;
+    bottom: 70px;
+}
