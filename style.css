@@ -3,6 +3,10 @@ body {
   margin: 0;
   padding: 0;
   border: 5px solid black;
+  font-size: 1.25rem;
+  color: blue;
+  line-height: 35px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 header {
