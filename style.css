@@ -11,3 +11,9 @@ header {
   position: fixed;
   top: 0;
 }
+
+#minha_foto {
+  width: 200px;
+  margin-top: 100px;
+  margin-left: 10px;
+}
