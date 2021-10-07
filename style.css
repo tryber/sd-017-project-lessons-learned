@@ -9,23 +9,34 @@ body {
   top: 0;
   background-color: rgb(92, 33, 186);
   width: 100%;
-  display: inline;
+  height: 100px;
 }
 
 #titulo {
   font-family: sans-serif;
   color: white;
+  display: inline-block;
+  padding-left: 25px;
+  padding-right: 40%;
 }
 
 #trybe {
   text-decoration: none;
   color: white;
-  text-align: end;
+  display: inline-block;
+  text-align: right;
 }
 
 #navegacao {
-  position: fixed;
+  position: absolute;
   background-color: rgb(53, 21, 104);
   color: white;
   width: 100%;
+  height: 30px;
+}
+
+#navegacao li {
+  padding: 5px;
+  text-align: center;
+  list-style: none;
 }
