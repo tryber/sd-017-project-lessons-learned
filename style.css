@@ -9,25 +9,25 @@ body {
 }  
 
 article {
-    float: left; 
-    display: inline-block; 
-    margin-top: 700px; 
-    margin-left: -200px; 
-    width: 300px; 
-    text-align: justify;
-    letter-spacing: 2px; 
+  float: left; 
+  display: inline-block; 
+  margin-top: 700px; 
+  margin-left: -200px; 
+  width: 300px; 
+  text-align: justify;
+  letter-spacing: 2px; 
 }
 
 aside {
-    float: left;
-    display: inline-block;
-    margin-top: 700px;
-    margin-left: 90px;
+  float: left;
+  display: inline-block;
+  margin-top: 700px;
+  margin-left: 90px;
 }
 
 nav {
-    margin-left: 20px;
-    float: left;
+  margin-left: 20px;
+  float: left;
 }
 
 
