@@ -5,5 +5,27 @@ body {
 #cabecalho {
   top: 0;
   position: fixed;
+  background-color: seagreen;
+  display: inline;
+
 }
 
+#minha_foto {
+  padding-top: 130px;
+}
+
+#licoes_aprendidas {
+  margin: auto;
+  padding: 10px;
+  border: dashed greenyellow;
+  display: inline-block;
+  align-content: center;
+}
+
+#licoes_a_aprender {
+  margin: auto;
+  padding: 10px;
+  border: dashed greenyellow;
+  display: inline-block;
+  align-content: center;
+}
