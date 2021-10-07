@@ -1,10 +1,15 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 10;
 }
 
 body {
   background-color: rgb(253, 251, 251);
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  line-height: 25px;
+
 }
 
 header {
@@ -12,7 +17,13 @@ header {
   position: fixed;
   background-color: green;
   text-align: center;
+  font-size: 20px;
+  color: blanchedalmond;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 100px;
 }
-img{
-    border-radius: 5%;
+
+img {
+  border-radius: 5%;
+  margin: auto;
 }
