@@ -45,6 +45,7 @@ body {
   margin-left: 220px;
   width: 440px;
   font-size: 26px;
+  letter-spacing: 2px;
 }
 
 #cabecalho div {
@@ -112,7 +113,7 @@ body {
   font-size: 30px;
 }
 
-#licoes ol {
+#licoes ol, #licoes ul {
   font-family: 'Bitter', serif;
   list-style: upper-roman;
   font-size: 20px
