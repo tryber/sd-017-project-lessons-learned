@@ -1,11 +1,11 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  ;
+  background-image: url(https://image.freepik.com/fotos-gratis/parede-de-textura-branca-textura-de-fundo_1368-6402.jpg) ;
 }
 #cabecalho {
   top: 0;
-  background-color: #30e48c;
+  background-color: #30e48c ;
   padding-top: 20px;
   padding-bottom: 2px;
 }
@@ -15,8 +15,6 @@ body {
 }
 #minha_foto {
   border-radius: 50%;
-  display: block;
-
 }
 #licoes_aprendidas {
   background-color: #30e48c;
@@ -24,7 +22,7 @@ body {
   display: inline-block;
 }
 #licoes_a_aprender {
-  list-style-type:square;
+  list-style-type: square;
   display: inline-block;
   background-color: #30e48c;
 }
