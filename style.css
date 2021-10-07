@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+header {
+ position: fixed;
+ top: 0; 
+}
+
+img {
+  padding: 50px;
+  margin: 0px;
+}
+
+table, td {
+  border: 1px solid black;
+}
+
+article p {
+  font-size: large;
+  color: blue;
+  line-height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
