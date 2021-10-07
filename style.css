@@ -1,12 +1,21 @@
 body {
-        background-color: rgb(253, 251, 251);
+    background-color: rgb(253, 251, 251);
 }
 
-#cabecalho {
-        top: 0;
+#cabecalho{
+    background-color: rgb(46, 224, 138);;
 }
 
 h1 {
-        text-align: center;
+    text-align: center;
+}
 
+.trybe-color {
+    color: green;
+    font-family: monospace;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
 }
