@@ -55,7 +55,7 @@ body {
 }
 
 #minha_foto {
-  width: 200px;
+  width: 230px;
   float: left;
   padding: 20px;
   border-radius: 12%;
@@ -63,25 +63,19 @@ body {
 
 #licoes_aprendidas {
   display: inline-block;
-  padding-left: 30px;
+  padding-left: 50px;
   padding-top: 25px;
+  width: 300px;
 }
 
 #licoes_aprendidas h2 {
   text-align: center;
+  padding-bottom: 10px;
 }
 
-#table thead tr th {
-  padding: 5px;
-  width: 100px;
-  background-color: rgba(255, 255, 255, 0.5);
-  color: black;
-}
-
-#table tbody tr td {
-  background-color: white;
-  color: black;
-  text-align: center;
+#licoes_aprendidas ol li {
+  font-size: 18px;
+  margin-left: 70px;
 }
 
 #aside {
