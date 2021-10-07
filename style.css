@@ -1,7 +1,16 @@
 body{
     background-color: rgb(253, 251, 251);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #cabecalho{
     top: 0;
     position: fixed;
+    background-color: rgb(85, 224, 43);
+    padding: 10px;
+    display: block;
+    
+    
 }
