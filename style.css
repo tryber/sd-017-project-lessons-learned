@@ -1,10 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background: rgb(253, 251, 251);
 }
 
-#cabecalho {
+.cabecalho{
   position: fixed;
   top: 0;
+  background: rgb(32 107 83);
+  width: 100vw;
+  height: 10vh;
+  border-bottom: 1vh solid rgb(67 193 140);
+  color: #fff;
+  text-align:center;
+}
+
+.sobre-mim{
+  margin-top: 10vh;
 }
 
 #minha_foto {
