@@ -6,9 +6,14 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
-    background-color: #5b21b8;
+    background-color: rgb(92, 33, 186);
     color: white;
     width: 100%;
     padding-left: 50px;
     font-family: sans-serif;
+}
+#trybe {
+    text-decoration: none;
+    color: white;
+    text-align: end;
 }
