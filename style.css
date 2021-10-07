@@ -57,10 +57,12 @@ h2{
     font-size: 1cm;
 }
 
-#minha_foto{
+#nome_foto{
     font-size: 1cm;
     font-style:oblique;
 }
+
+
 
 aside {
     background-color: green;
@@ -79,4 +81,10 @@ li {font-size: 20px;
 
 #tela {
     margin-top: 110px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    table-layout: fixed;
 }
