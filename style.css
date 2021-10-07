@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  padding-top: 135px;
 }
 
 #cabecalho {
@@ -13,4 +14,8 @@ body {
 
 #titulo {
   text-align: center;
+}
+
+#minha_foto {
+  width: 200px;
 }
