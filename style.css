@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+* {
+	  margin: 0;
+	  padding: 0;
+    font-family: Roboto Mono , monospace;
+}
+
+body {
+	background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	background-color: #3d3d3d;
+}
+
+#minha_foto {
+	width: 200px;
+	margin: 120px 10px 10px;
+}
+
+#titulo {
+	margin: 10px;
+  color: white;
+}
+
+#rodape {
+  border: solid red;
+  margin: 270px auto;
+  width: 90%;
+}
+
+nav {
+  padding: 5px 10px;
+}
+
+section {
+	border: solid red;
+  width: 90%;
+  margin: auto;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.2;
+    font-size: 20px;
+    font-family: Roboto Mono , monospace;
+    color: #3d3d3d;
+    margin: 10px;
+}
+
+footer p {
+  line-height: 1.2;
+  font-size: 15px;
+  color: #3d3d3d;
+  font-weight: bold;
+}
+
+dt {
+  font-weight: bold;
+}
+
+table {
+  margin: 20px auto;
+  width: 90%;
+}
+
+article {
+  width: 40%;
+  margin: 20px 64px;
+  border: solid blue;
+}
+
+aside {
+  border: solid green;
+  width: 40%;
+  margin: 20px 61px;
+}
+
+.lado-esquerdo {
+    float: left;
+}
+
+.lado-direito {
+  float: right;
+}
