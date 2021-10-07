@@ -27,7 +27,7 @@ body {
 article {
   font-size: 120%;
   line-height: 120%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: system-ui,-apple-system, Helvetica, Arial,sans-serif;
 }
 
 
