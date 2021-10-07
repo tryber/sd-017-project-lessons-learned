@@ -1,3 +1,17 @@
 body {
-  background-color: red
+  background-color: rgb(253, 251, 251);
+}
+#cabecalho {
+  top: 0;
+  background-color: #30e48c;
+  padding-top: 20px;
+  padding-bottom: 2px;
+  padding-right: 60%;
+}
+#titulo {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  align-self: center;
+}
+#minha_foto {
+  border-radius: 50%;
 }
