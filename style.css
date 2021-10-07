@@ -16,4 +16,10 @@ body {
 
 #minha_foto {
   width: 200px;
+  padding-top: 110px;
+}
+
+#listas ul,
+#listas ol {
+  display: inline-block;
 }
