@@ -12,9 +12,17 @@ body{
     }
 img{
     position: absolute;
-    margin-top: 100px;
+    margin-top: 210px;
+    left: 30px;
 }
+
+nav{
+    position: absolute;
+    top: 410px;
+    left: 50px;
+}
+
 main{
     position: absolute;
-    top: 300px;
+    top: 430px;
     }
