@@ -16,4 +16,13 @@ body {
 img {
   width: 150px;
   margin-top: 95px;
+  display: block;
+}
+
+.licoes {
+  display: flex;
+}
+
+ol ul {
+  display: inline-block;
 }
