@@ -31,12 +31,8 @@ body {
 
 #licoes_a_aprender {
     position: absolute;
-    top: 500px;
-}
-
-#rodape {
-    position: absolute;
-    top: 700px;
+    top: 300px;
+    left: 350px;
 }
 
 .links {
@@ -44,4 +40,24 @@ body {
     top: 170px;
     left: 200px;
     text-align: center;
+}
+
+.artigo {
+    position: absolute;
+    top: 550px;
+    left: 15px;
+    right: 600px;
+    text-align: justify;
+}
+h4.artigo {
+    top: 500px;
+    left: 10px;
+    text-align: center;
+}
+
+#rodape {
+    position: absolute;
+    top: 900px;
+    left: 350px;
+
 }
