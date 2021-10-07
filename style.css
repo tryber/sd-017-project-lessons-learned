@@ -6,7 +6,7 @@ body {
 
 #cabecalho {
   position: fixed;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   top: 0;
   background-color: rgb(92, 33, 186);
   width: 100%;
@@ -42,9 +42,24 @@ body {
 }
 
 #minha_foto {
+  display: block;
   margin: 50px;
   margin-top: 150px;
   border-radius: 40%;
   border: 10px solid teal;
   width: 200px;
+}
+
+#licoes_aprendidas {
+  font-family: sans-serif;
+  display: inline-block;
+}
+
+#licoes_a_aprender {
+  font-family: sans-serif;
+  display: inline-block;
+}
+
+.lado-direito {
+  width: 50px;
 }
