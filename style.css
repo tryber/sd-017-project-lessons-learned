@@ -13,6 +13,7 @@ body {
   top: 0;
   width: 100%;
   padding: 10px;
+  height: 50px;
   background-color: green;
   color: white;
   position: fixed;
@@ -32,12 +33,19 @@ body {
 
 .menu-header ul li {
   margin-left: 20px;
-  background-color: black;
+  padding: 20px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
   display: inline-block;
 }
 
+.menu-header ul li:hover {
+  background-color: darkgreen;
+}
+
 #minha_foto {
-  margin: 50px 20px;
+  margin: 100px 20px;
   width: 150px;
 }
 
