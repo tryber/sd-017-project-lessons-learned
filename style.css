@@ -5,6 +5,12 @@ body {
 header {
   position: fixed;
   top: 0;
+  background-color: aquamarine;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid blue;
+  left: 250px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #minha_foto {
@@ -14,5 +20,8 @@ header {
 }
 
 #navegacao {
-  margin-top: 75px;
+  margin-top: 150px;
+  color: red;
+  font-size: 20px;
+  line-height: 2px;
 }
