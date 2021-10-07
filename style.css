@@ -1,20 +1,56 @@
 
-body{
-    background-color:rgb(253, 251, 251);
+body {
+    background-color: rgb(253, 251, 251);
+
+
 }
 
-#cabecalho{
+
+#cabecalho {
     top: 0;
     position: fixed;
-    background-color: RGB(0,128,0);
-    height: 30vh;
-}
-#titulo{
-  margin: auto;
-  text-align: center;
+    background-color:  rgb(0, 128, 0); 
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+
 }
 
-#minha_foto{
+
+#titulo {
+  margin: auto;
+  text-align: center;
+
+
+}
+
+
+#minha_foto {
   width: 300px;
-  top: 400px;
+  height: 250px;
+  top: 100px;
+  position:inherit;
+
+}
+
+
+#lessons{
+  display: inline-flex;
+  position: absolute;
+  top: 500px;
+
+
+}
+
+h2{
+  position: absolute;
+  top: 450px;
+
+
+}
+
+
+article{
+  position:absolute;
+  top: 900px;
 }
