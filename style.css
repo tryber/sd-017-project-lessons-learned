@@ -9,8 +9,12 @@ body{
 }
 
 #minha_foto{
-    height: 25%;
-    width: 25%;
+    height: auto;
+    width: 20%;
 }
 
+.hobbit{
+    height: 30%;
+    width: 60%;
+}
 
