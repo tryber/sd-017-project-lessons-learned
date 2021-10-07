@@ -10,6 +10,7 @@ background-color: rgb(253, 251, 251);
     background-color: green;
     color: rgb(253, 251, 251);
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #link{
@@ -37,10 +38,20 @@ a:hover{
     color: rgb(253, 251, 251);
 }
 
-article, aside {
+.lado-direito, .lado-esquerdo {
     display: inline-block;
-    margin: 5px;
 }
+
+.lado-direito{
+    float: right;
+    width: 800px;
+}
+
+.lado-esquerdo {
+    float: left;
+    width: 840px;
+}
+
 
 article {
     background-color: green;
@@ -60,9 +71,12 @@ h2{
 #nome_foto{
     font-size: 1cm;
     font-style:oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
+.tabela{
+    margin-top: 150px;
+}
 
 aside {
     background-color: green;
@@ -74,6 +88,7 @@ aside {
     text-align: center;
     padding: 0.1cm;
     font-size: 0.57cm;
+    line-height: 20px;
 }
 
 li {font-size: 20px;
