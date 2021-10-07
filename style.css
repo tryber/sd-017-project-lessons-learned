@@ -45,7 +45,7 @@ body {
   margin-left: 220px;
   width: 440px;
   font-size: 26px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 #cabecalho div {
@@ -77,33 +77,33 @@ body {
 }
 
 #minha_foto {
-  height: 300px;
+  height: 250px;
   position: absolute;
-  top: 110px;
-  left: 60px;
+  top: 90px;
+  left: 25px;
   border-radius: 15px;
   border: solid 3px;
 }
 
 #licoes_aprendidas {
   position: fixed;
-  right: 100px;
-  top: 200px;
+  right: 50px;
+  top: 150px;
 }
 
 #licoes_a_aprender {
   position: fixed;
-  right: 500px;
-  top: 200px;
+  right: 300px;
+  top: 150px;
 }
 
 #licoes {
   position: fixed;
   height: 380px;
-  width: 700px;
+  width: 500px;
   display: block;
-  top: 110px;
-  right: 60px;
+  top: 85px;
+  right: 20px;
   border-radius: 15px;
   border: solid 3px;
 }
@@ -116,5 +116,24 @@ body {
 #licoes ol, #licoes ul {
   font-family: 'Bitter', serif;
   list-style: upper-roman;
-  font-size: 20px
+  font-size: 15px;
+}
+
+#licoes ol li, #licoes ul li {
+  line-height: 25px;
+}
+
+#rodape {
+  position: fixed;
+  width: 100%;
+  color: black;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  text-align: center;
+  line-height: 30px;
+  border-top: solid 1px black;
+  font-family: 'Bitter', serif;
+  letter-spacing: 1px;
+  font-size: 13px;
 }
