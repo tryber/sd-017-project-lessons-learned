@@ -3,6 +3,10 @@
  padding: o;
 }
 
+body {
+    background-color: rgb(253, 251, 251);
+}
+
 #cabecalho {
 top: 0;
 position: fixed;
@@ -11,10 +15,6 @@ z-index: 1;
 
 #titulo {
 
-}
-
-body {
-    background-color: rgb(253, 251, 251);
 }
 
 #minha_foto {
