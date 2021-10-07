@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  
 }
 
 #cabecalho {
@@ -21,8 +22,20 @@ img {
 
 .licoes {
   display: flex;
+  background-color: indigo;
+  width: 50%;
 }
 
 ol ul {
   display: inline-block;
+}
+
+h2 {
+  margin-bottom: 0px;
+}
+
+aside {
+  display: flex;
+  background-color: indigo;
+  width: 50%;
 }
