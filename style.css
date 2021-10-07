@@ -21,3 +21,19 @@ body {
 #minha_foto {
     margin: 100px;
 }
+
+#rodape {
+    top: 35px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    margin: 0px;
+    border: 0px;
+    padding: 35px;
+    text-align: left;
+    background-color: grey;
+}
+
+#link_github {
+    color: white;
+}
