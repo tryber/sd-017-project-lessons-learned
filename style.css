@@ -10,6 +10,12 @@ body {
   background: red;
 }
 
+#titulo {
+  text-align: center;
+  font-family: sans-serif;
+
+}
+
 #menu li {
   display: inline;
   margin: 10px;
@@ -17,5 +23,9 @@ body {
 
 #minha_foto {
   width: 10%;
+  margin-top: 10%;
+  margin-left: 5%;
 }
+
+
 
