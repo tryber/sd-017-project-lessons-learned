@@ -1,3 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: rgb(253, 251, 251);
+}
+
+header {
+  position: fixed;
+  top: 0;
+  background-color: rgba(1, 0, 78, 0.897);
+  color: white;
+  width: 100%;
+  height: 60px;
+}
+
+#titulo {
+  text-align: center;
 }
