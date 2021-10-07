@@ -1,6 +1,7 @@
 * {
   margin: 0;
-  /* Setando margin e padding inicial da pagina para 0*/
+
+  /* Setando margin e padding inicial da pagina para 0 */
   padding: 0;
 }
 
@@ -10,6 +11,7 @@ body {
 
 
 #cabecalho {
+  position: fixed;
   height: 100px;
   top: 0;
   background-color: black;
