@@ -50,12 +50,31 @@ section {
   bottom: 0;
 }
 
+.artigos {
+  position: relative;
+  display: block;
+}
+
+.artigos article, aside {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  left: 80px;
+  margin: 0 200px;
+  margin-bottom: 100px;
+}
+
 table, tr, td {
   border: 1px solid grey;
   border-collapse: collapse;
   width: 400px;
 }
+
 table {
+  display: inline-block;
+  position: relative;
+  margin: 20px 20px;
   width: 400px;
+  left: 376px;
 }
 
