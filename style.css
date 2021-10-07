@@ -25,13 +25,14 @@ body {
 
 .cabecalho a {
     text-decoration: none;
+    font-weight: bold;
 }
 
 .cabecalho ul {
     list-style: none;
 }
 
-.imagem {
+.perfil {
     margin-top: 150px;
     margin-left: 30px;
 }
