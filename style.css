@@ -4,6 +4,15 @@
   text-decoration: none;
 }
 
+/* https://stackoverflow.com/questions/6256820/ol-missing-numbers/ */
+ol {
+  margin-left: 2em;
+}
+
+ul {
+  margin-left: 2em;
+}
+
 body {
   background-color: rgb(253, 251, 251);
 }
@@ -16,4 +25,5 @@ body {
 #minha_foto {
   border-radius: 50%;
   height: 200px;
+  margin: 100px 0;
 }
