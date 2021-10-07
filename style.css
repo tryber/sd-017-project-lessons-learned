@@ -52,6 +52,8 @@ body {
   line-height: 20px;
 }
 
-.column{
-  column-count:2;
+.lado-esquerdo {
+  width: 45vw;
+  float: left;
+  margin-right: 10px;
 }
