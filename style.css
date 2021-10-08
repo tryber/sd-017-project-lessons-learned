@@ -81,6 +81,7 @@ color: cornsilk;
     left: 15px;
     right: 600px;
     text-align: justify;
+    border: solid;
 }
 
 h4.artigo {
@@ -91,18 +92,24 @@ h4.artigo {
 
 .emocoes {
     position: absolute;
-    top: 550px;
+    top: 450px;
     left: 400px;
     right: 250px;
     text-align: justify;
+    border: solid;
 }
 
 h4.emocoes {
-    top: 500px;
+    top: 400px;
+}
+
+.secao {
+    position: absolute;
+    top: 300px;
 }
 
 #rodape {
     position: absolute;
-    top: 900px;
+    top: ;
     left: 350px;
 }
