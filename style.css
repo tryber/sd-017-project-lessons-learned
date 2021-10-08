@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+header {
+  top: 0;
+  background-color: aquamarine;
+  position: fixed;
+  text-align: center;
+}
+
+#titulo {
+	font-family: Arial, sans-serif;
+}
+
+#minha_foto {
+  top: 80px;
+  align-items: center;
+  position: relative;
+  border-radius: 30%;
+}
+
+#licoes_a_aprender {
+	overflow: -moz-hidden-unscrollable;
+}
