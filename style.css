@@ -1,73 +1,73 @@
 #navegacao {
-    letter-spacing: 3px;
-    width: 100%;
-    text-align: center;
+  letter-spacing: 3px;
+  width: 100%;
+  text-align: center;
 }
 
 #cabecalho {
-    letter-spacing: 2px;
-    font-size: 3px;
-    height: 11px;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    background-color: thistle;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border-radius: 0% 0% 20% 20%;
+  letter-spacing: 2px;
+  font-size: 3px;
+  height: 11px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  background-color: thistle;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 0% 0% 20% 20%;
 }
 
 #titulo,
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 #minha_foto {
-    width: 50px;
-    border-radius: 50%;
-    background-color: violet;
-    border: darkcyan solid 2px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: violet;
+  border: darkcyan solid 2px;
 }
 
 #cristal {
-    background-color: aquamarine;
-    border: darkcyan solid 2px;
-    max-width: 250px;
-    border-radius: 10%;
-    font-size: 10px;
-    display: table-cell;
-    float: right;
-    text-align: center;
+  background-color: aquamarine;
+  border: darkcyan solid 2px;
+  max-width: 250px;
+  border-radius: 10%;
+  font-size: 10px;
+  display: table-cell;
+  float: right;
+  text-align: center;
 }
 
 #principal {
-    background-color: aquamarine;
-    border: darkcyan solid 2px;
-    max-width: 250px;
-    border-radius: 10%;
-    display: table-cell;
+  background-color: aquamarine;
+  border: darkcyan solid 2px;
+  max-width: 250px;
+  border-radius: 10%;
+  display: table-cell;
 }
 
 #licoes_aprendidas {
-    font-size: 8px;
+  font-size: 8px;
 }
 
 #licoes_a_aprender {
-    font-size: 8px;
+  font-size: 8px;
 }
 
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #artigo {
-    width: 100%;
-    font-size: 15px;
-    font-style: italic;
-    text-align: center;
-    background-color: thistle;
+  width: 100%;
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
+  background-color: thistle;
 }
 
 #rodape {
-    text-align: center;
-    font-size: 6px;
+  text-align: center;
+  font-size: 6px;
 }
