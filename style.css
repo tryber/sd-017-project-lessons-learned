@@ -59,11 +59,9 @@ main {
   position: absolute;
   top: 260px;
   margin: 20px 20px 40px;
-  length: auto;
 }
 
-#licoes_aprendidas,
-#licoes_a_aprender {
+#licoes_aprendidas , #licoes_a_aprender {
   display: inline-block;
 }
 
@@ -73,8 +71,8 @@ main {
 
 .lists {
   border: 1px solid black;
-  padding: 10px 10px;
-  margin: 10px 0px 10px 10px;
+  padding: 10px;
+  margin: 10px;
   display: inline-block;
 }
 
@@ -91,7 +89,7 @@ main {
   max-width: 70%;
   text-align: justify;
   float: left;
-  margin: auto auto 20px auto;
+  margin: auto auto 20px;
 }
 
 footer {
@@ -102,9 +100,7 @@ footer {
   color: white;
 }
 
-table,
-th,
-td {
+table , td , tr {
   border: 1px solid black;
 }
 
