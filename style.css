@@ -5,7 +5,7 @@
 
 body{
   background-color:rgb(253, 251, 251);
-  height: 5000px;
+
 }
 
 #cabecalho{
@@ -50,6 +50,9 @@ nav{
   background-color: royalblue;
   width: 500px;
   float: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 30px;
+
 } 
 
 .lado-direito{
@@ -73,5 +76,10 @@ aside {
   position: absolute;
 
   top: 550px;
-  left: 1250px;
+  left: 1200px;
+}
+
+/* https://www.w3schools.com/css/css_table.asp  */
+table, th,td{
+  border: 1px solid green;
 }
