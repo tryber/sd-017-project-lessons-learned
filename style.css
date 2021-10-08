@@ -5,6 +5,9 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-/* Source link: https://blog.betrybe.com/css/css-position/#3 */
+/* Origem do seletor cabeçaho:
+ https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/ */
