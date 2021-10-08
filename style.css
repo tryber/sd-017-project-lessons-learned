@@ -1,18 +1,24 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
   background-color: #30e48c;
-  margin-bottom: 0px;
   padding: 50px;
 } 
 
 #minha_foto {
   margin-top: 200px;
   width: 150px;
+}
+
+.list-section{
+  font-size: large;
+  color: gray;
+  line-height: 2;
 }
 
 .article {
