@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(253, 251, 251)
+  background-color: rgb(253, 251, 251);
+  font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -75,7 +76,7 @@ main {
 .lists {
   border: 1px solid black;
   padding: 10px 10px;
-  margin: 25px;
+  margin: 10px 0px 10px 10px;
   display: inline-block;
 }
 
@@ -84,7 +85,7 @@ main {
   float: right;
   max-width: 20%;
   text-align: justify;
-  margin-right: 90px;
+  margin-right: 50px;
 }
 
 .lado-esquerdo {
@@ -92,6 +93,7 @@ main {
   max-width: 70%;
   text-align: justify;
   float: left;
+  margin: auto auto 20px auto;
 }
 
 footer {
