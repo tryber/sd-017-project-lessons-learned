@@ -19,6 +19,7 @@ body {
 #menu li {
   display: inline;
   margin: 10px;
+  font-family: sans-serif;
 }
 
 #menu a {
@@ -45,7 +46,7 @@ body {
   margin-left: 20%;
 }
 
-.link {
+.link, a {
   display: inline-block;
   text-decoration: none;
   text-align: right;
@@ -60,4 +61,12 @@ body {
   padding: 3px;
   font-family: sans-serif;
   font-size: 15px;
+}
+
+.divisao {
+  display: inline-block;
+  margin-top: 10%;
+  margin-left: 20%;
+  text-align: justify;
+  width: 20%;
 }
