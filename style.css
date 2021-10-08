@@ -74,12 +74,6 @@ main h2 {
   line-height: 18px;
 }
 
-article h3 {
-  display: inline-block;
-  margin-left: 25px;
-  margin-bottom: 25px;
-}
-
 .lado-esquerdo {
   display: inline;
   width: 50%;
