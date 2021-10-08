@@ -61,7 +61,7 @@ body {
 }
 
 .aprendizado {
-  display: block;
+  display: inline-block;
   line-height: 1.9;
   font-family: monospace;
   font-size: 18px;
