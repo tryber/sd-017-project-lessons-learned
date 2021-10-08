@@ -6,6 +6,7 @@
 body {
     background-color: rgb(253, 251, 251);
     font-family: monospace, sans-serif;
+    font-size: small;
 }
 
 #cabecalho {
@@ -17,6 +18,7 @@ body {
     background-color: #a8dadc;
     width: 100%;
     text-align: center;
+    color:rgb(100, 161, 153) ;
     }
 
 .navegacao {
@@ -27,7 +29,8 @@ body {
 }
 
 #titulo {
-
+font-size: 25px;
+color: cornsilk;
 }
 
 .tabela {
@@ -35,6 +38,7 @@ body {
     top: 300px;
     left: 500px;
     border: 1px solid;
+    font-family: 'Courier New', Courier, monospace
 }
 
 .licoes {
@@ -60,12 +64,14 @@ body {
 #licoes_aprendidas {
     position: absolute;
     top: 300px;
+    line-height: 35px;
 }
 
 #licoes_a_aprender {
     position: absolute;
     top: 300px;
     left: 350px;
+    line-height: 35px;
 }
 
 
