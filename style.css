@@ -5,7 +5,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'playfair display';
+  font-family: 'Playfair Display', serif;
   font-size: 16px;
   line-height: 115%;
 }
@@ -89,4 +89,5 @@ aside {
 footer {
   margin: 30px;
   display: block;
+  width: 100%;
 }
