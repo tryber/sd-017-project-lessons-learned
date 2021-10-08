@@ -4,6 +4,9 @@
 
   Imagens gratuitas, livres para utilização
   Source: https://pixabay.com/
+
+  Aplicado atributo Transition com base nos exemplos de W3School
+  Source: https://www.w3schools.com/css/css3_transitions.asp
 -->
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -17,7 +20,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
     integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
-  <title>Document</title>
+  <title>Projeto Lessons Learned</title>
 </head>
 
 <body>
@@ -27,28 +30,28 @@
     <h1 id="titulo">[1/42] Projeto Lessons Learned</h1>
     <nav>
       <ul>
-        <li><a href="#" target="_self">Sobre mim</a></li>
-        <li><a href="#" target="_self">Lições</a></li>
-        <li><a href="#" target="_self">Passagem</a></li>
-        <li><a href="#" target="_self">Aprendizado</a></li>
+        <li><a href="#section1" target="_self">Sobre mim</a></li>
+        <li><a href="#section2" target="_self">Lições</a></li>
+        <li><a href="#section3" target="_self">Aprendizado contínuo</a></li>
       </ul>
     </nav>
 
   </header>
 
   <main>
-    <section class="about">
+    <section id="section1" class="about">
       <h1>
         Jonatas Queiroz Lima
       </h1>
       <img id="minha_foto" class="img-perfil" src="img/me.png" alt="Foto atual de perfil de Jonatas Queiroz Lima" />
+      <span id="section2"></span>
     </section>
 
     <section class="lessons">
       <h1> Lições</h1>
       <div class="lessons-wrap">
         <div class="lessons-left">
-          <h2>aprendidos </h2>
+          <h2 class="mb">aprendidos </h2>
           <ol id="licoes_aprendidas">
             <li>Unix: o que é, conceitos</li>
             <li>Shell: quais tipos de shells</li>
@@ -63,7 +66,7 @@
           </ol>
         </div>
         <div class="lessons-right">
-          <h2>desejo aprender</h2>
+          <h2 class="mb">desejo aprender</h2>
           <ul id="licoes_a_aprender">
             <li>FrontEnd</li>
             <li>React Native</li>
@@ -78,12 +81,13 @@
           </ul>
         </div>
       </div>
+      <span id="section3"></span>
     </section>
 
     <section class="learned">
-      <h1>Aprendizado contínua</h1>
+      <h1 class="mb">Aprendizado contínuo</h1>
       <div class="lado-esquerdo">
-        <h2>Team 17</h2>
+        <h2 class="mb">Team 17</h2>
         <p>
           Sou estudante na Trybe e sinto que estou no caminho mais certo do que poderia estar estando só aprendendo por
           conta própia, agora, tenho uma comunidade, uma escola, uma organização que se dedica e esforça para formar com
@@ -92,9 +96,9 @@
 
       </div>
       <div class="lado-direito">
-        <h2>Novos conhecimentos</h2>
+
         <article>
- 
+          <h2 class="mb">Novos conhecimentos</h2>
           <p>
             Aprendi e entendi a utilização do Git e Github em conjunto, porquê o versionamento de códigos é importante.
             Como támbem, colaborar em projetos com várias pessoas codando juntas, mesmo, se for no mesmo arquivo. A
@@ -122,7 +126,13 @@
 
 
 
-  <footer id="rodape">
+  <footer id="rodape" class="footer">
+    <nav class="navigation-links">
+      <a href="https://github.com/jonatasqueirozlima" target="_blank"><img
+          src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Link para visitar meu perfil no Github"/></a>
+      <a href="https://www.linkedin.com/in/jonatasqueirozlima/" target="_blank"><img
+          src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="Link para visitar meu perfil no LinkedIn" /></a>
+    </nav>
     <span>Projeto desenvolvido por Jonatas Queiroz Lima, 2021.</span>
   </footer>
 

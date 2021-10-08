@@ -24,7 +24,7 @@ header li a {
   color: white;
 }
 
-header, footer {
+header , footer {
   width: 100%;
   padding: 10px;
   text-align: center;
@@ -32,66 +32,78 @@ header, footer {
 }
 
 main {
-  margin: 60px 20px;
+  margin: 100px 20px 20px;
 }
 
-.about {  
-  padding: 40px;  
+section {
+  line-height: 20px;
+}
+
+section h1 {
+  text-align: center;
+}
+
+.about {
+  padding: 40px;
   background-image: url('https://cdn.pixabay.com/photo/2021/09/23/19/08/background-6650672_960_720.jpg');
 }
+
 .about h1 {
   color: black;
   margin-bottom: 40px;
 }
-.about img {  
+
+.about img {
   display: block;
   width: 200px;
   border-radius: 50%;
   margin: 0 auto;
 }
 
-.lessons {  
+.lessons {
   padding: 40px;
-  background-color: #333;
+  background-color: rgb(51, 51, 51);
   color: white;
 }
+
 .lessons-wrap {
-  width: 80%;  
+  width: 80%;
   margin: 0 auto;
   display: block;
   margin-top: 30px;
-
 }
-.lessons-right, .lessons-left {
-  /* display: inline-block; */
-  width: 45%;  
+
+.lessons-right , .lessons-left {
+  width: 45%;
   border: 1px solid white;
   padding: 20px;
   background-color: white;
-  color: black;  
+  color: black;
   vertical-align: top;
 }
 
 .lessons-left {
   margin-right: 52px;
 }
+
 .lessons-right {
   height: 284px;
 }
 
 .learned {
   background-image: url('https://cdn.pixabay.com/photo/2015/06/01/00/20/man-792821_960_720.jpg');
-  background-size: cover;    
+  background-size: cover;
   background-repeat: no-repeat;
   padding: 50px;
   height: 100vh;
   display: block;
 }
+
 .lado-direito {
   margin-left: 60px;
 }
 
-.lado-esquerdo, .lado-direito {
+.lado-esquerdo , .lado-direito {
   width: 45%;
   vertical-align: top;
   height: 200px;
@@ -100,21 +112,20 @@ main {
 .topics {
   position: fixed;
   top: 70px;
-  left: 0px;
-  width: 60px;
-  height: 20px;
-  transition: width 1s, height 1s;
+  left: 1px;
+  width: 55px;
+  height: 19px;
+  transition: width 1s ease, height 1s ease;
   color: black;
   background-color: white;
   border: 1px solid black;
-}
-.topics span{
-  font-size:8px;  
+  overflow: hidden;
 }
 
-.topics nav {
-  display: none;
+.topics span {
+  font-size: 8px;
 }
+
 .topics nav ul {
   margin-top: 30px;
 }
@@ -124,29 +135,40 @@ main {
   height: 200px;
   overflow: hidden;
 }
-.topics:hover nav {
-  display: block;
+
+.footer {
+  height: 100px;
 }
 
-.lado-esquerdo p, 
-.lado-direito p {
-  text-align: justify;
-} 
+.footer span , .footer nav {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 20px;
+}
 
-nav ul li,
-.lessons-right, .lessons-left, 
-.lado-esquerdo, .lado-direito {
+.navigation-links a img {
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.navigation-links span {
+  margin-left: 30px;
+}
+
+.lado-esquerdo p , .lado-direito p {
+  text-align: justify;
+}
+
+
+header nav ul li , .lessons-right , .lessons-left , .lado-esquerdo , .lado-direito {
   display: inline-block;
 }
 
-section h1, .lessons-right h2, 
-.lessons-left h2,
-.lado-direito h2, .lado-esquerdo h2 {
+.lessons-right h2 , .lessons-left h2 , .lado-direito h2 , .lado-esquerdo h2 {
   text-align: center;
 }
 
-.lessons-right h2, .lessons-left h2,
-.lado-esquerdo h2, .lado-direito h2,
-.learned h1 {
-  margin-bottom: 20px;
+.mb {
+  margin-bottom: 30px;
 }
