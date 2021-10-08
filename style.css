@@ -1,6 +1,9 @@
 body {
   margin: 0;
   background-color: rgb(253, 251, 251);
+  font-size: 14px;
+  font-family: fantasy, monospace, sans-serif;
+  line-height: 18px;
 }
 
 main {
@@ -10,6 +13,7 @@ main {
 #minha_foto {
   border: 2px solid black;
   margin-left: 20px;
+  padding: 10px;
 }
 
 header {
@@ -41,4 +45,41 @@ footer , footer a {
 nav ul li a {
   text-decoration: none;
   color: white;
+}
+
+table {
+  background-color: black;
+}
+
+h2 , h3 {
+  text-align: center;
+}
+
+th , td {
+  background-color: white;
+  font-size: 12px;
+  font-weight: 800;
+  text-align: center;
+  border: 2px solid black;
+}
+
+p {
+  font-size: 12px;
+  text-align: center;
+}
+
+.lado-esquerdo {
+  width: 500px;
+  display: inline-block;
+  border: 2px solid black;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.lado-direito {
+  width: 400px;
+  display: inline-block;
+  border: 2px dotted black;
+  margin-left: 300px;
+  vertical-align: middle;
 }
