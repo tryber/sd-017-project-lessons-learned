@@ -8,7 +8,7 @@ body {
 bottom: 560px;
 right: 1080px;
   text-align: center;
-position: static;
+position: fixed;
 width: 300px;
 background-color: rgb(12, 151, 12);
 z-index: 1;
