@@ -17,6 +17,7 @@ body {
 h1 {
   color: white;
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h2 {
@@ -33,11 +34,13 @@ h2 {
 }
 
 article {
-  background-color: chocolate;
+  color: rgb(85, 83, 83);
+  line-height: 25px;
 }
 
 aside {
-  background-color: darkcyan;
+  color: rgb(85, 83, 83);
+  line-height: 25px;
 }
 
 .nav_links li {
@@ -47,4 +50,5 @@ aside {
 #tabela {
   margin: auto;
   border: olivedrab;
+  font-size: 18px;
 }
