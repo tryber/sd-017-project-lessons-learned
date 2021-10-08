@@ -21,6 +21,7 @@ body{
     align-items: center; 
     justify-content: space-between;   
     align-items: baseline;
+    z-index: 100;
 }
 #cabecalho a img{
     width: 80px;  
@@ -42,6 +43,7 @@ main{
     display: flex;
     align-items: baseline;  
     justify-content: space-around;
+    margin-bottom: 50px;
 }
 .licoes{
     width: 40%;
@@ -71,4 +73,59 @@ ol[title]::before, ul[title]::before{
     font-size: 22px;
     font-style: italic;
 }
-/*=====================================*/
+
+/* Article
+=====================================*/
+
+.art{  
+    margin: 15px 0;
+    position: relative;
+    top: 120px; 
+    display: flex;   
+    justify-content: space-around; 
+    align-items: baseline;
+}
+.art article{
+    width: 500px;
+    background-color: rgba(219, 221, 227, 0.5);
+    padding: 50px 80px;
+    border-top: 7px solid #2fc18c;
+    border-bottom: 7px solid #2fc18c;
+}
+h2{
+    margin-bottom: 15px;
+    text-align: center;
+    color: #036b52;
+}
+.art article p, aside p{
+    text-align: justify;
+    text-indent: 25px;
+    line-height: 1.2;
+}
+
+aside{
+    width: 300px;    
+}
+h4{
+    text-align: center;
+    color: #036b52;
+    margin-top: 15px;
+}
+.btn{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #006dfb;
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 25px auto;
+}
+.btn:hover{
+    background-color: #003f91;
+}
+aside a{
+    cursor: pointer;
+    text-decoration: none;
+}
