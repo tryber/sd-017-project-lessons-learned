@@ -1,14 +1,14 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    background-color: rgb(3, 92, 25);
-    width: 100%;
-    color: white;
-    text-align: center;
+  position: fixed;
+  top: 0;
+  background-color: rgb(3, 92, 25);
+  width: 100%;
+  color: white;
+  text-align: center;
 }
 
 #menu ul {
@@ -26,69 +26,69 @@ body {
 }
 
 #minha_foto {
-    max-width: 200px;
-    border-radius: 50%;
-    position: relative;
-    left: 30px;
-    top: 100px;
+  max-width: 200px;
+  border-radius: 50%;
+  position: relative;
+  left: 30px;
+  top: 100px;
 }
 
 #link_github {
-    position: absolute;
-    left: 70px;
-    top: 300px;
+  position: absolute;
+  left: 70px;
+  top: 300px;
 }
 
 #licoes {
-    position: absolute;
-    bottom: 260px;
-    left: 30px;
+  position: absolute;
+  bottom: 260px;
+  left: 30px;
 }
 
 #licoes_aprendidas {
-    position: absolute;
-    bottom: 70px;
-    left: 30px;
+  position: absolute;
+  bottom: 70px;
+  left: 30px;
 }
 
 #licoes_a_aprender {
-    position: absolute;
-    left: 400px;
-    bottom: 70px;
+  position: absolute;
+  left: 400px;
+  bottom: 70px;
 }
 
-#artigo {
-    position: absolute;
-    display: inline-block;
-    width: 20%;
-    right: 320px;
-    bottom: 65px;
+.lado-esquerdo {
+  position: absolute;
+  display: inline-block;
+  width: 20%;
+  right: 320px;
+  bottom: 65px;
 }
 
 #artigo p {
   font-family: sans-serif;
   color: rgb(3, 92, 25);
   font-size: 15px;
-  line-height: 1,5;
+  line-height: 1.5;
 }
 
-section {
-    position: absolute;
-    display: inline-block;
-    width: 20%;
-    right: 30px;
-    bottom: 175px;
+.lado-direito {
+  position: absolute;
+  display: inline-block;
+  width: 20%;
+  right: 30px;
+  bottom: 240px;
 }
 
 table {
   position: absolute;
   display: inline-block;
   right: 80px;
-  bottom: 65px;
+  bottom: 125px;
 }
 
 #rodape {
-    position: fixed;
-    bottom: 5px;
-    right: 40%;
+  position: fixed;
+  bottom: 5px;
+  right: 40%;
 }
