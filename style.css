@@ -17,7 +17,7 @@ body {
   text-align: center;
 }
 
-#home, a{
+#home, a {
   list-style: none;
   display: block;
   float: left;
@@ -34,7 +34,7 @@ body {
 
 #linkedin {
   display: block;
-  margin-left:87px;
+  margin-left: 87px;
 }
 
 main h2 {
@@ -67,7 +67,8 @@ main h2 {
   font-size: 15px;
   line-height: 18px;
 }
-h2 {
+
+section h3 {
   margin-left: 25px;
   margin-bottom: 25px;
 }
@@ -82,8 +83,7 @@ h2 {
 .lado-direito {
   display: inline;
   margin-left: 120px;
-  margin: auto;
-} 
+}
 
 #rodape {
   margin-top: 100px;
