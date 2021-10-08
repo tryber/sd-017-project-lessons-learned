@@ -108,7 +108,7 @@ table th {
   text-align: left;
 }
 
-table, th, td {
+table , th , td {
   border-bottom: 2px double rgb(50, 50, 50);
   padding: 10px;
 }
@@ -142,12 +142,12 @@ table, th, td {
   color: rgb(50, 50, 50);
 }
 
-#licoes ol, #licoes ul {
+#licoes ol , #licoes ul {
   list-style: upper-roman;
   font-size: 16px;
 }
 
-#licoes ol li, #licoes ul li {
+#licoes ol li , #licoes ul li {
   line-height: 25px;
 }
 
