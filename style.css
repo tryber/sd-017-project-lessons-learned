@@ -12,7 +12,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  background-color: #036b52;
+  background-color: rgb(3, 107, 82);
   width: 100%;
   height: 70px;
 }
@@ -25,7 +25,7 @@ body {
 }
 
 #headline:hover {
-  background-color: #2fc18c;
+  background-color: rgb(47, 193, 140);
   border-radius: 5px;
   width: 45px;
 }
@@ -62,7 +62,7 @@ body {
 #cabecalho div:hover {
   border-radius: 5px;
   padding: 4px;
-  background-color: #2fc18c;
+  background-color: rgb(47, 193, 140);
 }
 
 #cabecalho div img {
@@ -72,7 +72,7 @@ body {
 #cabecalho div p {
   margin: 0;
   font-size: 15px;
-  font-weight: bold;
+  font-weight: 700;
   color: white;
 }
 
@@ -99,7 +99,7 @@ table {
 
 table caption {
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 700;
   color: rgb(50, 50, 50);
   line-height: 50px;
 }
