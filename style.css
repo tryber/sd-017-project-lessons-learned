@@ -16,7 +16,7 @@ body {
 }
 
 #titulo {
-  color: rgb(255, 255, 255);
+  color: white;
   font-size: 70px;
   font-style: oblique;
   position: relative;
@@ -30,8 +30,7 @@ body {
   width: 163px;
   height: 173px;
   border-radius: 20px;
-  padding: 10px 10px;
-  left: 0px;
+  padding: 10px;
 }
 
 .menu_superior {
@@ -64,7 +63,7 @@ main {
   position: absolute;
   top: 260px;
   margin: 20px 20px 0px 40px;
-
+  length: auto;
 }
 
 #licoes_aprendidas,
