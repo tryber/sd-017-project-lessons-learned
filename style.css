@@ -1,5 +1,28 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: darkgreen;
+}
+
+h2 {
+  line-height: 30px;
+}
+
+.wrapper {
+  width: 85%;
+  margin-bottom: 100px;
 }
 
 #cabecalho {
@@ -12,12 +35,63 @@ body {
   text-align: center;
 }
 
+.perfil{
+  display: flex;
+  align-items: center;
+}
+
+.foto {
+  width: 25%;
+}
+
 #minha_foto {
-  margin: 100px 0 0;
+  margin: 130px 0 0;
+  width: 200px;
+  border: 5px solid black;
+  border-radius: 10px;
 }
 
 #menu a {
   text-decoration: none;
   color: white;
   padding: 0 15px 0 0;
+}
+
+.licoes {
+  display: flex;
+  align-items: center;
+}
+
+article {
+  width: 90%;
+}
+
+.conteudo {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+}
+
+.lado-esquerdo {
+  width: 45%;
+  padding-right: 5%;
+  vertical-align: bottom;
+}
+
+.lado-direito {
+  width: 45%;
+}
+
+#rodape {
+  background-color: green;
+  color: white;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.midia img {
+  width: 100%;
 }

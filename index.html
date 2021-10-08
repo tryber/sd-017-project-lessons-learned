@@ -6,58 +6,94 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>[Kelson Batista] Projeto Lessons Learned</title>
+  <title>Project Lessons Learned</title>
 </head>
 
 <body>
   <header id="cabecalho">
-      <h1 id="titulo">Lições aprendidas - Trybe!</h1>
-      <nav id="menu">
-        <a href="#">Home</a>
-        <a href="#">Login</a>
-      </nav>
+    <h1 id="titulo">Lições aprendidas - Trybe!</h1>
+    <nav id="menu">
+      <a href="#">Home</a>
+      <a href="#">Login</a>
+    </nav>
   </header>
   <main>
-    <section>
-      <img id="minha_foto" src="https://distrito.me/wp-content/uploads/2020/03/Post-Entrevista-Trybe_Post.jpg" alt="Matheus Goyas">
-      <p><a href="https://distrito.me/trybe-mateus-goyas/" target="_blank">CEO da Trybe aposta em capacitar alunos que só pagam curso após empregados (opens new window)</a></p>
-    </section>
-    <section>
-      <h2>Lições</h2>
-      <ol id="licoes_aprendidas">
-        <li>Unix</li>
-        <li>Git</li>
-        <li>Github</li>
-        <li>Empatia</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Slack</li>
-        <li>Zoom</li>
-        <li>Inspect</li>
-        <li>Semantic HTML</li>
-      </ol>
-      <ul id="licoes_a_aprender">
-        <li>Javascript</li>
-        <li>DOM</li>
-        <li>Forms</li>
-        <li>CSS Responsive</li>
-        <li>ES6</li>
-        <li>HOF</li>
-        <li>Unit Tests</li>
-        <li>React</li>
-        <li>Node</li>
-        <li>SQL</li>
-      </ul>
-    </section>
-    <article>
-      <section>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, rem. Ea, sunt! Velit officiis itaque iusto iste tempora dolorem odit quae voluptatem enim id, rem soluta, laborum, nihil magni error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam pariatur eos accusamus laboriosam, dolorum nobis exercitationem et reprehenderit id natus illo vero tempore dolores consequatur in deleniti. Odit, quidem eius!
+    <div class="wrapper">
+
+      <section class="perfil">
+        <div class="foto">
+          <img id="minha_foto"
+            src="https://media-exp1.licdn.com/dms/image/C4E03AQH-GCI_CqrrXg/profile-displayphoto-shrink_800_800/0/1632236639610?e=1639008000&v=beta&t=vM622FTulGM6KKKaLSTbMIU4mO5ttrjP6kRhH3QjTbE"
+            alt="Minha foto">
+        </div>
+        <div class="info">
+          <table>
+            <tr>
+              <td>Aluno</td>
+              <td>Kelson</td>
+            </tr>
+            <tr>
+              <td>Estado</td>
+              <td>São Paulo</td>
+            </tr>
+            <tr>
+              <td>Perfil</td>
+              <td><a href="https://linkedin/in/kelsonbatista/" target="_blank">Linkedin (opens new window)</a></td>
+            </tr>
+          </table>
+        </div>
       </section>
-    </article>
+
+      <section>
+        <h2>Lições aprendidas e a aprender</h2>
+        <div class="licoes">
+          <ol id="licoes_aprendidas">
+            <li>Unix</li>
+            <li>Git</li>
+            <li>Github</li>
+            <li>Empatia</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Slack</li>
+            <li>Zoom</li>
+            <li>Inspect</li>
+            <li>Semantic HTML</li>
+          </ol>
+          <ul id="licoes_a_aprender">
+            <li>Javascript</li>
+            <li>DOM</li>
+            <li>Forms</li>
+            <li>CSS Responsive</li>
+            <li>ES6</li>
+            <li>HOF</li>
+            <li>Unit Tests</li>
+            <li>React</li>
+            <li>Node</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+      </section>
+
+      <div class="conteudo">
+      <article class="lado-esquerdo">
+        <section>
+          <h2>Como foi o aprendizado até agora</h2>
+          <p>Sou engenheiro em transição para carreira em tecnologia e escolhi a Trybe como a melhor escola para minha formação. A conteúdo do curso é bem completo, contanto com todos os hard skills necessários para se tornar um Full Stack Developer, assim como soft skills que hoje é um fator essencial para esse mercado. O aprendizado até o momento tem sido excelente, muito conteúdo, suporte ao aluno e o mais importante que são exercícios práticos, simulando um ambiente real de trabalho.
+          </p>
+          </section>
+        </article>
+
+        <aside class="lado-direito">
+          <section>
+            <h2>O aprendizado de HTML/CSS</h2>
+            <p>Um conteúdo básico e essencial para o profissional de desenvolvimento web é HTML/CSS. A Trybe tem um material rico com aulas ao vivo e mentorias técnicas que faz com que os alunos realmente absorvam o conteúdo.</p>
+          </section>
+        </aside>
+        </div>
+
+    </div>
   </main>
-  <aside>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ipsa aperiam ex! Ea harum fugiat mollitia ratione sapiente blanditiis eius dicta? Eum maxime necessitatibus quo delectus deleniti debitis deserunt nam!
-  </aside>
+
 
   <footer id="rodape">
     <p>Todos os direitos reservados - Kelson</p>
