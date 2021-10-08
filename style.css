@@ -47,3 +47,26 @@ body {
   text-align: center;
 }
 
+table {
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: center;
+  overflow-x: auto;
+}
+h4 {
+  line-height: 100px;
+  padding: 5px;
+}
+
+p {
+  padding: 5px;
+}
+
+.textopadrao {
+  width: 60%;
+}
+
+nav {
+  padding-top: 25%;
+  padding-left: 3px;
+}
