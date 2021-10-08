@@ -1,13 +1,16 @@
+--fix 
 * {
   margin: 0;
   padding: 0;
 }
-
+/**               ↑
+ *  This whitespace */
 body { 
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 
 }  
-
+/**               ↑
+ *  This whitespace */
 article {
   float: left; 
   display: inline-block; 
@@ -17,20 +20,22 @@ article {
   text-align: justify;
   letter-spacing: 2px; 
 }
-
+/**               ↑
+ *  This whitespace */
 aside {
   float: left;
   display: inline-block;
   margin-top: 700px;
   margin-left: 90px;
 }
-
+/**               ↑
+ *  This whitespace */
 nav {
   margin-left: 20px;
   float: left;
 }
-
-
+/**               ↑
+ *  This whitespace */
 #cabecalho {
   position: fixed;
   top: 0%;
@@ -38,43 +43,51 @@ nav {
   width: 2000px;
   height: 50px;                 
   background-color: green; }
-
+/**               ↑
+ *  This whitespace */
 #nav1 {
   float: left;
   display: inline-block;
   margin-top: 60px;
   margin-left: -850px; }
-
+/**               ↑
+ *  This whitespace */
 #image2 {
   float: left;
   display: inline-block;
   margin-left: 50px; }
-
+/**               ↑
+ *  This whitespace */
 #titulo {
   float: left;
   margin-left: 500px; }
-
+/**               ↑
+ *  This whitespace */
 #minha_foto {
   float: left;
   display: inline-block;
   margin-top: 100px;
   margin-left: 50px;
   border-radius: 50%; }
-
+/**               ↑
+ *  This whitespace */
 #perfil {
   display: inline-block;
   margin-top: 100px;
   margin-left: 100px; }
-
+/**               ↑
+ *  This whitespace */
 #licoes {
   float: left;
   margin-top: 350px; }
-
+/**               ↑
+ *  This whitespace */
 #licoes_aprendidas {
   float: left;
   margin-top: 400px;
   margin-left: -150px; }
-
+/**               ↑
+ *  This whitespace */
 #licoes_a_aprender {
   float: left;
   margin-top: 400px; 
@@ -82,7 +95,8 @@ nav {
   font-size: 10px;
   font-family: 'Times New Roman', Times, serif; 
 }
-
+/**               ↑
+ *  This whitespace */
 #rodape {  
   float: right;
   margin-top: 100px; }
