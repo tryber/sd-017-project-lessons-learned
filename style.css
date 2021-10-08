@@ -1,25 +1,30 @@
 body {
     background-color: rgb(253, 251, 251);
+
 }
 
 .header {
-    position: center;
+    position: float;
     top: 0;
+
 }
 
 .my-picture {
     width: 180;
     margin-top: 40px;
+
 }
 
-.section {
+.section  {
     width: 180;
     align-content: center;
+
 }
 
-footer {
+footer  {
    position: center;
    bottom: 0; 
+
 }
 
  
