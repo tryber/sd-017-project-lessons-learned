@@ -7,6 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Styles -->
   <link rel="stylesheet" href="style.css">
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <title>Lessons Learned</title>
 </head>
 <header id="cabecalho">
@@ -14,38 +18,51 @@
     Liçoes aprendidas - Trybe!
   </h1>
   <nav>
+    <a href="#estudos"> O que apredi / espero aprender</a>
     <a href="#experienciaNaTrybe"> Minha experiência com a Trybe </a>
   </nav>
 </header>
 
 <body>
-  <img src="/foto.jpg" id="minha_foto" alt="Foto de Fábio">
+  <img src="/foto.jpg" id="minha_foto" width="200" alt="Foto de Fábio">
   <a target="_blank" href="https://www.linkedin.com/in/fabio-adriano-silveira/"> Fábio Adriano Silveira</a>
-  <ol id="licoes_aprendidas">
-    <li> Unix </li>
-    <li> Git </li>
-    <li> Github </li>
-    <li> Empatia </li>
-    <li> HTML </li>
-    <li> CSS </li>
-    <li> Slack </li>
-    <li> Zoom </li>
-    <li> Inspect </li>
-    <li> Semantica HTML </li>
-  </ol>
+  <table id="estudos">
+    <tr>
+      <th> O que aprendi na Trybe</th>
+      <td>
+        <ol id="licoes_aprendidas">
+          <li> Unix </li>
+          <li> Git </li>
+          <li> Github </li>
+          <li> Empatia </li>
+          <li> HTML </li>
+          <li> CSS </li>
+          <li> Slack </li>
+          <li> Zoom </li>
+          <li> Inspect </li>
+          <li> Semantica HTML </li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
+      <th> O que espero aprender na Trybe</th>
+      <td>
+        <ul id="licoes_a_aprender">
+          <li> JavaScript </li>
+          <li> Node </li>
+          <li> CSS Responsivo </li>
+          <li> React </li>
+          <li> NoSQL </li>
+          <li> Unix Tests </li>
+          <li> JAVA </li>
+          <li> MongoDB </li>
+          <li> Forms </li>
+          <li> HOF </li>
+        </ul>
+      </td>
+    </tr>
+  </table>
 
-  <ul id="licoes_a_aprender">
-    <li> JavaScript </li>
-    <li> Node </li>
-    <li> CSS Responsivo </li>
-    <li> React </li>
-    <li> NoSQL </li>
-    <li> Unix Tests </li>
-    <li> JAVA </li>
-    <li> MongoDB </li>
-    <li> Forms </li>
-    <li> HOF </li>
-  </ul>
   <section id="experienciaNaTrybe">
     <article>
       <p>
@@ -66,7 +83,7 @@
   </section>
 </body>
 <footer id="rodape">
-  HTML e CSS desenvolvidos por Fábio Adriano Silveira
+  <p> HTML e CSS desenvolvidos por Fábio Adriano Silveira </p>
 </footer>
 
 </html>
