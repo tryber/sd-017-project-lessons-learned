@@ -1,29 +1,46 @@
 body {
-  background-color:rgb(253, 251, 251) ;
+  background-color:rgb(253, 251, 251);
   margin: 0;
   padding: 0;
+  font-family: Oxygen, sans-serif;
 }
 
 header {
   top: 0;
   position: fixed;
-  background-color:#036b52;
+  background-color: #036b52;
   width: 100%;
   border-bottom: #2fc18c 10px solid;
   color: white;
   }
 
-h1{
+h1 {
   text-align: center;
 }
 
-
-main{
-  margin: 100px 15vw 0 15vw;
+h2 {
+  font-size: 18px ;
 }
 
-img {
+
+main {
+  margin: 0 15vw 0 15vw;
+}
+
+nav {
+  text-decoration: none;
+  margin-top: 100px;
+  }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ #minha_foto {
   max-width: 25vw;
+  border-radius: 50%;
+   
 }
 
 .lista {
@@ -43,7 +60,7 @@ article {
   margin: 10vh 2vw;
 }
 
-footer p{
+footer p {
   text-align: center;
   background-color: #411a7f;
   margin: 0;
