@@ -22,8 +22,19 @@ body {
     margin: 100px;
 }
 
+.artigos {
+    line-height: 1.5;
+}
+
+.lado-esquerdo {
+    float: left;
+}
+
+.lado-direito {
+    float: right;
+}
+
 #rodape {
-    top: 35px;
     right: 0px;
     left: 0px;
     bottom: 0px;
@@ -35,5 +46,8 @@ body {
 }
 
 #link_github {
+    font-size: 24px;
+    font-family: inherit;
+    text-decoration: none;
     color: white;
 }
