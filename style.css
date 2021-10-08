@@ -10,19 +10,41 @@ body {
   top: 0;
   background-color: #555;  
   width: 100%;
-  height: 60px;
+  height: 100px;
   color: white;
 }
 h1 {
   text-align: center;
   padding-top: 10px;
 }
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+nav ul {
+  display: flex;  
+  list-style: none;
+  margin: 20px;
+}
+nav ul li {
+  padding: 5px 20px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul li:hover {
+  background-color: #0096B9;
+  border-radius: 10px;
+}
 #minha_foto {
   width: 200px;
-  margin-top: 60px;
+  margin-top: 110px;
 }
 .foto {
-  margin-left: 20px;
+  margin:auto;
   width: 180px;
 }
 figcaption {
@@ -31,6 +53,7 @@ figcaption {
 }
 .licoes{
   margin: 40px;
+  margin-right: 55px;
   line-height: 25px;
   display: inline-block;
 }
@@ -42,10 +65,16 @@ figcaption {
   font-weight: bold;
   margin-top: 20px;
 }
-article {
+.artigo{
   display: inline-block; 
   width: 300px; 
-  margin:  40px 20px;
+  margin:  65px 20px;
+  vertical-align: top;
+  padding: 65px 10px;
+  background-color: #ddd;
+}
+.aside{
+  padding-bottom: 120px;
 }
 
 #rodape {
