@@ -1,13 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 body {
     background-color: rgb(253, 251, 251);
+}
+
+li {
+    list-style-type: none;
+    line-height: 23px;
 }
 
 #cabecalho {
     top: 0;
     position: fixed;
     margin-bottom: 10px;
+    background-color: rgb(253, 251, 251);
+    width: 100%;
+    padding: 30px;
+    box-shadow: 0 9px 7px -2px #989898;
+}
+
+.homepage {
+    background-image: url(src/capaprojeto.jpg);
+    padding: 100px;
+    vertical-align: middle;
+}
+
+.homepage article   {
+    max-width: 500px;
+    float: right;
+    padding: 30px;
+    margin-top: 100px;
+    color:rgb(253, 251, 251);
+}
+.homepage h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    
+}
+.homepage p {
+    line-height: 30px;
 }
 
 section {
     margin-top: 50px;
 }
+
+#minha_foto{
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 10%;
+    border-radius: 20px;
+}
+
+.secaodelistas {
+    text-align: center;
+}
+.secaodelistas section{
+    display: inline-block;
+    margin: 60px;
+    padding: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 0px;
+    width: 300px;
+
+    box-shadow: 0 9px 7px -2px #989898;
+    border-color: #989898;
+    background-color: snow;
+}
+
+.secaodelistas h1  {
+    margin-bottom: 30px;
+    color: rgb(37, 37, 37);
+
+}
+.secaodelistas li {
+    color: rgb(73, 73, 73);
+}
+
+.secaodelistas img {
+    width: 50px;
+    margin-bottom: 30px;
+}
+
+#button {
+    background-color: rebeccapurple;
+    padding: 15px;
+    border-radius: 5px;
+    color: rgb(253, 251, 251);
+    text-decoration: none;
+    width: 10px;
+    box-shadow: 0 9px 7px -2px #989898;
+    margin-top: 900px;
+}
+#button:hover{
+    opacity: 0.5;
+}
+
+
