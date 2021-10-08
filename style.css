@@ -1,6 +1,6 @@
 */ {
- margin: o;
- padding: o;
+ margin: 0;
+ padding: 0;
 }
 
 body {
@@ -73,7 +73,6 @@ color: cornsilk;
     left: 350px;
     line-height: 35px;
 }
-
 
 .artigo {
     position: absolute;
