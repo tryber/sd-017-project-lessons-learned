@@ -1,17 +1,17 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, serif;
   font-size: 95%;
   color: rgb(23, 23, 34);
   font-weight: 100;
   line-height: 101%;
-  margin:5px;
+  margin: 5px;
   padding: 5px;
   border: 5px;
 }
 
 #inicio {
-  top:0;
+  top: 0;
 }
 
 #cabecalho {
@@ -44,7 +44,7 @@ body {
 
 #rodape {
   position: absolute;
-  top:900px;
+  top: 900px;
   font-style: italic;
   right: 10px;
 }
@@ -52,7 +52,7 @@ body {
 #adicional_softskills {
   top: 600px;
   margin-right: 30px;
-  left:450px;
+  left: 450px;
   width: 30%;
   position: absolute;
   text-align: justify;
