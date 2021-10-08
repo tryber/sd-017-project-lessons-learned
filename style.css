@@ -28,6 +28,11 @@ h2 {
   margin-right: 80px;
   top: 50px;
   text-shadow: 6px 6px 5px black;
+  transition: 0.7s;
+}
+
+#titulo:hover {
+  color: rgb(158, 62, 68);
 }
 
 #minha_foto {
