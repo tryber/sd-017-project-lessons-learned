@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  height: 20%;
+  background-color: green;
+}
+
+#titulo {
+  color: honeydew;
+  padding: 50px;
+}
+
+#minha_foto {
+  max-width: 400px;
+  padding: 30%;
+  
+}
