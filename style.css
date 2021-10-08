@@ -1,6 +1,5 @@
 * {
   margin: 0;
-  font-family: 'Times New Roman';
 }
 
 body {
@@ -41,6 +40,7 @@ main h2 {
   margin-top: 50px;
   line-height: 50px;
   margin-left: 25px;
+  font-size: 25px;
   width: 50%;
 }
 
@@ -53,9 +53,15 @@ main h2 {
 #licoes_a_aprender {
   display: inline-block;
   margin-bottom: 50px;
+  font-family: serif;
+}
+
+.tabela h3 {
+  font-size: 20px;
 }
 
 .tabela {
+  font-family: monospace;
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
