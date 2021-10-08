@@ -14,7 +14,7 @@ h2 {
   position: fixed;
   background: rgb(46, 119, 142);
   width: 100%;
-  border-radius: 20px;
+  border-radius: 1px 1px 20px 20px;
   z-index: 1;
 }
 
