@@ -104,6 +104,8 @@ h3 {
 
 .his-aprendizado {
   margin-top: 30px;
+  max-height: 220px;
+  vertical-align: bottom;
   display: inline-block;
 }
 
@@ -134,7 +136,8 @@ footer a {
 
 .palavras-aprendizado p {
   width: 500px;
-  border-left: chartreuse solid;
+  max-width: 400px;
+  border-left:chartreuse solid;
   padding: 30px;
   font-size: 20px;
 }
