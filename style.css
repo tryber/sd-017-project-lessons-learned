@@ -30,6 +30,13 @@ body {
 
 }
 
+.tabela {
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    border: 1px solid;
+}
+
 .licoes {
     position: absolute;
     top: 270px;
