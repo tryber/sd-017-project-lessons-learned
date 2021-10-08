@@ -9,11 +9,11 @@ body {
   position: fixed;
 }
 
-#linkk{
+#linkk {
   text-decoration: none;
 }
 
-#titulo{
+#titulo {
   font-family: cursive;
   font-size: 20px;
   margin-left: 450px;
@@ -21,14 +21,14 @@ body {
   background-color: rgb(179, 204, 179);
 }
 
-#minha_foto{
+#minha_foto {
   margin-top: 40px;
   width: 250px;
   margin-left: 450px;
   border-radius: 25px;
 }
 
-p{
+p {
   margin-left: 470px;
   color: rgb(29, 65, 29);
   background-color: rgb(179, 204, 179);
@@ -37,17 +37,18 @@ p{
   max-width: 220px;
 }
 
-.lado-direito, .lado-esquerdo{
+.lado-direito , .lado-esquerdo {
   padding: 10px;
   margin-bottom: 20px;
   max-width: 450px;
 }
-.lado-esquerdo{
+
+.lado-esquerdo {
   display: inline-block;
   border: green solid 1px;
 }
 
-.lado-direito{
+.lado-direito {
   display: inline-block;
   border: green solid 1px;
   position: absolute;
