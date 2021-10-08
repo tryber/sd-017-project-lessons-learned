@@ -5,12 +5,24 @@
 
 body {
     background-color: rgb(253, 251, 251);
+    font-family: monospace, sans-serif;
 }
 
 #cabecalho {
-top: 0;
-position: fixed;
-z-index: 1;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    font-family:monospace;
+    background-color: #a8dadc;
+    width: 100%;
+    text-align: center;
+    }
+
+.navegacao {
+    display: inline-block;
+    border: solid;
+    border-radius: 5px;
+    border-color: #e07a5f;
 }
 
 #titulo {
@@ -30,6 +42,13 @@ z-index: 1;
     border-radius: 500px;
 }
 
+.links {
+    position: absolute;
+    top: 170px;
+    left: 220px;
+    text-align: center;
+}
+
 #licoes_aprendidas {
     position: absolute;
     top: 300px;
@@ -41,12 +60,6 @@ z-index: 1;
     left: 350px;
 }
 
-.links {
-    position: absolute;
-    top: 170px;
-    left: 200px;
-    text-align: center;
-}
 
 .artigo {
     position: absolute;
