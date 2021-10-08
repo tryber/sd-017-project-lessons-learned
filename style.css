@@ -59,7 +59,7 @@ section {
 .secaodelistas {
     text-align: center;
 }
-.secaodelistas section{
+.secaodelistas section {
     display: inline-block;
     margin: 60px;
     padding: 30px;
@@ -67,7 +67,6 @@ section {
     border-style: solid;
     border-width: 0px;
     width: 300px;
-
     box-shadow: 0 9px 7px -2px #989898;
     border-color: #989898;
     background-color: snow;
@@ -95,10 +94,49 @@ section {
     text-decoration: none;
     width: 10px;
     box-shadow: 0 9px 7px -2px #989898;
-    margin-top: 900px;
+
 }
 #button:hover{
     opacity: 0.5;
+
+
 }
+
+.ultimasecao {
+    text-align: center;
+    background-image: url(src/capaprojeto.jpg);
+    padding: 100px;
+    height: 400px;
+}
+
+.lado-esquerdo {
+    margin: 60px;
+    padding: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 0px;
+    width: 400px;
+    box-shadow: 0 9px 7px -2px #989898;
+    border-color: #989898;
+    background-color: snow;
+    float:left;
+
+
+}
+
+.lado-direito {
+    display: none;
+    float: right;
+}
+
+.lado-direito  aside {
+    margin-top: 30px;
+    background-color: springgreen;
+    height: 150px;
+}
+
+
+
+
 
 
