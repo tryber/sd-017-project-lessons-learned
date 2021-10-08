@@ -51,6 +51,14 @@ body {
     bottom: 70px;
 }
 
+section {
+    position: absolute;
+    display: inline-block;
+    width: 20%;
+    right: 30px;
+    top: 300px;
+}
+
 #rodape {
     position: fixed;
     bottom: 5px;
