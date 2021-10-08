@@ -1,8 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 body {
+  font-family: 'Rubik', sans-serif;
   background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
   top: 0;
   position: fixed;
+  height: 125px;
+  width: 100%;
+  background-color: #046C53;
+}
+
+#titulo {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 75px;
+  font-variant-caps: all-petite-caps;
+  word-spacing: 15px;
+  position: absolute;
+  color: #30C38F;
+}
+
+#menu_container {
+  height: 35px;
+  top: 125px;
+  position: fixed;
+  width: 100%;
+  background-color: #30C38F;
+}
+
+#menu li {
+  font-variant-caps: all-petite-caps;
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 30px;
+  text-decoration: none;
+  color: #046C53;
+  display: inline;
+}
+
+#menu ul li a:hover {
+  color: #410D7C;
+}
+
+#menu ul li a:active {
+  color: #DBDDE3
+}
+
+#menu ul li a:link {
+  color: #046C53
+}
+
+ul {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  height: 300px;
+  margin-top: 175px;
+  border-radius: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+#licoes_container {
+  
+  position: relative;
+  margin-top: 50px;
+  border: 5px solid red;
+}
+
+#licoes {
+  text-align: center;
+}
+
+#licoes_aprendidas {
+  position: absolute;
+  margin-top: 25px;
+  clear: both;
+  
+}
+
+#licoes_a_aprender {
+  position: absolute;
+  margin-top: 25px;
+
+  clear: both;
+}
+
+#article_container {
+  display: block;
+  border: 5px solid green;
+  margin-top: 600px;
+}
+
+#aside_container {
+  display: block;
+  border: 5px solid blue;
 }
