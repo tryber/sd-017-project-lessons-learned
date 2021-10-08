@@ -4,7 +4,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Bitter', serif;
+  font-family: Bitter , serif;
 }
 
 #cabecalho {
@@ -104,13 +104,10 @@ table caption {
   line-height: 50px;
 }
 
-table th {
-  text-align: left;
-}
-
 table , th , td {
   border-bottom: 2px double rgb(50, 50, 50);
   padding: 10px;
+  text-align: left;
 }
 
 #licoes_aprendidas {
@@ -126,7 +123,7 @@ table , th , td {
 }
 
 #licoes {
-  position: fixed;
+  position: absolute;
   height: 355px;
   width: 500px;
   display: block;
@@ -152,7 +149,7 @@ table , th , td {
 }
 
 main section article {
-  position: fixed;
+  position: absolute;
   width: 700px;
   height: 200px;
   border: 2px solid rgb(50, 50, 50);
@@ -169,7 +166,7 @@ main aside {
   width: 390px;
   border: 2px dashed rgb(50, 50, 50);
   border-radius: 15px;
-  position: fixed;
+  position: absolute;
   left: 80px;
   bottom: 75px;
   height: 180px;
@@ -193,7 +190,7 @@ main aside {
   font-size: 13px;
 }
 
-#rodape img {
+#rodape #help-icon {
   float: right;
   margin-right: 5px;
   margin-top: 3px;
