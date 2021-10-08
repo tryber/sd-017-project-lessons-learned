@@ -6,20 +6,36 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: #30e48c;
+  background-color:green;
   padding: 50px;
-} 
+  width: 100%;
+}
 
 #minha_foto {
   margin-top: 200px;
   width: 150px;
 }
 
-.list-section{
+.list-section {
   font-size: large;
   color: gray;
+  /* consulta line-height em https://developer.mozilla.org/en-US/docs/Web/CSS/line-height*/
   line-height: 2;
 }
+
+#article-section {
+  display: inline-block;
+}
+
+.lado-esquerdo{
+  display: inline-block;
+  width: 300px;
+}
+
+.lado-direito{
+  display: inline-block;
+  width: 300px;
+ }
 
 .article {
   border-style: dashed;
