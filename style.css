@@ -92,7 +92,7 @@ a:hover {
 }
 
 .soft {
-  width: 300px;
+  width: 500px;
   height: 259px;
   margin-left: auto;
   border: 5px solid rgba(143, 137, 146, 0.871);
@@ -120,7 +120,7 @@ a:hover {
 }
 
 nav {
-  height: 48px; 
+  height: 48px;
 }
 
 nav ul {
@@ -135,7 +135,7 @@ nav li {
 }
 
 .navi > a {
-  font-family: 'Open Sans', sans-serif;
+  font-family: Open Sans, sans-serif;
   color: black;
   font-size: 16px;
   text-decoration: none;
