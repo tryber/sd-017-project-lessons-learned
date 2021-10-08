@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 1;
 }
 
 body {
@@ -22,4 +22,9 @@ h1 {
 #minha_foto {
   width: 200px;
   margin-top: 12%;
+  margin-bottom: 2%;
+}
+
+licoes_aprendidas{
+  list-style-type: decimal;
 }
