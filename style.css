@@ -5,7 +5,7 @@ body {
   font-size: 1.25rem;
   color: black;
   line-height: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -29,6 +29,8 @@ nav {
 nav a {
   text-decoration: none;
   color: black;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 nav a:hover {
@@ -36,9 +38,12 @@ nav a:hover {
 }
 
 .skills {
+  margin: 20px 20px 0 20px;
   display: flex;
   justify-content: space-between;
   background-color: gray;
+  margin-top: 100px;
+  border-radius: 10px;
 }
 
 #licoes_aprendidas {
@@ -54,30 +59,62 @@ nav a:hover {
 .skills .listas {
   width: 35%;
   display: flex;
-  margin-top: 100px;
 }
 
-#minha_foto{
+#minha_foto {
   width: 200px;
   height: 250px;
-  margin-top: 120px;
+  margin-top: 35px;
   margin-left: 75px;
   border-radius: 5%;
+  border: 3px solid lightgrey;
+}
+
+.text {
+  margin: 20px 20px 0 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+  padding-bottom: 50px;
+  border-radius: 10px;
+}
+
+.articles {
+  display: flex;
+  width: 50%;
+  text-align: justify;
+}
+
+.lado-direito {
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+.lado-esquerdo {
+  margin-top: 50px;
+  margin-right: 50px;
 }
 
 table {
+  margin-top: 50px;
+  margin-left: 55px;
+  padding: 0 10px 0 10px;
   border: 3px solid black;
   text-align: center;
   border-radius: 5px;
-  gap: 10px;
+  background-color: lightgrey;
 }
 
+caption {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
 
 footer {
   text-align: center;
+  margin: 150px 20px 0 20px;
+  background-color: lightgrey;
+  padding: 3px;
+  border-radius: 10px;
+  font-weight: bold;
 }
-
-ol {
-  margin-top: 100px;
-}
-
