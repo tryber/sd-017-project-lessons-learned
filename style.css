@@ -1,0 +1,51 @@
+body 
+{
+
+background-color: rgb(253, 251, 251);
+
+}
+
+#cabecalho 
+{
+    position: fixed;
+    top: 0;
+    background-color:green;
+    width: 100%;
+    
+}
+
+#titulo 
+{
+    text-align: center;
+    color: black
+    
+}
+
+#minha_foto
+{
+    width: 150px;
+    margin-top: 50px;
+
+}
+
+#a
+{
+    text-align: left;
+}
+
+
+
+ ul , ol 
+{
+    display: inline-block;
+    
+
+}
+
+article , section
+{
+    display: inline-block;
+}
+
+
+
