@@ -12,17 +12,38 @@ body {
   position: fixed;
   width: 100%;
   text-align: center;
-  height: 20%;
-  background-color: green;
+  height: 5%;
+  background-color: rgb(139, 216, 115);
 }
 
 #titulo {
   color: honeydew;
-  padding: 50px;
+  padding-left: 60px;
 }
 
 #minha_foto {
-  max-width: 400px;
-  padding: 30%;
-  
+  float: left;
+  border-image-outset: initial;
+  width: 250px;
+  padding: 5px;
+  padding-top: 40px;
+  border-radius: 20px;
 }
+
+#licoes_aprendidas {
+  padding-left: 80%;
+  padding-top: 20%;
+  font-size: 10pt;
+}
+
+#licoes_a_aprender {
+  padding-left: 80%;
+  font-size: 10pt;
+}
+
+#rodape {
+  background-color: rgb(26, 206, 182);
+  color: blueviolet;
+  text-align: center;
+}
+
