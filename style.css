@@ -19,6 +19,10 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  margin-bottom: 2%;
+}
+
 #minha_foto {
   width: 200px;
   margin-top: 12%;
