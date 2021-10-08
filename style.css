@@ -1,8 +1,10 @@
-body {
-  background-color: rgb(253, 251, 251);
+* {
   margin: 0;
   padding: 0;
-  width: 100%;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
 }
 
 header {
@@ -37,17 +39,20 @@ a {
 }
 
 #licoes {
-  width: 30%;
+  width: 40%;
   align-content: top;
-  margin: 50px 10px 10px;
+  margin: 50px 10px 30px;
 }
 
 ul , ol {
   display: inline-block;
+  width: 40%;
+  margin-left: 40px;
 }
 
-h3 {
+h2 {
   margin: 0;
+  margin-bottom: 40px;
 }
 
 .artigos {
