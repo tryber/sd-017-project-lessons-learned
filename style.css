@@ -16,7 +16,6 @@ header {
 }
 
 header nav ul li {
-  display: inline-block;
   margin: 1px 20px;
 }
 
@@ -33,10 +32,7 @@ header, footer {
 }
 
 main {
-  margin: 100px 20px;
-}
-section h1, .lessons-right h2, .lessons-left h2 {
-  text-align: center;
+  margin: 60px 20px;
 }
 
 .about {  
@@ -54,22 +50,20 @@ section h1, .lessons-right h2, .lessons-left h2 {
   margin: 0 auto;
 }
 
-.lessons {
-  border: 1px solid greenyellow;
+.lessons {  
   padding: 40px;
   background-color: #333;
   color: white;
 }
 .lessons-wrap {
-  width: 80%;
-  border: 1px solid red;
+  width: 80%;  
   margin: 0 auto;
   display: block;
   margin-top: 30px;
 
 }
 .lessons-right, .lessons-left {
-  display: inline-block;
+  /* display: inline-block; */
   width: 45%;  
   border: 1px solid white;
   padding: 20px;
@@ -77,12 +71,82 @@ section h1, .lessons-right h2, .lessons-left h2 {
   color: black;  
   vertical-align: top;
 }
-.lessons-right h2, .lessons-left h2 {
-  margin-bottom: 20px;
-}
+
 .lessons-left {
   margin-right: 52px;
 }
 .lessons-right {
   height: 284px;
+}
+
+.learned {
+  background-image: url('https://cdn.pixabay.com/photo/2015/06/01/00/20/man-792821_960_720.jpg');
+  background-size: cover;    
+  background-repeat: no-repeat;
+  padding: 50px;
+  height: 100vh;
+  display: block;
+}
+.lado-direito {
+  margin-left: 60px;
+}
+
+.lado-esquerdo, .lado-direito {
+  width: 45%;
+  vertical-align: top;
+  height: 200px;
+}
+
+.topics {
+  position: fixed;
+  top: 70px;
+  left: 0px;
+  width: 60px;
+  height: 20px;
+  transition: width 1s, height 1s;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+.topics span{
+  font-size:8px;  
+}
+
+.topics nav {
+  display: none;
+}
+.topics nav ul {
+  margin-top: 30px;
+}
+
+.topics:hover {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+.topics:hover nav {
+  display: block;
+}
+
+.lado-esquerdo p, 
+.lado-direito p {
+  text-align: justify;
+} 
+
+nav ul li,
+.lessons-right, .lessons-left, 
+.lado-esquerdo, .lado-direito {
+  display: inline-block;
+}
+
+section h1, .lessons-right h2, 
+.lessons-left h2,
+.lado-direito h2, .lado-esquerdo h2 {
+  text-align: center;
+}
+
+.lessons-right h2, .lessons-left h2,
+.lado-esquerdo h2, .lado-direito h2,
+.learned h1 {
+  margin-bottom: 20px;
 }
