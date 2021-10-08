@@ -8,6 +8,14 @@
   clear: both;
 }
 
+.lado-esquerdo{
+  float: left;
+}
+
+.lado-direito{
+  float: right;
+}
+
 body {
   background-color: rgb(253, 251, 251);
 }
@@ -72,12 +80,10 @@ section {
 }
 
 .aprendizado {
-  float: left;
   width: 45%;
 }
 
 .passagem {
-  float: right;
   width: 45%;
 }
 
