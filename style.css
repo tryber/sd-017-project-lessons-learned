@@ -20,6 +20,9 @@ header ul,a {
   color: aliceblue;
   list-style: none;
   text-decoration: none;
+  font: bold;
+  font-size: 10;
+  word-spacing: 0%;
 }
 
 #minha_foto {
