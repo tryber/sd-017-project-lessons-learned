@@ -18,6 +18,7 @@ body {
   border-radius: 0 0 5px 5px;
   position: fixed;
   padding: 20px 20px 4px;
+  
 }
 
 #titulo {
@@ -31,7 +32,6 @@ body {
 
 #cabecalho nav ul li {
   display: inline-block;
-  background-color: rgb(191 0 0);
   width: 10%;
   padding: 3px;
   text-align: center;
@@ -40,6 +40,7 @@ body {
 
 #navegacao ul li a {
   text-decoration: none;
+  font-size: 20px;
 }
 
 #main {
@@ -49,19 +50,25 @@ body {
 #principal {
   box-shadow: 0 2px 10px rgb(227 2 32);
   background-color: rgb(36 32 36);
-  width: 50%;
+  width: 55%;
+  height: 350px;
   margin-left: 10%;
   border-radius: 5px;
+  
 }
 
 #minha_foto {
   width: 230px;
-  padding: 20px;
+  padding: 20px 20px 10px;
   border-radius: 12%;
 }
 
 #listas {
   text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  width: 860px;
 }
 
 .list {
@@ -84,11 +91,12 @@ body {
 #aside {
   box-shadow: 0 2px 10px rgb(227 2 32);
   background-color: rgb(36 32 36);
-  width: 25%;
+  width: 300px;
   height: 350px;
   margin-right: 7%;
   border-radius: 5px;
   float: right;
+  text-align: center;
 }
 
 #rodape {
@@ -99,10 +107,15 @@ body {
   margin-left: 10%;
   border-radius: 5px 5px 0 0;
   padding: 20px 20px 4px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
 }
 
 #texto {
   text-align: center;
+  width: 40%;
+  display: inline-block;
 }
 
 #texto h2 {
@@ -112,4 +125,45 @@ body {
 #texto p {
   text-align: justify;
   padding: 20px;
+  line-height: 20px;
 }
+
+.lado-direito {
+  text-align: center;
+  width: 40%;
+  display: inline-block;
+  padding: 20px 0;
+}
+
+.lado-direito p {
+  text-align: justify;
+  padding: 20px;
+  margin-top: 20px;
+  line-height: 20px;
+}
+
+#de {
+  text-align: center;
+  box-shadow: 0 2px 10px rgb(227 2 32);
+  background-color: rgb(36 32 36);
+  border-radius: 7px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 30px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#table {
+  margin-left: 8px;
+}
+#table td {
+  background-color: rgba(191, 0, 0, 0.5);
+  padding: 3px 10px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+}
+
+
