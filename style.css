@@ -60,9 +60,9 @@ body {
 #artigo {
     position: absolute;
     display: inline-block;
-    width: 40%;
-    right: 30px;
-    bottom: 70px;
+    width: 20%;
+    right: 320px;
+    bottom: 65px;
 }
 
 #artigo p {
@@ -77,14 +77,14 @@ section {
     display: inline-block;
     width: 20%;
     right: 30px;
-    top: 300px;
+    bottom: 175px;
 }
 
 table {
   position: absolute;
   display: inline-block;
-  right: 350px;
-  top: 320px;
+  right: 80px;
+  bottom: 65px;
 }
 
 #rodape {
