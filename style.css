@@ -1,6 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: Ubuntu, sans-serif;
+  line-height: 25px;
 }
 
 
@@ -15,6 +16,9 @@ body {
 }
 
 #titulo {
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  font-style: oblique;
   position: relative;
   display: inline-block;
   float: right;
