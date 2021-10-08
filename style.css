@@ -35,14 +35,12 @@ header, footer {
 main {
   margin: 100px 20px;
 }
-section h1 {
+section h1, .lessons-right h2, .lessons-left h2 {
   text-align: center;
 }
 
-.about {
-  border: 1px solid greenyellow;
-  padding: 40px;
-  background-color: #333;
+.about {  
+  padding: 40px;  
   background-image: url('https://cdn.pixabay.com/photo/2021/09/23/19/08/background-6650672_960_720.jpg');
 }
 .about h1 {
@@ -54,4 +52,37 @@ section h1 {
   width: 200px;
   border-radius: 50%;
   margin: 0 auto;
+}
+
+.lessons {
+  border: 1px solid greenyellow;
+  padding: 40px;
+  background-color: #333;
+  color: white;
+}
+.lessons-wrap {
+  width: 80%;
+  border: 1px solid red;
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+
+}
+.lessons-right, .lessons-left {
+  display: inline-block;
+  width: 45%;  
+  border: 1px solid white;
+  padding: 20px;
+  background-color: white;
+  color: black;  
+  vertical-align: top;
+}
+.lessons-right h2, .lessons-left h2 {
+  margin-bottom: 20px;
+}
+.lessons-left {
+  margin-right: 52px;
+}
+.lessons-right {
+  height: 284px;
 }
