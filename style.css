@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+}
+
+#minha_foto {
+  width: 200px;
+}
+
+.tabela {
+  border: 2px solid black;
+}
+
+.listas {
+  margin: 2px;
+  padding: 10px;
+  border: 1px solid red;
+  color: red;
+  margin-top: 450px;
+  font-size: 12px;
+  line-height: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lado-direito {
+  width: 400px;
+  position: absolute;
+  right: 15px;
+  top: 1600px;
+}
+
+.lado-esquerdo {
+  width: 400px;
+  position: absolute;
+  left: 15px;
+  top: 1600px;
+}
