@@ -1,11 +1,70 @@
-body{
-    background-color: rgb(253, 251, 251);
+* {
+    margin: 0;
+    padding: 0;
 }
 
-#cabecalho{
-    position: fixed;
-    top: 0px;
+body {
+  background-color: rgb(253, 251, 251);
 }
-a:link{
-    text-decoration: none;
+
+a:hover {
+  color: green;
+}
+
+.links_cabecalho {
+  color: honeydew;
+  text-decoration: none;
+  font-size: 16pt;
+  margin-left: 5px;
+}
+li{
+    font-family: sans-serif;
+    line-height: 20px;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: hsl(120, 100%, 17%);
+}
+
+#cabecalho h1 {
+  text-align: center;
+  color: honeydew;
+}
+
+#cabecalho ul {
+  list-style: none;
+}
+
+.foto {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+#minha_foto {
+    border-radius: 20%;
+}
+
+.lado-esquerdo {
+    float: left;
+    max-width: 50%;
+}
+
+.lado-direito {
+    float: right;
+    max-width: 50%;
+}
+
+.licoes {
+    border: 1px solid red;
+    padding: 30px;
+    width: 10%;
+}
+
+
+
+footer {
+    margin: 100px;
 }
