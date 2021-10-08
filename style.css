@@ -64,7 +64,7 @@ main h2 {
   font-family: monospace;
   margin: auto;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 45px;
   text-align: center;
   text-decoration: underline;
 }
@@ -74,7 +74,8 @@ main h2 {
   line-height: 18px;
 }
 
-section h3 {
+article h3 {
+  display: inline-block;
   margin-left: 25px;
   margin-bottom: 25px;
 }
@@ -87,7 +88,6 @@ section h3 {
 }
 
 .lado-direito {
-  display: inline;
   margin-left: 120px;
 }
 
