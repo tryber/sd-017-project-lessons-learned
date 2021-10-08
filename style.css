@@ -26,18 +26,16 @@ body {
 
 #licoes_aprendidas{
   list-style: decimal;
-
 }
 
-#licoes_a_aprender {
-  list-style: circle;
+.lado-esquerdo {
+  float: left;
 }
-
 .lado-direito {
   float: right;
 }
 
 #rodape {
   text-align: center;
-  padding: 20px;
+  padding: 20px
 }
