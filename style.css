@@ -21,6 +21,11 @@ header {
   text-align: center;
 }
 
+#navegacao {
+  color: rgb(253, 251, 251);
+  margin-left: 40px;
+}
+
 img {
   width: 250px;
   border-radius: 5px;
