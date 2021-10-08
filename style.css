@@ -65,6 +65,13 @@ body {
     bottom: 70px;
 }
 
+#artigo p {
+  font-family: sans-serif;
+  color: rgb(3, 92, 25);
+  font-size: 15px;
+  line-height: 1,5;
+}
+
 section {
     position: absolute;
     display: inline-block;
