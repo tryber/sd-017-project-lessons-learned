@@ -24,14 +24,14 @@ header ul , a {
 }
 
 #minha_foto {
-  padding-top: 130px;
+  margin-top: 130px;
   border-radius: 5%;
 }
 
 #licoes_aprendidas {
   margin: auto;
-  padding: 10px;
-  border: dashed greenyellow;
+  padding: 10px 30px;
+  border: dashed green;
   display: inline-block;
   align-content: center;
   font-weight: 500;
@@ -39,8 +39,8 @@ header ul , a {
 
 #licoes_a_aprender {
   margin: auto;
-  padding: 10px;
-  border: dashed greenyellow;
+  padding: 10px 30px;
+  border: dashed green;
   display: inline-block;
   align-content: center;
   font-weight: 500;
@@ -53,4 +53,19 @@ section h2 {
 
 p {
   line-height: 25px;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 50%;
+}
+
+.lado-direito {
+  float: right;
+  width: 50%;
+}
+
+table {
+  background-color: green;
+  padding: 10px 30px;
 }
