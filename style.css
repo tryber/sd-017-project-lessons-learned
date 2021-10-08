@@ -1,102 +1,91 @@
---fix 
 * {
   margin: 0;
   padding: 0;
 }
-/**               ↑
- *  This whitespace */
-body { 
-  background-color: rgb(253, 251, 251);
 
-}  
-/**               ↑
- *  This whitespace */
+body {
+  background-color: rgb(253, 251, 251);
+}
+
 article {
-  float: left; 
-  display: inline-block; 
-  margin-top: 700px; 
-  margin-left: -200px; 
-  width: 300px; 
-  text-align: justify;
-  letter-spacing: 2px; 
-}
-/**               ↑
- *  This whitespace */
-aside {
-  float: left;
   display: inline-block;
-  margin-top: 700px;
-  margin-left: 90px;
+  margin-top: 500px;
+  margin-left: -600px;
+  width: 300px;
+  text-align: justify;
+  letter-spacing: 2px;
 }
-/**               ↑
- *  This whitespace */
+
+aside {
+  display: block;
+  float: left;
+  width: 200px;
+  margin-top: 500px;
+}
+
 nav {
-  margin-left: 20px;
+  margin-left: 600px;
   float: left;
 }
-/**               ↑
- *  This whitespace */
+
 #cabecalho {
   position: fixed;
   top: 0%;
   display: inline-block;
   width: 2000px;
-  height: 50px;                 
+  height: 50px;
   background-color: green; }
-/**               ↑
- *  This whitespace */
+
 #nav1 {
-  float: left;
   display: inline-block;
   margin-top: 60px;
   margin-left: -850px; }
-/**               ↑
- *  This whitespace */
+
 #image2 {
-  float: left;
   display: inline-block;
   margin-left: 50px; }
-/**               ↑
- *  This whitespace */
+
 #titulo {
   float: left;
-  margin-left: 500px; }
-/**               ↑
- *  This whitespace */
+  margin-left: 500px;
+}
+
 #minha_foto {
-  float: left;
-  display: inline-block;
   margin-top: 100px;
-  margin-left: 50px;
-  border-radius: 50%; }
-/**               ↑
- *  This whitespace */
+  margin-left: -300px;
+  border-radius: 50%;
+}
+
 #perfil {
-  display: inline-block;
+  display: inline;
   margin-top: 100px;
-  margin-left: 100px; }
-/**               ↑
- *  This whitespace */
+  margin-left: 200px;
+  float: left;
+}
+
 #licoes {
   float: left;
-  margin-top: 350px; }
-/**               ↑
- *  This whitespace */
+  margin-top: 150px;
+  margin-left: 60px;
+}
+
 #licoes_aprendidas {
   float: left;
-  margin-top: 400px;
-  margin-left: -150px; }
-/**               ↑
- *  This whitespace */
+  margin-top: 200px;
+  margin-left: 70px;
+}
+
 #licoes_a_aprender {
   float: left;
-  margin-top: 400px; 
+  margin-top: 200px;
   color: grey;
-  font-size: 10px;
-  font-family: 'Times New Roman', Times, serif; 
+  font-size: 16px;
+  margin-left: 80px;
+
 }
-/**               ↑
- *  This whitespace */
-#rodape {  
+
+#rodape {
   float: right;
-  margin-top: 100px; }
+  margin-top: 100px;
+}
+
