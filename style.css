@@ -65,4 +65,14 @@ body {
   margin-left: 10px;
 }
 
+#tabela_requisitos {
+  position: absolute;
+  top: 850px;
+}
+
+#titulo_tabela {
+  position: absolute;
+  top: 800px;
+}
+
 
