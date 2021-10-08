@@ -1,0 +1,118 @@
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+  padding: 0;
+  font-size: 1.25rem;
+  color: black;
+  line-height: 20px;
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: darkgrey;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  justify-content: space-between;
+}
+
+header h1 {
+  margin-left: 50px;
+}
+
+nav {
+  margin-right: 50px;
+  margin-top: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: gray;
+}
+
+.skills {
+  margin: 20px 20px 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+
+#licoes_aprendidas {
+  margin: 50px;
+  padding: 10px;
+}
+
+#licoes_a_aprender {
+  margin: 50px;
+  padding: 10px;
+}
+
+.skills .listas {
+  width: 35%;
+  display: flex;
+}
+
+#minha_foto {
+  width: 200px;
+  height: 250px;
+  margin-top: 35px;
+  margin-left: 75px;
+  border-radius: 5%;
+  border: 3px solid lightgrey;
+}
+
+.text {
+  margin: 20px 20px 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+  padding-bottom: 50px;
+  border-radius: 10px;
+}
+
+.articles {
+  display: flex;
+  width: 50%;
+  text-align: justify;
+}
+
+.lado-direito {
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+.lado-esquerdo {
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+table {
+  margin-top: 50px;
+  margin-left: 55px;
+  padding: 0 10px;
+  border: 3px solid black;
+  text-align: center;
+  border-radius: 5px;
+  background-color: lightgrey;
+}
+
+caption {
+  margin-bottom: 5px;
+}
+
+footer {
+  text-align: center;
+  margin: 150px 20px 0;
+  background-color: lightgrey;
+  padding: 3px;
+  border-radius: 10px;
+}
+
