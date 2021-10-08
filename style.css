@@ -28,3 +28,10 @@ li{
 	margin: 1px;
 	padding-left: 30px;
 }
+.lado-direito{
+	display: inline-block;
+	position: absolute;
+	top: 17%;
+	right: 0%;
+	margin-right: 20px;
+}
