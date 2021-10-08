@@ -1,133 +1,152 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: 'Open Sans', sans-serif;
+  background-color: rgb(253, 251, 251);
+  font-family: "Open Sans", sans-serif;
 }
 
 #cabecalho {
-    top: 0;
-    left: 0;
-    right: 0;
-    position: absolute;
-    border: 5px solid #2f064dde;
-    background-color: indigo;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  border: 5px solid #2f064dde;
+  background-color: indigo;
 }
 
 #titulo {
-   text-align: center; 
+  text-align: center;
 }
 
 #minha_foto {
-    max-width: 15%;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 535px;
+  max-width: 15%;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 535px;
 }
 
 #licoes_aprendidas {
-    border: 5px solid #8f8992de;
-    background-color: indigo;
-    font-weight: 700;
-    width: 1000px;
-    max-width: 30%;
-    padding: 40px;
-    display: inline-block;
+  border: 5px solid #8f8992de;
+  background-color: indigo;
+  font-weight: 700;
+  width: 1000px;
+  max-width: 30%;
+  padding: 40px;
+  display: inline-block;
 }
 
 #licoes_a_aprender {
-    border: 5px solid #8f8992de;
-    background-color: indigo;
-    font-weight: 700;
-    width: 1000px;
-    max-width: 30%;
-    padding: 40px;
-    display: inline-block;
-    margin-left: 321px;
+  border: 5px solid #8f8992de;
+  background-color: indigo;
+  font-weight: 700;
+  width: 1000px;
+  max-width: 30%;
+  padding: 40px;
+  display: inline-block;
+  margin-left: 321px;
 }
 
 .ajuste {
-    margin-top: 10%
+  margin-top: 10%;
 }
 
-.inlineblock {
-    display: inline-block;
+#lado-esquerdo {
+  display: block;
+  max-width: 50%;
+  float: left;
+  margin: auto;
+  background-color: indigo;
+  border: 5px solid #8f8992de;
+  padding: 30px;
+  margin-bottom: 8%;
+  height: 259px;
+}
+
+#lado-direito {
+  display: block;
+  max-width: 40%;
+  float: right;
+  margin: auto;
 }
 
 .ajuste2 {
-    margin-left: 620px;
+  margin-left: 620px;
 }
 
-#tituloartigo{
-    text-align: center;
-    font-weight: 900;
+#tituloartigo {
+  text-align: center;
+  font-weight: 900;
 }
 
 .conteudo {
-    text-align: center;
-    word-wrap: break-word;
-    font-size: 16px;
+  text-align: center;
+  word-wrap: break-word;
+  font-size: 16px;
+  line-height: 20 px;
 }
 
 a:hover {
-    color: tomato;
-
+  color: tomato;
 }
 
 a {
-    color: blue;
+  color: blue;
 }
 
 .soft {
-    margin: auto;
-    width: 400px;
-    height: 170px;
-    border: 5px solid #8f8992de;
-    text-align: center;
-    padding: 30px;
-    background-color: indigo;
-    margin-bottom: 8%;
+  width: 300px;
+  height: 259px;
+  margin-left: auto;
+  border: 5px solid #8f8992de;
+  text-align: center;
+  padding: 30px;
+  background-color: indigo;
+  margin-bottom: 8%;
 }
 
 .softconteudo {
-    font-size: 15px;
-    text-align: center;
-    word-wrap: break-word;
+  font-size: 15px;
+  text-align: center;
+  word-wrap: break-word;
 }
 
 #rodape {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: indigo;
-   border: 3px solid #8f8992de;
-   color: black;
-   text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: indigo;
+  border: 3px solid #8f8992de;
+  color: black;
+  text-align: center;
 }
 
-  .navi > a {
-    padding-left:30px;
-    padding-right:30px;
-  }
+.navi > a {
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
-  nav {
-    height: 48px;
+nav {
+  height: 48px; 
 }
 
 nav ul {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 nav li {
-    display: inline-block;
-    height: 100%;
-    width: 20%;
+  display: inline-block;
+  height: 100%;
+  width: 20%;
 }
 
 nav li a {
-    font-family: cursive;
-    color: black;
-    font-size: 16px;
-    text-decoration: none;
-    font-weight: 600;
-}    
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#loucura {
+  margin-left: 30px;
+}
