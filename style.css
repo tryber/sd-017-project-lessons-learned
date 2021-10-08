@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -8,30 +8,37 @@ body {
 }
 
 a:hover {
-  color: green;
+  color: rgb(0, 255, 0);
+}
+
+.git {
+  text-decoration: none;
+  color: rgb(0, 128, 0);
+  padding: 10px;
 }
 
 .links_cabecalho {
-  color: honeydew;
+  color: rgb(240, 255, 240);
   text-decoration: none;
   font-size: 16pt;
   margin-left: 5px;
 }
-li{
-    font-family: sans-serif;
-    line-height: 20px;
+
+li {
+  font-family: sans-serif;
+  line-height: 20px;
 }
 
 #cabecalho {
   position: fixed;
   top: 0px;
   width: 100%;
-  background-color: hsl(120, 100%, 17%);
+  background-color: rgb(0, 87, 0);
 }
 
 #cabecalho h1 {
   text-align: center;
-  color: honeydew;
+  color: rgb(240, 255, 240);
 }
 
 #cabecalho ul {
@@ -41,30 +48,34 @@ li{
 .foto {
   margin-top: 100px;
   margin-left: 50px;
+  text-decoration: none;
 }
 
 #minha_foto {
-    border-radius: 20%;
+  border-radius: 20%;
 }
 
 .lado-esquerdo {
-    float: left;
-    max-width: 50%;
+  float: left;
+  max-width: 50%;
 }
 
 .lado-direito {
-    float: right;
-    max-width: 50%;
+  float: right;
+  max-width: 50%;
 }
 
 .licoes {
-    border: 1px solid red;
-    padding: 30px;
-    width: 10%;
+  padding: 30px;
+  width: 50%;
 }
 
-
+.licoes-conteudo {
+  width: 30%;
+  margin: 10px;
+  display: inline-block;
+}
 
 footer {
-    margin: 100px;
+  margin: 100px;
 }
