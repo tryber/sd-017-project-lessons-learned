@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: rgb(253, 251, 251);
     width: 100vw;     
@@ -27,9 +30,13 @@ body{
     width: 80px;  
    
 }
-span{
-    width: 80px;
-}  
+#cabecalho nav a{
+    text-decoration: none;
+    color: #9ae6ca;    
+}
+#cabecalho nav a:hover{
+    color: #73af99;
+}
 
 #titulo{     
     font-weight: 900;
@@ -78,7 +85,7 @@ ol[title]::before, ul[title]::before{
 =====================================*/
 
 .art{  
-    margin: 15px 0;
+    margin: 40px 0;
     position: relative;
     top: 120px; 
     display: flex;   
@@ -106,7 +113,7 @@ h2{
 aside{
     width: 300px;    
 }
-h4{
+h3{
     text-align: center;
     color: #036b52;
     margin-top: 15px;
@@ -128,4 +135,16 @@ h4{
 aside a{
     cursor: pointer;
     text-decoration: none;
+}
+/*Footer
+=====================================*/
+footer{
+    position: relative;
+    top: 150px;
+    margin-top: 40px;
+    background-color: #444955;
+    color: #fff;
+    font-weight: 500;
+    padding: 30px;
+    text-align: center;
 }
