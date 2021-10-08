@@ -41,3 +41,8 @@ aside {
   margin-bottom: 100%;
   background-color: darkcyan;
 }
+
+.nav_links li{
+  display: inline;  
+  
+}
