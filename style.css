@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times;
 }
 
 body {
@@ -17,7 +17,7 @@ body {
   text-align: center;
 }
 
-#home, a {
+#home a {
   list-style: none;
   display: block;
   float: left;
@@ -73,7 +73,7 @@ section h3 {
   margin-bottom: 25px;
 }
 
-.lado-esquerdo { 
+.lado-esquerdo {
   display: inline;
   width: 50%;
   margin-left: 25px;
