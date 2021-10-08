@@ -1,24 +1,27 @@
-body{
+body {
   background-color: rgb(253, 251, 251);
+  font-family: monospace;
+  line-height: 17px;
 }
 
-#cabecalho{
+#cabecalho {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 135px;
-  background-color:  rgb(0, 128, 0);
-  z-index: 1
+  background-color: rgb(0,128,0);
+  z-index: 1;
+  font-size: 18px;
 }
 
-#titulo{
+#titulo {
   color: white;
   text-align: center;
 
 }
 
-#minha_foto{
+#minha_foto {
   width: 300px;
   position: absolute;
   top: 150px;
@@ -26,19 +29,21 @@ body{
   border-radius: 25px;
 }
 
-.lista-1{
+.lista-1 {
   position: absolute;
   top: 500px;
   left: 16px;
+  font-size: 14px;
 }
 
-.lista-2{
+.lista-2 {
   position: absolute;
   top: 500px;
   left: 180px;
+  font-size: 14px;
 }
 
-#rodape{
+#rodape {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -46,22 +51,22 @@ body{
   height: 60px;
   background-color: rgb(253, 251, 251);
   border-top: groove;
-  z-index: 1
+  z-index: 1;
 }
 
-.artigo{
+.artigo {
   position: absolute;
   top: 700px;
   left: 10px;
 }
 
-.sessao{
+.sessao {
   position: absolute;
   top: 250px;
   left: 350px;
   width: 300px;
 }
 
-h2{
-  font-size: 20px;
+h2, h3 {
+  font-size: 16px;
 }
