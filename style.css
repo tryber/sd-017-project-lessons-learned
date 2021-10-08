@@ -3,7 +3,7 @@ body {
   margin: 0;
   font-style: italic;
   line-height: 110%;
-  color: black; 
+  color: black;
 }
 
 #cabecalho {
@@ -13,11 +13,12 @@ body {
   width: 100%;
   padding: 5px;
 }
+
 #main {
   margin-top: 200px;
   width: 100%;
 }
-    
+
 #titulo {
   text-align: center;
   font-size: 50px;
@@ -49,7 +50,7 @@ aside {
 }
 
 #minha_foto {
-  border-radius: 60px; 
+  border-radius: 60px;
   margin-left: 540px;
 }
 
@@ -58,11 +59,10 @@ article {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
+
 #section-ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-    
