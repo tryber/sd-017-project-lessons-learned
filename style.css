@@ -6,7 +6,8 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: 'playfair display';
-  max-width: 1366px;
+  font-size: 16px;
+  line-height: 115%;
 }
 
 header {
