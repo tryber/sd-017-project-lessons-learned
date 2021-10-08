@@ -13,8 +13,17 @@ body {
 
 .tabela {
   border: 2px solid black;
-  margin-top: 200px;
-  margin: auto;
-  padding: 5px;
+  margin-top: 200px;  
+}
+
+.listas {
+  margin: 2px;
+  padding: 10px;
+  border: 1px solid red;
+  color: red;
+  margin-top: 450px;
+  font-size: 12px;
+  line-height: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
