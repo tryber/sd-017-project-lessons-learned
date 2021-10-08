@@ -7,7 +7,7 @@ body {
   top: 0;
   position: fixed;
   width: 1366px;
-  background-color: seagreen;
+  background-color: green;
 }
 
 h1 {
@@ -65,7 +65,9 @@ p {
   width: 50%;
 }
 
-table {
+.table {
   background-color: green;
-  padding: 10px 30px;
+  display: inline-block;
+  width: 100%;
+  align-content: center;
 }
