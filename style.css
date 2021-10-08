@@ -6,3 +6,8 @@ body {
   position: fixed;
   top: 0;
 }
+
+.my-picture {
+  background: #b4564a;  
+  width: 10px 0px;
+}
