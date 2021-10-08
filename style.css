@@ -9,7 +9,7 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: #5ae785;
+  background-color:chartreuse;
   width: 100%;
   padding: 5px;
 }
