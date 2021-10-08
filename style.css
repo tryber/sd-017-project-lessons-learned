@@ -73,6 +73,13 @@ section {
     top: 300px;
 }
 
+table {
+  position: absolute;
+  display: inline-block;
+  right: 350px;
+  top: 320px;
+}
+
 #rodape {
     position: fixed;
     bottom: 5px;
