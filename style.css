@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+header div {
+  top: 0px;
+  text-align: center;
+  background-color: gold;
+  position: fixed;
+}
+#minha_foto {
+  margin:10px ;
+  padding:10px;
+  border: 10px black solid;
+}
+h3 {
+  font-size: 20px;
+  color: teal;
+  line-height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.lado-esquerdo{
+  float:left;
+  display: inline;
+}
+.lado-direito {
+  float: right;
+  display: inline;
+}
