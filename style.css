@@ -17,4 +17,9 @@ body {
     align-content: center;
 }
 
+footer {
+   position: center;
+   bottom: 0; 
+}
+
  
