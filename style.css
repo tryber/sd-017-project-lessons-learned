@@ -20,12 +20,6 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-.center {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 2%;
-}
-
 #cabecalho {
   width: 100%;
   position: fixed;
@@ -38,51 +32,88 @@ body {
 
 h1 {
   font-size: 35px;
+  margin-bottom: 12px;
 }
 
-img {
-  display: block;
-  margin: 80px auto 40px;
-  height: 250px;
-  width: 300px;
-  border: 3px solid rgb(56, 12, 61);
+nav ul li {
+  display: inline-block;
+  margin: 0 12px;
 }
 
-table {
-  width: 300px;
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.fabio {
+  width: 700px;
   margin: auto;
 }
 
+img {
+  display: inline-block;
+  margin: 140px auto 40px;
+  height: 250px;
+  width: 300px;
+  border: 3px solid rgb(56, 12, 61);
+  vertical-align: middle;
+}
+
+table {
+  margin: auto;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 15px;
+  text-align: left;
+}
+
+table td, th {
+  padding: 2px 18px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 22px;
+}
+
 .listas {
-  background-color: rgb(56, 12, 61);
+  max-width: 600px;
+  margin: auto;
+  padding: 40px 0;
 }
 
-#licoes_aprendidas {
-  width: 45%;
-  float: left;
+h2 {
+  margin-bottom: 12px;
+  font-size: 22px;
 }
 
-#licoes_a_aprender {
-  width: 45%;
-  float: left;
+ol, ul {
+  list-style-position: inside;
 }
 
 section {
   padding: 30px 0;
 }
 
-.sec2 {
-  color: rgb(56, 12, 61);
+.aprendizados {
+  max-width: 1200px;
+  margin: auto;
 }
 
-.sec2 p {
-  line-height: 25px;
-}
-
-.aprendizado {
+.aprendizado-single {
   width: 45%;
 }
 
-.passagem {
-  width: 45%;
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 16px 0;
+  color: white;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
 }
