@@ -28,8 +28,13 @@ li{
 	margin: 1px;
 	padding-left: 30px;
 }
-.lado-direito{
+.lado-esquerdo{
 	display: inline-block;
+	top: 17%;
+	left: 0%;
+}
+.lado-direito{
+	display: block;
 	position: absolute;
 	top: 17%;
 	right: 0%;
