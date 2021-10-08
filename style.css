@@ -79,8 +79,8 @@ body {
 #minha_foto {
   height: 250px;
   position: absolute;
-  top: 90px;
-  left: 30px;
+  top: 100px;
+  left: 50px;
   border-radius: 15px;
   border: solid 2px rgb(50, 50, 50);
 }
@@ -89,7 +89,7 @@ table {
   position: fixed;
   width: 300px;
   height: 180px;
-  top: 80px;
+  top: 100px;
   left: 320px;
   border: 2px solid rgb(50, 50, 50);
   border-radius: 15px;
@@ -116,13 +116,13 @@ table, th, td {
 #licoes_aprendidas {
   position: fixed;
   right: 120px;
-  top: 150px;
+  top: 160px;
 }
 
 #licoes_a_aprender {
   position: fixed;
   right: 390px;
-  top: 150px;
+  top: 160px;
 }
 
 #licoes {
@@ -130,7 +130,7 @@ table, th, td {
   height: 355px;
   width: 500px;
   display: block;
-  top: 90px;
+  top: 100px;
   right: 100px;
   border-radius: 15px;
   border: solid 2px rgb(50, 50, 50);
@@ -157,8 +157,8 @@ main section article {
   height: 200px;
   border: 2px solid rgb(50, 50, 50);
   border-radius: 15px;
-  right: 20px;
-  bottom: 60px;
+  right: 50px;
+  bottom: 75px;
   font-size: 18px;
   text-align: center;
   padding: 25px 15px;
@@ -171,7 +171,7 @@ main aside {
   border-radius: 15px;
   position:fixed;
   left: 80px;
-  bottom: 70px;
+  bottom: 75px;
   height: 180px;
   font-size: 18px;
   padding: 20px 15px;
