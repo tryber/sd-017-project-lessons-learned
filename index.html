@@ -12,15 +12,27 @@
             background-color: rgb(253, 251, 251);
         }
 
+        #cabecalho {
+            top: 0;
+        }
+
         #minha_foto {
             width: 100px;
         }
 
-        .box-width-and-height {
-            width: auto;
-            height: 60px, 60px;
+        .box {
             background-color: blue;
         }
+
+        .width-and-height {
+            width: auto;
+            height: 50px;
+        }
+
+        .padding {
+            padding: 20px;
+        }
+            
         #titulo {
             color: white;
         }
@@ -28,8 +40,8 @@
     </style>
 </head>
 <body>
-    <header>
-         <div class="box-width-and-height">
+    <header id="cabecalho" >
+         <div class="box width-and-height padding">
          <h1 id="titulo">Lições Aprendidas na Trybe</h1></div>
     </header>
     <img id="minha_foto" src="foto.JPG" alt="Maurício e sua cadela Sakura">
