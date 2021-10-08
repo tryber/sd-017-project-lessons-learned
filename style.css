@@ -1,14 +1,19 @@
-#cabecalho {
-    top: 0px;
+#navegacao {
+    letter-spacing: 3px;
+    width: 100%;
     text-align: center;
 }
 
-#navegacao {
-    letter-spacing: 3px;
-    word-spacing: 200px;
-    background-color: thistle;
-    width: 100%;
+#cabecalho {
+    letter-spacing: 2px;
+    font-size: 3px;
+    height: 11px;
     text-align: center;
+    position: fixed;
+    top: 0;
+    background-color: thistle;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 0% 0% 20% 20%;
 }
 
 #titulo,
@@ -17,7 +22,7 @@ h1 {
 }
 
 #minha_foto {
-    width: 100px;
+    width: 50px;
     border-radius: 50%;
     background-color: violet;
     border: darkcyan solid 2px;
