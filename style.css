@@ -81,7 +81,7 @@ h3 {
   border: darkgreen solid;
   margin-left: 30px;
   margin-right: 30px;
-  box-shadow: -9px 10px 0px green;
+  box-shadow: -9px 10px green;
   display: inline-block;
 }
 
@@ -120,11 +120,12 @@ h3 {
   background-color: darkslategrey;
   border-top: darkseagreen solid;
 }
+
 .alinhar {
   align-items: top;
 }
 
-footer p{
+footer p {
   color: white;
   background-color: darkgreen;
 }
@@ -137,7 +138,7 @@ footer a {
 .palavras-aprendizado p {
   width: 500px;
   max-width: 400px;
-  border-left:chartreuse solid;
+  border-left: chartreuse solid;
   padding: 30px;
   font-size: 20px;
 }
