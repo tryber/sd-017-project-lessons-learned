@@ -26,3 +26,16 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.lado-direito {
+  width: 400px;
+  position: absolute;
+  right: 15px;
+  top: 1600px;
+}
+
+.lado-esquerdo {
+  width: 400px;
+  position: absolute;
+  left: 15px;
+  top: 1600px;
+}
