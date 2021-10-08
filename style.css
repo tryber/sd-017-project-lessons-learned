@@ -4,6 +4,11 @@ body {
   line-height: 25px;
 }
 
+h2 {
+  color: rgb(16, 58, 82);
+  text-shadow: 2px 2px 2px black;
+}
+
 #cabecalho {
   top: 0;
   position: fixed;
@@ -124,6 +129,7 @@ footer {
   padding: 10px;
   background-color: rgb(16, 58, 82);
   color: rgb(158, 62, 68);
+  border-radius: 20px 20px 1px 1px;
 }
 
 table , td , tr {
@@ -149,10 +155,9 @@ table {
   height: 32px;
 }
 
-#facebook {
-  width: 74.4px;
-  height: 14.4px;
-  margin-bottom: 5px;
+#github {
+  width: 131.28px;
+  height: 32px;
 }
 
 #whatsapp {
