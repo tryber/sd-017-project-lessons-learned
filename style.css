@@ -1,7 +1,9 @@
 body {
     background-color: rgb(253, 251, 251);
     margin: 0;
-    scroll-behavior: smooth;
+    font-style: italic;
+    line-height: 110%;
+    color: black;
     
 }
 #cabecalho {
