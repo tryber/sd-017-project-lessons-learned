@@ -1,8 +1,65 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 header {
   position: fixed;
   top: 0;
+  background-color: lightgreen;
+  width: 100%;
+  margin-left: 0;
+  padding-left: 10px;
+  text-align: center;
+  padding-bottom: 3px;
+}
+
+main {
+  margin-top: 50px;
+  padding-left: 8px;
+}
+
+#minha_foto {
+  position: absolute;
+  right: 0;
+  width: 200px;
+  border-radius: 28%;
+}
+
+article {
+  margin-top: 120px;
+  max-width: 66%;
+  text-align: justify;
+}
+
+aside {
+  margin-top: 12px;
+  max-width: 66%;
+  text-align: justify;
+  background-color: rgb(102, 101, 101);
+  color: white;
+  padding: 8px;
+  border: 3px solid lightgreen;
+  border-radius: 10px;
+}
+
+.first {
+  display: inline-block;
+  max-width: 35%;
+}
+
+.second {
+  display: inline-block;
+  max-width: 35%;
+}
+
+footer {
+  background-color: lightgreen;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 30px;
+  padding: 10px;
 }
