@@ -58,7 +58,6 @@ section h2 {
   border: 1px  dashed black;
   width: 40%;
   padding: 8px;
-  float: ;
   text-align: justify;
 }
 
@@ -83,6 +82,6 @@ section h2 {
 }
 
 .bold {
-  font-weight: bold;
+  font-weight: 500;
   color: white;
 }
