@@ -4,8 +4,6 @@ body {
   line-height: 25px;
 }
 
-
-
 #cabecalho {
   top: 0;
   position: fixed;
@@ -40,7 +38,6 @@ body {
   border-radius: 20px;
 }
 
-
 .menu_content {
   margin-left: auto;
   margin-right: 30px;
@@ -51,7 +48,6 @@ body {
 .menu_superior h2 {
   display: inline-block;
   margin-left: 40px;
-
 }
 
 .menu_content li {
@@ -62,14 +58,13 @@ body {
 main {
   position: absolute;
   top: 260px;
-  margin: 20px 20px 0px 40px;
+  margin: 20px 20px 40px;
   length: auto;
 }
 
 #licoes_aprendidas,
 #licoes_a_aprender {
   display: inline-block;
-
 }
 
 #licoes_a_aprender {
