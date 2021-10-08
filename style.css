@@ -12,19 +12,19 @@ body {
   top: 0;
   left: 0%;
   width: 100%;
+  background-color: aqua;
 }
 
 #titulo {
   text-align: center;
-  background-color: aqua;
-  height: 150px;
+  height: 100px;
 }
 
 #minha_foto {
   height: 300px;
-  padding-top: 175px;
+  padding-top: 130px;
   padding-left: 30px;
-  border-radius: 15%;
+  border-radius: 50%;
 }
 
 #licoes_aprendidas {
@@ -32,5 +32,13 @@ body {
 }
 
 #licoes_a_aprender {
+  margin: 35px;
+}
+
+#rodape {
+  margin: 35px;
+}
+
+#link {
   margin: 35px;
 }
