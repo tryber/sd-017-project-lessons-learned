@@ -4,10 +4,6 @@
         border: 0;
     }
     
-    body {
-        background-color: rgb(253, 251, 251);
-    }
-    
     #cabecalho {
         top: 0;
         left: 0;
@@ -17,6 +13,10 @@
         width: 100%;
         height: 80px;
         color: white;
+    }
+    
+    body {
+        background-color: rgb(253, 251, 251);
     }
     
     #cabecalho a {
@@ -60,7 +60,7 @@
         margin-bottom: 20px;
         line-height: 25px;
         margin-left: 40px;
-        display: table-cell;
+        display: inline-block;
         padding-left: 50px;
         text-align: center;
         font-family: 'Times New Roman', Times, serif;
@@ -72,7 +72,7 @@
         line-height: 25px;
         margin-left: 100px;
         list-style: none;
-        display: table-cell;
+        display: inline-block;
         padding-left: 30px;
         padding-top: 30px;
         text-align: center;
@@ -107,7 +107,7 @@
         font-size: 17px;
     }
     
-    ​ .lado-direito {
+    .lado-direito {
         margin-top: 20px;
         margin-bottom: 20px;
         display: inline-block;
