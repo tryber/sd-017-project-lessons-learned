@@ -2,6 +2,11 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+div {
+  border: 5px solid blue;
+  height: 200px;
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
@@ -11,3 +16,9 @@ body {
 
 /* Origem do seletor cabeçaho:
  https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/ */
+
+#minha_foto {
+  border: 1px solid brown;
+  padding-top: 10px;
+  padding-left: 10px;
+}
