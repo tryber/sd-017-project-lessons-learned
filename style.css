@@ -150,3 +150,13 @@ nav li a {
 #loucura {
   margin-left: 30px;
 }
+
+table {
+  width: 100%;
+  border: 1px solid black;
+  margin-bottom: 10%;
+}
+
+table, td, th {
+  border: 1px solid black;
+}
