@@ -35,5 +35,11 @@ body {
 }
 
 .lado-esquerdo {
+  width: 47%;
   display: inline-block;
+}
+.lado-direito {
+  width: 47%;
+  display: inline-block;
+  transform: translateY(-45%);
 }
