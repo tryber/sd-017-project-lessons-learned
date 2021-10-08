@@ -1,5 +1,5 @@
 body {
- background: rgb(253, 251, 251);
+  background: rgb(253, 251, 251);
 }
 
 #cabecalho {
@@ -13,7 +13,6 @@ body {
 #titulo {
   text-align: center;
   font-family: sans-serif;
-
 }
 
 #menu li {
@@ -26,6 +25,3 @@ body {
   margin-top: 10%;
   margin-left: 5%;
 }
-
-
-
