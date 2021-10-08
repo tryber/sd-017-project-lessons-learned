@@ -4,13 +4,16 @@ body {
 }
 
 .titulo {
-  border: 2px solid green;
-  margin: 10px 5px;
-  top: 0px;
+  border: 3px solid green;
+bottom: 560px;
+right: 1080px;
   text-align: center;
-position: fixed;
-width: 1320px;
+position: static;
+width: 300px;
 background-color: rgb(12, 151, 12);
+z-index: 1;
+left: 20px;
+top: 0px;
 }
 
 img {
