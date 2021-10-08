@@ -7,7 +7,7 @@ body {
   position: fixed;
   top: 0;
   background-color: rgb(12, 151, 12);
-  padding: 0px 30px;
+  padding: 1px 30px;
   margin: 5px;
   width: 93.3%;
 }
@@ -18,15 +18,15 @@ img {
   margin-top: 90px;
 }
 
-.lado-esquerdo{
+.lado-esquerdo {
   position: absolute;
   right: 1250px;
   margin-top: 140px;
 }
 
 .esquerdo {
-  position:absolute;
-  margin-top:-120px ;
+  position: absolute;
+  margin-top: -120px;
   left: -100px;
 }
 
@@ -48,8 +48,8 @@ img {
   display: block;
   width: 350px;
   margin-top: -5px;
-  background-color:beige;
-  color:rgb(56, 56, 55)
+  background-color: beige;
+  color: rgb(56, 56, 55);
 }
 
 .aprendizado {
@@ -57,14 +57,14 @@ img {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 40px;
   position: absolute;
-  left: 1180px;
-  padding: 20px; ;
+  left: 1040px;
+  padding: 20px;
   margin-top: -200px;
   width: 250px;
   text-align: center;
   border: 1px solid green;
-  margin: -151px;
-  background-color:rgb(12, 151, 12);
+  margin-top: -151px;
+  background-color: rgb(12, 151, 12);
 }
 
 #cabecalho h1 {
@@ -72,16 +72,23 @@ img {
 
 }
 
-#rodape{
-  
-  margin-top:270px;
+#rodape {
+  margin-top: 260px;
   position: absolute;
   width: 220px;
+  border-top: 50px solid green;
 }
 
-#minha-foto {
+.link {
   position: absolute;
   color: black;
-  right: 107px;
-  margin-top: -5px;
+  left: 20px;
+  margin-top: -30px;
+}
+
+.link-sec {
+  position: absolute;
+  color: black;
+  right: 30px;
+  margin-top: -30px;
 }
