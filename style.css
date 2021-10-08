@@ -6,8 +6,8 @@ body {
 }
 #titulo {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  text-align: center;
-  font-size: 35px;}
+  font-size: 35px;
+}
 #cabecalho {
   background-color: #30e48c;
   display: flex;
@@ -17,11 +17,11 @@ body {
   position: fixed;
 }
 #conteudo_principal{
-  display: inline-block
+  display: block
   margin-top: 4%;
 }
 #navegacao{
-display: block;
+display: flex;
 }
 #meu_aprendizado {
   display: flex;
