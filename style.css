@@ -1,21 +1,22 @@
 body {
   background-color: rgb(253, 251, 251);
-  margin: 0;
+  margin: 0px;
+  font-family: sans-serif;
 }
 
 header {
   position: fixed;
-  top: 0;
+  top: 0px;
   background-color: teal;
   width: 100%;
 }
 
-#cabecalho h1, nav a {
-  padding: 0px 10px;
+.inicio {
+  padding: 1px 10px;
   width: 60%;
   font-family: monospace;
   color: rgb(253, 251, 251);
-  font-weight: bolder;
+  font-weight: 800;
 }
 
 nav {
@@ -24,16 +25,37 @@ nav {
   top: 25px;
 }
 
-nav a {
+a {
   text-decoration: none;
   font-size: 15px;
 }
 
 #minha_foto {
   width: 200px;
-  padding-top: 100px;
+  margin: 85px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border-left: 5px solid teal;
 }
 
-p {
+p, li {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 25px;
+}
 
+#rodape {
+  position: relative;
+  bottom: 0px;
+  background-color: rgb(219, 216, 216);
+  padding: 10px;
+}
+
+.final {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
