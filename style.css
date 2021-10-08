@@ -14,4 +14,7 @@ body {
 .tabela {
   border: 2px solid black;
   margin-top: 200px;
+  margin: auto;
+  padding: 5px;
 }
+
