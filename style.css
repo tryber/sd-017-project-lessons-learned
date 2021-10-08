@@ -7,7 +7,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgb(123, 190, 207);
+  background-color: rgb(180, 224, 235);
 }
 
 .nav-bar li {
@@ -15,7 +15,7 @@ header {
   margin-right: 40px;
 }
 
-.nav-bar li:hover {
+.nav-bar li:hover:nth-child(2n) {
   background-color: rgb(255, 203, 251);
   cursor: pointer;
 }
