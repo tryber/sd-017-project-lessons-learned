@@ -83,12 +83,12 @@ body {
   line-height: 20 px;
 }
 
-a:hover {
-  color: tomato;
-}
-
 a {
   color: blue;
+}
+
+a:hover {
+  color: tomato;
 }
 
 .soft {
@@ -134,7 +134,7 @@ nav li {
   width: 20%;
 }
 
-  .navi > a {
+.navi > a {
   font-family: 'Open Sans', sans-serif;
   color: black;
   font-size: 16px;
