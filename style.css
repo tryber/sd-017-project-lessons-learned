@@ -1,7 +1,11 @@
+
+
 body {
     background-color: rgb(253, 251, 251);
 
 }
+
+
 
 .header {
     position: float;
@@ -9,17 +13,23 @@ body {
 
 }
 
+
+
 .my-picture {
     width: 180;
     margin-top: 40px;
 
 }
 
+
+
 .section  {
     width: 180;
     align-content: center;
 
 }
+
+
 
 footer  {
    position: center;
