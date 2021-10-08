@@ -61,6 +61,11 @@ main {
   width: 45%;
   margin-left: 50px;
   transform: translateY(-65%);
+
+  /*
+    source: Breno Santos que me ensinou
+    para eu conseguir movimentar o elemento para onde eu queria.
+  */
 }
 
 #rodape {
