@@ -80,7 +80,7 @@ main {
 
 
 .comments-title {
-  margin: 10px 30px;
+  margin: 30px 30px 0;
 }
 
 #comments {
@@ -144,7 +144,7 @@ table li {
 }
 
 #table-2-content {
-  background-color: rgba(0, 195, 140, 0.1);
+  background-color: rgba(0, 111, 252, 0.1);
   border-radius: 0 8px 8px 0;
 }
 
@@ -181,4 +181,12 @@ table li {
     width: 46%;
     text-align: justify;
   }
+}
+
+/* Inpiração: https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ */
+blockquote {
+  background: rgba(0, 195, 140, 0.1);
+  border-left: 10px solid rgb(0, 195, 140);
+  padding: 1em 20px;
+  text-align: justify;
 }
