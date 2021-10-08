@@ -18,14 +18,14 @@ body {
   text-decoration: none;
 }
 
-#cabecalho h1{
+#cabecalho h1 {
   text-align: center;
   font-size: 33px;
 }
 
 .menu {
   list-style: none;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: sans-serif;
   font-size: 17px;
 
 }
@@ -42,12 +42,12 @@ body {
   color: black;
 }
 
-#licoes_aprendidas, #licoes_a_aprender{
+#licoes_aprendidas , #licoes_a_aprender {
   display: inline-block;
   line-height: 20px;
-} 
+}
 
-section h2{
+section h2 {
   margin-top: 80px;
 }
 
@@ -82,7 +82,7 @@ section h2{
   text-align: center;
 }
 
-.bold{
-  font-weight: bold; 
+.bold {
+  font-weight: bold;
   color: white;
 }
