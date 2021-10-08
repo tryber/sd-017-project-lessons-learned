@@ -21,7 +21,24 @@ li {
     width: 100%;
     padding: 30px;
     box-shadow: 0 9px 7px -2px #989898;
+    color: rgb(81, 69, 189);
 }
+nav {
+    float: right;
+    margin-right: 160px;
+    margin-top: 10px;
+}
+#cabecalho h1 {
+    display: inline-block;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
 
 .homepage {
     background-image: url(src/capaprojeto.jpg);
@@ -29,7 +46,7 @@ li {
     vertical-align: middle;
 }
 
-.homepage article   {
+.homepage section   {
     max-width: 500px;
     float: right;
     padding: 30px;
@@ -74,7 +91,7 @@ section {
 
 .secaodelistas h1  {
     margin-bottom: 30px;
-    color: rgb(37, 37, 37);
+    color: rgb(81, 69, 189);
 
 }
 .secaodelistas li {
@@ -86,8 +103,8 @@ section {
     margin-bottom: 30px;
 }
 
-#button {
-    background-color: rebeccapurple;
+.button {
+    background-color: rgb(81, 69, 189);
     padding: 15px;
     border-radius: 5px;
     color: rgb(253, 251, 251);
@@ -96,7 +113,7 @@ section {
     box-shadow: 0 9px 7px -2px #989898;
 
 }
-#button:hover{
+.button:hover{
     opacity: 0.5;
 
 
@@ -120,21 +137,28 @@ section {
     border-color: #989898;
     background-color: snow;
     float:left;
+    line-height: 23px;
 
-
+}
+.lado-esquerdo h1{
+    font-size: x-large;
 }
 
 .lado-direito {
     display: none;
     float: right;
+
 }
 
-.lado-direito  aside {
-    margin-top: 30px;
-    background-color: springgreen;
-    height: 150px;
+.chamado {
+    font-size: 12px;
+
 }
 
+.principatext {
+    color: rgb(81, 69, 189);
+    line-height: 20px;
+}
 
 
 
