@@ -1,0 +1,76 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Cambria, Cochin, Georgia, Times, serif;
+  font-size: 95%;
+  color: rgb(23, 23, 34);
+  font-weight: 100;
+  line-height: 101%;
+  margin: 5px;
+  padding: 5px;
+  border: 5px;
+}
+
+#inicio {
+  top: 0;
+}
+
+#cabecalho {
+  top: 0;
+  position: fixed;
+  z-index: 1;
+  margin-top: 10px;
+}
+
+#nav_menu {
+  position: fixed;
+  z-index: 1;
+}
+
+#minha_foto {
+  top: 60px;
+  position: absolute;
+}
+
+#licoes_aprendidas {
+  position: absolute;
+  top: 300px;
+}
+
+#licoes_a_aprender {
+  position: absolute;
+  top: 300px;
+  left: 300px;
+}
+
+#rodape {
+  position: absolute;
+  top: 900px;
+  font-style: italic;
+  right: 10px;
+}
+
+#adicional_softskills {
+  top: 600px;
+  margin-right: 30px;
+  left: 450px;
+  width: 30%;
+  position: absolute;
+  text-align: justify;
+}
+
+#main_article {
+  top: 600px;
+  position: absolute;
+  width: 30%;
+  margin-left: 10px;
+}
+
+#tabela_requisitos {
+  position: absolute;
+  top: 850px;
+}
+
+#titulo_tabela {
+  position: absolute;
+  top: 800px;
+}
