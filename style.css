@@ -1,13 +1,25 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #cabecalho {
   top: 0;
   position: fixed;
+  width: 1366px;
   background-color: seagreen;
-  display: inline;
+}
 
+h1 {
+  text-align: left;
+  margin-left: 25px;
+  color: aliceblue;
+}
+
+header ul, a {
+  color: aliceblue;  
+  list-style: none;
+  text-decoration: none;
 }
 
 #minha_foto {
