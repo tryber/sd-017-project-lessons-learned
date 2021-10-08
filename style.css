@@ -4,6 +4,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Bitter', serif;
 }
 
 #cabecalho {
@@ -24,7 +25,7 @@ body {
 }
 
 #headline:hover {
-  background-color: white;
+  background-color: #2fc18c;
   border-radius: 5px;
   width: 45px;
 }
@@ -41,11 +42,11 @@ body {
 }
 
 #titulo {
-  font-family: 'Bitter', serif;
   margin-left: 220px;
   width: 440px;
   font-size: 26px;
   letter-spacing: 1px;
+  color: white;
 }
 
 #cabecalho div {
@@ -53,16 +54,15 @@ body {
   position: relative;
   right: 10px;
   bottom: 58px;
-  font-family: 'Bitter', serif;
   margin-right: 20px;
   margin-left: 12px;
   text-align: center;
 }
 
 #cabecalho div:hover {
-  background-color: white;
   border-radius: 5px;
-  padding: 5px;
+  padding: 4px;
+  background-color: #2fc18c;
 }
 
 #cabecalho div img {
@@ -73,16 +73,16 @@ body {
   margin: 0;
   font-size: 15px;
   font-weight: bold;
-  color: black;
+  color: white;
 }
 
 #minha_foto {
-  height: 250px;
+  height: 300px;
   position: absolute;
-  top: 90px;
-  left: 25px;
+  top: 110px;
+  left: 80px;
   border-radius: 15px;
-  border: solid 3px;
+  border: solid 3px rgb(50, 50, 50);
 }
 
 #licoes_aprendidas {
@@ -105,22 +105,50 @@ body {
   top: 85px;
   right: 20px;
   border-radius: 15px;
-  border: solid 3px;
+  border: solid 3px rgb(50, 50, 50);
 }
 
 #licoes h2 {
   text-align: center;
   font-size: 30px;
+  color: rgb(50, 50, 50);
 }
 
 #licoes ol, #licoes ul {
-  font-family: 'Bitter', serif;
   list-style: upper-roman;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 #licoes ol li, #licoes ul li {
   line-height: 25px;
+}
+
+main section article {
+  position: fixed;
+  width: 700px;
+  height: 200px;
+  border: 3px solid rgb(50, 50, 50);
+  border-radius: 15px;
+  right: 20px;
+  top: 500px;
+  font-size: 18px;
+  text-align: center;
+  padding: 25px 15px;
+  letter-spacing: 1px;
+}
+
+main aside {
+  width: 400px;
+  border: 2px dashed rgb(50, 50, 50);
+  border-radius: 15px;
+  position:fixed;
+  left: 80px;
+  top: 525px;
+  height: 150px;
+  font-size: 18px;
+  padding: 20px 15px;
+  text-align: center;
+  letter-spacing: 1px;
 }
 
 #rodape {
@@ -131,9 +159,18 @@ body {
   left: 0;
   background-color: white;
   text-align: center;
-  line-height: 30px;
-  border-top: solid 1px black;
-  font-family: 'Bitter', serif;
+  line-height: 35px;
+  border-top: solid 1px grey;
   letter-spacing: 1px;
   font-size: 13px;
+}
+
+#rodape img {
+  float: right;
+  margin-right: 5px;
+  margin-top: 3px;
+}
+
+#rodape img:hover {
+  width: 27px;
 }
