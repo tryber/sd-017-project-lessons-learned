@@ -58,7 +58,7 @@
     
     #licoes_aprendidas {
         margin-bottom: 20px;
-        line-height: 26px;
+        line-height: 25px;
         margin-left: 40px;
         display: table-cell;
         padding-left: 50px;
@@ -66,11 +66,10 @@
         font-family: 'Times New Roman', Times, serif;
         color: rgb(14, 13, 13);
         font-size: 12px;
-        line-height: 25px;
     }
     
     #licoes_a_aprender {
-        line-height: 26px;
+        line-height: 25px;
         margin-left: 100px;
         list-style: none;
         display: table-cell;
@@ -80,7 +79,6 @@
         font-family: 'Times New Roman', Times, serif;
         color: rgb(14, 13, 13);
         font-size: 12px;
-        line-height: 25px;
     }
     
     section h2 {
