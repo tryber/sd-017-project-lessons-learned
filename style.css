@@ -100,3 +100,25 @@ h2 {
     font-size: 20px;
     line-height: 25px;
 }
+
+.lado-esquerdo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    border: 1px dashed black;
+    width: 40%;
+    padding: 8px;
+    float: ;
+    text-align: justify;
+}
+
+​ .lado-direito {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    border: 1px dashed black;
+    padding: 8px;
+    float: right;
+    width: 40%;
+    text-align: justify;
+}
