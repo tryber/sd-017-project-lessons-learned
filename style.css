@@ -7,7 +7,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  position: absolute;
+  position: fixed;
   border: 5px solid rgba(47, 6, 77, 0.871);
   background-color: rgb(75, 0, 130);
 }
