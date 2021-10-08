@@ -14,11 +14,11 @@ body {
   padding: 35px;
   width: 100%;
   text-align: center;
+  margin: 0;
 }
 
-#home a {
+#home {
   list-style: none;
-  display: block;
   float: left;
   line-height: 20px;
   text-decoration: none;
@@ -82,7 +82,7 @@ main h2 {
 }
 
 .lado-direito {
-  margin-left: 120px;
+  
 }
 
 #rodape {
