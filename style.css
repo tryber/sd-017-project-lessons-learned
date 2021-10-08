@@ -29,13 +29,24 @@ body {
 }
 
 .lado-esquerdo {
-  float: left;
+  display: inline-block;
 }
 .lado-direito {
-  float: right;
+  display: inline-block;
 }
 
 #rodape {
   text-align: center;
-  padding: 20px
+  padding: 20px;
+}
+
+table {
+  display: inline-block;
+}
+.listas {
+  display:inline-block;
+  border: 2px solid black;
+  line-height: 40px;
+}
+
 }
