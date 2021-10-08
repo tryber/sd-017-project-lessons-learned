@@ -14,6 +14,7 @@ body {
 }
 
 #titulo {
+  position: relative;
   display: inline-block;
   float: right;
   margin-right: 80px;
@@ -31,7 +32,7 @@ body {
 .menu_superior {
   top: 210px;
   background-color: rgb(253, 251, 150);
-  width: 80%;
+  width: 100%;
   border-radius: 20px;
 }
 
@@ -56,5 +57,67 @@ body {
 
 main {
   position: absolute;
-  top: 300px;
+  top: 260px;
+  margin: 20px 20px 0px 40px;
+
+}
+
+#licoes_aprendidas,
+#licoes_a_aprender {
+  display: inline-block;
+
+}
+
+#licoes_a_aprender {
+  text-align: right;
+}
+
+.lists {
+  border: 1px solid black;
+  padding: 10px 10px;
+  margin: 25px;
+  display: inline-block;
+}
+
+.lado-direito {
+  display: inline-block;
+  float: right;
+  max-width: 20%;
+  text-align: justify;
+  margin-right: 90px;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  max-width: 70%;
+  text-align: justify;
+  float: left;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  padding: 4px;
+  background-color: rgb(181, 233, 122);
+  color: white;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+  margin: auto;
+}
+
+.tabela {
+  display: inline-block;
+  float: right;
+  border: 1px solid red;
+  padding: 10px;
+  margin: 20px 50px 10px 10px;
 }
