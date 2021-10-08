@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   background-color: rgb(253, 251, 251);
 }
 
@@ -53,6 +53,7 @@ table {
   vertical-align: center;
   overflow-x: auto;
 }
+
 h4 {
   line-height: 100px;
   padding: 5px;
@@ -62,7 +63,6 @@ h4 {
   padding: 50px;
   border-left: 50px;
   float:inline-end;
-
 }
 
 p {
