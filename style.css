@@ -22,6 +22,7 @@ h1 {
 
 h2 {
   margin-bottom: 2%;
+  margin-left: 2%;
 }
 
 #minha_foto {
@@ -33,18 +34,42 @@ h2 {
   margin-left: 2%;
 }
 
+#licoes_aprendidas {
+  margin-left: 2%;
+  padding-right: 50%;
+}
+
+#licoes_a_aprender {
+  margin-left: 2%;
+  padding-right: 50%;
+}
+
+#titulo_artigo {
+  margin: auto;
+  margin-bottom: 2%;
+}
+
 article {
   color: rgb(85, 83, 83);
   line-height: 25px;
+  margin-left: 2%;
+  padding-right: 50% ;
 }
 
 aside {
   color: rgb(85, 83, 83);
   line-height: 25px;
+  margin-left: 2%;
+  padding-right: 50%;
 }
 
 .nav_links li {
-  display: inline;
+  display: inline-block;
+  width: 100px;
+}
+
+.nav_links a {
+  color: white;
 }
 
 #tabela {
