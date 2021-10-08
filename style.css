@@ -48,17 +48,13 @@ h2 {
   display: inline-flex;
 }
 
-.list-licoes ul, ol {
+.list-licoes ul , ol {
   padding: 25px;
   margin-left: 40px;
 }
 
 .licoes h2 {
   margin-left: 35px;
-}
-
-.artigos {
-  overflow: hidden;
 }
 
 .lado-esquerdo {
@@ -70,9 +66,6 @@ h2 {
 .lado-esquerdo p {
   border: 2px dashed black;
   padding: 10px;
-}
-
-article p {
   margin-left: 20px;
 }
 
@@ -87,4 +80,20 @@ article p {
 
 #rodape {
   padding: 30px;
+  position: absolute;
+  top: 1190px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.lado-esquerdo a {
+  color: black;
+  text-decoration:underline black;
+}
+
+a:active {
+  color: darkolivegreen;
 }
