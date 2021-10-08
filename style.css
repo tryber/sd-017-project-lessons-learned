@@ -11,7 +11,7 @@ body {
   background-color: green;
   position: fixed;
   width: 95%;
-  padding: 50px;
+  padding: 20px 40px;
 }
 
 h1 {
@@ -25,23 +25,27 @@ h2 {
 
 #minha_foto {
   width: 200px;
-  margin-top: 12%;
-  margin-bottom: 2%;
+  margin-top: 8%;
+}
+
+#sobre_mim{
+  margin-left: 2%;
 }
 
 article {
-  margin-left: 2%;
-  margin-right: 50%;
+  
   background-color: chocolate;
 }
 
 aside {
-  margin-left: 60%;
-  margin-right: 3%;
-  margin-bottom: 100%;
+
   background-color: darkcyan;
 }
 
 .nav_links li {
   display: inline;
+}
+
+#tabela{
+  margin: auto;
 }
