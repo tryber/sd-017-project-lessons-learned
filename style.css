@@ -19,7 +19,7 @@ body {
   width: 100%;
   text-align: center;
   color: rgb(100, 161, 153);
-  }
+}
 
 .navegacao {
   display: inline-block;
@@ -29,8 +29,8 @@ body {
 }
 
 #titulo {
-font-size: 25px;
-color: rgb(196, 179, 110);
+  font-size: 25px;
+  color: rgb(196, 179, 110);
 }
 
 .tabela {
