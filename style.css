@@ -119,11 +119,6 @@ a {
   text-align: center;
 }
 
-.navi > a {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
 nav {
   height: 48px; 
 }
@@ -139,12 +134,14 @@ nav li {
   width: 20%;
 }
 
-nav li a {
+  .navi > a {
   font-family: 'Open Sans', sans-serif;
   color: black;
   font-size: 16px;
   text-decoration: none;
   font-weight: 600;
+  padding-left: 30px;
+  padding-right: 30px
 }
 
 #loucura {
@@ -158,6 +155,6 @@ table {
   background-color: rgb(75, 0, 130);
 }
 
-table, td, th {
+table , td , th {
   border: 2px solid rgba(143, 137, 146, 0.871);
 }
