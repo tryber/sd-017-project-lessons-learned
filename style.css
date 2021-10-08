@@ -14,23 +14,23 @@ body {
     left: 0;
     position: fixed;
     z-index: 1;
-    font-family:monospace;
-    background-color: #a8dadc;
+    font-family: monospace, sans-serif;
+    background-color: rgb(171, 196, 230);
     width: 100%;
     text-align: center;
-    color:rgb(100, 161, 153) ;
+    color: rgb(100, 161, 153);
     }
 
 .navegacao {
     display: inline-block;
     border: solid;
     border-radius: 5px;
-    border-color: #e07a5f;
+    border-color: rgb(204, 105, 105);
 }
 
 #titulo {
 font-size: 25px;
-color: cornsilk;
+color: rgb(196, 179, 110);
 }
 
 .tabela {
@@ -38,7 +38,7 @@ color: cornsilk;
     top: 300px;
     left: 500px;
     border: 1px solid;
-    font-family: 'Courier New', Courier, monospace
+    font-family: 'Courier New', Courier, monospace, sans-serif;
 }
 
 .licoes {
@@ -83,7 +83,7 @@ color: cornsilk;
     border: solid;
 }
 
-h4.artigo {
+.artigotitulo {
     top: 500px;
     left: 10px;
     text-align: center;
@@ -98,7 +98,7 @@ h4.artigo {
     border: solid;
 }
 
-h4.emocoes {
+.tituloemocoes {
     top: 400px;
 }
 
@@ -109,6 +109,6 @@ h4.emocoes {
 
 #rodape {
     position: absolute;
-    top: ;
+    top: 500px;
     left: 350px;
 }
