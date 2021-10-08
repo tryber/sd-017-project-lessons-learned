@@ -69,7 +69,7 @@ table {
   text-align: left;
 }
 
-table td, th {
+table td , th {
   padding: 2px 18px;
   font-family: Times New Roman, Times, serif;
   font-size: 22px;
@@ -86,7 +86,7 @@ h2 {
   font-size: 22px;
 }
 
-ol, ul {
+ol , ul {
   list-style-position: inside;
 }
 
@@ -99,8 +99,19 @@ section {
   margin: auto;
 }
 
+.aprendizados h2 {
+  font-size: 35px;
+  border-bottom: 1px solid;
+}
+
 .aprendizado-single {
   width: 45%;
+  padding: 15px;
+}
+
+.aprendizado-single p {
+  line-height: 25px;
+  margin-top: 10px;
 }
 
 footer {
@@ -112,8 +123,9 @@ footer {
   font-size: 18px;
 }
 
-footer a {
+.link {
   color: white;
   text-decoration: none;
   font-weight: 400;
 }
+
