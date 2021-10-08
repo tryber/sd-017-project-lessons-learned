@@ -14,6 +14,7 @@ h1 {
   text-align: left;
   margin-left: 25px;
   color: aliceblue;
+  font-weight: 900;
 }
 
 header ul , a {
@@ -33,6 +34,7 @@ header ul , a {
   border: dashed greenyellow;
   display: inline-block;
   align-content: center;
+  font-weight: 500;
 }
 
 #licoes_a_aprender {
@@ -41,6 +43,7 @@ header ul , a {
   border: dashed greenyellow;
   display: inline-block;
   align-content: center;
+  font-weight: 500;
 }
 
 section h2 {
