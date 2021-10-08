@@ -36,7 +36,7 @@ td {
   font-style: italic;
   font-weight: 700;
   font-size: 25px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
   color: darkgreen;
   line-height: 10px;
 }
@@ -60,7 +60,7 @@ td {
   margin: 5px;
 }
 
-#minha_foto{
+#minha_foto {
   border: solid 5px darkgreen;
   margin: 5px;
 }
