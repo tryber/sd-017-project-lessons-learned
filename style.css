@@ -65,22 +65,28 @@ h2 {
   color: chartreuse;
 }
 
+h3 {
+  color: chartreuse;
+  margin-bottom: 20px;
+}
+
 #minha_foto {
   border-radius: 10%;
   display: block;
-  border: darkgreen solid;
-  margin: 100px 20px 20px 80px;
+  margin: 130px 20px 20px 560px;
   width: 150px;
 }
 
 .border-style {
   border: darkgreen solid;
-  padding: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  box-shadow: -9px 10px 0px green;
   display: inline-block;
 }
 
 .alone {
-  text-align: center;
+  padding: 30px;
 }
 
 .lado-direito {
@@ -96,12 +102,6 @@ h2 {
   list-style-type: none;
 }
 
-p {
-  width: 500px;
-  padding: 30px;
-  font-size: 20px;
-}
-
 .his-aprendizado {
   margin-top: 30px;
   display: inline-block;
@@ -114,10 +114,31 @@ p {
 
 .palavras-aprendizado {
   margin-top: 30px;
+  padding: 30px;
   background-color: darkslategrey;
   border-top: darkseagreen solid;
 }
+.alinhar {
+  align-items: top;
+}
 
-footer {
+footer p{
+  color: white;
   background-color: darkgreen;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.palavras-aprendizado p {
+  width: 500px;
+  border-left: chartreuse solid;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.border-right {
+  border-right: chartreuse solid;
 }
