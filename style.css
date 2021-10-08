@@ -1,10 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -18,18 +15,19 @@ header {
 
 #titulo {
   text-align: center;
+  margin: auto 0;
+  padding-top: 10px;
 }
 
 ol {
-  position: relative;
   left: 50px;
   top: 20px;
 }
 
 ul {
-  position: relative;
   top: 50px;
   left: 50px;
+  margin-bottom: 10px;
 }
 
 footer {
@@ -37,6 +35,9 @@ footer {
   color: white;
   width: 100%;
   height: 40px;
-  position: relative;
-  top: 10px;
+}
+
+article {
+  height: fit-content;
+  color: blue;
 }
