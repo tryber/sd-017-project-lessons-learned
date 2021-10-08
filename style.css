@@ -1,11 +1,12 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  margin: 10%;  
-  padding: 5%;  
-  border: 2px solid black;  
+  margin: 10%;
 
-}  
+  padding: 5%;
+
+  border: 2px solid black;
+}
 
 #cabecalho {
   top: 0;
@@ -13,12 +14,11 @@ body {
   background: green;
   display: flex;
   justify-content: space-around;
-  align-items:  center;
-
+  align-items: center;
+  left: 0;
   height: 8vh;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
   width: 100%;
-
 }
 
 #minha_foto {
@@ -29,7 +29,6 @@ article {
   font-size: 120%;
   line-height: 120%;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-
 }
 
 #lessons {
