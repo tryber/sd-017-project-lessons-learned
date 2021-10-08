@@ -10,55 +10,150 @@
 </head>
 
 <body>
+    <h1 style="display: none;">Estrutura geral</h1>
     <header id="cabecalho">
-        <h1 id="titulo">Lições aprendidas - Trybe</h1>
+        <section class="title_container">
+            <h1 id="titulo">LIÇÕES APRENDIDAS | TRYBE</h1>
+        </section>
         <nav>
+            <h1 style="display: none;">Navegação</h1>
             <a href="https://jottanovaes.github.io/" target="_blank" rel="noopener noreferrer">
                 <img src="./github.svg" alt="GitHub Logo"></a>
         </nav>
+
     </header>
-    <main>
-        <section id="the_author">
-            <img src="./photo.jpeg" alt="Foto do autor" id="minha_foto">
-        </section>
-        <section id="licoes">
-            <h1>Lições aprendidas</h1>
-            <ol id="licoes_aprendidas">
-                <li>Lições de uso da plataforma Slack e Zoom</li>
-                <li>Introdução a Internet - da URL à visualização</li>
-                <li>Introdução ao ambiente Unix & Bash</li>
-                <li>Uso do Git para versionamento</li>
-                <li>GitHub como repositório de versionamento</li>
-                <li>Importância da comunicação e assertividade</li>
-                <li>Dicas de autogerenciamento</li>
-                <li>Uso de citação da fonte como ferramenta de Transparência</li>
-                <li>HTML</li>
-                <li>CSS</li>
-            </ol>
-            <h1>Lições a aprender</h1>
-            <ul id="licoes_a_aprender">
-                <li>JavaScript</li>
-                <li>Responsividade</li>
-                <li>Eventos</li>
-                <li>UI/UX</li>
-                <li>SQL</li>
-                <li>Banco de Dados</li>
-                <li>API</li>
-                <li>Python</li>
-                <li>POO</li>
-                <li>Estrutura de Dados</li>
-            </ul>
-        </section>
-        <article id="aprendizado">
-            A proposta da Trybe, inicialmente duvidosa - formação de qualidade e pagar depois de estar empregado não é algo comum - é ensinar seus alunos a aprender a aprender e a programar. Hoje, com 1 mês de curso, digo com orgulho que está sendo uma ótima experiência, poder entrar em contato com o que vivenciaremos no ambiente de trabalho tem sido uma peça chave para a autoconfiança em minhas habilidades. Com uma metodolia abordando o desenvolvimento como programador e Soft Skills, tenho certeza que o aluno tem em mãos ferramentas para construir a profissão DEV &hearts;
-        </article>
-        <aside id="comentario_aprendizado">
-            A trybe deposita em todos nós uma confiança isenta de preconceitos, abraça e acolhe o aluno. Meu aprendizado vai além das Hard Skills. Para mim, têm sido prazeroso poder entrar em contato com o outro e o 'eu' profissional. Trybe é também sinônimo de família.
-        </aside>
-    </main>
-    <footer id="rodape">
-        Criado com dedicação e &hearts;
-    </footer>
+    <div class="container">
+        <main>
+            <section id="content">
+                <div id="sided">
+                    <h1 style="display: none;">Conteúdo</h1>
+                <section>
+                    <h1 style="display: none;">O autor</h1>
+                    <img src="./photo.jpeg" alt="Foto do autor" id="minha_foto">
+                </section>
+                <section id="licoes">
+                    <h1 style="display: none;">Lições</h1>
+                    <section id="aprendidas">
+                        <h1>Lições aprendidas</h1>
+                        <ol id="licoes_aprendidas">
+                            <li>Lições de uso da plataforma Slack e Zoom</li>
+                            <li>Introdução a Internet - da URL à visualização</li>
+                            <li>Introdução ao ambiente Unix & Bash</li>
+                            <li>Uso do Git para versionamento</li>
+                            <li>GitHub como repositório de versionamento</li>
+                            <li>Importância da comunicação e assertividade</li>
+                            <li>Dicas de autogerenciamento</li>
+                            <li>Uso de citação da fonte como ferramenta de Transparência</li>
+                            <li>Estruturação de página WEB usando HTML</li>
+                            <li>Estilização do HTML usando CSS</li>
+                        </ol>
+                    </section>
+                    <section id="a_aprender">
+                        <h1>Lições a aprender</h1>
+                        <ul id="licoes_a_aprender">
+                            <li>JavaScript</li>
+                            <li>Responsividade</li>
+                            <li>Eventos</li>
+                            <li>UI/UX</li>
+                            <li>SQL</li>
+                            <li>Banco de Dados</li>
+                            <li>API</li>
+                            <li>Python</li>
+                            <li>POO</li>
+                            <li>Estrutura de Dados</li>
+                        </ul>
+                    </section>
+                </div>
+                </section>
+                <section id="table-section">
+                    <h1 style="display: none;">Programação do curso</h1>
+                    <table >
+                        <tr>
+                            <th id="table-1">Módulo 1</th>
+                            <td>
+                                <ul>
+                                    <li>Fundamentos do Desenvolvimento web</li>
+                                    <li>Internet</li>
+                                    <li>Unix & Bash</li>
+                                    <li>Git</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Javascript</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <table >
+                            <tr>
+                            <th id="table-2">Módulo 2</th>
+                            <td>
+                                <ul>
+                                    <li>Desenvolvimento Front-End</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Javascript</li>
+                                    <li>React</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        </table>
+                        <table>
+                            <tr>
+                            <th id="table-3">Módulo 3 </th>
+                            <td>
+                                <ul>
+                                    <li>Desenvolvimento Back-End</li>
+                                    <li>Banco de Dados</li>
+                                    <li>Rest</li>
+                                    <li>Server-side</li>
+                                    <li>Autenticação</li>
+                                    <li>Segurança</li>
+                                    <li>Deploy</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <th id="table-4">Módulo 4</th>
+                                <td>
+                                    <ul>
+                                        <li>Ciência da Computação</li>
+                                        <li>Algoritmos</li>
+                                        <li>Estruturas de Dados</li>
+                                        <li>Paradigmas de Programação</li>
+                                        <li>Python</li>
+                                        <li>Arquitetura de Computadores</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                        <table>
+                           <tr>
+                            <th id="table-5">Durante toda formação</th>
+                            <td>
+                                <ul>
+                                    <li>Desenvolvimento de Software</li>
+                                    <li>Metodologias Ágeis</li>
+                                    <li>Soft Skills</li>
+                                </ul>
+                            </td>
+                        </tr> 
+                        </table>
+                </section>
+
+                <section id="comments">
+                    <h1>Apredizado</h1>
+                    <article id="aprendizado">A proposta da Trybe, inicialmente duvidosa - formação de qualidade e pagar depois de estar empregado não é algo comum - é ensinar seus alunos a aprender a aprender e a programar. Hoje, com 1 mês de curso, digo com orgulho que está sendo uma ótima experiência, poder entrar em contato com o que vivenciaremos no ambiente de trabalho tem sido uma peça chave para a autoconfiança em minhas habilidades. Com uma metodolia abordando o desenvolvimento como programador e Soft Skills, tenho certeza que o aluno tem em mãos ferramentas para construir a profissão DEV &hearts;</article>
+                    <aside id="comentario_aprendizado">A trybe deposita em todos nós uma confiança isenta de preconceitos, abraça e acolhe o aluno. Meu aprendizado vai além das Hard Skills. Para mim, têm sido prazeroso poder entrar em contato com o outro e o 'eu' profissional. Trybe é também sinônimo de família.</aside>
+                </section>
+            </section>
+
+
+        </main>
+        <footer id="rodape">
+            Criado com dedicação e &hearts;
+        </footer>
+    </div>
 </body>
 
 </html>
