@@ -1,17 +1,20 @@
 body {
   background-color: rgb(253, 251, 251);
 }
+
 #cabecalho {
   position: fixed;
   top: 0;
   background-color: #30e48c;
   margin-bottom: 0px;
   padding: 50px;
-  } 
+} 
+
 #minha_foto {
   margin-top: 200px;
   width: 150px;
 }
+
 .article {
   border-style: dashed;
   border-radius: 20px;
