@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: #2cc48c;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+header a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+.lado-esquerdo {
+  width: 300px;
+  float: left;
+}
+
+.lado-direito{
+  width: 300px;  
+  float: right;
+}
+
+footer {
+  background-color: #2cc48c;
+  margin-top: 400px;
+}
+
+footer p{
+  color: #ffffff;
+  margin: auto;
+  padding: 10px;
+  border: 20px;
+}
