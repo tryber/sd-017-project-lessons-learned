@@ -5,45 +5,73 @@
 
 body{
   background-color:rgb(253, 251, 251);
-
-}
-
-img {
-  border-radius:  50px;
-  width: 400px;
-  margin: 5px;
-  padding: auto;
-  border: rgb(253, 251, 251);
+  height: 5000px;
 }
 
 #cabecalho{
-
+position: relative;
   position:fixed;
 
  background-color:green;
  width: 1366px;
  height: 45px;
  top: 0px;
- 
+ z-index: 5;
   }
-
-
-  article{
-    font-size: 20px;
-    line-height: 5px;
-  }
-
-  h1 {
+  #cabecalho h1{
+    text-align: center;
     color: White;
     font-style: oblique;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
-  
-  .lado-esquerdo{
-    float: left;
-  }
 
-  .lado-esquerdo{
-    float:right;
-  }
-  
+#minha_foto{
+  position:relative;
+  padding: 1px;
+  border: 1px;
+  margin: 1px;
+  z-index: 4;
+  left: 500px;
+  margin-top: 45px;
+  width: 200px;
+}
+
+#lista{
+  margin-top: 45px;
+  left: 1000px;
+  float: right;
+  ;
+}
+nav{
+  background-color: salmon;
+}
+
+.lado-esquerdo{
+  background-color: royalblue;
+  width: 500px;
+  float: left;
+} 
+
+.lado-direito{
+  width: 500px;
+  background-color: red;
+  float: right;
+}
+
+footer {
+  width: 1366px;
+font-size: 30px;
+color: white;
+text-align: center;
+position: absolute;
+position: fixed;
+ top: 612px ;
+ background-color: green;
+
+}
+aside {
+  position: absolute;
+
+  top: 550px;
+  left: 1250px;
+}
