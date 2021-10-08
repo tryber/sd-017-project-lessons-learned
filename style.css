@@ -136,6 +136,13 @@ section h1 {
   overflow: hidden;
 }
 
+.information  {
+  margin: 0 auto;
+  background-image: url('https://cdn.pixabay.com/photo/2019/03/19/13/33/chart-4065756_960_720.jpg');
+  background-size: cover;
+  padding: 30px;
+}
+
 .footer {
   height: 100px;
 }
