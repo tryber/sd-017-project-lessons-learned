@@ -5,6 +5,30 @@
 
 body {
   background-color: rgb(253, 251, 251);
+  width: 768px;
+}
+
+nav {
+  top: 65px;
+  position: relative;
+  left: 20px;
+  word-spacing: 40px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.bottom {
+  background-color: chartreuse;
+  padding: 4px 8px;
+  border-radius: 10px;
+}
+
+.bottom:hover {
+  background-color: white;
+  color: black;
 }
 
 #cabecalho {
@@ -18,6 +42,10 @@ body {
 #titulo {
   color: white;
   font-size: 28px;
+  font-weight: 600;
+  font-family: Tahoma, Verdana, sans-serif;
+  left: 40%;
+  position: inherit;
 }
 
 .profile {
@@ -35,15 +63,16 @@ body {
 
 #meu-nome {
   position: absolute;
-  left: 280px;
-  font-size: 24px;
+  left: 300px;
+  font-size: 30px;
   color: black;
   text-decoration: none;
+  font-family: cursive, fantasy, serif;
 }
 
 .licoes {
   position: relative;
-  top: 330px;
+  top: 360px;
   left: 50px;
   text-align: left;
 }
@@ -54,7 +83,7 @@ body {
   font-size: 14px;
 }
 
-#licoes_a_serem_aprendidas {
+#licoes_a_aprender {
   position: absolute;
   left: 300px;
   top: 40px;
@@ -64,11 +93,43 @@ body {
 .subtitle_lsa {
   position: absolute;
   left: 260px;
-  font-size: larger;
+  font-size: 17px;
 }
 
 .subtitle_la {
   position: absolute;
   left: -20px;
-  font-size: larger;
+  font-size: 17px;
+}
+
+.artigos {
+  position: relative;
+  top: 170px;
+  font-size: 14px;
+  left: 315px;
+}
+
+.artigos h3 {
+  font-size: 17px;
+  font-style: italic;
+}
+
+#artigo1 {
+  position: absolute;
+  width: 200px;
+  text-align: justify;
+}
+
+#artigo2 {
+  position: absolute;
+  width: 200px;
+  right: 100px;
+}
+
+#rodape {
+  background-color: rgba(0, 0, 255, 0.164);
+  position: absolute;
+  top: 595px;
+  padding: 2px 10px;
+  border-radius: 10px;
 }
