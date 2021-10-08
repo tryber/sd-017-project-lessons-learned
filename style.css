@@ -1,13 +1,16 @@
-
+/* BODY */
 body {
 background-color: rgb(253, 251, 251);
+background-attachment: scroll
 }
-
+/* HEARDER */
 #cabecalho {
     position: fixed;
     top: 0;
     background-color: #FCA311;
     width: 100%;
+    height: 50px;
+    z-index: 2;
 }
 
 #titulo {
@@ -15,31 +18,33 @@ background-color: rgb(253, 251, 251);
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align: center;
-    font-size: 100%;
-    
+    font-size: 100%;   
 }
 
+.navegacao-interna {
+    padding: 0 ;
+    width: 100%;
+    z-index: 2;
+    background: #FCA311;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: #14213D;
+}
+.navegacao-interna:hover{
+    background-color: white;
+}
+/* SECTION RIGHT */
 img {
     margin-inline-start: 3%;
     margin-top: 5;
     border-radius: 80%;
-    position: fixed
-    /* position: relative; */
     min-height: 1px;
     box-sizing: content-box;
-
+    position: absolute;
 }
 
-section article {
-    font-family: 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    text-align: center;
-    max-width: 50%;
-    min-width: 50%;
-    position: right fixed;
-    /* float: right; */
-    box-sizing:border-box;
+p {
 
 }
 
@@ -60,20 +65,19 @@ section article {
 #bottom:hover {
     background-color:#FCA311;
 }
+/*  SECTION LEFT */
+.lado-direito {
+    position: absolute;
+}
 
-/* 
-#minha-foto {
+#licoes_aprendidas {
 
 }
 
-#licoes_aprendidas{
+#licoes_a_aprender {
 
 }
-
-#licoes_a_aprender{
-
-}
-
+/* FOOTER */
 #rodape {
 
-} */
+}
