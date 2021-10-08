@@ -1,13 +1,39 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0;
 }
 
 header {
   position: fixed;
   top: 0;
+  background-color: teal;
+  width: 100%;
+}
+
+#cabecalho h1, nav a {
+  padding: 0px 10px;
+  width: 60%;
+  font-family: monospace;
+  color: rgb(253, 251, 251);
+  font-weight: bolder;
+}
+
+nav {
+  position: fixed;
+  right: 10px;
+  top: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 15px;
 }
 
 #minha_foto {
   width: 200px;
   padding-top: 100px;
+}
+
+p {
+
 }
