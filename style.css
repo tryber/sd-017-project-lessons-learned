@@ -17,6 +17,12 @@ z-index: 1;
 
 }
 
+.licoes {
+    position: absolute;
+    top: 270px;
+    left: 200px;
+}
+
 #minha_foto {
     top: 100px;
     width: 200px;
