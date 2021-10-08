@@ -28,17 +28,15 @@ h2 {
   margin-top: 8%;
 }
 
-#sobre_mim{
+#sobre_mim {
   margin-left: 2%;
 }
 
 article {
-  
   background-color: chocolate;
 }
 
 aside {
-
   background-color: darkcyan;
 }
 
@@ -46,6 +44,6 @@ aside {
   display: inline;
 }
 
-#tabela{
+#tabela {
   margin: auto;
 }
