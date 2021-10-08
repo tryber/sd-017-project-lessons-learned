@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+}
+
+#cabecalho {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: rgb(58, 231, 159);
+}
+
+#minha_foto {
+  width: 300px;
+  margin-top: 150px;
+}
+
+body header nav ul li {
+  display: inline;
+  margin: 15px;
+}
+
+body header nav ul li a {
+  text-decoration: none;
+}
