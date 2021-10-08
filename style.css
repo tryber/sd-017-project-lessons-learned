@@ -1,5 +1,5 @@
 body {
-   background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
@@ -9,8 +9,18 @@ body {
 
 #licoes_aprendidas{
   list-style: decimal;
+  display: inline-block
 }
 
 #licoes_a_aprender {
   list-style: decimal;
+  display: inline-block;
+}
+
+.leftside {
+  right: auto;
+}
+
+.rightside{
+  left: auto;
 }
