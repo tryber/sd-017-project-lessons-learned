@@ -8,8 +8,8 @@ body {
   left: 0;
   right: 0;
   position: absolute;
-  border: 5px solid #2f064dde;
-  background-color: indigo;
+  border: 5px solid rgba(47, 6, 77, 0.871);
+  background-color: rgb(75, 0, 130);
 }
 
 #titulo {
@@ -24,7 +24,7 @@ body {
 }
 
 #licoes_aprendidas {
-  border: 5px solid #8f8992de;
+  border: 5px solid rgba(143, 137, 146, 0.871);
   background-color: indigo;
   font-weight: 700;
   width: 1000px;
@@ -34,8 +34,8 @@ body {
 }
 
 #licoes_a_aprender {
-  border: 5px solid #8f8992de;
-  background-color: indigo;
+  border: 5px solid rgba(143, 137, 146, 0.871);
+  background-color: rgb(75, 0, 130);
   font-weight: 700;
   width: 1000px;
   max-width: 30%;
@@ -53,8 +53,8 @@ body {
   max-width: 50%;
   float: left;
   margin: auto;
-  background-color: indigo;
-  border: 5px solid #8f8992de;
+  background-color: rgb(75, 0, 130);
+  border: 5px solid rgba(143, 137, 146, 0.871);
   padding: 30px;
   margin-bottom: 8%;
   height: 259px;
@@ -95,10 +95,10 @@ a {
   width: 300px;
   height: 259px;
   margin-left: auto;
-  border: 5px solid #8f8992de;
+  border: 5px solid rgba(143, 137, 146, 0.871);
   text-align: center;
   padding: 30px;
-  background-color: indigo;
+  background-color: rgb(75, 0, 130);
   margin-bottom: 8%;
 }
 
@@ -113,8 +113,8 @@ a {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: indigo;
-  border: 3px solid #8f8992de;
+  background-color: rgb(75, 0, 130);
+  border: 3px solid rgba(143, 137, 146, 0.871);
   color: black;
   text-align: center;
 }
@@ -153,11 +153,11 @@ nav li a {
 
 table {
   width: 100%;
-  border: 2px solid #8f8992de;
+  border: 2px solid rgba(143, 137, 146, 0.871);
   margin-bottom: 10%;
-  background-color: indigo;
+  background-color: rgb(75, 0, 130);
 }
 
 table, td, th {
-  border: 2px solid #8f8992de;
+  border: 2px solid rgba(143, 137, 146, 0.871);
 }
