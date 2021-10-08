@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Open Sans', sans-serif;
+  font-family: Open Sans, sans-serif;
 }
 
 #cabecalho {
@@ -9,7 +9,7 @@ body {
   right: 0;
   position: fixed;
   border: 5px solid rgba(47, 6, 77, 0.871);
-  background-color: rgb(75, 0, 130);
+  background-color: indigo;
 }
 
 #titulo {
@@ -35,7 +35,7 @@ body {
 
 #licoes_a_aprender {
   border: 5px solid rgba(143, 137, 146, 0.871);
-  background-color: rgb(75, 0, 130);
+  background-color: indigo;
   font-weight: 700;
   width: 1000px;
   max-width: 30%;
@@ -48,19 +48,19 @@ body {
   margin-top: 10%;
 }
 
-#lado-esquerdo {
+.lado-esquerdo {
   display: block;
   max-width: 50%;
   float: left;
   margin: auto;
-  background-color: rgb(75, 0, 130);
+  background-color: indigo;
   border: 5px solid rgba(143, 137, 146, 0.871);
   padding: 30px;
   margin-bottom: 8%;
   height: 259px;
 }
 
-#lado-direito {
+.lado-direito {
   display: block;
   max-width: 40%;
   float: right;
@@ -98,7 +98,7 @@ a {
   border: 5px solid rgba(143, 137, 146, 0.871);
   text-align: center;
   padding: 30px;
-  background-color: rgb(75, 0, 130);
+  background-color: indigo;
   margin-bottom: 8%;
 }
 
@@ -113,7 +113,7 @@ a {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgb(75, 0, 130);
+  background-color: indigo;
   border: 3px solid rgba(143, 137, 146, 0.871);
   color: black;
   text-align: center;
@@ -141,7 +141,7 @@ nav li {
   text-decoration: none;
   font-weight: 600;
   padding-left: 30px;
-  padding-right: 30px
+  padding-right: 30px;
 }
 
 #loucura {
@@ -152,7 +152,7 @@ table {
   width: 100%;
   border: 2px solid rgba(143, 137, 146, 0.871);
   margin-bottom: 10%;
-  background-color: rgb(75, 0, 130);
+  background-color: indigo;
 }
 
 table , td , th {
