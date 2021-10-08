@@ -17,7 +17,6 @@ header{
 
 img{ 
     margin-left: 5%;
-    float: left;
     display: inline-block;
     border: red 1px solid;
     width: 10rem;
@@ -31,6 +30,12 @@ ol{
     background-color: slategray;
 }
 
+.content{
+    padding: 3%;
+    display: block;
+    background-color: slategray;
+}
+
 article{
     display: inline-block;
     max-width: 80%;
@@ -40,20 +45,15 @@ article{
 }
 
 aside{
+    float: right;
     height: 400px;
     display: inline-block;
-    float: right;
     max-width: 20%;
     min-height: max-content;
     background-color: rgb(255, 212, 181);
 }
 
-.content{
-    padding: 3%;
-    display: block;
-    background-color: slategray;
-    border: red 1px solid;
-}
+
 
 footer{
     background-color: rgb(255, 200, 241);
