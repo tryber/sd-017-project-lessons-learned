@@ -1,22 +1,23 @@
 
-#article {
-    padding: 10px;
+.art {
+    padding: 1px;
     border: 4px;
-    background-color:red;
-    width: 100%;
-    padding: 20px;
-    margin-right: 10px;
-    height: 600px;
+    width: 10%;
+    height: 150px;
     border: slateblue;
     font-family: fantasy;
 }
+.lado-esquerdo {
+    display: inline;
+    width: 30%;
+    margin-left: 5px;
+    float: left;
+}
 #section {
-    background-color: salmon;
-    border-color: turquoise;
-    height: 30px;
+    height: 40px;
     width: 40%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    text-align: justify;
 }
 
 
@@ -35,42 +36,44 @@ height: 200px;
 }
 #cabecalho {
     padding: 10px;
-    border: 10px purple;
-    background-color: yellow;
+    border: 10px;
+    background-color: green;
     width: 98%;
-    height: 50px;
+    height: 120px;
     margin-bottom: 10px;
     text-align: center;
     top: 0;
     position: fixed;
-    font-family: ;
+    font-family: cursive;
+    color: navy;
 }
-aside {
-    display: inline;
-    background-color: teal;
-    width: 50%;
-    margin-left: 25px;
-}
+
 #licoes_aprendidas {
-    background-color: mediumvioletred;
     display: inline-block;
     margin-top: 1px;
-    margin-left: 2px;
+    margin-left: 3px;
+    float: left;
 }
 #licoes_a_aprender {
-    background-color: orange;
     display: inline-block;
     margin-bottom: 50px;
+    font-size: medium;
+    margin-left: 100px;
     
 }
-footer {
-    background-color: chartreuse;
+#rodapé {
+    text-align: left;
 }
 nav {
-    background-color: white;
     text-align: left;
 }
 #minha_foto {
     width: 200px;
     margin-top: 100px;
+}
+#home {
+    text-align: left;
+}
+h3, h2 {
+    color: navy;
 }
