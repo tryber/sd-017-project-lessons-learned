@@ -12,30 +12,30 @@ body {
   width: 100%;
   position: fixed;
 }
-#cabecalho h1{
+#cabecalho h1 {
   display: flex;
   justify-content: center;
-} 
-
-#navegacao{
-display: flex;
-justify-content: space-around;
-font-weight: 600;
-color: black;
 }
 
-#conteudo_principal{
+#navegacao {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 600;
+  color: black;
+}
+
+#conteudo_principal {
   display: inline-block;
   margin-top: 4%;
 }
 #meu_aprendizado {
-  margin-right: 20%
+  margin-right: 20%;
 }
 #meu_aprendizado p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 500;
   font-size: 19px;
-  color: rgb(14, 0, 0)
+  color: rgb(14, 0, 0);
 }
 #minha_foto {
   border-radius: 50%;
@@ -43,7 +43,6 @@ color: black;
   margin-top: 30px;
 }
 #listas {
-  
 }
 #licoes_aprendidas {
   background-color: #30e48c;
@@ -54,11 +53,11 @@ color: black;
   margin-left: 10px;
   display: inline-block;
   background-color: #30e48c;
-} 
-#rodape{
+}
+#rodape {
   display: block;
   font-weight: 600;
 }
-#rodape a{
-font-size: 25px;
+#rodape a {
+  font-size: 25px;
 }
