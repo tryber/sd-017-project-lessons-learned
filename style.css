@@ -42,10 +42,12 @@ background-color: rgb(253, 251, 251);
 
 }
 
-article , section
+#lado-direito 
+{
+    
+    display: inline-block;
+}
+#lado-esquerdo
 {
     display: inline-block;
 }
-
-
-
