@@ -15,9 +15,9 @@ body {
   font-family: Impact, Haettenschweiler, Arial Narrow Bold, sans-serif;
   top: 0;
   border: 5px solid green;
+  background-color: solid green;
   width: 97%;
   z-index: 3;
-  padding: solid green;
 }
 
 #minha_foto {
