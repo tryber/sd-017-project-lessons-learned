@@ -18,3 +18,23 @@ body{
     width: 60%;
 }
 
+#titulo{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color:rgb(15, 136, 89);
+    line-height: normal;
+
+}
+
+
+tr,td, th{
+    border-style: solid;
+    border:"1px";
+}
+
+.lado-esquerdo,.lado-direito{
+
+    float: left;  
+    
+}
