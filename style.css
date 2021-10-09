@@ -1,4 +1,5 @@
 * {
+  color: rgb(253, 251, 251);
   background-color: rgb(253, 251, 251);
   padding: 0;
   margin: 0;
@@ -10,14 +11,19 @@ body {
 }
 
 header {
+  color: aliceblue;
   top: 0;
-  background-color: rgb(179, 198, 255);
+  background-color: rgb(46, 46, 46);
   padding: 5%;
 }
 
+h1{
+  background-color: rgb(46, 46, 46);
+}
+
 .profile{
-  padding: 5%;
-  background-color: rgb(255, 212, 181);
+  padding: 0 5% 5% 5%;
+  background-color: rgb(46, 46, 46);
 }
 
 img{
@@ -29,40 +35,50 @@ div{
   font-size: small ;
   margin-left: 5%;
   display: inline-block;
-  border: red 1px solid;
   width: 25%;
   max-height: 30%;
 }
 
 li{
+  background-color: rgb(46, 46, 46);
   text-align: justify;
 }
 
 .content {
-  padding: 5%;
+  padding: 0 5% 5% 5%;
   display: block;
-  background-color: rgb(113, 184, 255);
+  background-color: rgb(46, 46, 46);
 }
 
 article {
+  padding-right: 5%;
   text-align: justify;
-  margin: 0;
   display: inline-block;
-  width: 80%;
+  width: 75%;
   min-height: max-content;
-  background-color: salmon;
+  background-color: rgb(46, 46, 46);
 }
 
 aside {
-  margin: 0;
+  text-align: right;
   width: 20%;
-  min-height: max-content;
-  background-color: rgb(255, 212, 181);
+  background-color: rgb(46, 46, 46);
   float: right;
-  height: 100%;
 }
 
 footer {
-  background-color: rgb(255, 200, 241);
-  padding: 5%;
+  background-color: rgb(46, 46, 46);
+  padding: 0 5% 5% 5%;
+}
+
+a{
+  color: rgb(46, 46, 46);
+  text-decoration: none;
+  background-color: rgb(253, 251, 251);
+  padding: 6px;
+  border-radius: 5px;
+}
+
+nav{
+  background-color: rgb(46, 46, 46);
 }
