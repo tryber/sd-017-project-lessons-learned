@@ -2,22 +2,28 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-header {
-  background-color: #036b52;
-  text-align: center;
-}
-
 #cabecalho {
+  background-color: rgb(14, 128, 14);
+  text-align: center;
   position: fixed;
   top: 0;
   left: 0;
-  text-align: center;
   width: 100%;
   padding-bottom: 10px;
   color: antiquewhite;
+  z-index: 1;
 }
 
-nav a{
+h1 {
+  font-size: 35px;
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  word-spacing: 20px;
+}
+
+nav a {
   text-decoration: none;
   font-size: 17px;
   color: white;
@@ -27,7 +33,7 @@ nav a{
 
 nav a:hover {
   background-color: gray;
-  transition: .4s;
+  transition: 0.4s;
 }
 
 #minha_foto {
@@ -37,16 +43,44 @@ nav a:hover {
 
 ol , ul {
   display: inline-block;
+  line-height: 130%;
+}
+
+#tabela {
+  position: absolute;
+  left: 700px;
+  bottom: 100px;
+}
+
+.lados {
+  min-height: 200px;
+  margin-top: 30px;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 700px;
+  border-right: 1px solid black;
+}
+
+.lado-direito {
+  float: right;
+  width: 550px;
+}
+
+#rodape {
+  text-align: center;
 }
 
 #logo-github {
   width: 30px;
   border-radius: 50%;
   transition: 0.3s;
+  vertical-align: -8px;
 }
 
 #logo-github:hover {
-  transform: scale(1.25);
+  transform: scale(1.15);
 }
 
 table , th , td {
