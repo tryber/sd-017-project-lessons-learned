@@ -2,9 +2,9 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-div {
+h1 {
   border: 5px solid blue;
-  height: 200px;
+  height: 50px;
 }
 
 #cabecalho {
@@ -31,14 +31,4 @@ https://codeburst.io/how-to-position-html-elements-side-by-side-with-css-e1fae72
 
 #rodape {
   text-align: center;
-}
-
-main {
-position: absolute;
-text-align: center;
-width: 300px;
-margin-left: 50%;
-top:200px;
-transform: translateX(-50%);
-/*Corrigir */
 }
