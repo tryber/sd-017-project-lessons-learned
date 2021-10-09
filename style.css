@@ -2,24 +2,27 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-.header-title {
+#cabecalho {
   display: block;
   position: fixed;
   top: 0;
 }
-
-.my-picture {
-  
+#titulo {
+  display: block;
 }
 
-.licoes_aprendidas {
+#minha_foto {
+  width: 500px;
+}
+
+#licoes_aprendidas {
 
 }
 
-.licoes_a_aprender {
+#licoes_a_aprender {
 
 }
 
-.rodape {
-  
+#rodape {
+
 }
