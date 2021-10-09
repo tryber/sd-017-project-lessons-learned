@@ -78,8 +78,7 @@ main {
   margin-top: 0;
 }
 
-#licoes_aprendidas,
-#licoes_a_aprender {
+#licoes_aprendidas , #licoes_a_aprender {
   display: inline-block;
 }
 
@@ -139,9 +138,7 @@ footer {
   border-radius: 20px 20px 1px 1px;
 }
 
-table,
-td,
-tr {
+table , td , tr {
   border: 1px solid black;
   padding: 5px;
 }
@@ -174,7 +171,6 @@ table {
   width: 2%;
   height: auto;
   margin-top: 15px;
-  margin-bottom: 0px;
 }
 
 #github {
