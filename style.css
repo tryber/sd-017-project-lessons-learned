@@ -31,7 +31,8 @@
         }
 
         .padding {
-            padding: 30px;
+            padding-top: 10px;
+            padding-bottom: 15px;
         }
 
         .border {
