@@ -53,6 +53,7 @@ body {
   margin-left: 5%;
   width: 100px;
   font-size: 12px;
+  font-family: sans-serif;
   color: rgb(80, 51, 160);
 }
 
@@ -68,5 +69,42 @@ body {
   margin-top: 10%;
   margin-left: 20%;
   text-align: justify;
+  font-family: sans-serif;
   width: 20%;
+}
+
+.lado-esquerdo,
+.lado-direito {
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 50px;
+}
+
+.tecnologia {
+  text-align: center;
+  font-family: sans-serif;
+  color: rgb(128, 128, 128);
+}
+
+.tabela {
+  position: absolute;
+  margin-left: 44%;
+  margin-bottom: 200px;
+}
+
+td {
+  border: solid 2px blue;
+  text-align: center;
+}
+
+#rodape {
+  font-family: sans-serif;
+  text-align: center;
+  color: rgb(253, 251, 251);
+  height: 20px;
+  padding-top: 20px;
+  margin-top: 180px;
+  text-align: center;
+  background: rgb(80, 51, 160);
 }
