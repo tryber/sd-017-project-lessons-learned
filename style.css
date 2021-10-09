@@ -13,7 +13,7 @@ body {
 #titulo {
   text-align: center;
   font-family: sans-serif;
-  color: rgb(128, 128, 128);
+  color: gray;
 }
 
 #menu li {
@@ -24,7 +24,7 @@ body {
 
 #menu a {
   text-decoration: none;
-  color: rgb(128, 128, 128);
+  color: grey;
 }
 
 #minha_foto {
@@ -33,9 +33,9 @@ body {
   margin-left: 5%;
 }
 
-.licoes{
+.licoes {
   font-family: sans-serif;
-  color: rgb(80, 51, 160);
+  color: rgb(38, 27, 68);
   font-size: 18px;
   margin-left: 20px;
 }
@@ -46,7 +46,7 @@ body {
   margin-left: 20%;
 }
 
-.link, a {
+.link {
   display: inline-block;
   text-decoration: none;
   text-align: right;
@@ -57,8 +57,7 @@ body {
   color: rgb(80, 51, 160);
 }
 
-#licoes_aprendidas li,
-#licoes_a_aprender li {
+#licoes_aprendidas li , #licoes_a_aprender li {
   padding: 3px;
   font-family: sans-serif;
   font-size: 15px;
@@ -73,8 +72,7 @@ body {
   width: 20%;
 }
 
-.lado-esquerdo,
-.lado-direito {
+.lado-esquerdo , .lado-direito {
   font-family: sans-serif;
   font-size: 14px;
   line-height: 16px;
@@ -84,7 +82,7 @@ body {
 .tecnologia {
   text-align: center;
   font-family: sans-serif;
-  color: rgb(128, 128, 128);
+  color: gray;
 }
 
 .tabela {
@@ -105,6 +103,5 @@ td {
   height: 20px;
   padding-top: 20px;
   margin-top: 180px;
-  text-align: center;
   background: rgb(80, 51, 160);
 }
