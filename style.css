@@ -9,10 +9,12 @@ body{
     left: 0;
     right: 0;
     height: 200px;
+    text-align: center;
+    font-family: sans-serif;
     }
 img{
     position: absolute;
-    margin-top: 210px;
+    margin-top: 205px;
     left: 30px;
 }
 
@@ -26,3 +28,25 @@ main{
     position: absolute;
     top: 430px;
     }
+
+section{
+    display: inline-block;
+}
+
+article{
+    max-height: 400px;
+    max-width: 400px;
+}
+
+aside{
+    text-align: center;
+    max-height: 400px;
+    max-width: 120px;
+    position: absolute;
+    margin-top: 490px;
+    margin-left: 350px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 1px;
+}
