@@ -21,3 +21,14 @@ div {
   padding-top: 10px;
   padding-left: 10px;
 }
+
+#licoes_aprendidas , #licoes_a_aprender {
+  display: inline-block;
+}
+
+/* Origem para #licoes_aprendidas #licoes_a_aprender:
+https://codeburst.io/how-to-position-html-elements-side-by-side-with-css-e1fae72ddcc */
+
+#rodape {
+  text-align: center;
+}
