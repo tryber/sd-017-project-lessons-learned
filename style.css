@@ -30,23 +30,32 @@ body {
 
 .lado-esquerdo {
   display: inline-block;
+  width: 70%;
+  margin: auto;
+  text-align: center;
 }
+
 .lado-direito {
-  display: inline-block;
+  width: 30%;
+  margin: auto;
+  text-align: justify;
+  float: right;
+  
 }
 
 #rodape {
+  display: block;
   text-align: center;
   padding: 20px;
 }
 
 table {
-  display: inline-block;
+  display: block;
+  margin: 25px;
 }
+
 .listas {
   display:inline-block;
   border: 2px solid black;
   line-height: 40px;
-}
-
 }
