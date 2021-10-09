@@ -12,25 +12,27 @@ header {
   padding: 5%;
 }
 
-.profile {
-    padding: 5%;
-  width: 100%;
-  display: block;
-  background-color: rgb(155, 255, 199);
+.profile{
+  padding: 5%;
+  background-color: rgb(255, 212, 181);
 }
 
-img {
-  max-width: 33%;
+img{
+  vertical-align: top;
+  width: 30%;
 }
 
-div {
+div{
+  font-size: small;
+  margin-left: 5%;
   display: inline-block;
-  background-color: salmon;
-  width: 33%;
+  border: red 1px solid;
+  width: 25%;
+  max-height: 30%;
 }
 
 .content {
-    padding: 5%;
+  padding: 5%;
   display: block;
   background-color: rgb(113, 184, 255);
 }
@@ -38,16 +40,18 @@ div {
 article {
   margin: 0;
   display: inline-block;
-width: 80%;
+  width: 80%;
   min-height: max-content;
   background-color: salmon;
 }
 
 aside {
   margin: 0;
-width: 20%;
+  width: 20%;
   min-height: max-content;
   background-color: rgb(255, 212, 181);
+  float: right;
+  height: 100%;
 }
 
 footer {
