@@ -8,13 +8,15 @@
     margin-right: 10px;
     height: 600px;
     border: slateblue;
-    
+    font-family: fantasy;
 }
 #section {
     background-color: salmon;
     border-color: turquoise;
     height: 30px;
-    width: 40%
+    width: 40%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 
@@ -23,11 +25,12 @@ body {
     background-color: rgb(253, 251, 251);
 }
 #minha_foto {
-background-color: cornflowerblue;
+
 display: block;
-border: 4px gray;
-margin-top: 180px;
-margin-left: 30px;
+border: 5px gray;
+margin-top: 150px;
+margin-left: 5px;
+height: 200px;
 
 }
 #cabecalho {
