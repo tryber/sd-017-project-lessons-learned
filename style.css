@@ -76,18 +76,22 @@ p {
   padding: 5px;
 }
 
-.textopadrao1 {
+.lado-esquerdo {
   width: 40%;
   right: 40px;
   bottom: 200px;
   position: absolute;
+  line-height: 30px;
+  text-align: justify;
 }
 
-.textopadrao2 {
+.lado-direito {
   width: 40%;
   left: 40px;
   bottom: 200px;
   position: absolute;
+  line-height: 30px;
+  text-align: justify;
 }
 
 nav {
