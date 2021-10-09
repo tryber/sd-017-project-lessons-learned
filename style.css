@@ -2,18 +2,51 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+header {
+  background-color: #036b52;
+  text-align: center;
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 10px;
+  color: antiquewhite;
+}
+
+nav a{
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+  background-color: rgba(60, 60, 60, 0.2);
+  padding: 5px;
+}
+
+nav a:hover {
+  background-color: gray;
+  transition: .4s;
 }
 
 #minha_foto {
   width: 200px;
+  margin-top: 130px;
 }
 
-#logo-trybe {
-  width: 35px;
+ol , ul {
+  display: inline-block;
+}
+
+#logo-github {
+  width: 30px;
   border-radius: 50%;
+  transition: 0.3s;
+}
+
+#logo-github:hover {
+  transform: scale(1.25);
 }
 
 table , th , td {
