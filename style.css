@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(253, 251, 251);
+    background-color: rgb (253, 251, 251);
 }
 
 #cabecalho {
@@ -7,14 +7,15 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: chartreuse;
+    background-color: #3CB371;
 }
 
 #titulo {
+    left: 100px;
 
 }
 
 #minha_foto {
-    width: 400px;
-    margin-top: 200px;
+    width: 200px;
+    margin-top: 100px;
 }
