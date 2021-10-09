@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #3CB371;
+}
+
+#titulo {
+    left: 100px;
+
+}
+
+#minha_foto {
+    width: 200px;
+    margin-top: 100px;
+}
