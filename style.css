@@ -17,30 +17,28 @@ body {
   position: fixed;
 }
 #conteudo_principal{
-  display: block
+  display: inline-block;
   margin-top: 4%;
 }
 #navegacao{
-display: flex;
+display: ;
 }
 #meu_aprendizado {
-  display: flex;
   margin-right: 20%
 }
 #meu_aprendizado p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 500;
   font-size: 19px;
-  color: rgb(14, 0, 0);
+  color: rgb(14, 0, 0)
 }
 #minha_foto {
   border-radius: 50%;
-  display: inline-block;
   margin-right: 50px;
   margin-top: 30px;
 }
 #listas {
-  display: flex;
+  
 }
 #licoes_aprendidas {
   background-color: #30e48c;
