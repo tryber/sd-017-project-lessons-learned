@@ -6,6 +6,7 @@ body {
 
 h2 {
   color: rgb(16, 58, 82);
+  font-size: 20px;
   text-shadow: 2px 2px 2px black;
 }
 
@@ -14,19 +15,20 @@ h2 {
   position: fixed;
   background: rgb(46, 119, 142);
   width: 100%;
+  max-height: 200px;
   border-radius: 1px 1px 20px 20px;
   z-index: 1;
 }
 
 #titulo {
   color: white;
-  font-size: 70px;
+  font-size: 50px;
   font-style: oblique;
   position: relative;
   display: inline-block;
   float: right;
   margin-right: 80px;
-  top: 50px;
+  top: 10px;
   text-shadow: 6px 6px 5px black;
   transition: 0.7s;
 }
@@ -36,17 +38,18 @@ h2 {
 }
 
 #minha_foto {
-  width: 163px;
-  height: 173px;
+  width: 113px;
+  height: 120px;
   border-radius: 20px;
-  margin: 20px 50px;
+  margin: 10px 50px;
 }
 
 .menu_superior {
-  top: 210px;
   background-color: rgb(158, 62, 68);
+  display: inline-block;
   width: 100%;
   border-radius: 20px;
+  top: 10px;
 }
 
 .menu_content {
@@ -67,7 +70,7 @@ h2 {
 
 main {
   position: absolute;
-  top: 260px;
+  top: 350px;
   margin: 20px 20px 40px;
 }
 
@@ -77,7 +80,8 @@ main {
   margin-top: 0;
 }
 
-#licoes_aprendidas , #licoes_a_aprender {
+#licoes_aprendidas,
+#licoes_a_aprender {
   display: inline-block;
 }
 
@@ -137,7 +141,9 @@ footer {
   border-radius: 20px 20px 1px 1px;
 }
 
-table , td , tr {
+table,
+td,
+tr {
   border: 1px solid black;
   padding: 20px;
 }
