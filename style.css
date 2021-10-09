@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: "Titillium Web", sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   background-color: rgb(253, 251, 251);
 }
 
@@ -38,7 +38,6 @@ body {
 }
 
 #licoes_a_aprender {
-
   font-size: 10pt;
   position: absolute;
   bottom: 60%;
