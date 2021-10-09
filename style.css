@@ -1,12 +1,8 @@
-body 
-{
-
-background-color: rgb(253, 251, 251);
-
+body {
+    background-color: rgb(253, 251, 251);
 }
 
-#cabecalho 
-{
+#cabecalho {
     position: fixed;
     top: 0;
     background-color:green;
@@ -14,40 +10,30 @@ background-color: rgb(253, 251, 251);
     
 }
 
-#titulo 
-{
+#titulo {
     text-align: center;
     color: black
     
 }
 
-#minha_foto
-{
+#minha_foto {
     width: 150px;
     margin-top: 50px;
-
 }
 
-#a
-{
+#a {
+    
     text-align: left;
 }
 
-
-
- ul , ol 
-{
+ ul , ol {
     display: inline-block;
     
-
 }
-
-#lado-direito 
-{
+#lado-direito {
     
     display: inline-block;
 }
-#lado-esquerdo
-{
+#lado-esquerdo {
     display: inline-block;
 }
