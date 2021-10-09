@@ -1,18 +1,47 @@
+
 body {
   background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
   position: fixed;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   top: 0;
-  border: 10px solid black;
+  border: 5px solid green;
   width: 97%;
-
+  z-index: 3;
 }
+
+
 
 #minha_foto {
   width: 200px;
   position: absolute;
   top: 150px;
-
+  z-index: 1;
 }
+
+#nome {
+  position: absolute;
+  
+  z-index: 2;
+}
+
+#licoes_aprendidas, #licoes_a_apreder {
+ 
+}
+
+article {
+  border: 3px solid green;
+  height: 150px;
+  width: 600px;
+  text-align: justify;
+}
+
+aside {
+  border: 3px solid green;
+  height: 150px;
+  width: 600px;
+  text-align: justify;
+} 
