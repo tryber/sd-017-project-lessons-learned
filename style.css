@@ -10,9 +10,24 @@
             width: 99%;
         }
 
+        #navigation {
+            margin-top: 40px;
+            position: fixed;
+            padding-top: 8px;
+        }
+
+        .navbar ul li {
+            display: inline-block;
+            padding-right: 100px;
+        }
+
+        .list_line {
+
+        }
+
         #minha_foto {
             width: 200px;
-            margin-top: 100px;
+            margin-top: 150px;
         }
         
         .box {
