@@ -1,5 +1,5 @@
 
-article {
+#article {
     padding: 10px;
     border: 4px;
     background-color:red;
@@ -8,49 +8,66 @@ article {
     margin-right: 10px;
     height: 600px;
     border: slateblue;
+    
 }
-section {
+#section {
     background-color: salmon;
     border-color: turquoise;
-    height: 150px;
+    height: 30px;
     width: 40%
 }
 
-}
+
 body {
-    font-size: 24px;
-    font-weight: 800;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: 333;
+    
     background-color: rgb(253, 251, 251);
 }
-img {
+#minha_foto {
 background-color: cornflowerblue;
+display: block;
+border: 4px gray;
+margin-top: 180px;
+margin-left: 30px;
 
 }
-header {
+#cabecalho {
     padding: 10px;
     border: 10px purple;
     background-color: yellow;
-    width: 600px;
+    width: 98%;
     height: 50px;
     margin-bottom: 10px;
     text-align: center;
+    top: 0;
+    position: fixed;
+    font-family: ;
 }
 aside {
+    display: inline;
     background-color: teal;
-    width: 20%;
-    height: 200px;
+    width: 50%;
+    margin-left: 25px;
 }
-ol {
+#licoes_aprendidas {
     background-color: mediumvioletred;
+    display: inline-block;
+    margin-top: 1px;
+    margin-left: 2px;
 }
-ul {
+#licoes_a_aprender {
     background-color: orange;
+    display: inline-block;
+    margin-bottom: 50px;
+    
 }
 footer {
     background-color: chartreuse;
 }
 nav {
-    background-color: chocolate;
+    background-color: white;
+    text-align: left;
+}
+#minha_foto {
+    width: 200px;
+    margin-top: 100px;
 }
