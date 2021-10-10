@@ -1,23 +1,20 @@
-
-
 body {
     background-color: rgb(253, 251, 251);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
  }
 
 
-
-.header {
-    position: fixedt;
+.cabecalho  {
+    position: fixed;
     top: 0;
-
 }
 
 
 
 .minha_foto {
     width: 180;
-    margin-top: 40px;
+    margin-top: 60px;
 
 }
 
@@ -37,7 +34,7 @@ body {
 
 
 
-.footer  {
+.rodape  {
    position: center;
    bottom: 0; 
 
