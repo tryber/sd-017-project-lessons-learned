@@ -3,7 +3,6 @@ body {
 }
 
 h1 {
-  border: 5px solid blue;
   height: 50px;
 }
 
@@ -12,18 +11,25 @@ h1 {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
+  margin: 0;
+
 }
 
 /* Origem do seletor cabeçaho:
  https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/ */
 
 #minha_foto {
-  padding-top: 10px;
-  padding-left: 10px;
+  margin-top: 100px;
+  margin-left: 15px;
+  border: 2px solid black;
+
 }
 
 #licoes_aprendidas , #licoes_a_aprender {
   display: inline-block;
+  background-color: burlywood;
+  border: 2px solid black;
+  padding: 30px;
 }
 
 /* Origem para #licoes_aprendidas #licoes_a_aprender:
@@ -31,4 +37,14 @@ https://codeburst.io/how-to-position-html-elements-side-by-side-with-css-e1fae72
 
 #rodape {
   text-align: center;
+}
+
+.ajusta {
+  text-align: center;
+  border: 2px solid black;
+}
+
+/* Comentar aqui */
+.ajusta-margin {
+  margin: 0 0 0 15px;
 }
