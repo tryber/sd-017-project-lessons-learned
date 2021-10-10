@@ -3,19 +3,19 @@
 body {
     background-color: rgb(253, 251, 251);
 
-}
+ }
 
 
 
 .header {
-    position: float;
+    position: fixedt;
     top: 0;
 
 }
 
 
 
-.my-picture {
+.minha_foto {
     width: 180;
     margin-top: 40px;
 
