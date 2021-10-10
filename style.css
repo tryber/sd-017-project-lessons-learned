@@ -48,3 +48,7 @@ https://codeburst.io/how-to-position-html-elements-side-by-side-with-css-e1fae72
 .ajusta-margin {
   margin: 0 0 0 15px;
 }
+
+.letra-fonte {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
