@@ -5,23 +5,69 @@ body {
 header {
   position: fixed;
   top: 0;
-  background-color: aquamarine;
-  margin: 10px;
-  padding: 20px;
+  background-color: rgb(172, 165, 165);
+  padding: 50px;
   border: 1px solid blue;
-  left: 250px;
   font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  text-align: center;
 }
 
 #minha_foto {
   width: 200px;
-  margin-top: 100px;
+  margin-top: 300px;
   margin-left: 10px;
 }
 
 #navegacao {
-  margin-top: 150px;
+  margin-top: 50px;
   color: red;
   font-size: 20px;
-  line-height: 2px;
+  line-height: 25px;
+  position: relative;
+  display: inline;
 }
+
+.navegacao:hover {
+  background-color: aquamarine;
+}
+
+.licoes {
+  text-decoration: underline;
+  font-size: 20px;
+  left: 25px;
+}
+
+#licoes_aprendidas {
+  border: 1px solid black;
+  display: inline-block;
+  width: 200px;
+}
+
+#licoes_a_aprender {
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.main {
+  font-size: 20px;
+}
+ .lado-esquerdo {
+   display: inline-block;
+   border: 1px solid black;
+   width: 30%;
+   margin: 80px 0;
+ }
+
+ .lado-direito {
+   float: right;
+   width: 50%;
+ }
+
+ #tabela {
+   border: 1px solid black;
+ }
+
+
+
+
