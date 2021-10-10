@@ -1,6 +1,5 @@
-
 body {
-    background-color: rgb(253,251,251);
+    background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
@@ -19,20 +18,19 @@ body {
 }
 
 #titulo {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Georgia, 'Times New Roman', Times, serif";
     font-size: 40px;
-    color:rgb(15, 136, 89);
+    color: rgb(15, 136, 89);
     line-height: normal;
 }
 
-
-tr,td, th {
+tr, td, th {
     border-style: solid;
-    border:"1px";
+    border: "1px";
 }
 
 .lado-esquerdo,.lado-direito {
-    float: left;  
+    float: left;
 }
 
 .box-model {
