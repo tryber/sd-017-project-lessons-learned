@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Lato, Segoe UI Open Sans, Helvetica Neue, sans-serif;
 }
 
 h1 {
@@ -9,14 +10,17 @@ h1 {
 #cabecalho {
   position: fixed;
   top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  margin: 0;
-
 }
 
 /* Origem do seletor cabeçaho:
  https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/ */
+
+#titulo {
+  width: 1366px;
+  height: 150px;
+  text-align: center;
+  background-color: darkgreen;
+}
 
 #minha_foto {
   margin-top: 100px;
@@ -49,6 +53,6 @@ https://codeburst.io/how-to-position-html-elements-side-by-side-with-css-e1fae72
   margin: 0 0 0 15px;
 }
 
-.letra-fonte {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.letra-tamanho {
+  font-size: 16px;
 }
