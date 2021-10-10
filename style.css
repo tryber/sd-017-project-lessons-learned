@@ -21,9 +21,15 @@ body {
 
 }
 
+.article {
+    
+    display: block;
+}
+
 
 
 .section  {
+    display: block;
     width: 180;
     align-content: center;
 
@@ -31,7 +37,7 @@ body {
 
 
 
-footer  {
+.footer  {
    position: center;
    bottom: 0; 
 
