@@ -52,14 +52,14 @@ height: 200px;
     display: inline-block;
     margin-top: 1px;
     margin-left: 3px;
-    float: left;
+    background-color: olive;
 }
 #licoes_a_aprender {
     display: inline-block;
     margin-bottom: 50px;
     font-size: medium;
     margin-left: 100px;
-    
+    background-color: orange;
 }
 #rodapé {
     text-align: left;
