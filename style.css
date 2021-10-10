@@ -18,11 +18,7 @@
 
         .navbar ul li {
             display: inline-block;
-            padding-right: 100px;
-        }
-
-        .list_line {
-
+            padding-right: 180px;
         }
 
         #minha_foto {
@@ -75,4 +71,11 @@
 
         .trybe {
             color: green;
+        }
+
+        p #article {
+            text-align: justify;
+            margin-left: auto;
+            margin-right: auto;
+            width: 6em
         }
