@@ -24,13 +24,13 @@ main {
 #minha_foto {
   position: absolute;
   right: 0;
-  top: 0;
+  top: 3px;
   width: 100px;
   border-radius: 28%;
 }
 
 article {
-  margin: 120px 20px 0px;
+  margin: 120px 20px 0;
   display: inline-block;
   max-width: 46%;
   text-align: justify;
@@ -43,7 +43,7 @@ article p {
 }
 
 aside {
-  margin: 120px 20px 0px;
+  margin: 120px 20px 0;
   display: inline-block;
   max-width: 40%;
   text-align: justify;
@@ -81,7 +81,7 @@ footer {
 
 table {
   display: inline-block;
-  border: 1px solid lightgray;
+  border: 1px solid rgb(136, 135, 135);
   margin: 10px 100px 10px 400px;
   border-collapse: collapse;
 }
@@ -97,4 +97,12 @@ td {
   border: 1px solid lightgray;
   padding: 3px;
   text-align: center;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(210, 240, 210);
+}
+
+tr:nth-child(even) {
+  background-color: rgb(242, 255, 242);
 }
