@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgb(253, 251, 251);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #cabecalho {
@@ -46,7 +47,7 @@ main {
   margin-left: 15px;
 }
 
-.sec-listas ol, ul, table{
+.lado-esquerdo, .lado-direito, table{
   display: inline-block;
 }
 
@@ -61,6 +62,11 @@ table {
 
 th, td {
   padding: 10px;
+}
+
+.texto-aprendizado {
+  font-size: 18px;
+  line-height: 24px;
 }
 
 
