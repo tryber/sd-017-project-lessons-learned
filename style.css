@@ -68,3 +68,11 @@ ul {
 }
 
 /* Origem do seletor ul: https://www.w3schools.com/css/css_navbar.asp */
+.titulo-cor {
+  color: teal;
+}
+
+.espacamento {
+  line-height: 25px;
+}
+
