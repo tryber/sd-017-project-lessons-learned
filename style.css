@@ -1,4 +1,5 @@
-*, body {
+*,
+body {
   color: rgb(253, 251, 251);
   background-color: rgb(253, 251, 251);
   padding: 0;
@@ -9,15 +10,27 @@
   text-align: justify;
 }
 
-header, h1, .profile, li, .content, h2, article, aside, footer, nav {
+header,
+h1,
+.profile,
+li,
+.content,
+h2,
+article,
+aside,
+footer,
+nav {
   background-color: rgb(46, 46, 46);
 }
 
-.profile, .content, footer {
+.profile,
+.content,
+footer {
   padding: 0 5% 5% 5%;
 }
 
 header {
+  position: fixed;
   top: 0;
   padding: 5%;
 }
@@ -26,10 +39,7 @@ h1 {
   font-size: 2.25rem;
   line-height: 3.5rem;
   letter-spacing: 2px;
-
 }
-
-
 
 img {
   vertical-align: top;
@@ -46,8 +56,6 @@ div {
   max-height: 30%;
 }
 
-
-
 .content {
   display: block;
 }
@@ -62,7 +70,8 @@ h2 {
   font-size: 1rem;
 }
 
-article, aside {
+article,
+aside {
   font-size: 0.88rem;
   line-height: 1.75rem;
 }
