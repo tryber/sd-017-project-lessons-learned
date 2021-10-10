@@ -74,7 +74,7 @@ h2 {
   text-align: justify;
 }
 
-p {
+article, aside {
   text-align: justify;
   float: left;
   font-weight: normal;
