@@ -8,6 +8,10 @@ body {
   font-family: monospace;
 }
 
+.mb {
+  margin-bottom: 30px;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -15,11 +19,12 @@ header {
   z-index: 2;
 }
 
+
 header nav ul li {
   margin: 1px 20px;
 }
 
-header li a {
+header a {
   text-decoration: none;
   color: white;
 }
@@ -46,11 +51,6 @@ section h1 {
 .about {
   padding: 40px;
   background-image: url('https://cdn.pixabay.com/photo/2021/09/23/19/08/background-6650672_960_720.jpg');
-}
-
-.about h1 {
-  color: black;
-  margin-bottom: 40px;
 }
 
 .about img {
@@ -95,8 +95,15 @@ section h1 {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 50px;
-  height: 100vh;
   display: block;
+}
+
+.learned h2 {
+  border-bottom: 3px solid black;
+  padding: 10px;
+  width: 200px;
+  display: block;
+  margin: 20px auto;
 }
 
 .lado-direito {
@@ -106,7 +113,8 @@ section h1 {
 .lado-esquerdo , .lado-direito {
   width: 45%;
   vertical-align: top;
-  height: 200px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .topics {
@@ -133,24 +141,51 @@ section h1 {
 .topics:hover {
   width: 200px;
   height: 200px;
-  overflow: hidden;
+}
+
+.lado-esquerdo p , .lado-direito p {
+  text-align: justify;
+  color: black;
+  word-spacing: 5px;
 }
 
 .information {
   margin: 0 auto;
   background-image: url('https://cdn.pixabay.com/photo/2019/03/19/13/33/chart-4065756_960_720.jpg');
   background-size: cover;
+  background-position-x: 200px;
   padding: 30px;
+}
+
+.ranking {
+  background-color: white;
+  width: 40%;
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+.ranking td {
+  width: 50%;
+  border-bottom: 3px solid gray;
+}
+
+.ranking a {
+  text-decoration: none;
+  color: black;
 }
 
 .footer {
   height: 100px;
+  padding-top: 20px;
+}
+
+.ranking td:hover , header a:hover {
+  border-bottom: 3px solid greenyellow;
 }
 
 .footer span , .footer nav {
   display: inline-block;
   vertical-align: middle;
-  margin: 20px;
 }
 
 .navigation-links a img {
@@ -158,15 +193,6 @@ section h1 {
   background-color: white;
   border-radius: 50%;
 }
-
-.navigation-links span {
-  margin-left: 30px;
-}
-
-.lado-esquerdo p , .lado-direito p {
-  text-align: justify;
-}
-
 
 header nav ul li , .lessons-right , .lessons-left , .lado-esquerdo , .lado-direito {
   display: inline-block;
@@ -176,6 +202,3 @@ header nav ul li , .lessons-right , .lessons-left , .lado-esquerdo , .lado-direi
   text-align: center;
 }
 
-.mb {
-  margin-bottom: 30px;
-}
