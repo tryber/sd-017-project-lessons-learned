@@ -52,6 +52,7 @@ header {
 .main {
   font-size: 20px;
 }
+
  .lado-esquerdo {
    display: inline-block;
    border: 1px solid black;
@@ -67,7 +68,3 @@ header {
  #tabela {
    border: 1px solid black;
  }
-
-
-
-
