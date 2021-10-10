@@ -2,6 +2,7 @@ body {
   background-color: rgb(253, 251, 251);
   margin: 0;
   font-family: Impact, sans-serif;
+  width: 1366px;
 }
 
 header {
@@ -23,35 +24,49 @@ main {
 #minha_foto {
   position: absolute;
   right: 0;
-  width: 200px;
+  top: 0;
+  width: 100px;
   border-radius: 28%;
 }
 
 article {
-  margin-top: 120px;
-  max-width: 66%;
+  margin: 120px 20px 0px;
+  display: inline-block;
+  max-width: 46%;
   text-align: justify;
+  font-size: 20px;
+  vertical-align: top;
+}
+
+article p {
+  margin: 0;
 }
 
 aside {
-  margin-top: 12px;
-  max-width: 66%;
+  margin: 120px 20px 0px;
+  display: inline-block;
+  max-width: 40%;
   text-align: justify;
   background-color: rgb(102, 101, 101);
   color: white;
   padding: 8px;
   border: 3px solid lightgreen;
   border-radius: 10px;
+  line-height: 24px;
 }
 
 .first {
   display: inline-block;
   max-width: 35%;
+  font-size: 12px;
+  margin: 10px;
 }
 
 .second {
   display: inline-block;
   max-width: 35%;
+  font-size: 12px;
+  margin: 10px;
 }
 
 footer {
@@ -62,4 +77,24 @@ footer {
   text-align: center;
   height: 30px;
   padding: 10px;
+}
+
+table {
+  display: inline-block;
+  border: 1px solid lightgray;
+  margin: 10px 100px 10px 400px;
+  border-collapse: collapse;
+}
+
+th {
+  border: 1px solid lightgray;
+  background-color: rgb(0, 128, 53);
+  color: white;
+  padding: 5px;
+}
+
+td {
+  border: 1px solid lightgray;
+  padding: 3px;
+  text-align: center;
 }
