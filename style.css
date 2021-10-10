@@ -53,18 +53,18 @@ header {
   font-size: 20px;
 }
 
- .lado-esquerdo {
-   display: inline-block;
-   border: 1px solid black;
-   width: 30%;
-   margin: 80px 0;
- }
+.lado-esquerdo {
+  display: inline-block;
+  border: 1px solid black;
+  width: 30%;
+  margin: 80px 0;
+}
 
- .lado-direito {
-   float: right;
-   width: 50%;
- }
+.lado-direito {
+  float: right;
+  width: 50%;
+}
 
- #tabela {
-   border: 1px solid black;
- }
+#tabela {
+  border: 1px solid black;
+}
