@@ -17,9 +17,8 @@ h1 {
 
 #titulo {
   width: 1366px;
-  height: 150px;
+  height: 100px;
   text-align: center;
-  background-color: darkgreen;
 }
 
 #minha_foto {
@@ -56,3 +55,16 @@ https://codeburst.io/how-to-position-html-elements-side-by-side-with-css-e1fae72
 .letra-tamanho {
   font-size: 16px;
 }
+
+nav {
+  background-color: darkgreen;
+  height: 100px;
+}
+
+ul {
+  position: relative;
+  list-style-type: none;
+  top: 40px;
+}
+
+/* Origem do seletor ul: https://www.w3schools.com/css/css_navbar.asp */
