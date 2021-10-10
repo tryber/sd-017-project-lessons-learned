@@ -1,0 +1,96 @@
+*,
+body {
+  color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-align: justify;
+}
+
+header,
+h1,
+.profile,
+li,
+.content,
+h2,
+article,
+aside,
+footer,
+nav {
+  background-color: rgb(46, 46, 46);
+}
+
+.profile,
+.content,
+footer {
+  padding: 0 5% 5% 5%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  padding: 3%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 2.25rem;
+  line-height: 3.5rem;
+  letter-spacing: 2px;
+}
+
+img {
+  vertical-align: top;
+  width: 30%;
+}
+
+div {
+  font-size: 0.88rem;
+  line-height: 1.75rem;
+  vertical-align: top;
+  margin-left: 5%;
+  display: inline-block;
+  width: 25%;
+  max-height: 30%;
+}
+
+.content {
+  padding-top: 15%;
+  display: block;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 70%;
+}
+
+h2 {
+  letter-spacing: 0.19rem;
+  font-size: 1rem;
+}
+
+article,
+aside {
+  font-size: 0.88rem;
+  line-height: 1.75rem;
+}
+
+.lado-direito {
+  width: 25%;
+  float: right;
+}
+
+a {
+  color: rgb(46, 46, 46);
+  text-decoration: none;
+  background-color: rgb(253, 251, 251);
+  padding: 6px;
+  border-radius: 5px;
+}
+
+table{
+  display: none;
+}
