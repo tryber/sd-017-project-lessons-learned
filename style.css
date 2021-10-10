@@ -7,7 +7,7 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: #338106;
+  background-color: rgb(51, 129, 6);
   text-align: center;
   height: 100px;
   width: 100%;
@@ -34,18 +34,36 @@ main {
   margin: auto;
 }
 
-#minha_foto{
+#minha_foto {
   width: 200px;
   padding: 15px;
   display: block;
   margin-top: 100px;
 }
 
-.sec-foto a{
+.sec-foto a {
   display: inline-block;
   margin-left: 15px;
 }
 
-#rodape{
+.sec-listas ol, ul, table{
+  display: inline-block;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  margin-left: 40px;
+}
+
+th, td {
+  padding: 10px;
+}
+
+
+#rodape {
   text-align: center;
 }
