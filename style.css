@@ -17,29 +17,38 @@ header {
   padding: 5%;
 }
 
-h1{
+h1 {
+  font-size: 2.25rem;
+  line-height: 3.5rem;
+  letter-spacing: 2px;
+  font-weight: normal;
+  font-style: normal;
   background-color: rgb(46, 46, 46);
 }
 
-.profile{
+.profile {
   padding: 0 5% 5% 5%;
   background-color: rgb(46, 46, 46);
 }
 
-img{
+img {
   vertical-align: top;
   width: 30%;
 }
 
-div{
-  font-size: small ;
+div {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 0.88rem;
+  line-height: 1.75rem;
+  vertical-align: top;
   margin-left: 5%;
   display: inline-block;
   width: 25%;
   max-height: 30%;
 }
 
-li{
+li {
   background-color: rgb(46, 46, 46);
   text-align: justify;
 }
@@ -52,16 +61,32 @@ li{
 
 article {
   padding-right: 5%;
-  text-align: justify;
+  background-color: rgb(46, 46, 46);
   display: inline-block;
-  width: 75%;
-  min-height: max-content;
+  width: 70%;
+  height: 100%;
+}
+
+h2 {
+  background-color: rgb(46, 46, 46);
+  letter-spacing: 0.19rem;
+  font-size: 0.75rem;
+  text-align: justify;
+}
+
+p {
+  text-align: justify;
+  float: left;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 0.88rem;
+  line-height: 1.75rem;
   background-color: rgb(46, 46, 46);
 }
 
 aside {
-  text-align: right;
-  width: 20%;
+  text-align: ;
+  width: 25%;
   background-color: rgb(46, 46, 46);
   float: right;
 }
@@ -71,7 +96,7 @@ footer {
   padding: 0 5% 5% 5%;
 }
 
-a{
+a {
   color: rgb(46, 46, 46);
   text-decoration: none;
   background-color: rgb(253, 251, 251);
@@ -79,6 +104,6 @@ a{
   border-radius: 5px;
 }
 
-nav{
+nav {
   background-color: rgb(46, 46, 46);
 }
