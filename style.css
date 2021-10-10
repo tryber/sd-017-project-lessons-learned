@@ -32,7 +32,7 @@ footer {
 header {
   position: fixed;
   top: 0;
-  padding: 5%;
+  padding: 3%;
   width: 100%;
 }
 
@@ -58,6 +58,7 @@ div {
 }
 
 .content {
+  padding-top: 15%;
   display: block;
 }
 
@@ -88,4 +89,8 @@ a {
   background-color: rgb(253, 251, 251);
   padding: 6px;
   border-radius: 5px;
+}
+
+table{
+  display: none;
 }
