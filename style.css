@@ -74,8 +74,11 @@ h2 {
 }
 
 #tabela {
-  margin: auto;
+  margin-right: auto;
   border: olivedrab;
   font-size: 18px;
-  position: static;
+  font-weight: 300;
+  text-align: center;
+  height: 100px;
+  width: 600px;
 }
