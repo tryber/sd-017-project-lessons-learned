@@ -9,7 +9,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 135px;
+  height: 110px;
   background-color: green;
   z-index: 1;
   font-size: 18px;
@@ -24,23 +24,31 @@ body {
 #minha_foto {
   width: 300px;
   position: absolute;
-  top: 150px;
-  left: 16px;
+  top: 135px;
+  left: 20px;
   border-radius: 25px;
 }
 
-.lista-1 {
+.lado-esquerdo {
   position: absolute;
-  top: 500px;
-  left: 16px;
+  top: 560px;
+  left: 20px;
   font-size: 14px;
+  border:solid 1px;
+  padding: 10px;
+  width: 170px;
+  height: 220px;
 }
 
-.lista-2 {
+.lado-direito {
   position: absolute;
-  top: 500px;
-  left: 180px;
+  top: 560px;
+  left: 250px;
   font-size: 14px;
+  border:solid 1px;
+  padding: 10px;
+  width: 170px;
+  height: 220px;
 }
 
 #rodape {
@@ -48,7 +56,7 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 60px;
+  height: 55px;
   background-color: rgb(253, 251, 251);
   border-top: groove;
   z-index: 1;
@@ -56,17 +64,38 @@ body {
 
 .artigo {
   position: absolute;
-  top: 700px;
-  left: 10px;
+  top: 790px;
+  left: 20px;
+  width: 65%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding-bottom: 75px;
+
+
 }
 
 .sessao {
   position: absolute;
-  top: 250px;
+  top: 220px;
   left: 350px;
   width: 300px;
+  margin: 10px;
 }
 
 h2 , h3 {
   font-size: 16px;
+}
+
+table, th, td{
+  border:solid 1px;
+  border-collapse: collapse;
+  padding: 5px;
+  width: 300px;
+}
+
+.table{
+  position: absolute;
+  top: 475px;
+  left: 20px;
+  font-size: 14px;
 }
