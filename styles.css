@@ -12,7 +12,7 @@ body {
 }
 
 #titulo {
-    
+    font-size: 35px;
 }
 
 #minha_foto {
@@ -21,11 +21,11 @@ body {
 }
 
 #licoes_aprendidas {
-    
+    color: green;
 }
 
 #licoes_a_aprender {
-
+    color: greenyellow;
 }
 
 .negrito {
@@ -33,6 +33,6 @@ body {
 }
 
 #rodape {
-
+    font-weight: bold;
+    color: green;
 }
-
