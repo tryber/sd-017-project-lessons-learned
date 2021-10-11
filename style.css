@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin-left: 20px;
 }
 
 #cabecalho {
@@ -7,4 +8,13 @@ body {
   top: 0px;
   border: solid;
 }
+
+.table {
+  padding: 20px;
+}
+
+.borda {
+  border: 2px solid black;
+}
+
 
