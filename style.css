@@ -1,5 +1,5 @@
 body {
-  background-color:rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
   margin: 0;
   padding: 0;
   font-family: Oxygen, sans-serif;
@@ -8,19 +8,19 @@ body {
 header {
   top: 0;
   position: fixed;
-  background-color: #036b52;
+  background-color: #036B52;
   width: 100%;
-  border-bottom: #2fc18c 10px solid;
+  border-bottom: #2fC18C 10px solid;
   color: white;
   font-weight: bold;
-  }
+}
 
 h1 {
   text-align: center;
 }
 
 h2 {
-  font-size: 18px ;
+  font-size: 18px;
   margin-left: 10vw;
 }
 
@@ -29,17 +29,17 @@ main {
   margin: 0 15vw 0 15vw;
 }
 
-nav li{
+nav li { 
   text-decoration: none;
   margin-top: 100px;
   display: inline-block;
-  }
+}
 
-nav{
+nav {
   text-align: center;
 }
 
-.nav-item{
+.nav-item {
   margin-right: 70px;
 }
 
@@ -48,7 +48,7 @@ a {
   color: black;
 }
 
- #minha_foto {
+#minha_foto {
   max-width: 25vw;
   border-radius: 50%;
   display: block;
@@ -61,7 +61,7 @@ a {
   width: 30vw;
 }
 
-.lista li{
+.lista li {
   margin-left: 10vw;
 }
 
@@ -69,7 +69,7 @@ aside {
   float: right;
   width: 20vw;
   box-shadow: rgb(207, 199, 199) 3px 3px;
-  background-color: #d4eee4;
+  background-color: #D4EEE4;
   margin-top: 100px;
 }
 
@@ -82,7 +82,7 @@ article {
 
 footer p {
   text-align: center;
-  background-color: #411a7f;
+  background-color: #411A7F;
   margin: 0;
   width: 100%;
   padding: 20px;
