@@ -12,6 +12,7 @@ header {
   width: 100%;
   border-bottom: #2fc18c 10px solid;
   color: white;
+  font-weight: bold;
   }
 
 h1 {
@@ -20,6 +21,7 @@ h1 {
 
 h2 {
   font-size: 18px ;
+  margin-left: 10vw;
 }
 
 
@@ -27,10 +29,19 @@ main {
   margin: 0 15vw 0 15vw;
 }
 
-nav {
+nav li{
   text-decoration: none;
   margin-top: 100px;
+  display: inline-block;
   }
+
+nav{
+  text-align: center;
+}
+
+.nav-item{
+  margin-right: 70px;
+}
 
 a {
   text-decoration: none;
@@ -40,24 +51,33 @@ a {
  #minha_foto {
   max-width: 25vw;
   border-radius: 50%;
-   
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .lista {
   display: inline-block;
-  width: 20vw;
+  width: 30vw;
+}
+
+.lista li{
+  margin-left: 10vw;
 }
 
 aside {
   float: right;
   width: 20vw;
   box-shadow: rgb(207, 199, 199) 3px 3px;
-  background-color: honeydew;
+  background-color: #d4eee4;
+  margin-top: 100px;
 }
 
+
 article {
-  width: 70vw;
+  width: 40vw;
   margin: 10vh 2vw;
+  display: inline-block;
 }
 
 footer p {
