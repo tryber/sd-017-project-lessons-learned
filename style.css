@@ -1,18 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 * {
   margin: 0px;
   padding: 0px;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 15px;
 }
 
 body {
   background-color: rgb(253, 251, 251);
-  h
+
 }
 
 #cabecalho {
   position: absolute;
   position: fixed;
-
-  background-color: green;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 5px;
+  border-color:#2FC18C;
+  border-style:solid;
+  background-color: #036B52;
   width: 1366px;
   height: 45px;
   top: 0px;
@@ -20,14 +29,22 @@ body {
 }
 
 #cabecalho h1 {
+  top: 18px;
+  position: relative;
   text-align: center;
   color: White;
-  font-style:italic;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-family: 'Prompt', sans-serif;
+}
+
+strong, th{
+  font-family: 'Prompt', sans-serif;
 }
 
 main{
-  background-color: blue;
+  
   position: absolute;
   margin-left: auto;
   margin-right: auto;
@@ -36,7 +53,7 @@ main{
 
 section header {
   
-  background-color: cadetblue;
+  background-color:rgba(47, 193, 140,0.5);
   position: relative;
   width: 400px;
   margin-left: auto;
@@ -54,7 +71,7 @@ header img {
 }
 
 section{
-  background-color: crimson;
+  
   margin-left: auto;
   margin-right: auto;
   width: 700px;
@@ -63,44 +80,83 @@ section{
 article {
 top: 100px;
   position: relative;
-  background-color: chocolate;
+  background-color:rgba(47, 193, 140,0.5);
+  border-radius: 15px;
+  padding: 15px;
   
   width: 350px;
 }
 
 #list {
   position: absolute;
-  background-color: darkcyan;
+  background-color:rgba(47, 193, 140,0.5);
  top: 50px;
- left: 1200px;
+ left: 1150px;
+ height: 460px;
+ border-radius: 15px;
+ padding: 15px;
+
 }
 
 aside{
-  background-color: darkmagenta;
+  background-color:rgba(47, 193, 140,0.5);
+  border-radius: 15px;
+  padding: 15px;
   position: absolute;
   width: 100px;
   left: 25px;
-  top: 50px;
+  top: 60px;
+  border-radius: 15px;
+  padding: 15px;
 }
 
 .lado-direito{
   position:absolute;
   width: 350px;
   left: 700px;
-  background-color:deeppink;
+  background-color:rgba(47, 193, 140,0.5);
+  border-radius: 15px;
+  padding: 15px;
 }
 
 #rodape {
   
-  
-  background-color: gainsboro;
-  width: 500px;
+  background-color:rgba(47, 193, 140,0.5);
+  width: 400px;
+  border-radius: 15px;
+  padding: 15px;
   position: relative;
  
   text-align:center;
 
   margin-left: auto;
   margin-right: auto;
-top: 300px;
+top: 230px;
 
+}
+
+
+img{
+  border-radius: 5px;
+}
+
+li,ol,ul { 
+  list-style-type: none;
+  text-align: center;
+}
+
+table{
+  
+  
+  border: 1px solid green;
+  top: 50px;
+  position: relative;
+  left: auto;
+  right: auto;
+}
+
+td,tr,th{
+  position: relative;
+  left: auto;
+  right: auto;
 }
