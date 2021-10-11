@@ -47,13 +47,13 @@ h2 {
 .lado-direito {
   color: black;
   line-height: 25px;
-  right:700px;
+  right: 700px;
   position: absolute;
   margin-left: 2%;
   margin-top: 1%;
 }
 
-.titulo-esquerdo{
+.titulo-esquerdo {
   color: black;
   left: 625px;
   position: absolute;
