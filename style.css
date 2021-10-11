@@ -44,24 +44,30 @@ h2 {
   padding-right: 50%;
 }
 
-#titulo_artigo {
-  margin: auto;
-  margin-bottom: 2%;
+.lado-direito {
+  color: black;
+  line-height: 25px;
+  right:700px;
+  position: absolute;
+  margin-left: 2%;
+  margin-top: 1%;
 }
 
-.lado-direito {
-  color: rgb(85, 83, 83);
-  line-height: 25px;
-  margin-left: 2%;
-  padding-right: 50%;
+.titulo-esquerdo{
+  color: black;
+  left: 625px;
   position: absolute;
+  top: 1000px;
 }
 
 .lado-esquerdo {
-  color: rgb(85, 83, 83);
+  color: black;
   line-height: 25px;
+  left: 650px;
   position: absolute;
-  left: 700px;
+  margin-right: 2%;
+  margin-top: 10%;
+  top: 950px;
 }
 
 .nav_links li {
