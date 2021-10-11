@@ -1,6 +1,9 @@
 body {
   background-color: rgb(253, 251, 251);
   margin-left: 20px;
+  text-align: center;
+  width: 70%;
+  margin-left: 15%;
 }
 
 #cabecalho {
@@ -11,10 +14,19 @@ body {
 
 .table {
   padding: 20px;
+  color:grey;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .borda {
   border: 2px solid black;
 }
+
+.estilo-das-fontes {
+  font-size: 15px;
+  line-height: 30px;
+}
+
+
 
 
