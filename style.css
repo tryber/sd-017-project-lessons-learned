@@ -35,21 +35,15 @@ section{
     display: inline-block;
 }
 
-.aprendizado{
-    display: inline-block;
-}
-
 article{
     max-height: 400px;
-    max-width: 400px;
+    max-width: 650px;
 }
 
 aside{
     text-align: center;
-    max-height: 400px;
-    max-width: 120px;
+    max-width: 570px;
     border-color: black;
     border-style: solid;
-    border-width: 1px;
-    padding: 1px;
+    border-width: 1px; 
 }
