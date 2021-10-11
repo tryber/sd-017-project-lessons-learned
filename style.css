@@ -20,7 +20,7 @@ body{
     color:white;
     font-size: 20px;
     box-shadow: 2px 3px 4px #CCC;
-    z-index: 1;
+    z-index: 3;
     letter-spacing: 10px;
 }
 .foto{
@@ -42,8 +42,6 @@ body{
 .licoes{
     margin-top: 25px;
     width: 100%;
-    position: absolute;
-    top:300px;
     display: flex;
     justify-content: center;
     color: indigo;
@@ -65,15 +63,30 @@ body{
 #licoes_aprendidas div{
     margin-left: 50px;
 }
+.licoes2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: white;
+    background-color: indigo;
+}
 
+.conteudo-principal{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top:300px;
+    border: 1px solid red;
+}
 /*Footer*/
 #rodape{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     background-color: indigo;
     color: white;
     height: 100px;
+    z-index: 2;
 }
 #rodape div{
     height: 25px;
