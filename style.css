@@ -9,8 +9,21 @@ body {
   position: fixed;
 }
 
+a{
+  text-decoration: none;
+  font-size: 15px;
+  font-family: monospace;
+}
+
 #linkk {
   text-decoration: none;
+  border: green solid 2px;
+  position: relative;
+  margin-left: 36%;
+  background-color: rgb(132, 173, 132);
+  font-size: 20px;
+  top: 150px;
+  font-family: monospace;
 }
 
 #titulo {
@@ -28,6 +41,22 @@ body {
   border-radius: 25px;
 }
 
+#tabela{
+  margin-top: 80px;
+  margin-left: 60%;
+  position: absolute;
+  font-family: cursive;
+}
+
+#licoes_a_aprender{
+  margin-top: 20px;
+  border: green solid 1px;
+  max-width: 250px;
+  margin-left: 10%;
+  font-family: cursive;
+
+}
+
 p {
   margin-left: 470px;
   color: rgb(29, 65, 29);
@@ -38,6 +67,7 @@ p {
 }
 
 .lado-direito , .lado-esquerdo {
+  margin-top: 50px;
   padding: 10px;
   margin-bottom: 20px;
   max-width: 450px;
@@ -46,6 +76,8 @@ p {
 .lado-esquerdo {
   display: inline-block;
   border: green solid 1px;
+  font-size: 15px;
+  font-family: cursive;
 }
 
 .lado-direito {
@@ -53,5 +85,50 @@ p {
   border: green solid 1px;
   position: absolute;
   margin-left: 650px;
-  top: 1000px;
+  top: 775px;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.linha{
+  margin-top: 40px;
+  margin-bottom: 25px;
+  text-decoration: underline;
+  margin-left: 10%;
+  font-size: 25px;
+  font-family: cursive;
+}
+
+#licoes_aprendidas{
+  margin-top: 50px;
+  border: green solid 1px;
+  max-width: 200px;
+  margin-left: 10%;
+  font-family: cursive;
+}
+
+#rodape{
+  text-align: center;
+}
+
+#contatos{
+border: green solid 2px;
+max-width: 250px;
+text-align: center;
+margin-left: 60%;
+position: relative;
+padding: 10px;
+bottom: 240px;
+}
+
+#contact{
+  font-size: 20px;
+  font-family: cursive;
+  color: black;
+  background-color: transparent;
+  position: relative;
+  margin-left: 68%;
+  bottom: 250px;
+
+
 }
