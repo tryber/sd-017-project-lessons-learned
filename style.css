@@ -5,11 +5,11 @@
 
 body {
   background-color: rgb(253, 251, 251);
-
+  h
 }
 
 #cabecalho {
-  position: relative;
+  position: absolute;
   position: fixed;
 
   background-color: green;
@@ -22,69 +22,85 @@ body {
 #cabecalho h1 {
   text-align: center;
   color: White;
-  font-style: oblique;
+  font-style:italic;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#minha_foto {
+main{
+  background-color: blue;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+section header {
+  
+  background-color: cadetblue;
   position: relative;
-  padding: 1px;
-  border: 1px;
-  margin: 1px;
-  z-index: 4;
-  left: 500px;
-  margin-top: 45px;
-  width: 200px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 60px;
+  border-radius: 15px;
 }
 
-#lista {
-  margin-top: 45px;
-  left: 1000px;
-  float: right;
-  ;
-}
-
-nav {
-  background-color: salmon;
-}
-
-.lado-esquerdo {
-  background-color: royalblue;
-  width: 500px;
-  float: left;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  line-height: 30px;
+header img {
+  display: block;
+  width: 230px;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
-.lado-direito {
-  width: 500px;
-  background-color: red;
-  float: right;
+section{
+  background-color: crimson;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+
+}
+article {
+top: 100px;
+  position: relative;
+  background-color: chocolate;
+  
+  width: 350px;
 }
 
-footer {
-  width: 1366px;
-  font-size: 30px;
-  color: white;
-  text-align: center;
+#list {
   position: absolute;
-  position: fixed;
-  top: 612px;
-  background-color: green;
-
+  background-color: darkcyan;
+ top: 50px;
+ left: 1200px;
 }
 
-aside {
+aside{
+  background-color: darkmagenta;
   position: absolute;
-
-  top: 550px;
-  left: 1200px;
+  width: 100px;
+  left: 25px;
+  top: 50px;
 }
 
-/* https://www.w3schools.com/css/css_table.asp  */
-table,
-th,
-td {
-  border: 1px solid green;
+.lado-direito{
+  position:absolute;
+  width: 350px;
+  left: 700px;
+  background-color:deeppink;
+}
+
+#rodape {
+  
+  
+  background-color: gainsboro;
+  width: 500px;
+  position: relative;
+ 
+  text-align:center;
+
+  margin-left: auto;
+  margin-right: auto;
+top: 300px;
+
 }
