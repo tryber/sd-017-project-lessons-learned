@@ -9,11 +9,13 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 110px;
+  height: 130px;
   background-color: green;
   z-index: 1;
-  font-size: 18px;
+  font-size: 20px;
+  font-family: serif;
   line-height: 35px;
+  border-bottom: solid 2px white;
 }
 
 #titulo {
@@ -25,17 +27,20 @@ body {
 #minha_foto {
   width: 300px;
   position: absolute;
-  top: 133px;
+  top: 150px;
   left: 20px;
-  border-radius: 25px;
+  border-radius: 50px;
+  padding: 5px;
+  border: solid 2px green;
+  background: black;
 }
 
 .lado-esquerdo {
   position: absolute;
-  top: 560px;
+  top: 585px;
   left: 20px;
   font-size: 14px;
-  border: solid 1px;
+  border: solid 2px green;
   padding: 10px;
   width: 170px;
   height: 220px;
@@ -43,10 +48,10 @@ body {
 
 .lado-direito {
   position: absolute;
-  top: 560px;
+  top: 585px;
   left: 240px;
   font-size: 14px;
-  border: solid 1px;
+  border: solid 2px green;
   padding: 10px;
   width: 170px;
   height: 220px;
@@ -57,16 +62,16 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 55px;
+  height: 60px;
   background-color: rgb(253, 251, 251);
-  border-top: groove;
+  border-top: solid 2px green;
   z-index: 1;
   text-align: center;
 }
 
 .artigo {
   position: absolute;
-  top: 790px;
+  top: 810px;
   left: 20px;
   width: 65%;
   margin-top: 30px;
@@ -89,7 +94,7 @@ h2 , h3 {
 }
 
 table , th , td {
-  border: solid 1px;
+  border: solid 2px black;
   border-collapse: collapse;
   padding: 5px;
   width: 300px;
@@ -97,8 +102,8 @@ table , th , td {
 
 .table {
   position: absolute;
-  top: 475px;
-  left: 20px;
+  top: 500px;
+  left: 26px;
   font-size: 14px;
 }
 
