@@ -47,11 +47,11 @@ main {
   margin-left: 15px;
 }
 
-.lado-esquerdo, .lado-direito, table{
+.lado-esquerdo , .lado-direito , table {
   display: inline-block;
 }
 
-table, th, td {
+table , th , td {
   border: 1px solid black;
 }
 
@@ -60,7 +60,7 @@ table {
   margin-left: 40px;
 }
 
-th, td {
+th , td {
   padding: 10px;
 }
 
