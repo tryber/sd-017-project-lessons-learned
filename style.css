@@ -10,26 +10,23 @@ body {
 }
 
 
-
 .minha_foto {
     border-radius: 30%;
     width: 180;
     margin-top: 100px;
 }
 
+
 .article {
-    
     display: block;
 }
 
 
-
-#section  {
+.section  {
     display: block;
     width: 180;
     align-content: center;
 }
-
 
 
 .rodape  {
