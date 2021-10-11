@@ -1,7 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);
     font-family: Georgia, 'Times New Roman', Times, serif;
-
  }
 
 
@@ -14,8 +13,8 @@ body {
 
 .minha_foto {
     width: 180;
+    height: 210;
     margin-top: 60px;
-
 }
 
 .article {
@@ -29,7 +28,6 @@ body {
     display: block;
     width: 180;
     align-content: center;
-
 }
 
 
@@ -37,7 +35,6 @@ body {
 .rodape  {
    position: center;
    bottom: 0; 
-
 }
 
  
