@@ -1,15 +1,20 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkred;
+    
 }
+
+
+
 
 #cabecalho {
     position: fixed;
     top: 0;
     background-color:green;
     width: 100%;
-    
 }
-
 #titulo {
     text-align: center;
     color: black
@@ -20,20 +25,28 @@ body {
     width: 150px;
     margin-top: 50px;
 }
-
 #a {
-    
     text-align: left;
+    border: 1px;
+    padding:2px;
+    margin:2px;
+    background-color: green;
+    border-radius: 5px;
+    text-decoration: none;
+}
+table , ul , ol {
+    border: 1px solid black;
+    display: inline-block;
+}
+.lado-direito {
+    float: right;
+}
+.lado-esquerdo {
+    float: left;
 }
 
- ul , ol {
-    display: inline-block;
-    
-}
-#lado-direito {
-    
-    display: inline-block;
-}
-#lado-esquerdo {
-    display: inline-block;
+#rodape {
+    position: fixed;
+    bottom: 0;
+    line-height: -1px;
 }
