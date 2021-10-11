@@ -13,6 +13,7 @@ body {
   background-color: green;
   z-index: 1;
   font-size: 18px;
+  line-height: 35px;
 }
 
 #titulo {
@@ -43,7 +44,7 @@ body {
 .lado-direito {
   position: absolute;
   top: 560px;
-  left: 250px;
+  left: 240px;
   font-size: 14px;
   border:solid 1px;
   padding: 10px;
@@ -60,6 +61,7 @@ body {
   background-color: rgb(253, 251, 251);
   border-top: groove;
   z-index: 1;
+  text-align: center;
 }
 
 .artigo {
@@ -78,7 +80,7 @@ body {
   position: absolute;
   top: 220px;
   left: 350px;
-  width: 300px;
+  width: 25%;
   margin: 10px;
 }
 
@@ -86,16 +88,20 @@ h2 , h3 {
   font-size: 16px;
 }
 
-table, th, td{
-  border:solid 1px;
+table, th, td {
+  border: solid 1px;
   border-collapse: collapse;
   padding: 5px;
   width: 300px;
 }
 
-.table{
+.table {
   position: absolute;
   top: 475px;
   left: 20px;
   font-size: 14px;
+}
+
+.link {
+  text-align: center;
 }
