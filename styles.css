@@ -1,38 +1,38 @@
 body {
-    background-color: rgb(253, 251 , 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    top: 0;
-    position: fixed;
-    background-color: green;
-    color: white;
-    left: 500px;
-    height: 110px;
+  top: 0;
+  position: fixed;
+  background-color: green;
+  color: white;
+  left: 500px;
+  height: 110px;
 }
 
 #titulo {
-    font-size: 35px;
+  font-size: 35px;
 }
 
 #minha_foto {
-    height: 200px;
-    width: 270px;
+  height: 200px;
+  width: 270px;
 }
 
 #licoes_aprendidas {
-    color: green;
+  color: green;
 }
 
 #licoes_a_aprender {
-    color: greenyellow;
+  color: greenyellow;
 }
 
 .negrito {
-    font-weight: bold;
+  font-weight: 15px;
 }
 
 #rodape {
-    font-weight: bold;
-    color: green;
+  font-weight: 15px;
+  color: green;
 }
