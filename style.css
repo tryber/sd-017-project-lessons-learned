@@ -1,43 +1,72 @@
 body {
   background-color: rgb(253, 251, 251);
+  padding: 2px;
 }
 
+#Ivan-Nascimento {
+  size-adjust: center;
+  font-size: medium;
+  
+
+}
 #cabecalho {
   display: block;
   position: fixed;
   top: 0;
+  
 }
 #titulo {
   display: block;
+  text-align: center;
 }
 
 #minha_foto {
-  width: 400px;
+  float: left;
+  width: 300px;
   height: 300px;
+  padding-top: 50px;
 }
 
 #table {
   width: 100%;
-
-
+  margin: 10px;
+  margin-top: 400px;
 }
 
 #nav {
-
+  size-adjust: 100px;
+  font-size: larger;
+  border-bottom: medium;
 }
 #licoes_aprendidas {
-
+  font-size: larger;
+  text-align: justify;
+  color: green;
 }
 
 #paragrafo {
+  font-family: monospace;
+  font-size: larger;
+  text-align: justify;
+  line-height: 40px;
 
 }
 
-#licoes_a_aprender {
+#secao {
+  font-size: larger;
+  text-align: justify;
+}
 
+#licoes_a_aprender {
+  font-size: larger;
+  text-align: justify;
+  color: blue;
 }
 
 #rodape {
 
 }
 
+div {
+  border: 2px solid green;
+}
