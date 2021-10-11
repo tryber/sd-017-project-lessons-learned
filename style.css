@@ -52,9 +52,18 @@ body {
 
 }
 
-#secao {
+.article-section {
+  background-color: green;
+}
+.lado-esquerdo {
+  width: 30%;
+  display: inline-block;
+}
+.lado-direito {
   font-size: larger;
   text-align: justify;
+  width: 30%;
+  display: inline-block;
 }
 
 #licoes_a_aprender {
