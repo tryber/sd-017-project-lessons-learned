@@ -16,6 +16,7 @@ header {
   width: 100%;
   height: 60px;
   z-index: 2;
+  font-family: Permanent Marker, cursive;
 }
 
 nav {
@@ -26,16 +27,26 @@ nav {
   height: 50px;
   border-bottom: rgb(0, 0, 54) solid 2px;
   z-index: 2;
+  font-family: Galindo, cursive;
 }
 
 nav ul li {
   display: inline-block;
-  margin-left: 150px;
+  margin-left: 115px;
 }
 
 nav a {
   text-decoration: none;
   color: rgb(0, 0, 99);
+}
+
+nav li:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 #titulo {
@@ -57,6 +68,7 @@ nav a {
   font-size: 30px;
   margin: 0;
   color: rgb(3, 194, 29);
+  font-family: Permanent Marker, cursive;
 }
 
 .imagem {
@@ -76,11 +88,12 @@ nav a {
   display: inline-block;
   width: 50%;
   position: absolute;
-  top: 220px;
+  top: 180px;
   margin: 0;
   text-align: justify;
   color: rgb(3, 194, 29);
   font-size: 25px;
+  font-family: Permanent Marker, cursive;
 }
 
 #lições {
@@ -90,6 +103,7 @@ nav a {
   width: 100%;
   height: 700px;
   color: rgb(3, 194, 29);
+  font-family: Permanent Marker, cursive;
 }
 
 #lições h2 {
@@ -97,6 +111,7 @@ nav a {
   padding-top: 30px;
   font-size: 30px;
   margin: 0;
+  font-family: Permanent Marker, cursive;
 }
 
 .lição1 {
@@ -108,20 +123,17 @@ nav a {
   border-radius: 15px;
   border: 2px solid rgb(3, 194, 29);
   padding: 20px;
-}
-
-.lição1 li {
   font-size: 18px;
   line-height: 30px;
-}
-
-.lição1 h3 {
-  text-align: center;
 }
 
 .lição1:hover {
   transform: scale(1.1);
   transition: 0.3s;
+}
+
+.lição1 h3 {
+  text-align: center;
 }
 
 .lição2 {
@@ -133,16 +145,12 @@ nav a {
   border: rgb(3, 194, 29) solid 2px;
   border-radius: 15px;
   padding: 20px;
-  line-height: 25px;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .lição2 h3 {
   text-align: center;
-}
-
-.lição2 li {
-  font-size: 18px;
-  line-height: 30px;
 }
 
 .lição2:hover {
@@ -164,6 +172,7 @@ nav a {
   font-size: 30px;
   text-align: center;
   color: rgb(3, 194, 29);
+  font-family: Permanent Marker, cursive;
 }
 
 article p {
@@ -178,9 +187,10 @@ article p {
   left: 100px;
   text-align: justify;
   border: dotted 5px rgb(3, 194, 29);
-  padding: 40px 20px 20px;
+  padding: 20px;
   line-height: 25px;
-  height: 180px;
+  height: max-content;
+  font-family: Permanent Marker, cursive;
 }
 
 .lado-esquerdo:hover {
@@ -200,14 +210,92 @@ article p {
   border: rgb(3, 194, 29) dotted 5px;
   color: rgb(3, 194, 29);
   line-height: 25px;
-  height: 180px;
-  padding-top: 40px;
+  height: 200px;
+  padding-top: 20px;
   text-align: justify;
+  font-family: Permanent Marker, cursive;
 }
 
 .lado-direito:hover {
   transform: scale(1.1);
   transition: 0.4s;
+  background-color: rgb(3, 194, 29);
+  color: rgb(0, 0, 54);
+}
+
+article {
+  height: fit-content;
+  color: rgb(3, 194, 29);
+}
+
+#saibamais {
+  position: relative;
+  top: 0;
+  background-color: rgb(0, 0, 54);
+  width: 100%;
+  height: 700px;
+  color: rgb(3, 194, 29);
+}
+
+#saibamais h2 {
+  margin: 0;
+  padding-top: 30px;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(3, 194, 29);
+  font-family: Permanent Marker, cursive;
+}
+
+#saibamais h3 {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  text-align: center;
+  font-family: Permanent Marker, cursive;
+}
+
+table {
+  text-align: center;
+  position: absolute;
+  top: 200px;
+  left: 235px;
+  font-family: Permanent Marker, cursive;
+}
+
+td {
+  width: 400px;
+  height: 50px;
+  padding: 0 20px;
+  border: 1px solid rgb(3, 194, 29);
+}
+
+.linha1 {
+  background-color: rgb(3, 194, 29);
+  color: rgb(0, 0, 54);
+}
+
+tr:hover {
+  transform: scaleX(1.1);
+  transition: 0.4s;
+}
+
+#saibamais p {
+  position: absolute;
+  top: 510px;
+  left: 440px;
+  font-family: Permanent Marker, cursive;
+}
+
+#saibamais a {
+  text-decoration: none;
+  color: rgb(3, 194, 29);
+  padding: 5px;
+  font-size: 20px;
+  background-color: rgb(0, 0, 54);
+  border: rgb(3, 194, 29) dotted 3px;
+}
+
+#saibamais a:hover {
   background-color: rgb(3, 194, 29);
   color: rgb(0, 0, 54);
 }
@@ -218,11 +306,8 @@ footer {
   background-color: rgb(3, 194, 29);
   color: rgb(0, 0, 54);
   width: 100%;
-  height: 40px;
-  text-align: center;
-}
-
-article {
   height: fit-content;
-  color: rgb(3, 194, 29);
+  padding: 5px;
+  text-align: center;
+  font-family: Ubuntu Mono, monospace;
 }
