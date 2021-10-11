@@ -42,11 +42,6 @@ https://codeburst.io/how-to-position-html-elements-side-by-side-with-css-e1fae72
   text-align: center;
 }
 
-.ajusta {
-  text-align: center;
-  border: 2px solid black;
-}
-
 /* Comentar aqui */
 .ajusta-margin {
   margin: 0 0 0 15px;
@@ -75,4 +70,3 @@ ul {
 .espacamento {
   line-height: 15px;
 }
-
