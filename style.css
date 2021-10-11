@@ -49,18 +49,19 @@ h2 {
   margin-bottom: 2%;
 }
 
-article {
+.lado-direito {
   color: rgb(85, 83, 83);
   line-height: 25px;
   margin-left: 2%;
   padding-right: 50% ;
+  position: absolute;
 }
 
-aside {
+.lado-esquerdo {
   color: rgb(85, 83, 83);
   line-height: 25px;
-  margin-left: 2%;
-  padding-right: 50%;
+  position: absolute;
+  left: 700px;
 }
 
 .nav_links li {
@@ -76,4 +77,5 @@ aside {
   margin: auto;
   border: olivedrab;
   font-size: 18px;
+  position: static;
 }
