@@ -1,23 +1,22 @@
 body {
   background-color: rgb(253, 251, 251);
-  padding: 2px;
+  padding: 5px;
 }
 
-#Ivan-Nascimento {
-  size-adjust: center;
-  font-size: medium;
-  
-
-}
 #cabecalho {
   display: block;
   position: fixed;
   top: 0;
-  
+  margin-left: 50%;
 }
+
+.a-home-login {
+  color: blue;
+  margin-top: 350px;
+}
+
 #titulo {
-  display: block;
-  text-align: center;
+  font-style: italic;
 }
 
 #minha_foto {
@@ -30,13 +29,11 @@ body {
 #table {
   width: 100%;
   margin: 10px;
-  margin-top: 400px;
+  margin-top: 100px;
 }
 
 #nav {
-  size-adjust: 100px;
-  font-size: larger;
-  border-bottom: medium;
+  font-size: medium;  
 }
 
 
@@ -44,14 +41,6 @@ body {
   font-family: monospace;
   text-align: justify;
   line-height: 40px;
-}
-
-.left-right {
-  padding: 30px 70px 90px 70px;
-  width: 85%;
-  margin: auto;
-  text-align: center;
-  
 }
 
 
@@ -86,6 +75,7 @@ body {
 
 #rodape {
   background-color: green;
+  border-style: groove;
 
 }
 
