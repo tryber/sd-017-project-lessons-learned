@@ -8,7 +8,6 @@ body{
     background-color: rgb(253, 251, 251);
 }
 #cabecalho{
-    border-bottom: 1px solid black;
     position: fixed;
     top:0;
     width: 100%;
@@ -16,14 +15,53 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 200px;
-    margin-top: 20px;
+    height: 300px;
+    background-color: rgb(96, 151, 196);
+    color:white;
+    font-size: 20px;
+    box-shadow: 2px 3px 4px #CCC;
+    z-index: 1;
+    letter-spacing: 10px;
 }
 .foto{
     display: flex;
-    justify-content: center;
-    height: 125px;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    margin-top: 15px;
 }
 .foto img{
     border-radius: 100px;
+    border:1px solid rgb(51, 125, 185);
+}
+.foto p{
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+}
+.licoes{
+    margin-top: 25px;
+    width: 100%;
+    position: absolute;
+    top:300px;
+    display: flex;
+    justify-content: center;
+    color: rgb(96, 151, 196);
+    background-color: rgb(253, 251, 251);
+}
+.licoes_aprendidas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.licoes_aprendidas h2{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+#licoes_aprendidas div li{
+    width: 200px;
+}
+
+#licoes_aprendidas div{
+    margin-left: 50px;
 }
