@@ -6,3 +6,11 @@ body {
   position: fixed;
   top: 0;
 }
+
+#minha_foto {
+  width: 200px;
+}
+
+.resposta {
+  text-align: center;
+}
