@@ -25,7 +25,7 @@ body {
 #minha_foto {
   width: 300px;
   position: absolute;
-  top: 135px;
+  top: 133px;
   left: 20px;
   border-radius: 25px;
 }
@@ -78,7 +78,7 @@ body {
 
 .sessao {
   position: absolute;
-  top: 220px;
+  top: 200px;
   left: 350px;
   width: 25%;
   margin: 10px;
@@ -105,5 +105,3 @@ table , th , td {
 .link {
   text-align: center;
 }
-
-
