@@ -27,6 +27,15 @@ body {
   line-height: 30px;
 }
 
+.posicionamento {
+  display: inline-block;
+  text-align: left;
+}
 
-
-
+.lado-esquerdo {
+  display: inline-block;
+}
+  
+.lado-direito {
+  display: inline-block;
+}
