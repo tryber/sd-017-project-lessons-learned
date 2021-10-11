@@ -19,7 +19,7 @@ body{
     background-color: indigo;
     color:white;
     font-size: 20px;
-    box-shadow: 2px 3px 4px #CCC;
+    box-shadow: 2px 3px 4px rgb(100, 57, 131);
     z-index: 3;
     letter-spacing: 10px;
 }
@@ -78,6 +78,30 @@ body{
     top:300px;
     border: 1px solid red;
 }
+#licoes_a_aprender div li{
+    width: 200px;
+}
+#licoes_a_aprender div{
+    margin-left: 50px;
+}
+.aprendizado{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: indigo;
+    background-color: white;
+    height: 450px;
+    border: 1px solid black;
+}
+.aprendizado aside{
+    text-align: justify;
+    width: 175px;
+}
+.aprendizado article{
+    width: 500px;
+    margin-right: 100px;
+}
+
 /*Footer*/
 #rodape{
     position: fixed;
@@ -104,6 +128,3 @@ body{
     display: flex;
     justify-content: center;
 }
-
-
-
