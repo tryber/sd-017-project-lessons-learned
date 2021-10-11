@@ -5,4 +5,33 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  font-size: 2rem;
 }
+
+p {
+  font-family: Arial;
+  color: aqua;
+  line-height: 30px;
+}
+
+img {
+  width: 200px;
+}
+
+.lado {
+  display: flex;
+}
+
+.lado-esquerdo {
+  background-color: brown;
+  width: 600px;
+  height: 400px;
+}
+
+.lado-direito {
+  background-color: blueviolet;
+  width: 450px;
+  height: 400px;
+  margin-left: 20px;
+}
+
