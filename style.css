@@ -32,3 +32,14 @@ nav a {
 .resposta {
   text-align: center;
 }
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 45%;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 45%;
+  position: fixed;
+}
