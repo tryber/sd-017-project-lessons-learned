@@ -7,6 +7,17 @@ body {
   top: 0;
 }
 
+nav li {
+  font-size: 20px;
+  color: rgb(134, 3, 241);
+  line-height: 35px;
+  font-family: Verdana, sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+}
+
 #minha_foto {
   width: 200px;
   margin: 10px;
