@@ -1,32 +1,33 @@
-*{
- margin: 0px;
- padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-body{
-  background-color:rgb(253, 251, 251);
+body {
+  background-color: rgb(253, 251, 251);
 
 }
 
-#cabecalho{
-position: relative;
-  position:fixed;
+#cabecalho {
+  position: relative;
+  position: fixed;
 
- background-color:green;
- width: 1366px;
- height: 45px;
- top: 0px;
- z-index: 5;
-  }
-  #cabecalho h1{
-    text-align: center;
-    color: White;
-    font-style: oblique;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
+  background-color: green;
+  width: 1366px;
+  height: 45px;
+  top: 0px;
+  z-index: 5;
+}
 
-#minha_foto{
-  position:relative;
+#cabecalho h1 {
+  text-align: center;
+  color: White;
+  font-style: oblique;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#minha_foto {
+  position: relative;
   padding: 1px;
   border: 1px;
   margin: 1px;
@@ -36,26 +37,27 @@ position: relative;
   width: 200px;
 }
 
-#lista{
+#lista {
   margin-top: 45px;
   left: 1000px;
   float: right;
   ;
 }
-nav{
+
+nav {
   background-color: salmon;
 }
 
-.lado-esquerdo{
+.lado-esquerdo {
   background-color: royalblue;
   width: 500px;
   float: left;
   font-family: Georgia, 'Times New Roman', Times, serif;
   line-height: 30px;
 
-} 
+}
 
-.lado-direito{
+.lado-direito {
   width: 500px;
   background-color: red;
   float: right;
@@ -63,15 +65,16 @@ nav{
 
 footer {
   width: 1366px;
-font-size: 30px;
-color: white;
-text-align: center;
-position: absolute;
-position: fixed;
- top: 612px ;
- background-color: green;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  position: fixed;
+  top: 612px;
+  background-color: green;
 
 }
+
 aside {
   position: absolute;
 
@@ -80,6 +83,8 @@ aside {
 }
 
 /* https://www.w3schools.com/css/css_table.asp  */
-table, th,td{
+table,
+th,
+td {
   border: 1px solid green;
 }
