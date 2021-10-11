@@ -17,7 +17,13 @@ body {
 
 .home {
   color: white;
-  padding: 15px;
+  padding-left: 15px;
+}
+
+.login {
+  color: white;
+  padding-left: 15px;
+  padding-bottom: 15px;
 }
 
 main {
@@ -68,6 +74,11 @@ main {
   */
 }
 
+.table {
+  margin-top: 30px;
+}
+
 #rodape {
   padding-top: 30px;
+  padding-left: 15px;
 }
