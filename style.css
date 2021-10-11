@@ -8,7 +8,7 @@ body {
   position: fixed;
   top: 0;
   margin-left: 50%;
- }
+}
 
 #titulo {
   font-style: italic;
@@ -32,36 +32,32 @@ body {
   margin-top: 100px;
 }
 
-
 #paragrafo {
   font-family: monospace;
   text-align: justify;
   line-height: 40px;
-}
-
-
-.lado-esquerdo {
-  margin-top: 50%;
-  width: 30%;
-  margin: 10px;
-  display: inline-block;
-  margin-top: 5%;
-}
-.lado-direito {
-  margin-top: 50%;
-  width: 30%;
-  margin-left: 30%;
-  display: inline-block;
   
 }
 
+.lado-esquerdo {
+  margin-top: 10%;
+  width: 30%;
+  margin: 10px;
+  margin-left: 20%;
+  display: inline-block;
+}
+
+.lado-direito {
+  width: 30%;
+  margin-left: 10%;
+  display: inline-block;
+}
 
 #licoes_aprendidas {
   font-size: larger;
   text-align: justify;
   color: green;
 }
-
 
 #licoes_a_aprender {
   font-size: larger;
