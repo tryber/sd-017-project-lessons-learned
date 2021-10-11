@@ -1,6 +1,7 @@
 body{
     background-color: rgb(253, 251, 251);
 }
+
 #cabecalho{
     position: fixed;
     top: 0;
@@ -12,6 +13,7 @@ body{
     text-align: center;
     font-family: sans-serif;
     }
+
 img{
     position: absolute;
     margin-top: 205px;
@@ -33,6 +35,10 @@ section{
     display: inline-block;
 }
 
+.aprendizado{
+    display: inline-block;
+}
+
 article{
     max-height: 400px;
     max-width: 400px;
@@ -42,9 +48,6 @@ aside{
     text-align: center;
     max-height: 400px;
     max-width: 120px;
-    position: absolute;
-    margin-top: 490px;
-    margin-left: 350px;
     border-color: black;
     border-style: solid;
     border-width: 1px;
