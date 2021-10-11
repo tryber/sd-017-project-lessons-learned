@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Rubik', sans-serif;
+  font-family: Rubik, sans-serif;
   background-color: rgb(253, 251, 251);
 }
 
@@ -14,7 +14,7 @@ body {
   position: fixed;
   height: 125px;
   width: 100%;
-  background-color: #046C53;
+  background-color: rgb(4, 108, 83);
 }
 
 #titulo {
@@ -25,7 +25,7 @@ body {
   font-variant-caps: all-petite-caps;
   word-spacing: 15px;
   position: absolute;
-  color: #30C38F;
+  color: rgb(48, 195, 143);
 }
 
 #menu_container {
@@ -33,7 +33,7 @@ body {
   top: 125px;
   position: fixed;
   width: 100%;
-  background-color: #30C38F;
+  background-color: rgb(48, 195, 143);
 }
 
 #menu li {
@@ -42,20 +42,20 @@ body {
   font-weight: 600;
   padding-left: 30px;
   text-decoration: none;
-  color: #046C53;
+  color: rgb(4, 108, 83);
   display: inline;
 }
 
-#menu ul li a:hover {
-  color: #410D7C;
+ul li a :hover {
+  color: rgb(65, 13, 124);
 }
 
-#menu ul li a:active {
-  color: #DBDDE3
+ul li a :active {
+  color: rgb(219, 221, 227);
 }
 
-#menu ul li a:link {
-  color: #046C53
+ul li a :link {
+  color: rgb(4, 108, 83);
 }
 
 a {
@@ -66,13 +66,13 @@ img {
   height: 300px;
   margin-top: 200px;
   border-radius: 15%;
-  border: 12px solid #046C53;
+  border: 12px solid rgb(48, 195, 143);
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
-h2, h3{
+h2 , h3 {
   text-align: center;
   padding-top: 10px;
   font-size: 30px;
@@ -113,18 +113,18 @@ h2, h3{
   font-size: 25px;
   line-height: 35px;
   height: 475px;
-  padding: 0px 25px;
+  padding: auto 25px;
   margin-bottom: 35px;
 }
 
-#article_container {
+.lado-esquerdo {
   margin-top: 25px;
   display: block;
   float: left;
   width: 75%;
 }
 
-#aside_container {
+.lado-direito {
   margin-top: 25px;
   display: block;
   float: right;
@@ -138,14 +138,14 @@ h4 {
   font-style: italic;
 }
 
-th, td{
+th , td {
   font-size: 20px;
   text-align: center;
   padding-left: 25px;
   padding-right: 25px;
   color: white;
-  border: 3px solid #046C53;
-  background-color: #30C38F;
+  border: 3px solid rgb(4, 108, 83);
+  background-color: rgb(48, 195, 143);
 }
 
 #tabela {
@@ -161,8 +161,8 @@ th, td{
   height: 35px;
   text-align: center;
   font-size: 12px;
-  color: #30C38F;
-  background-color: #046C53;
+  color: rgb(48, 195, 143);
+  background-color: rgb(4, 108, 83);
 }
 
 #rodape p {
