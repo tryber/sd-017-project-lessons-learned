@@ -38,16 +38,18 @@ body {
   line-height: 40px;
 }
 
+.lado-a-lado {
+  width: 50%;
+  height: 50%;
+  display: flex
+}
+
 .lado-esquerdo {
-  width: 30%;
-  margin-left: 20%;
-  display: inline-block;
+  background-color: red;
 }
 
 .lado-direito {
-  width: 30%;
-  margin-left: 10%;
-  display: inline-block;
+  background-color: blue;
 }
 
 #licoes_aprendidas {
