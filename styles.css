@@ -29,10 +29,9 @@ body {
 }
 
 .negrito {
-  font-weight: 15px;
+  font-weight:100;
 }
 
 #rodape {
-  font-weight: 15px;
   color: green;
 }
