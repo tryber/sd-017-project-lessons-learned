@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: rgb(253, 251, 251);
   margin: 0;
@@ -7,10 +11,31 @@ body {
 header {
   position: fixed;
   top: 0;
-  background-color: rgba(1, 0, 78, 0.897);
-  color: white;
+  background-color:rgb(0, 0, 54);
+  color: rgb(3, 194, 29);
   width: 100%;
   height: 60px;
+  z-index: 2;
+}
+
+nav {
+  position: fixed;
+  background-color: rgb(3, 194, 29);
+  width: 100%;
+  top: 60px;
+  height: 50px;
+  border-bottom: rgb(0, 0, 54) solid 2px;
+  z-index: 2;
+}
+
+nav ul li{
+  display: inline-block;
+  margin-left: 150px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(0, 0, 99);
 }
 
 #titulo {
@@ -19,25 +44,185 @@ header {
   padding-top: 10px;
 }
 
-ol {
-  left: 50px;
-  top: 20px;
+#abertura {
+  position: relative;
+  top: 112px;
+  background-color: rgb(0, 0, 54);
+  height: 700px;
 }
 
-ul {
-  top: 50px;
-  left: 50px;
-  margin-bottom: 10px;
+#abertura h2 {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 30px;
+  margin: 0px;
+  color: rgb(3, 194, 29);
+}
+
+.imagem {
+  z-index: 1;
+  display: inline-block;
+  width: 40%;
+  padding-left: 50px;
+  padding-top: 70px;
+  margin: 0;
+}
+
+.imagem img {
+  border-radius: 25%;
+}
+
+.apresentação {
+  display: inline-block;
+  width: 50%;
+  position: absolute;
+  top: 220px;
+  margin: 0;
+  text-align: justify;
+  color: rgb(3, 194, 29);
+  font-size: 25px;
+}
+
+#lições {
+  position: relative;
+  top: 0px;
+  background-color: rgb(0, 0, 54);
+  width: 100%;
+  height: 700px;
+  color: rgb(3, 194, 29);
+}
+
+#lições h2 {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 30px;
+  margin: 0px;
+}
+
+.lição1 {
+  display: inline-block;
+  position: absolute;
+  top: 150px;
+  left: 250px;
+  width: 250px;
+  border-radius: 15px 15px 15px 15px;
+  border: 2px solid rgb(3, 194, 29);
+  padding: 20px;
+}
+
+.lição1 li {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.lição1 h3 {
+  text-align: center;
+}
+
+.lição1:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.lição2 {
+  position: absolute;
+  top: 150px;
+  left: 850px;
+  display: inline-block;
+  width: 250px;
+  border: rgb(3, 194, 29) solid 2px;
+  border-radius: 15px;
+  padding: 20px;
+  line-height: 25px;
+}
+
+.lição2 h3 {
+  text-align: center;
+}
+
+.lição2 li {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.lição2:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+#curso {
+  width: 100%;
+  position: relative;
+  top: 0px;
+  background-color: rgb(0, 0, 54);
+  height: 700px;
+}
+
+#curso h2 {
+  margin: 0px;
+  padding-top: 30px;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(3, 194, 29);
+}
+
+article p {
+  margin: 0px;
+}
+
+.lado-esquerdo{
+  display: inline-block;
+  width: 35%;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  text-align: justify;
+  border: dotted 5px rgb(3, 194, 29);
+  padding: 40px 20px 20px 20px;
+  line-height: 25px;
+  height: 180px;
+}
+
+.lado-esquerdo:hover{
+  transform: scale(1.1);
+  transition: 0.4s;
+  background-color: rgb(3, 194, 29);
+  color: rgb(0, 0, 54);
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 35%;
+  position: absolute;
+  top: 200px;
+  left: 750px;
+  padding: 20px;
+  border: rgb(3, 194, 29) dotted 5px;
+  color: rgb(3, 194, 29);
+  line-height: 25px;
+  height: 180px;
+  padding-top: 40px;
+  text-align: justify;
+}
+
+.lado-direito:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+  background-color: rgb(3, 194, 29);
+  color: rgb(0, 0, 54);
 }
 
 footer {
-  background-color: rgba(1, 0, 78, 0.897);
-  color: white;
+  position: relative;
+  top: 0px;
+  background-color: rgb(3, 194, 29);
+  color: rgb(0, 0, 54);
   width: 100%;
   height: 40px;
+  text-align: center;
 }
 
 article {
   height: fit-content;
-  color: blue;
+  color: rgb(3, 194, 29);
 }
