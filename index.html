@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <!--Origem do código para inserir novas fontes: https://app.betrybe.com/course/live-lectures/sd-cohort-17#aula-32-html-and-css-primeiros-passos-no-css   -->
+  <title>Document</title>
+</head>
+
+<body>
+  <!--Para os HTML semânticios: header, section, aside e footer foram consultados o site da Trybe:https://app.betrybe.com/course/live-lectures/sd-cohort-17  e da  www3schools:https://www.w3schools.com/tags/tag_main.asp-->
+  <header id="cabecalho">
+    <h1 id="titulo">Lições Aprendidas -TRYBE</h1>
+  </header>
+  <section>
+    <nav class="test">
+      <!-- Consultei a página w3schools: https://www.w3schools.com/css/css_navbar.asp
+ para entender como constuir um menu de navegação. O link de navegação foi construído em  conjunto em 
+com a lista ul abaixo. -->
+  
+      <ul>
+        <!-- Esse código constrói uma lista 
+        não ordenada. -->
+        <li><a href="">Home</a></li>
+        <li><a href="">Login</a></li>
+      </ul>
+    </nav>
+  </section>
+  <!-- A tag img logo abaixo insere uma foto na página-->
+  <img src="imagem_pequena.jpg" alt="Aluno - Trybe" id="minha_foto">
+  <p>
+    <!--Foi consultado o site Trybe para resolver a  parte de como fazer link externo:
+       https://app.betrybe.com/course/fundamentals/introducao-a-html-e-css/html-css-estruturas-de-pagina/43afcfb3-f3c5-4dc0-b60f-fab893d76cd3/exercicios/a9edc17d-55a1-4991-9ffe-08c3a4165435/colocando-seu-portfolio-web-para-o-mundo-ver/af2c7a1f-09bc-44e4-a7f0-e30da1d5791d?use_case=previous_button -->
+    <a href="https://lucas852757.github.io/" target="_blank" rel="noopener noreferrer" class="ajusta-margin">Lucas -
+      Fernandes</a>
+      <!-- O código logo acima direciona o usuário para uma página externa. -->
+  </p>
+  <section>
+    <h2 class="ajusta-margin">Lições</h2>
+    <!--A ol junto com a as li's formam uma lista 
+    ordenada.-->
+    <ol id="licoes_aprendidas" class="ajusta-margin">
+      <li>Unix</li>
+      <li>Git</li>
+      <li>GitHub</li>
+      <li>Empatia</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Slack</li>
+      <li>Zoom</li>
+      <li>Inspect</li>
+      <li>HTML Semântico</li>
+    </ol>
+    <!--A ul junto com a as li's formam uma lista 
+    não ordenada.-->
+    <ul id="licoes_a_aprender" class="ajusta-tabela">
+      <li>Java</li>
+      <li>DOM</li>
+      <li>Forms</li>
+      <li>CSS Responsivo</li>
+      <li>ES6</li>
+      <li>HOF</li>
+      <li>Unit Tests</li>
+      <li>React</li>
+      <li>Node</li>
+      <li>SQL</li>
+    </ul>
+  </section>
+  
+  <main >
+    <section class="configuracoes lado-esquerdo">
+      <article class="ajusta-margin letra-tamanho espacamento">
+        <h2 class="titulo-cor">Meu Aprendizado</h2>
+        <p>Meu aprendizadizado na Trybe está sendo muito interessante, pois, testou conhecendo pessoas muito legais que
+          não estão medindo esforcos para nos ensinar a sermos bons profissionais na parte técnica e como pessoas.</p>
+      </article>
+    </section>
+    <aside>
+      <section class="configuracoes lado-direito">
+        <article class="ajusta-margin letra-tamanho espacamento">
+          <h3 class="titulo-cor">Aprender GitHub</h3>
+          <p >No meu aprendizado o que me chamou muito a tenção foi saber
+            sobre controle de versionamento de código e que sem ele, a vida do desnvolvedor e do programador seria um
+            caos.</p>
+        </article>
+      </section>
+    </aside>
+  </main>
+  
+  </section>
+  <footer id="rodape">Todos os direitos Reservados, Lucas aluno da Trybe</footer>
+</body>
+
+</html>
