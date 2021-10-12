@@ -6,6 +6,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     background-color: rgb(253, 251, 251);
+    line-height: 25px;
 }
 #cabecalho{
     position: fixed;
@@ -90,18 +91,38 @@ body{
     justify-content: center;
     color: indigo;
     background-color: white;
-    height: 400px;
-    border: 1px solid black;
+    height: 350px;
+    align-items: center;
 }
 .aprendizado aside{
     text-align: justify;
     width: 175px;
+    border: 2px solid indigo;
+    padding: 20px;
+    margin: 10px;
+    height: 200px;
 }
 .aprendizado article{
     width: 500px;
     margin-right: 100px;
 }
 
+.tabela{
+    height: 400px;
+    background-color: indigo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tabela table{
+    margin-bottom: 100px;
+    height: 100px;
+    width: 500px;
+    color: white;
+}
+thead{
+    font-weight: 700;
+}
 /*Footer*/
 #rodape{
     position: fixed;
