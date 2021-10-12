@@ -66,6 +66,10 @@ body {
   color: white;
 }
 
+div {
+  display: inline-block;
+}
+
 #licoes_aprendidas {
   color: rgb(5, 70, 5);
 }
@@ -95,3 +99,27 @@ body {
   left: 700px;
 }
 
+tbody {
+  padding: 14px;
+  text-align: right;
+}
+
+table {
+  width: 50%;
+  margin: 20px auto;
+  table-layout: auto;
+}
+
+.fixed {
+  table-layout: fixed;
+}
+
+table, td, th {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: solid 1px;
+  text-align: center; 
+}
