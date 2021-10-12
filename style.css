@@ -9,16 +9,14 @@ body {
 }
 #título {
 text-align: center;
-
 }
 #licoes_a_aprender {
     position: absolute;
     top: 330px;
-    left: 300px;
-    
+    left: 40px;
 }
-.liçoes {
-    color: rgb(112, 90, 133);
-    
-    
+#licoes_aprendidas {
+    position: absolute;
+    top: 330px;
+    left: 260px;
 }
