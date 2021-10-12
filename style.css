@@ -68,6 +68,7 @@ body {
 
 div {
   display: inline-block;
+  margin-right: 150px;
 }
 
 #licoes_aprendidas {
