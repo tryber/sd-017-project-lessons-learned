@@ -70,7 +70,7 @@ a {
 .tabela {
   position: absolute;
   padding: 20px;
-  top: 400px;
+  top: 450px;
   left: 215px;
   border: 1px solid;
   text-align: center;
@@ -131,7 +131,7 @@ a {
 .lado-esquerdo {
   position: absolute;
   padding: 15px;
-  top: 380px;
+  top: 480px;
   left: 250px;
   width: 350px;
   text-align: justify;
