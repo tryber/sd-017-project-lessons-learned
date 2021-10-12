@@ -43,36 +43,47 @@ body {
   width: 200px;
   position: absolute;
   border-radius: 500px;
+  left: 125px;
+  padding: 15px;
 }
 
 .sobre {
   position: absolute;
-  padding: 30px;
-  top: 100px;
-  left: 200px;
+  top: 170px;
+  left: 377px;
   text-align: justify;
 }
 
 .links {
   position: absolute;
-  padding: 10px;
+  padding: 30px;
+  right: 275px;
   top: 170px;
-  left: 220px;
+  left: 350px;
   text-align: justify;
 }
 
 .tabela {
   position: absolute;
   padding: 20px;
-  top: 430px;
-  left: 25px;
+  top: 400px;
+  left: 215px;
   border: 1px solid;
   text-align: center;
   font-family: Courier, monospace, sans-serif;
+  background-color: rgb(204, 105, 105);
 }
 
 .linhatabela {
   padding: 15px;
+  border: 1px solid;
+  background-color: rgb(182, 216, 183);
+}
+
+.licoesAprendidas {
+  position: absolute;
+  left: 130px;
+  top: 90px;
 }
 
 .licoes {
@@ -81,13 +92,15 @@ body {
   border: solid;
   border-color: rgb(224, 36, 150);
   top: 260px;
-  left: 655px;
+  left: 648px;
+  z-index: 1;
+  width: 200px;
 }
 
 #licoes_aprendidas {
   position: absolute;
   top: 300px;
-  left: 600px;
+  left: 620px;
   line-height: 35px;
   list-style-type: none;
   text-align: center;
@@ -113,35 +126,42 @@ body {
 
 .lado-esquerdo {
   position: absolute;
-  padding: 10px;
-  top: 550px;
-  left: 30px;
+  padding: 15px;
+  top: 380px;
+  left: 250px;
   width: 350px;
   text-align: justify;
   border: solid;
+  background-color: rgb(182, 216, 183);
+  border-color: rgb(224, 36, 150);
 }
 
 .artigotitulo {
-  top: 500px;
+  top: 400px;
   left: 10px;
   text-align: center;
+  padding: 8px;
 }
 
 .lado-direito {
   position: absolute;
   padding: 30px;
   width: 350px;
-  left: 450px;
-  top: 580px;
+  left: 680px;
+  top: 525px;
   text-align: justify;
   border: solid;
   margin-right: 30px;
+  background-color: rgb(182, 216, 183);
+  border-color: rgb(224, 36, 150);
 }
 
 .tituloemocoes {
   top: 400px;
+  padding: 7px;
 }
 
 #rodape {
-  bottom: 0;
+  top: 800px;
+
 }
