@@ -5,3 +5,19 @@ p {
     top: 0;
     color: green;
 }
+#título {
+background-color: rgb(255, 160, 207);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+}
+#licoes_a_aprender {
+    position: absolute;
+    top: 330px;
+    left: 300px;
+    
+}
+.liçoes {
+    color: rgb(112, 90, 133);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
