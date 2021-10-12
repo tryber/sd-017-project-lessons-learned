@@ -53,6 +53,7 @@ table th {
   background-color: #e2e2e2;
   width: 350px;
   text-align: center;
+  border: 1px solid rgb(253, 251, 251);
 }
 
 .profile-box img {
