@@ -3,14 +3,15 @@ body {
   margin: 0;
   padding: 0;
   font-family: Oxygen, sans-serif;
+  line-height: 25px;
 }
 
 header {
   top: 0;
   position: fixed;
-  background-color: #036b52;
+  background-color: rgb(3, 107, 82);
   width: 100%;
-  border-bottom: #2fc18c 10px solid;
+  border-bottom: rgb(47, 193, 140) 10px solid;
   color: white;
   font-weight: 700;
 }
@@ -69,7 +70,7 @@ aside {
   float: right;
   width: 20vw;
   box-shadow: rgb(207, 199, 199) 3px 3px;
-  background-color: #d4eee4;
+  background-color: rgb(212, 238, 228);
   margin-top: 100px;
 }
 
@@ -82,7 +83,7 @@ article {
 
 footer p {
   text-align: center;
-  background-color: #411a7f;
+  background-color: rgb(65, 26, 127);
   margin: 0;
   width: 100%;
   padding: 20px 0;
