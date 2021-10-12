@@ -7,8 +7,8 @@ body {
 }
 
 #cabecalho {
-  background-color: green;
-  margin-top: 0;
+  background-color: green;  
+  top: 0%;
 }
 
 #titulo {
@@ -17,10 +17,18 @@ body {
 }
 
 .menu-content {
-  padding-top: 70px;
+  padding-top: 50px;
   padding-bottom: 10px;
 }
 
 .link {
   text-decoration: none;
+}
+#minha_foto {
+  width: 200px;
+  border-radius: 5%;
+}
+
+.perfil {
+  padding: 10px 10px;
 }
