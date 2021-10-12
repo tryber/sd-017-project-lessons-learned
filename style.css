@@ -85,19 +85,19 @@ div {
 
 #article {
   text-align: right;
-  width: 50%; 
 }
 
 .lado-esquerdo {
   float: left;
   position: absolute;
+  margin-right: 700px;
 }
 
 .lado-direito {
   float: right;
   position: absolute;
-  width: 50%;
-  left: 700px;
+  margin-left: 700px;
+  text-align: left;
 }
 
 tbody {
