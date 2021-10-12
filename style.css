@@ -39,3 +39,15 @@ footer {
 .fontcor {
   color: green;
 }
+
+.lado-esquerdo {
+  width: 300px;
+}
+
+.lado-direito {
+  width: 300px;
+  position: absolute;
+  left: 380px;
+  margin: 30px;
+  top: 720px;
+}
