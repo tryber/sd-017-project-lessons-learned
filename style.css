@@ -3,7 +3,13 @@ body {
 }
 
 #cabecalho {
-  background-color: rosybrown;
+  text-align: center;
+  background-color: green;
   position: fixed;
   top: 0;
+  width: 99%;
+}
+
+#titulo {
+  margin-top: 0;
 }
