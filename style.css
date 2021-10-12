@@ -3,9 +3,10 @@ body {
   font-family: Lato, Segoe UI Open Sans, Helvetica Neue, sans-serif;
 }
 
-/* O seletor body com os parâmetros backgorund-
+/* O código body com os parâmetros
+de configuração backgorund-
 color e font-family aplica cor a página e a fonte das letras.
-Os parâmetros background-color efont-family
+Os parâmetros background-color e font-family
 recebem os respctivos valores:
 rgb(253, 251, 251) e Lato, Segoe UI Open Sans, Helvetica Neue, sans-serif */
 
@@ -14,9 +15,10 @@ rgb(253, 251, 251) e Lato, Segoe UI Open Sans, Helvetica Neue, sans-serif */
   top: 0;
 }
 
-/* Origem do seletor cabeçaho posiciona o cabeçalho
+/* Origem do código #cabecalho
+ posiciona o cabeçalho
 da página no topo com espaçamento 0 . Ele tem
-dois parâmetros: position com valor fixed e top com valor 0.
+dois parâmetros de configuração: position com valor fixed e top com valor 0.
   */
 
 #titulo {
@@ -26,8 +28,7 @@ dois parâmetros: position com valor fixed e top com valor 0.
 }
 
 /* O código #titulo centraliza
-títulos na página. Ele possui três
-de confuguração: width com valor 1366px;
+títulos na página. Ele possui três parâmetros de confuguração: width com valor 1366px;
   height com  valor 100px,
   text-align com valor center . */
 
@@ -122,7 +123,7 @@ nav {
 /* O código nav com os parâmetros
 background-color e height aplica cor
 e altura para o menu de navegação .
-Possui dois  de configuração:
+Possui dois parâmetros de configuração:
 background-color
 com valor darkgreen  e height com
 valor 100px . */
