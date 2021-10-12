@@ -6,6 +6,7 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+/* Cabeçalho*/
 #cabecalho {
   position: fixed;
   top: 0;
@@ -43,3 +44,55 @@ table th {
   text-decoration: none;
   padding: 25px;
 }
+/*END Cabeçalho*/
+
+/* Profile box */
+.profile-box {
+  margin: auto;
+  margin-top: 200px;
+  background-color: #e2e2e2;
+  width: 350px;
+  text-align: center;
+}
+
+.profile-box img {
+  width: 200px;
+  padding: 30px;
+}
+
+.profile-box table img {
+  width: 100px;
+}
+
+.profile-box table {
+  margin: auto; /*centralizando a tabela*/
+}
+/*END Profile box*/
+
+/* licoes box */
+.licoes-box {
+  margin: auto;
+  margin-top: 100px;
+  background-color: #e2e2e2;
+  width: 800px;
+  text-align: left;
+}
+
+.licoes-box table {
+  margin: auto;
+}
+
+.licoes-box table h3 {
+  padding: 10px 90px 0px 90px;
+  font-size: 25px;
+}
+
+.licoes-box table ul,
+ol {
+  padding: 20px;
+}
+
+footer {
+  margin-top: 500px;
+}
+/*END licoes box*/
