@@ -1,25 +1,81 @@
 body {
   background-color: rgb(253, 251, 251);
+  width: auto;
+  margin: 2cm;
+  padding: auto;
+  border: 1 px solid black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
 }
+
+main {
+  width: auto;
+  padding-top: 3cm;
+  line-height: 1.5;
+}
+
 
 header {
   top: 0;
   background-color: aquamarine;
   position: fixed;
   text-align: center;
+  }
+
+
+p {
+  text-align: justify;
 }
 
 #titulo {
 	font-family: Arial, sans-serif;
 }
 
+
 #minha_foto {
-  top: 80px;
+  top: 20px;
   align-items: center;
   position: relative;
   border-radius: 30%;
 }
 
-#licoes_a_aprender {
-	overflow: -moz-hidden-unscrollable;
+
+.name {
+position: relative; 
+}
+
+
+.grupArticle {
+  text-align: justify;
+}
+
+
+.tableLearn , tr , td{
+ width: auto; 
+ border: 2px solid green; 
+}
+
+
+th {
+  border: 2px solid green; 
+  text-align: center;
+}
+
+
+#rodape {
+  margin-top: 1cm;
+  height: 2cm;
+  font-size: 12px;
+  text-align: right;
+  color: blue;
+}
+
+
+.lado-esquerdo {
+  object-position: left;
+}
+
+
+.lado-direito {
+  object-position: right;
 }
