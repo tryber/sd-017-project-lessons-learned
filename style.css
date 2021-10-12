@@ -99,6 +99,7 @@ a {
   left: 648px;
   z-index: 1;
   width: 200px;
+  text-align: center;
 }
 
 #licoes_aprendidas {
@@ -163,6 +164,7 @@ a {
 .tituloemocoes {
   top: 400px;
   padding: 7px;
+  text-align: center;
 }
 
 #rodape {
