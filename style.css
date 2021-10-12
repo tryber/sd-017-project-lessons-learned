@@ -1,0 +1,112 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: monospace;
+  line-height: 17px;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 130px;
+  background-color: green;
+  z-index: 1;
+  font-size: 20px;
+  font-family: serif;
+  line-height: 35px;
+  border-bottom: solid 2px white;
+}
+
+#titulo {
+  color: white;
+  text-align: center;
+
+}
+
+#minha_foto {
+  width: 300px;
+  position: absolute;
+  top: 150px;
+  left: 20px;
+  border-radius: 50px;
+  padding: 5px;
+  border: solid 2px green;
+  background: black;
+}
+
+.lado-esquerdo {
+  position: absolute;
+  top: 585px;
+  left: 20px;
+  font-size: 14px;
+  border: solid 2px green;
+  padding: 10px;
+  width: 170px;
+  height: 220px;
+}
+
+.lado-direito {
+  position: absolute;
+  top: 585px;
+  left: 240px;
+  font-size: 14px;
+  border: solid 2px green;
+  padding: 10px;
+  width: 170px;
+  height: 220px;
+}
+
+#rodape {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(253, 251, 251);
+  border-top: solid 2px green;
+  z-index: 1;
+  text-align: center;
+}
+
+.artigo {
+  position: absolute;
+  top: 810px;
+  left: 20px;
+  width: 65%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding-bottom: 75px;
+
+
+}
+
+.sessao {
+  position: absolute;
+  top: 200px;
+  left: 350px;
+  width: 25%;
+  margin: 10px;
+}
+
+h2 , h3 {
+  font-size: 16px;
+}
+
+table , th , td {
+  border: solid 2px black;
+  border-collapse: collapse;
+  padding: 5px;
+  width: 300px;
+}
+
+.table {
+  position: absolute;
+  top: 500px;
+  left: 28px;
+  font-size: 14px;
+}
+
+.link {
+  text-align: center;
+}
