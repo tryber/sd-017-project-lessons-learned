@@ -2,6 +2,7 @@ body {
   margin: 0px;
   background-color: rgb(253, 251, 251);
   font-family: system-ui,-apple-system, Helvetica, Arial,sans-serif;
+  letter-spacing: 1px;
 }
 
 #cabecalho {
@@ -34,7 +35,7 @@ body {
   max-height: 10%;
   margin: 200px 50px 30px 100px;
   border-radius: 5%;
-
+  justify-content: center;
 }
 
 a {
@@ -73,7 +74,9 @@ a {
   float: left;
   font-size: 16px;
   word-spacing: normal;
+  letter-spacing: 1px;
   color:green;
+  line-height: 25px;
 }
 
 .lado-direito {
@@ -82,6 +85,7 @@ a {
   font-size: 16px;
   letter-spacing: 1px;
   color: green;
+  line-height: 25px;
 }
 
 table , th , td {
