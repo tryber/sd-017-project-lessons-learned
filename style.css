@@ -115,12 +115,12 @@ table {
   table-layout: fixed;
 }
 
-table, td, th {
+table , td , th {
   border-collapse: collapse;
 }
 
-th, td {
+th , td {
   padding: 10px;
   border: solid 1px;
-  text-align: center; 
+  text-align: center;
 }
