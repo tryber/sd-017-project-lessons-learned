@@ -13,16 +13,17 @@
 				<table>
 					<tr>
 						<th class="col-1">
-							<img src="img/trybe.png" alt="trybe icone" id="minha_foto">
+							<a href="https://www.betrybe.com/" target="_blank"><img
+									src="img/trybe.png" alt="trybe icone" id="minha_foto"></a>
 							<h1 id="titulo"> TRYBE | Lessons Learned</h1>
 						</th>
 
 						<th class="col-2">
 							<table>
 								<tr>
-									<th><a href="/">About</a></th>
-									<th><a href="/">List</a></th>
-									<th><a href="/">Article</a></th>
+									<th><a href="#about">About</a></th>
+									<th><a href="#list">List</a></th>
+									<th><a href="#article">Article</a></th>
 								</tr>
 							</table>
 						</th>
@@ -32,7 +33,7 @@
 		</header>
 
 		<main>
-			<div class="profile-box">
+			<div class="profile-box" id="about">
 				<img src="img/fotoPerfil.jpeg" alt="Foto de perfil">
 				<h1>Carlos Rosa</h1>
 				<table>
@@ -45,19 +46,19 @@
 				</table>
 			</div>
 
-			<div class="licoes-box">
+			<div class="licoes-box" id="list">
 				<table>
 					<tr>
 						<th>
-							<h3>Lições aprendidas</h3>
+							<h2>Lições aprendidas</h2>
 						</th>
 						<th>
-							<h3>Lições a aprender</h3>
+							<h2>Lições a aprender</h2>
 						</th>
 					</tr>
 
 					<tr>
-						<th>
+						<td>
 							<ol id="licoes_aprendidas">
 								<li>Unix</li>
 								<li>Git</li>
@@ -70,8 +71,8 @@
 								<li>Auto Confiança</li>
 								<li>Controle Emocional</li>
 							</ol>
-						</th>
-						<th>
+						</td>
+						<td>
 							<ul id="licoes_a_aprender">
 								<li>Javascript</li>
 								<li>Dar e receber Feedbacks</li>
@@ -84,15 +85,15 @@
 								<li>Responsividade</li>
 								<li>Node</li>
 							</ul>
-						</th>
+						</td>
 					</tr>
 
 				</table>
 			</div>
 
-			<div class="artigos-box">
+			<section class="artigos-box" id="article">
 				<article class="artigo-aprendizado">
-					<h3>Artigo sobre aprendizado</h3>
+					<h2>Artigo sobre meu aprendizado</h2>
 					<p>Aenean placerat. In vulputate urna eu arcu. Aliquam erat volutpat.
 						Suspendisse potenti. Morbi mattis felis at nunc. Duis viverra diam non
 						justo. In nisl. Nullam sit amet magna in magna gravida vehicula. Mauris
@@ -102,13 +103,13 @@
 				</article>
 				<br><br>
 				<aside class="passagem-aprendizado">
-					<h3>Passagem sobre seu aprendizado</h3>
+					<h2>Passagem sobre meu aprendizado</h2>
 					<p>Aenean placerat. In vulputate urna eu arcu. Aliquam erat volutpat.
 						Suspendisse potenti. Morbi mattis felis at nunc. Duis viverra diam non
 						justo. In nisl. Nullam sit amet magna in magna gravida vehicula. Mauris
 						tincidunt sem sed arcu. </p>
 				</aside>
-			</div>
+			</section>
 		</main>
 		<footer id="rodape">
 			<h1>-- Carlos Eduardo Soares Rosa --</h1>

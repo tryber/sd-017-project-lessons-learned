@@ -82,7 +82,7 @@ table th {
   margin: auto;
 }
 
-.licoes-box table h3 {
+.licoes-box table h2 {
   padding: 10px 90px 0px 90px;
   font-size: 25px;
 }
@@ -90,10 +90,6 @@ table th {
 .licoes-box table ul,
 ol {
   padding: 20px;
-}
-
-footer {
-  margin-top: 500px;
 }
 /*END licoes box*/
 
@@ -105,7 +101,7 @@ footer {
   text-align: justify;
 }
 
-.artigos-box h3 {
+.artigos-box h2 {
   margin-bottom: 10px;
   text-align: center;
 }
@@ -114,4 +110,13 @@ footer {
 .passagem-aprendizado {
   padding: 20px;
   background-color: #e2e2e2;
+}
+/*END artogo box*/
+
+/*footer*/
+#rodape {
+  color: #005dc9;
+  text-align: center;
+  margin-top: 30vh;
+  margin-bottom: 20vh;
 }
