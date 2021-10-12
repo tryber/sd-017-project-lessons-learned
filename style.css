@@ -31,11 +31,11 @@ p {
   padding-top: 50px;
 }
 
-.tabela th, td {
+.tabela th td {
   width: 20%;
   margin: 10px;
   margin-top: 50%;
-  border: 1px solid black; 
+  border: 1px solid black;
 }
 
 #paragrafo {
