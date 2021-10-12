@@ -5,8 +5,37 @@ body {
 header {
   position: fixed;
   top: 0;
+  border: 10px solid green;
+  padding: 4px;
+  background-color: green;
 }
 
 table , th , td {
   border: 1px, solid, black;
+}
+
+nav {
+  margin: 10px;
+}
+
+ul {
+  position: absolute;
+  left: 370px;
+  top: 470px;
+}
+
+article {
+  margin: 20px;
+  padding: 20px;
+}
+
+footer {
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, serif;
+  color : blue;
+  line-height: 30px;
+}
+
+.fontcor {
+  color: green;
 }
