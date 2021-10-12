@@ -105,8 +105,8 @@ ol {
 .artigos-box {
   margin: auto;
   margin-top: 100px;
-  width: 500px;
   text-align: justify;
+  display: flex;
 }
 
 .artigos-box h2 {
@@ -114,10 +114,23 @@ ol {
   text-align: center;
 }
 
-.artigo-aprendizado,
-.passagem-aprendizado {
-  padding: 20px;
+.lado-esquerdo {
+  float: left;
+  width: 40%;
   background-color: #e2e2e2;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.lado-direito {
+  float: right;
+  width: 40%;
+  background-color: #e2e2e2;
+}
+
+.lado-esquerdo,
+.lado-direito {
+  padding: 20px;
 }
 /*END artogo box*/
 
