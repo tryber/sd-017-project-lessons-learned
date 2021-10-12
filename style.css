@@ -7,7 +7,6 @@ p {
 }
 #título {
 background-color: rgb(255, 160, 207);
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 text-align: center;
 }
 #licoes_a_aprender {
@@ -18,6 +17,6 @@ text-align: center;
 }
 .liçoes {
     color: rgb(112, 90, 133);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
     
 }
