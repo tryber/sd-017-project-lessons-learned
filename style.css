@@ -81,7 +81,7 @@ a {
   float: right;
   font-family: Times, serif;
   font-size: 16px;
-  word-spacing: normal;
+  letter-spacing: 0.5px;
 }
 
 table , th , td {
