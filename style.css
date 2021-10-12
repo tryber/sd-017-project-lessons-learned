@@ -4,6 +4,7 @@
 }
 body {
   background-color: rgb(253, 251, 251);
+  color: #0a0a0a;
 }
 
 /* Cabeçalho*/
@@ -54,6 +55,12 @@ table th {
   width: 350px;
   text-align: center;
   border: 1px solid rgb(253, 251, 251);
+}
+.profile-box h1 {
+  line-height: 1.1;
+  letter-spacing: 2px;
+  color: #0a0a0a;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .profile-box img {
