@@ -29,16 +29,12 @@ article {
 	position: absolute;
 	top: 350px;
 	left: 450px;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: small;
 }
 
 aside {
 	position: absolute;
 	top: 350px;
 	left: 900px;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: small;
 }
 
 #minha_foto {
