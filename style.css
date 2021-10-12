@@ -1,13 +1,15 @@
 body {
     background-color: rgb(253, 251, 251);
 }
-p {
+#cabeçalho {
+    background-color: rgb(248, 168, 255);
+    color: rgb(120, 45, 196);
     top: 0;
-    color: green;
+    
 }
 #título {
-background-color: rgb(255, 160, 207);
 text-align: center;
+
 }
 #licoes_a_aprender {
     position: absolute;
