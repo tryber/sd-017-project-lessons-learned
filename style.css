@@ -1,7 +1,7 @@
 body {
   margin: 0px;
   background-color: rgb(253, 251, 251);
-  
+  font-family: system-ui,-apple-system, Helvetica, Arial,sans-serif;
 }
 
 #cabecalho {
@@ -71,19 +71,17 @@ a {
 .lado-esquerdo {
   border: 2px solid black;
   float: left;
-  font-family: Times, serif;
   font-size: 16px;
   word-spacing: normal;
-  color:brown;
+  color:green;
 }
 
 .lado-direito {
   border: 2px solid black;
   float: right;
-  font-family: Times, serif;
   font-size: 16px;
   letter-spacing: 1px;
-  color: brown;
+  color: green;
 }
 
 table , th , td {
