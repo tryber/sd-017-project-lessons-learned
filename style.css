@@ -9,6 +9,10 @@ body {
   font-size: small;
 }
 
+a {
+  text-decoration: none;
+}
+
 #cabecalho {
   top: 0;
   left: 0;
@@ -39,11 +43,11 @@ body {
 }
 
 #minha_foto {
-  top: 110px;
+  top: 130px;
   width: 200px;
   position: absolute;
   border-radius: 500px;
-  left: 125px;
+  left: 155px;
   padding: 15px;
 }
 
@@ -146,8 +150,8 @@ body {
 .lado-direito {
   position: absolute;
   padding: 30px;
-  width: 350px;
-  left: 680px;
+  width: 280px;
+  left: 705px;
   top: 525px;
   text-align: justify;
   border: solid;
@@ -162,6 +166,11 @@ body {
 }
 
 #rodape {
-  top: 800px;
-
+  position: absolute;
+  display: block;
+  width: 100%;
+  padding: 30px;
+  top: 1050px;
+  background-color:rgb(182, 216, 183);
+  text-align: center;
 }
