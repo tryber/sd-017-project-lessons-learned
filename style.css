@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   background-color: rgb(253, 251, 251);
 }
@@ -5,4 +9,37 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  background-color: #00489d;
+  color: #b4b4b5;
+  width: 1366px;
+  height: 120px;
+}
+
+#cabecalho a {
+  color: #b4b4b5;
+}
+
+table th {
+  margin: 10px 103px 10px 36px;
+  margin-right: 300px;
+}
+
+.col-1 img {
+  width: 95px;
+}
+
+.col-1 #titulo {
+  font-size: 42px;
+}
+
+.col-1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.col-2 a {
+  font-size: 35px;
+  text-decoration: none;
+  padding: 25px;
 }
