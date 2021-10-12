@@ -1,21 +1,23 @@
 
 
-body{
+body {
   margin: 0px;
   background-color: rgb(253, 251, 251);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#cabecalho{
+#cabecalho {
   position: fixed;
   top: 0;
-  background-color: rgb(0, 128, 0);
-  width: 100%;  
+  background-color: green;
+  width: 100%;
+
   text-align: center;
   height: 16%;
-  color:  rgb(255, 255, 255);
+  color:  white;
 }
 
-#cabecalho nav{
+#cabecalho nav {
   text-align: left;
   padding-top: 70px;
   padding-left: 20px;
@@ -24,12 +26,12 @@ body{
   justify-content: space-around;
 }
 
-#cabecalho nav ul li{
+#cabecalho nav ul li {
   display: inline;
   padding: 10px;
 }
 
-#minha_foto{
+#minha_foto {
   max-width: 16%;
   max-height: 10%;
   margin: 200px 50px 30px 100px;
@@ -37,64 +39,63 @@ body{
 
 }
 
-a{
+a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
-#rodape{
+#rodape { 
 
   bottom: 0;
   width: 100%;
   text-align: center;
-  background-color: rgb(0, 128, 0);
+  background-color: green;
   height: 2.5vh;
 }
 
 
-.listas h2{
+.listas h2 {
   text-align: left;
   margin: 0;
 }
 
 
-#licoes_aprendidas{
+#licoes_aprendidas {
  
   display: inline-block;
 }
 
-#licoes_a_aprender{
+#licoes_a_aprender {
   display: inline-block;
 }
  
-.posicao{
+.posicao {
   display: flex;
 }
 
-.lado-esquerdo{
-  border: 2px solid rgb(0, 0, 0);
+.lado-esquerdo {
+  border: 2px solid black;
   float: left;
 }
 
-.lado-direito{
-  border: 2px solid rgb(0, 0, 0);
+.lado-direito {
+  border: 2px solid black;
   float: right;
 }
 
-table, th, td{
-  border: 1px solid rgb(0, 0, 0);
+table , th , td {
+  border: 1px solid black);
 }
 
-table, td{
+table , td {
   text-align: center;
 }
 
 table {
-  
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 30%;
-  background-color: rgb(0, 128, 0);
+  background-color: green;
   margin: 20px;
 
 }
