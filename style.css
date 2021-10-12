@@ -15,9 +15,10 @@ body {
   padding-top: 8px;
 }
 
-.navbar ul li {
+.navbar li {
   display: inline-block;
-  padding-right: 180px;
+  width: 200px;
+  margin-left: 50px;
 }
 
 #minha_foto {
@@ -46,9 +47,9 @@ body {
 }
 
 .border {
-  border-top: 2px solid red;
+  border-top: 2px solid black;
   border-radius: 15px;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid black;
 }
 
 #titulo {
@@ -60,21 +61,23 @@ body {
   font-family: Franklin Gothic Medium, Arial Narrow , Arial, sans-serif;
 }
 
+.blank-link {
+  color: white;
+}
+
 #licoes_aprendidas {
-  color: green;
+  color: rgb(5, 70, 5);
 }
 
 #licoes_a_aprender {
-  color: red;
+  color: rgb(109, 6, 6);
 }
 
 .trybe {
-  color: green;
+  color: rgb(53, 209, 53);
 }
 
 p #article {
   text-align: justify;
-  margin-left: auto;
-  margin-right: auto;
   width: 6em;
 }
