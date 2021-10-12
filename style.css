@@ -3,17 +3,21 @@ body {
   font-family: Lato, Segoe UI Open Sans, Helvetica Neue, sans-serif;
 }
 
-h1 {
-  height: 50px;
-}
+/* O seletor body com os parâmetros backgorund-
+color e font-family aplica cor a página e a fonte das letras.
+Os parâmetros background-color efont-family
+recebem os respctivos valores:
+rgb(253, 251, 251) e Lato, Segoe UI Open Sans, Helvetica Neue, sans-serif */
 
 #cabecalho {
   position: fixed;
   top: 0;
 }
 
-/* Origem do seletor cabeçaho:
- https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/ */
+/* Origem do seletor cabeçaho posiciona o cabeçalho
+da página no topo com espaçamento 0 . Ele tem
+dois parâmetros: position com valor fixed e top com valor 0.
+  */
 
 #titulo {
   width: 1366px;
@@ -21,52 +25,181 @@ h1 {
   text-align: center;
 }
 
+/* O código #titulo centraliza
+títulos na página. Ele possui três
+de confuguração: width com valor 1366px;
+  height com  valor 100px,
+  text-align com valor center . */
+
 #minha_foto {
   margin-top: 100px;
   margin-left: 15px;
   border: 2px solid black;
-
 }
 
+/* O Código #minha_foto ajusta
+as margens topo com 10px e esquerda
+com 15px .Ele posui três parâmetros
+de configuração:
+margin-top com 100px, margin-left
+com 15px e border com 2px solid black */
+
+a {
+  text-decoration: none;
+}
+
+/* O código a com o parâmetro
+ text-decoration de valor none, tira o
+ sublinhado de links externos e internos. */
+
+/* Consultei a pángina de Cem Eygi:
+https://codeburst.io/how-to-position-html-elements-side-by-side-with-css-e1fae72ddcc
+para resolver esta parte. */
+
 #licoes_aprendidas , #licoes_a_aprender {
+  position: relative;
   display: inline-block;
   background-color: burlywood;
   border: 2px solid black;
   padding: 30px;
+  width: 100px;
 }
 
-/* Origem para #licoes_aprendidas #licoes_a_aprender:
-https://codeburst.io/how-to-position-html-elements-side-by-side-with-css-e1fae72ddcc */
+/* O código #licoes_aprendidas ,
+#licoes_a_aprender posisicionam
+lado-a-lado as colunas licoes_aprendidas e licoes_a_aprender. Ele possui 6 parâmetros
+de configuração: position com valor relative;
+  display com valor inline-block;
+  background-color valor burlywood;
+  border com valor 2px solid black;
+  padding com valor 30px;
+  width: 100px */
+
+.ajusta-tabela {
+  margin-left: 10px;
+}
+
+/* O código .ajusta-tabela ajusta a margem da
+tabela 10px para a esquerda . Ele possui um só
+parâmetro de configuração: margin-left com 10px . */
 
 #rodape {
   text-align: center;
 }
 
-/* Comentar aqui */
+/* O código #rodape centraliza o texto do rodapé.
+Possui apenas um parâmetro de configuração: text-aling com valor
+center . */
+
 .ajusta-margin {
-  margin: 0 0 0 15px;
+  margin-left: 15px;
 }
+
+/* O código .ajusta-margin ajusta a margem 15px
+para a esquerda.Possui apenas um parâmetro de
+configuração:
+margin-left com valor 15px .  */
 
 .letra-tamanho {
   font-size: 16px;
 }
+
+/* O código .letra-tamanho aumenta o tamanho da .
+Possui apenas um parâmetro de configuração:
+font-size com valor 16px . */
+
+/* Consultei a página w3schools: https://www.w3schools.com/css/css_navbar.asp
+ para entender como constuir um menu de navegação.
+ Os códigos referentes a essa consulta são os
+ códigos nav e ul.
+  */
 
 nav {
   background-color: darkgreen;
   height: 100px;
 }
 
+/* O código nav com os parâmetros
+background-color e height aplica cor
+e altura para o menu de navegação .
+Possui dois  de configuração:
+background-color
+com valor darkgreen  e height com
+valor 100px . */
+
 ul {
-  position: relative;
+  position: absolute;
   list-style-type: none;
-  top: 40px;
+  margin-top: 60px;
 }
 
-/* Origem do seletor ul: https://www.w3schools.com/css/css_navbar.asp */
+/* O código ul posiciona a lista
+não ordenada e aplica estilos. Ele possui três
+parâmetros de configuração: position com valor absolute,
+list-style-type com valor none e margin-top
+com valor 60px */
+
 .titulo-cor {
   color: teal;
 }
 
+/* O código .titulo-cor aplica cor aos títulos
+da página. Possui apenas um parâmetro de configuraçao: color com valor teal . */
+
 .espacamento {
   line-height: 15px;
 }
+
+/* O código .espaçamento aplica espaçamento de
+15px entre as linhas. Possui um parâmetro
+de configuração: line-height com valor 15px . */
+
+/* Consultei a página w3schools: https://www.w3schools.com/cssref/pr_pos_right.asp
+para ajudar a resolver para ajudar a
+posicionar os 2 artigos.
+Códigos refernetes aos 2 artigos da página
+index.html: .configuracoes, .lado-esquerdo e
+.lado-direito . */
+
+.configuracoes {
+  position: absolute;
+  width: 400px;
+  left: 50%;
+  background-color: lightsalmon;
+  margin-top: -500px;
+  height: 350px;
+  border: 2px solid black;
+  border-radius: 10mm;
+}
+
+/* O código .configuracoes em conjunto
+com os códigos .lado-esquerdo e
+.lado-direito
+possui 8 parâmetros de configuração:
+position com valor absolute;
+  width com valor 400px;
+  left com 50%;
+   com valor background-color:lightsalmon;
+  height com valor350px,
+  bordercom valor 2px solid black,
+  border-radiuscom valor 10mm,
+  margin-top com valor -500px . */
+
+.lado-esquerdo {
+  transform: translateX(-50%);
+}
+
+/* O código .lado-esquerdo centraliza o
+objeto com distância de 50% para
+para a esquerda. Possui apenas uma parâmetro
+de configuração: transform com valor translateX(-50%) . */
+
+.lado-direito {
+  transform: translateX(60%);
+}
+
+/* O código .lado-direto centraliza o
+objeto com distância de 60%% para
+para a direita. Possui apenas uma parâmetro
+de configuração:
+transform com valor translateX(-60%) . */
