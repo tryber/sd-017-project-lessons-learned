@@ -1,36 +1,101 @@
 
-body {
+
+body{
+  margin: 0px;
   background-color: rgb(253, 251, 251);
-  margin: 10%;
-
-  padding: 5%;
-
-  border: 2px solid black;
 }
 
-#cabecalho {
-  top: 0;
+#cabecalho{
   position: fixed;
-  background: green;
+  top: 0;
+  background-color: rgb(0, 128, 0);
+  width: 100%;  
+  text-align: center;
+  height: 16%;
+  color:  rgb(255, 255, 255);
+}
+
+#cabecalho nav{
+  text-align: left;
+  padding-top: 70px;
+  padding-left: 20px;
+  text-decoration: none;
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  left: 0;
-  height: 8vh;
-  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+}
+
+#cabecalho nav ul li{
+  display: inline;
+  padding: 10px;
+}
+
+#minha_foto{
+  max-width: 16%;
+  max-height: 10%;
+  margin: 200px 50px 30px 100px;
+  border-radius: 5%;
+
+}
+
+a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+#rodape{
+
+  bottom: 0;
   width: 100%;
+  text-align: center;
+  background-color: rgb(0, 128, 0);
+  height: 2.5vh;
 }
 
-#minha_foto {
-  width: 20%;
+
+.listas h2{
+  text-align: left;
+  margin: 0;
 }
 
-article {
-  font-size: 120%;
-  line-height: 120%;
-  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+
+#licoes_aprendidas{
+ 
+  display: inline-block;
 }
 
-#lessons {
-  display: inline-flex;
+#licoes_a_aprender{
+  display: inline-block;
 }
+ 
+.posicao{
+  display: flex;
+}
+
+.lado-esquerdo{
+  border: 2px solid rgb(0, 0, 0);
+  float: left;
+}
+
+.lado-direito{
+  border: 2px solid rgb(0, 0, 0);
+  float: right;
+}
+
+table, th, td{
+  border: 1px solid rgb(0, 0, 0);
+}
+
+table, td{
+  text-align: center;
+}
+
+table {
+  
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 30%;
+  background-color: rgb(0, 128, 0);
+  margin: 20px;
+
+}
+
