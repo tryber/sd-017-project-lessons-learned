@@ -5,6 +5,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Roboto Mono, monospace;
 }
 
 #cabecalho {
@@ -12,7 +13,7 @@ body {
   top: 0;
   left: 0%;
   width: 100%;
-  background-color: aqua;
+  background-color: rgb(49, 218, 218);
 }
 
 #titulo {
@@ -57,7 +58,7 @@ a {
 article {
   padding: 15px;
   width: 75%;
-  line-height: 20px;
+  line-height: 25px;
 }
 
 section {
@@ -65,4 +66,13 @@ section {
   width: 20%;
   margin: 30px;
   line-height: 20px;
+}
+
+h2 , h3 , h4 {
+  color: rgb(17, 163, 106);
+}
+
+#fonte_titulo {
+  font-size: 20px;
+  color: black;
 }
