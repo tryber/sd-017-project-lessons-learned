@@ -42,25 +42,27 @@ body {
 #rodape {
   margin: 35px;
   display: block;
+  line-height: 30px;
 }
 
 #link {
-  margin: 5px;
+  margin-right: 100px;
   display: inline-block;
 }
 
 a {
-  padding-right: 100px;
+  margin-right: 100px;
 }
 
 article {
   padding: 15px;
   width: 75%;
+  line-height: 20px;
 }
 
 section {
   float: right;
   width: 20%;
   margin: 30px;
-  float: right;
+  line-height: 20px;
 }
