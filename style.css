@@ -28,12 +28,14 @@ header {
 .lado-esquerdo {
   display: inline-block;
   max-width: 50%;
+  margin-left: 25px;
 }
 
 .lado-direito {
   display: inline-block;
   max-width: 50%;
   margin-left: 320px;
+  margin-right: 25px;
   position: absolute;
 }
 
