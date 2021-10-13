@@ -16,9 +16,12 @@ header {
     margin-top: 0;
     border: 0;
     padding-top: 0;
+    position: fixed;
 }
 
 #titulo {
+    color: white;
+    position: fixed;
 
 }
 
@@ -34,4 +37,10 @@ header {
 
 #licoes_a_aprender {
     margin-left: 50px;
+}
+
+#rodape {
+    padding: 10px;
+    background-color: green;
+    color: white;
 }
