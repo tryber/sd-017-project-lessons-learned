@@ -8,5 +8,6 @@
   "viewportWidth": 1366,
   "viewportHeight": 768,
   "defaultCommandTimeout": 10000,
-  "pageLoadTimeout": 10000
+  "pageLoadTimeout": 10000,
+  "projectId": "y3fkwk"
 }
