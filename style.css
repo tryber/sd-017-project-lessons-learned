@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(253, 251, 251);
+}
+header { 
+    position: fixed;
+    top: 0px;
+    font-size: larger 
+}
+h1,h2 { 
+    background-color: beige;
+}
+h3 {
+    text-align: center;
+}
