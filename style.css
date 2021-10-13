@@ -55,14 +55,22 @@ li {
   border-radius: 20%;
 }
 
+.artigos{
+    position: absolute;
+}
+
 .lado-esquerdo {
   float: left;
-  max-width: 50%;
+  max-width: 48%;
+  padding: 10px;
+  border: 1px solid black;
 }
 
 .lado-direito {
   float: right;
-  max-width: 50%;
+  max-width: 48%;
+  border: 1px solid black;
+  padding: 10px ;
 }
 
 .licoes {
@@ -76,6 +84,8 @@ li {
   display: inline-block;
 }
 
-footer {
-  margin: 100px;
+.rodap {
+  text-align: center;
+  padding: 50px;
+  margin-top: 100px;
 }
