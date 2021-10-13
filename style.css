@@ -1,7 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 body {
     background-color: rgb(253, 251, 251);
@@ -13,16 +10,19 @@ header {
 }
 
 #cabecalho{
-    margin-top: 0;
-    border: 0;
-    padding-top: 0;
     position: fixed;
+    background-color: green;
+    top: 0;
+    left: 0;
+    padding: 15px;
 }
 
 #titulo {
     color: white;
-    position: fixed;
+}
 
+main {
+    top: 100px;
 }
 
 #minha_foto{
