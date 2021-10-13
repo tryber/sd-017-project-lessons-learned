@@ -1,7 +1,10 @@
 body {
   background-color: rgb(253, 251, 251);
   margin-top: 120px;
-  font-family: 'Abel' sans-serif;
+  font-family: Abel, sans-serif;
+  color: rgb(32, 29, 29);
+  font-size: 20px;
+  line-height: 25px;
 }
 
 header {
@@ -9,25 +12,29 @@ header {
   top: 0;
   width: 100%;
   background-color: rgb(253, 251, 251);
+  z-index: 1;
 }
 
-#cabecalho{
+#cabecalho {
   text-align: center;
 }
 
-#minha-foto{
+#minha-foto {
   text-align: center;
+  margin: 80px, 120px;
+  padding: 10px;
 }
 
-.lado-esquerdo{
+.lado-esquerdo {
   display: inline-block;
   max-width: 50%;
 }
 
-.lado-direito{
+.lado-direito {
   display: inline-block;
   max-width: 50%;
   margin-left: 320px;
+  position: absolute;
 }
 
 .nav-bar li {
@@ -35,7 +42,7 @@ header {
   margin-right: 40px;
 }
 
-.nav-bar li:hover:nth-child(2n) {
+.nav-bar li:hover:nth-child( 2n ) {
   background-color: rgb(255, 203, 251);
   cursor: pointer;
 }
@@ -46,4 +53,15 @@ header {
 
 .section-title {
   display: none;
+}
+
+.tabela-titulo {
+  text-align: center;
+  margin-top: 200px;
+}
+
+table , th , td {
+  border: 1px solid rgb(39, 10, 10);
+  margin-left: 550px;
+  margin-bottom: 200px;
 }
