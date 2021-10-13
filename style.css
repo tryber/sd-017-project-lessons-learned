@@ -36,9 +36,20 @@ body {
 
 img {
   border-radius: 18px;
+  position: fixed;
 }
 
 #rodape {
   position: absolute;
+  top: 800px;
+}
+
+.artigo {
+  position: absolute;
   top: 500px;
+}
+
+#artigo {
+  position: absolute;
+  top: 530px;
 }
