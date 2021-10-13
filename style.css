@@ -14,19 +14,7 @@
   #titulo {
     text-align: center;
   }
-
-  /*#licoes_a_aprender {
-    position: absolute;
-    top: 330px;
-    left: 40px;
-  }
-
-  #licoes_aprendidas {
-    position: absolute;
-    top: 330px;
-    left: 260px;
-  }*/
-  .lado-esquerdo{
+  .lado-esquerdo {
     padding: 70px 15px;
     margin-top: 200px;
     margin-left: 210px;
@@ -45,12 +33,16 @@
     position: absolute;
     top: 350px;
     left: 450px;
+    background-color: cadetblue;
+    border-radius: 8px;
   }
 
   aside {
     position: absolute;
     top: 350px;
     left: 900px;
+    background-color: cadetblue;
+    border-radius: 8px;
   }
 
   #minha_foto {
