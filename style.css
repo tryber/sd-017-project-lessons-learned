@@ -1,13 +1,33 @@
 body {
   background-color: rgb(253, 251, 251);
   margin-top: 120px;
+  font-family: 'Abel' sans-serif;
 }
 
 header {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgb(180, 224, 235);
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho{
+  text-align: center;
+}
+
+#minha-foto{
+  text-align: center;
+}
+
+.lado-esquerdo{
+  display: inline-block;
+  max-width: 50%;
+}
+
+.lado-direito{
+  display: inline-block;
+  max-width: 50%;
+  margin-left: 320px;
 }
 
 .nav-bar li {
