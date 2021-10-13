@@ -47,8 +47,17 @@ main {
   margin-left: 15px;
 }
 
-.lado-esquerdo , .lado-direito , table {
+table , #licoes_aprendidas , #licoes_a_aprender {
   display: inline-block;
+}
+
+.lado-esquerdo , .lado-direito {
+  display: inline-block;
+  width: 45%;
+}
+
+.lado-direito {
+  margin-left: 80px;
 }
 
 table , th , td {
