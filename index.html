@@ -11,7 +11,7 @@
   Consulta de estrutura e coisas relacionadas a tabelas em HTML
   Source: https://www.w3schools.com/html/html_tables.asp
 
-  Pesquisa de melhores empresas para trabalhar remotamente
+  Vagas abertas para home office, por itforum
   Source: https://itforum.com.br/noticias/trabalhe-em-home-office-10-empresas-com-vagas-abertas-em-ti/
 -->
 <!DOCTYPE html>
@@ -36,10 +36,10 @@
     <h1 id="titulo">[1/42] Projeto Lessons Learned</h1>
     <nav>
       <ul>
-        <li><a href="#section1" target="_self">Made by</a></li>
-        <li><a href="#section2" target="_self">Lições</a></li>
-        <li><a href="#section3" target="_self">Aprendizado contínuo</a></li>
-        <li><a href="#section4" target="_self">Remote job</a></li>
+        <li class="inline-b"><a href="#section1" target="_self">Autor</a></li>
+        <li class="inline-b"><a href="#section2" target="_self">Lições</a></li>
+        <li class="inline-b"><a href="#section3" target="_self">Aprendizado contínuo</a></li>
+        <li class="inline-b"><a href="#section4" target="_self">Vagas home office</a></li>
       </ul>
     </nav>
 
@@ -47,17 +47,18 @@
 
   <main>
     <section id="section1" class="about">
-      <h1 class="mb">
+      <h1>
         Jonatas Queiroz Lima
       </h1>
-      <img id="minha_foto" class="img-perfil" src="img/me.png" alt="Foto atual de perfil de Jonatas Queiroz Lima" />            
+      <img id="minha_foto" class="img-perfil" src="img/me.png" alt="Foto atual de perfil de Jonatas Queiroz Lima" />
+      <span id="section2"></span>
     </section>
 
-    <section id="section2" class="lessons">
+    <section class="lessons">
       <h1> Lições</h1>
       <div class="lessons-wrap">
-        <div class="lessons-left">
-          <h2 class="mb">aprendidos </h2>
+        <div class="lessons-left inline-b">
+          <h2 class="margin-b">aprendidos </h2>
           <ol id="licoes_aprendidas">
             <li>Unix: o que é, conceitos</li>
             <li>Shell: quais tipos de shells</li>
@@ -71,8 +72,8 @@
             <li>CSS: display</li>
           </ol>
         </div>
-        <div class="lessons-right">
-          <h2 class="mb">desejo aprender</h2>
+        <div class="lessons-right inline-b">
+          <h2 class="margin-b">desejo aprender</h2>
           <ul id="licoes_a_aprender">
             <li>FrontEnd</li>
             <li>React Native</li>
@@ -87,34 +88,68 @@
           </ul>
         </div>
       </div>
+      <span id="section3"></span>
     </section>
 
-    <section id="section3" class="learned">
-      <h1 class="mb">Aprendizado contínuo</h1>
-
-
-      <section class="lado-esquerdo">
-        <h2 class="mb">Meu aprendizado</h2>
-        <article>
-          <p>
-            Aprendi e entendi a utilização do Git e Github em conjunto, porquê o versionamento de códigos é importante.
-            Como támbem, colaborar em projetos com várias pessoas codando juntas, mesmo, se for no mesmo arquivo. A
-            importância das tags semânticas e a acessiblidade das páginas na internet eu não conhecia, mas, agora estou
-            ciente e o porquê são imporantes
-          </p>
-
-        </article>
-      </section>
-      <section class="lado-direito">
-        <h2 class="mb">Minha passagem, Team 17</h2>
+    <section class="learned">
+      <h1 class="margin-b">Aprendizado contínuo</h1>
+      <div class="lado-esquerdo inline-b">
+        <h2 class="margin-b">Team 17</h2>
         <p>
           Sou estudante na Trybe e sinto que estou no caminho mais certo do que poderia estar estando só aprendendo por
           conta própia, agora, tenho uma comunidade, uma escola, uma organização que se dedica e esforça para formar com
           sucessos pessoas que desejam ser Desenvolvedores web!
         </p>
 
-      </section>
+      </div>
+      <div class="lado-direito inline-b">
 
+        <article>
+          <h2 class="margin-b">Novos conhecimentos</h2>
+          <p>
+            Aprendi e entendi a utilização do Git e Github em conjunto, porquê o versionamento de códigos é importante.
+            Como támbem, colaborar em projetos com várias pessoas codando juntas, mesmo, se for no mesmo arquivo. A
+            importância das tags semânticas e a acessiblidade das páginas na internet eu não conhecia, mas, agora estou
+            ciente e o porquêsão imporantes
+          </p>
+        </article>
+      </div>
+
+    </section>
+
+    <section id="section4" class="information">
+      <h1>Vagas para home office - <a href="https://itforum.com.br/noticias/trabalhe-em-home-office-10-empresas-com-vagas-abertas-em-ti/" target="_blank">itforum</a></h1>
+      <table class="table-info">
+        <tr>
+          <th colspan="4">Empresas</th>
+        </tr>
+        <tr>
+      
+          <td><a href="https://remotar.com.br/empresas/aiqfome?utm_source=itforum&utm_medium=vagas&utm_campaign=13set" target="_blank">aiqfome</a></td>
+          <td><a href="https://remotar.com.br/empresas/byne/?utm_source=itforum&utm_medium=vagas&utm_campaign=13set" target="_blank">BYNE</a></td>
+        </tr>
+        <tr>
+      
+          <td><a href="https://remotar.com.br/empresas/promobit/?utm_source=itforum&utm_medium=vagas&utm_campaign=13set" target="_blank">Promobit</a></td>
+          <td><a href="https://remotar.com.br/empresas/pier/?utm_source=itforum&utm_medium=vagas&utm_campaign=13set" target="_blank">Pier</a></td>
+        </tr>
+        <tr>
+      
+          <td><a href="https://remotar.com.br/empresas/mundiale/?utm_source=itforum&utm_medium=vagas&utm_campaign=13set" target="_blank">Mundiale</a></td>
+          <td><a href="https://remotar.com.br/empresas/nexoos/?utm_source=itforum&utm_medium=vagas&utm_campaign=13set" target="_blank">Nexoos</a></td>
+        </tr>
+        <tr>
+      
+          <td><a href="https://remotar.com.br/empresas/birdie/?utm_source=itforum&utm_medium=vagas&utm_campaign=13set" target="_blank">Birdie</a></td>
+          <td><a href="https://remotar.com.br/empresas/zup-innovation/?utm_source=itforum&utm_medium=vagas&utm_campaign=13set" target="_blank">Zup Innovation</a></td>
+        </tr>
+        <tr>
+      
+          <td><a href="https://remotar.com.br/empresas/enjoei?utm_source=itforum&utm_medium=vagas&utm_campaign=13set" target="_blank">enjoeei</a></td>
+          <td><a href="https://remotar.com.br/empresas/take-blip/?utm_source=itforum&utm_medium=vagas&utm_campaign=13set" target="_blank">Take Blip</a></td>
+        </tr>
+      
+      </table>
     </section>
 
     <aside class="topics">
@@ -129,76 +164,18 @@
         </ul>
       </nav>
     </aside>
-
-    <section id="section4" class="information">
-      <h1 class="mb">Melhores empresas para trabalhar remotamente em 2021</h1>
-    
-      <table class="ranking mb">
-      
-        <tr>
-          <th colspan="2">Empresas</th>
-        </tr>
-        <tr>
-
-          <td>1. <a
-              href="https://remotar.com.br/empresas/aiqfome?utm_source=itforum&utm_medium=vagas&utm_campaign=13set"
-              target="_blank">aiqfome</a></td>
-          <td>6. <a href="https://remotar.com.br/empresas/byne/?utm_source=itforum&utm_medium=vagas&utm_campaign=13set"
-              target="_blank">BYNE</a></td>
-        </tr>
-        <tr>
-
-          <td>2. <a
-              href="https://remotar.com.br/empresas/promobit/?utm_source=itforum&utm_medium=vagas&utm_campaign=13set"
-              target="_blank">Promobit</a></td>
-          <td>7. <a href="https://remotar.com.br/empresas/pier/?utm_source=itforum&utm_medium=vagas&utm_campaign=13set"
-              target="_blank">Pier</a></td>
-        </tr>
-        <tr>
-
-          <td>3. <a
-              href="https://remotar.com.br/empresas/mundiale/?utm_source=itforum&utm_medium=vagas&utm_campaign=13set"
-              target="_blank">Mundiale</a></td>
-          <td>8. <a
-              href="https://remotar.com.br/empresas/nexoos/?utm_source=itforum&utm_medium=vagas&utm_campaign=13set"
-              target="_blank">Nexoos</a></td>
-        </tr>
-        <tr>
-
-          <td>4. <a
-              href="https://remotar.com.br/empresas/birdie/?utm_source=itforum&utm_medium=vagas&utm_campaign=13set"
-              target="_blank">Birdie</a></td>
-          <td>9. <a
-              href="https://remotar.com.br/empresas/zup-innovation/?utm_source=itforum&utm_medium=vagas&utm_campaign=13set"
-              target="_blank">Zup Innovation</a></td>
-        </tr>
-        <tr>
-
-          <td>5. <a href="https://remotar.com.br/empresas/enjoei?utm_source=itforum&utm_medium=vagas&utm_campaign=13set"
-              target="_blank">enjoei</a></td>
-          <td>10. <a
-              href="https://remotar.com.br/empresas/take-blip/?utm_source=itforum&utm_medium=vagas&utm_campaign=13set"
-              target="_blank">Take Blip</a></td>
-        </tr>
-
-      </table>
-    
-    </section>
-
-
   </main>
 
 
 
-  <footer id="rodape" class="footer">
-    <nav class="navigation-links mb">
-      <a href="https://github.com/jonatasqueirozlima" target="_blank"><img
-          src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Link para visitar meu perfil no Github" /></a>
-      <a href="https://www.linkedin.com/in/jonatasqueirozlima/" target="_blank"><img
-          src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
-          alt="Link para visitar meu perfil no LinkedIn" /></a>
+  <footer id="rodape">
+    <nav class="navigation-links inline-b">
+      <a href="https://github.com/jonatasqueirozlima" target="_blank">
+        <img class="icon-contact" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Link para visitar meu perfil no Github"/></a>
+      <a href="https://www.linkedin.com/in/jonatasqueirozlima/" target="_blank">
+        <img class="icon-contact" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="Link para visitar meu perfil no LinkedIn" /></a>
     </nav>
-    <span class="mb">Projeto desenvolvido por Jonatas Queiroz Lima, 2021.</span>
+    <span class="inline-b made-by">Projeto desenvolvido por Jonatas Queiroz Lima, 2021.</span>
   </footer>
 
 </body>
