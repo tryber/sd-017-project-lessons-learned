@@ -104,6 +104,7 @@ section {
 
 .lado-direito {
   margin-left: 60px;
+  position: relative;
 }
 
 .lado-esquerdo , .lado-direito {
@@ -114,17 +115,25 @@ section {
 
 .lado-esquerdo p , .lado-direito p {
   text-align: justify;
+  text-shadow: 1px 1px 2px white;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+
+.lado-direito h2 , .lado-esquerdo h2 {
+  text-shadow: 2px 2px 4px black;
+  color: white;
 }
 
 .topics {
-  position: fixed;
-  top: 70px;
-  left: 1px;
+  position: absolute;
+  top: 1px;
+  right: -15px;
   width: 60px;
   height: 19px;
   transition: width 1s ease, height 1s ease;
   color: black;
-  background-color: white;
+  background-color: rgb(240, 231, 231);
   border: 1px solid black;
   overflow: hidden;
 }
