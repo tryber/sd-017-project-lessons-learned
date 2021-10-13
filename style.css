@@ -10,6 +10,8 @@ body {
   top: 0;
   width: 98%;
   border: 5px solid green;
+  border-radius: 18px;
+  top: 10px;
 }
 
 #titulo {
@@ -31,4 +33,13 @@ body {
   position: absolute;
   top: 320px;
   right: 50%;
+}
+
+img {
+  border-radius: 18px;
+}
+
+#rodape {
+  position: absolute;
+  top: 500px;
 }
