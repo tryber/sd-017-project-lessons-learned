@@ -4,6 +4,7 @@
     letter-spacing: 1px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: brown;
+    line-height: normal;
   }
   #cabecalho {
     background-color: rgb(189, 112, 157);
