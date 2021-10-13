@@ -56,4 +56,9 @@
   #minha_foto {
     position: fixed;
     top: 100px;
+    border-radius: 16px;
+  }
+  .linkmodificado {
+    position: absolute;
+    margin-top: 280px;
   }
