@@ -57,3 +57,21 @@ body {
   text-align: center;
   padding-top: 20px;
 }
+
+table {
+  padding-left: 15px;
+}
+
+.lado-esquerdo {
+  padding: 15px 15px 15px 15px;
+  display: inline-block;
+  max-width: 40%
+  
+}
+
+.lado-direito {
+  display: inline-block;
+  padding: 15px 15px 15px 15px;
+  display: inline-block;
+  max-width: 40%
+}
