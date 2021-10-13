@@ -5,11 +5,13 @@ body {
 }
 
 header {
-    background: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
     
 }
 
 #cabecalho{
+    width: 100%;
     position: fixed;
     background-color: green;
     top: 0;
@@ -22,17 +24,22 @@ header {
 }
 
 main {
-    top: 100px;
+    top: 1000px;
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#minha_foto{
+#minha_foto {
     height: 200px;
     margin: 20px;
 }
 
+#link_externo {
+    top: 0%;
+}
+
 #licoes_aprendidas {
     margin-left: 50px;
-    display: inline-block;
 }
 
 #licoes_a_aprender {
@@ -40,7 +47,11 @@ main {
 }
 
 #rodape {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    margin: 0;
     padding: 10px;
-    background-color: green;
-    color: white;
-}
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
