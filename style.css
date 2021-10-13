@@ -8,10 +8,7 @@ body {
 }
 
 header {
-    background-color: green;
-    margin-top: 0;
-    border-top: 0;
-    padding-top: 0;
+    background: green;
     
 }
 
@@ -28,4 +25,13 @@ header {
 #minha_foto{
     height: 200px;
     margin: 20px;
+}
+
+#licoes_aprendidas {
+    margin-left: 50px;
+    display: inline-block;
+}
+
+#licoes_a_aprender {
+    margin-left: 50px;
 }
