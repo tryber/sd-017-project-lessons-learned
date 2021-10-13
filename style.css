@@ -13,9 +13,11 @@ body {
 }
 
 #minha_foto {
-  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  display: block;
   border-radius: 50px;
-  margin-bottom: 15px;
 }
 
 .listas {
@@ -34,13 +36,18 @@ body {
 }
 
 article {
+  margin-top: 100px;
   font-size: 19px;
 }
 
 footer {
   line-height: 125px;
+  background-color: cyan;
+  height: 100%;
+  text-align: center;
 }
 
 aside {
+  margin-top: 10px;
   text-align: center;
 }
