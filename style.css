@@ -1,0 +1,38 @@
+* {
+  background-color: rgb(253, 251, 251);
+  font-size: 32px;
+  color: blue;
+  line-height: 50px;
+  font-family: sans-serif;
+  margin: 10px;
+  padding: 10px;
+  border: 10px;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.div {
+  height: 500px;
+  clear: both;
+}
+
+.lado-esquerdo {
+  width: 40%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: left;
+  font-style: italic;
+}
+
+.lado-direito {
+  width: 40%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+}
+
