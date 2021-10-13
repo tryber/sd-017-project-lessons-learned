@@ -15,6 +15,7 @@ body {
 #minha_foto {
   margin-top: 100px;
   border-radius: 50px;
+  margin-bottom: 15px;
 }
 
 .listas {
@@ -30,4 +31,16 @@ body {
 .lista1 {
   margin-left: 100px;
   margin-right: 200px;
+}
+
+article {
+  font-size: 19px;
+}
+
+footer {
+  line-height: 125px;
+}
+
+aside {
+  text-align: center;
 }
