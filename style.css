@@ -1,10 +1,10 @@
 * {
   margin: 0;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-  background-color: rgb(253, 251, 251)
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
@@ -35,7 +35,7 @@ body {
 }
 
 .perfil {
-  padding: 130px 15px 0px;
+  padding: 130px 15px 1px;
 }
 
 .lista {
@@ -43,7 +43,7 @@ body {
   display: inline-block;
 }
 
-#licoes_aprendidas, #licoes_a_aprender {
+#licoes_aprendidas #licoes_a_aprender {
   line-height: 20px;
   font-size: 19px;
 }
@@ -63,15 +63,13 @@ table {
 }
 
 .lado-esquerdo {
-  padding: 15px 15px 15px 15px;
+  padding: 15px;
   display: inline-block;
-  max-width: 40%
-  
+  max-width: 40%;
 }
 
 .lado-direito {
   display: inline-block;
-  padding: 15px 15px 15px 15px;
-  display: inline-block;
-  max-width: 40%
+  padding: 15px;
+  max-width: 40%;
 }
