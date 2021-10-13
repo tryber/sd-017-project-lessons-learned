@@ -29,16 +29,38 @@ body {
 
 #licoes_aprendidas {
   margin: 35px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 #licoes_a_aprender {
   margin: 35px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 #rodape {
   margin: 35px;
+  display: block;
 }
 
 #link {
-  margin: 35px;
+  margin: 5px;
+  display: inline-block;
+}
+
+a {
+  padding-right: 100px;
+}
+
+article {
+  padding: 15px;
+  width: 75%;
+}
+
+section {
+  float: right;
+  width: 20%;
+  margin: 30px;
+  float: right;
 }
