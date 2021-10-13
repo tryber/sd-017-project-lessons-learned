@@ -1,17 +1,16 @@
 body {
   background-color: rgb(253, 251, 251);
   width: auto;
-  margin: 2cm;
+  margin: 1cm;
   padding: auto;
   border: 1 px solid black;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  
+  font-family: Geneva, Verdana, sans-serif;
 }
 
+
 main {
-  width: auto;
-  padding-top: 3cm;
-  line-height: 1.5;
+  padding-top: 0.5cm;
+  line-height: 2;
 }
 
 
@@ -20,20 +19,22 @@ header {
   background-color: aquamarine;
   position: fixed;
   text-align: center;
-  }
-
-
-p {
-  text-align: justify;
+  width: 100%;
 }
 
+
+nav {
+  text-align: left;
+}
+
+
 #titulo {
-	font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 
 #minha_foto {
-  top: 20px;
+  top: 90px;
   align-items: center;
   position: relative;
   border-radius: 30%;
@@ -41,7 +42,8 @@ p {
 
 
 .name {
-position: relative; 
+  position: relative;
+  padding-top: 2cm;
 }
 
 
@@ -50,14 +52,14 @@ position: relative;
 }
 
 
-.tableLearn , tr , td{
- width: auto; 
- border: 2px solid green; 
+.tableLearn , tr , td , caption {
+  width: auto;
+  border: 2px solid black;
 }
 
 
 th {
-  border: 2px solid green; 
+  border: 2px solid black;
   text-align: center;
 }
 
@@ -73,9 +75,14 @@ th {
 
 .lado-esquerdo {
   object-position: left;
+  display: inline-block;
+  width: auto;
 }
 
 
 .lado-direito {
   object-position: right;
+  display: inline-block;
+  width: auto;
+  margin-left: 20px;
 }

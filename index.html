@@ -10,36 +10,42 @@
 <body>
 	<Header id="cabecalho">
 		<h1 id="titulo">Lições Aprendidas - Trybe!</h1>
+		<nav>Home:</nav>
+		<nav>Login:</nav>
 	</Header>
 	<img id="minha_foto" src="imagem/minha_foto.jpg" alt="foto_everaldo" width="200" />
-	<p class="name">|	Everaldo Silva</p>
+	<p class="name">| Everaldo Silva</p>
 	<main>
-		<H2>| Lições aprendidas.</H2>
-		<ol id="licoes_aprendidas" class="lado-direito">
-			<li>| HTML</li>
-			<li>| Git</li>
-			<li>| GitHub</li>
-			<li>| CSS</li>
-			<li>| JavaScrip</li>
-			<li>| PDI</li>
-			<li>| Semantic HTML</li>
-			<li>| Slack</li>
-			<li>| Zoom</li>
-			<li>| Apreder a apreder</li>
-		</ol>
-		<H2>| Lições a aprender.</H2>
-		<ul id="licoes_a_aprender" class="lado-esquerdo">
-			<li>Flexbox</li>
-			<li>Forms</li>
-			<li>ES6</li>
-			<li>Testes Unitários</li>
-			<li>DOM</li>
-			<li>React</li>
-			<li>Semantic HTML</li>
-			<li>CS Responsive</li>
-			<li>Zoom</li>
-			<li>Unix</li>
-		</ul>
+		<Section class="lado-esquerdo">
+			<H2>| Lições aprendidas.</H2>
+			<ol id="licoes_aprendidas">
+				<li>| HTML</li>
+				<li>| Git</li>
+				<li>| GitHub</li>
+				<li>| CSS</li>
+				<li>| JavaScrip</li>
+				<li>| PDI</li>
+				<li>| Semantic HTML</li>
+				<li>| Slack</li>
+				<li>| Zoom</li>
+				<li>| Apreder a apreder</li>
+			</ol>
+		</Section>
+		<section class="lado-direito">
+			<H2>| Lições a aprender.</H2>
+			<ul id="licoes_a_aprender">
+				<li>Flexbox</li>
+				<li>Forms</li>
+				<li>ES6</li>
+				<li>Testes Unitários</li>
+				<li>DOM</li>
+				<li>React</li>
+				<li>Semantic HTML</li>
+				<li>CS Responsive</li>
+				<li>Zoom</li>
+				<li>Unix</li>
+			</ul>
+		</section>
 		<H2>Canal Sugerido:</H2>
 		<nav>
 			<a href="https://www.youtube.com/c/Costuragem" target="_blank">Canal de
@@ -52,20 +58,22 @@
 			suscipit, sollicitudin et, dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames
 			ac turpis egestas. Aliquam id dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
 			inceptos hymenaeos. Mauris dictum facilisis augue. Fusce tellus. Pellentesque arcu. Maecenas fermentum, sem
-			in pharetra pellentesque, velit turpis volutpat ante, in pharetra metus odio a lectus. Sed elit dui,
-			pellentesque a, faucibus vel, interdum nec, diam. Mauris
+			in pharetra pellentesque, velit turpis volutpat ante, in pharetra metus odio a lectus. Sed elit dui.
 		</article>
 
-		<h2>Sobre minha experiência:</h2>
+		<h2>Sobre minha experiência</h2>
 		<section>
-			<aside class="lado-direito">
-				<p>Quis nulla. Integer malesuada. In in enim a arcu imperdiet malesuada. Sed vel lectus. Donec odio urna,
+			<aside>
+				<p>Quis nulla. Integer malesuada. In in enim a arcu imperdiet malesuada. Sed vel lectus.
+					Donec odio urna,
 					tempus molestie, porttitor ut, iaculis quis, sem. Phasellus rhoncus. Aenean id metus id velit ullamcorper
-					pulvinar. Vestibulum fermentum tortor id mi. Pellentesque ipsum.
+					pulvinar. Vestibulum fermentum tortor id mi.
 				</p>
 			</aside>
 		</section>
-		<table class="tableLearn lado-esquerdo">
+		<table class="tableLearn">
+			<caption>Conteúdo programado de acordo com o Course: </caption>
+
 			<tr>
 				<th>Bloco</th>
 				<th>Conteúdo</th>
@@ -105,10 +113,9 @@
 				<td>09</td>
 				<td>| JavaScript e Testes Assíncronos</td>
 			</tr>
-			<p>Conteúdo programado de acordo com o Course.</p>
 		</table>
 	</main>
-	<footer id="rodape" class="lado-esquerdo">Elaborado por Everaldo Silva 2021</footer>
+	<footer id="rodape">Elaborado por Everaldo Silva 2021</footer>
 </body>
 
 </html>
