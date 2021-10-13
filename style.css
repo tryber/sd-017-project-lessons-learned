@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: cyan;
+  width: 100%;
+  text-align: center;
+  height: 100px;
+}
+
+#minha_foto {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  display: block;
+  border-radius: 50px;
+}
+
+.listas {
+  border: 1px;
+  display: flex;
+  margin-top: 20px;
+}
+
+.lista2 {
+  margin-left: 100px;
+}
+
+.lista1 {
+  margin-left: 100px;
+  margin-right: 200px;
+}
+
+article {
+  margin-top: 100px;
+  font-size: 19px;
+}
+
+footer {
+  line-height: 125px;
+  background-color: cyan;
+  height: 100%;
+  text-align: center;
+}
+
+aside {
+  margin-top: 10px;
+  text-align: center;
+}
