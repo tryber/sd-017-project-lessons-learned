@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  font-size: 15px;
+  position: fixed;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  height: 80px;
+  padding: 20px;
+  background-color: seagreen;
+  color: aliceblue;
+  
+}
+
+#cabecalho li {
+  text-align: left;
+  list-style: none;
+  display:inline-block
+  
+}
+
+#minha_foto {
+  margin-top: 80px;
+  width: 220px;
+  height: 300px;
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+}
+
+.aprendizado {
+  display: inline-block;
+  width: 300px;
+}
+
+.aside {
+  display: inline-block;
+  width: 300px;
+}
