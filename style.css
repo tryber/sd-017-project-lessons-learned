@@ -11,6 +11,7 @@ body {
   width: 98%;
   border: 5px solid green;
   border-radius: 18px;
+  z-index: 5;
 }
 
 #titulo {
@@ -36,7 +37,6 @@ body {
 
 img {
   border-radius: 18px;
-  position: fixed;
 }
 
 #rodape {
@@ -52,4 +52,17 @@ img {
 #artigo {
   position: absolute;
   top: 530px;
+}
+
+#aside {
+  position: absolute;
+  top: 530px;
+  right: 30px;
+}
+
+.aside {
+  position: absolute;
+  top: 500px;
+  right: 30px;
+  left: 762px;
 }
