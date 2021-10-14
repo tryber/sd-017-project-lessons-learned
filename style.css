@@ -20,7 +20,6 @@ header {
 }
 
 #minha-foto {
-  text-align: center;
   margin: 80px, 120px;
   padding: 10px;
 }
@@ -51,6 +50,9 @@ header {
 
 #minha_foto {
   display: block;
+  max-width: 50%;
+  margin-left: 340px;
+  
 }
 
 .section-title {
