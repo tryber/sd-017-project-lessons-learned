@@ -1,30 +1,75 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family:fantasy;
 }
+
 #cabecalho {
     position: fixed;
-    position: top 0;
+    top: 0;
     background-color: green;
-    border: 5px solid black;
-    padding: 10px;
-    text-align: center;   
-}
-#minha_foto {
-    width: 500px;
-    height: 500px;
-}
-.listas {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-#rodape {
-    background-color: green;
+    color: white;
     border: 5px solid black;
     padding: 10px;
     text-align: center;
+    font-size: 33px;
+    margin: 0px;   
+}
+
+#minha_foto {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    
+}
+
+#licoes_aprendidas {
+    position:absolute;
+    left: 20px;
+    border: 2px solid black;
+}
+
+#licoes_a_aprender {
+    position:absolute;
+    right:20px;
+    border: 2px solid black;
+}
+
+.lado-esquerdo {
+  position: absolute;
+  height: 100px;
+  width: 500px;
+  left: 20px;
+  bottom: 70px;
+  background-color: rgba(10, 150, 103, 0.603);
+  border: 3px solid black;
+  
+
+}
+
+.lado-direito {
+    background-color: rgba(10, 150, 103, 0.603);
+    position: absolute;
+    height: 100px;
+    width: 500px;
+    right: 20px;
+    bottom: 70px;
+    border: 3px solid black;
+}
+
+#links{
+    position:absolute;
+    bottom: 200px;
+    left: 20px;
+
+}
+
+#rodape {
+    background-color: green;
+    border: 3px solid black;
+    padding: 5px;
+    text-align: center;
+    width: 1850px;
+    position: absolute;
+    bottom:0px;  
 }
 
