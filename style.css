@@ -1,6 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);
-    font-family:fantasy;
+    font-family: fantasy;
 }
 
 #cabecalho {
@@ -12,40 +12,37 @@ body {
     padding: 10px;
     text-align: center;
     font-size: 33px;
-    margin: 0px;   
+    margin: 0px;
 }
 
 #minha_foto {
     width: 300px;
     height: 300px;
     margin: 15px;
-    
 }
 
 #licoes_aprendidas {
-    position:absolute;
+    position: absolute;
     left: 20px;
     border: 2px solid black;
     line-height: 20px;
 }
 
 #licoes_a_aprender {
-    position:absolute;
-    right:20px;
+    position: absolute;
+    right: 20px;
     border: 2px solid black;
     line-height: 20px;
 }
 
 .lado-esquerdo {
-  position: absolute;
-  height: 100px;
-  width: 500px;
-  left: 20px;
-  bottom: 70px;
-  background-color: rgba(10, 150, 103, 0.603);
-  border: 3px solid black;
-  
-
+    position: absolute;
+    height: 100px;
+    width: 500px;
+    left: 20px;
+    bottom: 70px;
+    background-color: rgba(10, 150, 103, 0.603);
+    border: 3px solid black;
 }
 
 .lado-direito {
@@ -58,18 +55,16 @@ body {
     border: 3px solid black;
 }
 
-#links{
-    position:absolute;
+#links {
+    position: absolute;
     bottom: 200px;
     left: 20px;
-    
-
 }
 
-#tabela{
-  position:absolute;
-  right: 1430px;
-  top: 270px;
+#tabela {
+    position: absolute;
+    right: 1430px;
+    top: 270px;
 }
 
 #rodape {
@@ -79,6 +74,5 @@ body {
     text-align: center;
     width: 1850px;
     position: absolute;
-    bottom:0px;  
+    bottom: 0px;
 }
-
