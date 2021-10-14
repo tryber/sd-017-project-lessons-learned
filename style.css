@@ -25,7 +25,7 @@ a {
   margin: 0 80px;
 }
 
-table,th,tr,td {
+table , th , tr , td {
   border: black 1px solid;
 }
 
@@ -96,4 +96,4 @@ h2 {
 
 .texto_rodape {
   margin: 2px;
-};
+}
