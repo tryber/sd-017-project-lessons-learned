@@ -26,12 +26,14 @@ body {
     position:absolute;
     left: 20px;
     border: 2px solid black;
+    line-height: 20px;
 }
 
 #licoes_a_aprender {
     position:absolute;
     right:20px;
     border: 2px solid black;
+    line-height: 20px;
 }
 
 .lado-esquerdo {
@@ -60,7 +62,14 @@ body {
     position:absolute;
     bottom: 200px;
     left: 20px;
+    
 
+}
+
+#tabela{
+  position:absolute;
+  right: 1430px;
+  top: 270px;
 }
 
 #rodape {
