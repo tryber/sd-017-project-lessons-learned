@@ -12,7 +12,6 @@ body {
   padding: 10px;
   text-align: center;
   font-size: 33px;
-  margin: 0px;
 }
 
 #minha_foto {
@@ -74,5 +73,4 @@ body {
   text-align: center;
   width: 1850px;
   position: absolute;
-  bottom: 0px;
 }
