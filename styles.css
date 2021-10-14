@@ -38,7 +38,7 @@ body {
   color: green;
   border: solid green;
   font-size: 17px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Courier, monospace;
   padding: 50px;
   margin: 10px;
 }
