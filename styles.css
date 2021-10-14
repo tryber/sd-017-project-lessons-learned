@@ -9,6 +9,8 @@ body {
   color: white;
   left: 500px;
   height: 110px;
+  padding: 50px;
+  margin-bottom: 100px;
 }
 
 #titulo {
@@ -34,4 +36,18 @@ body {
 
 #rodape {
   color: green;
+  border: solid green;
+  font-size: 17px;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 50px;
+  margin: 10px;
+}
+
+.lado-direito {
+  text-align: right;
+  line-height: 20px;
+}
+
+.lado-esquerdo {
+  text-align: left;
 }
