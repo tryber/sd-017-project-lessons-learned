@@ -51,3 +51,14 @@ body {
 .lado-esquerdo {
   text-align: left;
 }
+
+.tabela {
+  border: solid green;
+  padding: 50px;
+  margin: 10px;
+  font-family: Courier;
+  color: green;
+  line-height: 25px;
+  font-size: 17px;
+  font-weight: bold;
+}
