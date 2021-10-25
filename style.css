@@ -20,3 +20,14 @@ body {
   color: blue;
   letter-spacing: 10px;
 }
+
+.lado-esquerdo {
+    display: inline-block;
+    width: 20%;
+    border:4px solid black;
+}
+.lado-direito {
+   display: inline-block;
+   width: 20%;
+   border:4px solid black;
+}
