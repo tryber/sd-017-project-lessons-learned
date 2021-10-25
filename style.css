@@ -3,6 +3,10 @@ background-color: rgb(253, 251, 251);
 margin: 10px;
 padding: 10px;
 border: 10px;
+font-family: 'Courier New', Courier, monospace;
+font-size: medium;
+color: blue;
+letter-spacing: 10px;
 }
 #cabecalho {
 position: fixed;
