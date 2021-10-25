@@ -15,8 +15,8 @@ body {
 }
 
 * {
- font-family: monospace;
- font-size: 20px;
- color: blue;
- letter-spacing: 10px;
+  font-family: monospace;
+  font-size: 20px;
+  color: blue;
+  letter-spacing: 10px;
 }
