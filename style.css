@@ -23,3 +23,16 @@ li {
     line-height: 20px;
     color: blue;
 }
+
+
+#licoes_a_aprender {
+    border: solid 3px red;
+    margin: 10px; 
+    padding: 20px;
+}
+
+#licoes_aprendidas {
+    border: solid 3px yellow;
+    margin: 20px;
+    padding: 50px;
+}
