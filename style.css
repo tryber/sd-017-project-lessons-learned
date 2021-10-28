@@ -8,3 +8,18 @@ top: 0;
 background-color: cornflowerblue;
 width: 100%;
 }
+
+p {
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 20px;
+    color: blue
+    
+}
+
+li {
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 20px;
+    color: blue;
+}
