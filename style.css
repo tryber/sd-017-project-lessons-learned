@@ -7,6 +7,7 @@ position: fixed;
 top: 0;
 background-color: cornflowerblue;
 width: 100%;
+
 }
 
 p {
@@ -35,4 +36,23 @@ li {
     border: solid 3px yellow;
     margin: 20px;
     padding: 50px;
+}
+
+.lado-esquerdo {
+    width: 40%;
+    float: left;
+    left: 30px;
+    
+}
+
+.lado-direito {
+    width: 40%;
+    float: right;
+    left: 50%;
+    
+
+}
+
+#rodape {
+    padding-top: 0%;
 }
