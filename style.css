@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 body {
   background-color: rgb(253, 251, 251);
   width: 100%;
@@ -8,11 +12,41 @@ main {
   margin-top: 120px;
 }
 
-header {
+#cabecalho {
   position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   border-style: hidden;
   background-color: green;
   padding: 10px 100px;
-  width: 77%;
+  /* width: 77%; */
+}
+
+li {
+  text-align: left;
+}
+
+#titulo {
+  color: white;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 1px;
+}
+
+p {
+  line-height: 20px;
+}
+
+#teste {
+  display: flex;
+}
+
+.lado-esquerdo {
+  justify-content: left;
+}
+
+
+.lado-direito {
+  justify-content: right;
 }
