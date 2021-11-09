@@ -40,3 +40,16 @@ section h2 {
 .lado-direito {
     margin-left: 30%;
 }
+
+#tabela {
+  position:absolute;
+  border: 1px solid black;
+  width: 100%;
+  margin: 40px;
+  margin-bottom: 0px;
+}
+
+#licoes {
+  margin: 30px;
+  margin-top: 75px;
+}
