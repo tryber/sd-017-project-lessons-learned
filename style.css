@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+}
+
+nav li {
+  font-size: 20px;
+  color: rgb(134, 3, 241);
+  line-height: 35px;
+  font-family: Verdana, sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+#minha_foto {
+  width: 200px;
+  margin: 10px;
+  padding: 0 0 0 400px;
+  border: 5px;
+}
+
+#licoes_aprendidas {
+  border: 10px;
+}
+
+.resposta {
+  text-align: center;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 45%;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 45%;
+  position: fixed;
+}
