@@ -62,7 +62,7 @@ Neste projeto, você será capaz de:
 Para entregar o seu projeto você deverá criar um Pull Request neste repositório.
 
 Lembre-se que você pode consultar nosso conteúdo sobre
-[Git & GitHub](https://app.betrybe.com/course/fundamentals/git-github-e-internet/git-github-o-que-e-e-para-que-serve/82dcab41-249a-4738-8920-f0eb2cb91d1c/dinamica-de-controle-de-versao/4cbb1980-92f0-4663-9121-dbc0f8d207a7?use_case=calendar) sempre que precisar!
+[Git & GitHub](https://course.betrybe.com/intro/git/) sempre que precisar!
 
 ---
 
@@ -82,8 +82,8 @@ Através desta aplicação, será possível realizar a construção de código H
 
 ## Data de Entrega
 
-  - Serão `1` dia de projeto.
-  - Data de entrega para avaliação final do projeto: `14/10/2021 - 14:00h`.
+  - Será `1` dia de projeto.
+  - Data de entrega para avaliação final do projeto: `29/06/2021 - 14:00h`.
 
 ---
 
@@ -92,9 +92,9 @@ Através desta aplicação, será possível realizar a construção de código H
 ### Antes de começar a desenvolver
 
 1. Clone o repositório
-  * `git clone git@github.com:tryber/sd-017-project-lessons-learned.git`.
+  * `git clone git@github.com:tryber/sd-014-a-project-lessons-learned.git`.
   * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-017-project-lessons-learned`
+    * `cd sd-014-a-project-lessons-learned`
 
 2. Instale as dependências e inicialize o projeto
   * Instale as dependências:
@@ -107,11 +107,11 @@ Através desta aplicação, será possível realizar a construção de código H
     * Exemplo: `git checkout master`
   * Agora, crie uma branch onde você vai guardar os `commits` do seu projeto
     * Você deve criar uma branch no seguinte formato: `nome-sobrenome-nome-do-projeto`
-    * Exemplo: `git checkout -b maria-soares-lessons-learned`
+    * Exemplo: `git checkout -b joaozinho-silva-lessons-learned`
 
 3. Crie na raiz do projeto os arquivos que você precisará desenvolver:
   * Verifique que você está na raiz do projeto
-    * Exemplo: `pwd` -> o retorno vai ser algo tipo _/Users/maria/code/**sd-017-project-lessons-learned**_
+    * Exemplo: `pwd` -> o retorno vai ser algo tipo _/Users/joaozinho/code/**sd-014-a-project-lessons-learned**_
   * Crie os arquivos index.html e style.css
     * Exemplo: `touch index.html style.css`
 
@@ -128,16 +128,16 @@ Através desta aplicação, será possível realizar a construção de código H
         * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
 
 5. Adicione a sua branch com o novo `commit` ao repositório remoto
-  * Usando o exemplo anterior: `git push -u origin maria-soares-lessons-learned`
+  * Usando o exemplo anterior: `git push -u origin joaozinho-silva-lessons-learned`
 
 6. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-017-project-lessons-learned/pulls)
+  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-014-a-project-lessons-learned/pulls)
   * Clique no botão verde _"New pull request"_
   * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
   * Clique no botão verde _"Create pull request"_
-  * Adicione uma descrição para o _Pull Request_, um título claro que o identifique, e clique no botão verde _"Create pull request"_
+  * Adicione uma descrição para o _Pull Request_, um título nítido que o identifique, e clique no botão verde _"Create pull request"_
   * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-017-project-lessons-learned/pulls) e confira que o seu _Pull Request_ está criado
+  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-014-a-project-lessons-learned/pulls) e confira que o seu _Pull Request_ está criado
 
 --- 
 
@@ -232,21 +232,6 @@ Para colocar sua página no [GitHub Pages](https://pages.github.com/), não é n
 ⚠️ Leia-os atentamente e siga à risca o que for pedido. Em particular, **atente-se para os nomes de _ids_ que alguns elementos de seu projeto devem possuir**. ⚠️
 
 O não cumprimento de um requisito, total ou parcialmente, impactará em sua avaliação.
-
----
-
-### 👀Observações importantes:
-
-* Lembrem-se que como pessoas desenvolvedoras devemos fazer pesquisas e garimpar resultados para auxiliar no entendimento do assunto. Assim, para solucionar os requisitos do projeto é inevitável e estimulado que pesquisas sejam feitas nas mais variadas fontes (course, vídeos do course, google, youtube, etc) sempre tomando cuidado para utilizar fontes "confiáveis" nas pesquisas da Internet, como por exemplo:
-  
-  * [Javascript.com](http://javascript.com/)
-  
-  * [W3Schools](https://www.w3schools.com/js/default.asp)
-  
-  * [MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-  
-  * [StackOverflow](https://pt.stackoverflow.com/questions/tagged/javascript)
-  
 
 ### 1. Adicione uma cor de fundo específica para a página
 
@@ -390,7 +375,7 @@ Adicione ao elemento posicionado no lado esquerdo a classe "lado-esquerdo" e ao 
 * Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas
   * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**
   * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-x`
+  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-014-a`
 
 Se ainda houver alguma dúvida sobre como entregar seu projeto, [aqui tem um video explicativo](https://vimeo.com/362189205).
 
