@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+* {
+  margin: 0;
+}
+
+#cabecalho {
+  top: 0;
+  display: flex;
+  justify-content: center;
+  background-color: cornflowerblue;
+  position: fixed;
+}
+
+#titulo {
+  background-color: chocolate;
+  align-self: center;
+  margin: 5px;
+  padding: 1px;
+  border: black;
+  font-size: 25px;
+  color: white;
+  line-height: 50px;
+  font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande,
+    Lucida Sans Unicode, Geneva, Verdana, sans-serif;
+}
+
+#minha_foto {
+  width: 100px;
+}
+
+#headerContent {
+  background-color: bisque;
+  width: 1220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.primeira_sec {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.lado-esquerdo {
+  float: left;
+  background-color: tomato;
+  width: 400px;
+}
+
+.lado-direito {
+  float: right;
+  width: 400px;
+  background-color: turquoise;
+}
