@@ -68,3 +68,13 @@ body {
 #licoes {
   padding: 20px;
 }
+
+#licoes_aprendidas {
+  display: inline-block;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+}
