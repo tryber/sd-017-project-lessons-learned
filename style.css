@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #minha_foto {
@@ -16,7 +16,7 @@ body {
   border-radius: 10%;
 }
 
-ol, ul, table {
+ol , ul , table {
   line-height: 150%;
   font-weight: 600;
   border: dotted black;
@@ -27,7 +27,7 @@ ol, ul, table {
   padding: 2%;
 }
 
-article, aside {
+article , aside {
   border: dotted black;
   margin: 1%;
   background-color: whitesmoke;
@@ -47,8 +47,11 @@ article, aside {
 #cabecalho {
   top: 0;
   text-align: center;
-  font-size: 25px;
   background-color: whitesmoke;
+}
+
+#titulo {
+  font-size: 25px;
 }
 
 #rodape {
