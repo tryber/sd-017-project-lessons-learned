@@ -1,0 +1,59 @@
+.visual {
+  background-color: rgb(253, 251, 251);
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+  color: brown;
+  line-height: normal;
+}
+
+#cabecalho {
+  background-color: rgb(189, 112, 157);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  margin-left: -10px;
+}
+
+#titulo {
+  text-align: center;
+}
+
+.lado-esquerdo {
+  padding: 70px 15px;
+  margin-top: 200px;
+  margin-left: 210px;
+}
+
+.lado-direito {
+  padding: -12px 30px;
+  margin-top: -280px;
+  margin-left: 25px;
+}
+
+article {
+  position: absolute;
+  top: 350px;
+  left: 450px;
+  background-color: cadetblue;
+  border-radius: 8px;
+}
+
+aside {
+  position: absolute;
+  top: 350px;
+  left: 900px;
+  background-color: cadetblue;
+  border-radius: 8px;
+}
+
+#minha_foto {
+  position: fixed;
+  top: 100px;
+  border-radius: 16px;
+}
+
+.linkmodificado {
+  position: absolute;
+  margin-top: 280px;
+}
