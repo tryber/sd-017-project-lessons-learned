@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cabecalho {
+  position: fixed;
+  width: 100%;
+  background-color: green;
+  top: 0;
+  padding: 20px 40px;
+}
+
+#titulo {
+  text-align: center;
+}
+
+.cor {
+  color: white;
+}
+
+#cabecalho a {
+  text-decoration: none;
+}
+
+#cabecalho ul {
+  list-style: none;
+}
+
+#perfil {
+  margin-top: 150px;
+  margin-left: 30px;
+}
+
+.tabela {
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-left: 7px;
+  border-collapse: collapse;
+}
+
+.tabela th , td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.tabela th {
+  background-color: green;
+  color: white;
+}
+
+.tabela td {
+  background-color: rgb(187, 224, 187);
+}
+
+
+#minha_foto {
+  border-radius: 10px;
+}
+
+#perfil a {
+  display: block;
+  margin-top: 5px;
+}
+
+#licoes {
+  padding: 40px;
+  margin-top: 40px;
+}
+
+.lista {
+  display: inline-block;
+  padding: 40px;
+}
+
+article , aside {
+  max-width: 40%;
+  border: 1px dashed black;
+  margin: 30px;
+  padding: 10px;
+  font-size: 20px;
+  line-height: 30px;
+  color: gray;
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
+
+#rodape {
+  clear: both;
+  padding: 20px;
+}
