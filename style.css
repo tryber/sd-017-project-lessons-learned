@@ -66,6 +66,8 @@ body {
 
 #licoes {
   padding: 20px;
+  position: relative;
+  display: block;
 }
 
 #licoes_aprendidas {
@@ -84,7 +86,6 @@ body {
 
 #artigos {
   margin-left: 10px;
-  border: 1px black dashed;
   display: inline-block;
 }
 
@@ -92,8 +93,8 @@ body {
   text-align: justify;
   max-width: 40%;
   max-height: 40%;
-  border: 1px solid red;
   display: inline-block;
+  border: 1px black dashed;
 }
 
 aside {
@@ -101,7 +102,23 @@ aside {
   position: absolute;
   right: 0;
   display: inline-block;
-  border: 1px solid blue;
   max-width: 30%;
   max-height: 30%;
+  border: 1px black dashed;
+}
+
+#x1 {
+  position: relative;
+  display: inline-block;
+  max-width: 50%;
+}
+
+#x2 {
+  position: absolute;
+  display: inline-block;
+  max-width: 50%;
+  top: 40px;
+  right: 0;
+  border: 1px black dashed;
+  margin: 10px;
 }
