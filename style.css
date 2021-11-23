@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Bitter , serif;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(3, 107, 82);
+  width: 100%;
+  height: 70px;
+}
+
+#headline {
+  position: absolute;
+  width: 40px;
+  top: 12px;
+  left: 20px;
+}
+
+#headline:hover {
+  background-color: rgb(47, 193, 140);
+  border-radius: 5px;
+  width: 45px;
+}
+
+#trybe-logo {
+  width: 70px;
+  margin-left: 120px;
+  margin-right: 10px;
+  position: fixed;
+}
+
+#trybe-logo:hover {
+  transform: rotate(180deg);
+}
+
+#titulo {
+  margin-left: 220px;
+  width: 440px;
+  font-size: 26px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+#cabecalho div {
+  float: right;
+  position: relative;
+  right: 10px;
+  bottom: 58px;
+  margin-right: 20px;
+  margin-left: 12px;
+  text-align: center;
+}
+
+#cabecalho div:hover {
+  border-radius: 5px;
+  padding: 4px;
+  background-color: rgb(47, 193, 140);
+}
+
+#cabecalho div img {
+  width: 25px;
+}
+
+#cabecalho div p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+}
+
+#minha_foto {
+  height: 250px;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  border-radius: 15px;
+  border: solid 2px rgb(50, 50, 50);
+}
+
+table {
+  position: fixed;
+  width: 300px;
+  height: 180px;
+  top: 100px;
+  left: 320px;
+  border: 2px solid rgb(50, 50, 50);
+  border-radius: 15px;
+  padding: 30px;
+  border-spacing: 20px;
+}
+
+table caption {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(50, 50, 50);
+  line-height: 50px;
+}
+
+table , th , td {
+  border-bottom: 2px double rgb(50, 50, 50);
+  padding: 10px;
+  text-align: left;
+}
+
+#licoes_aprendidas {
+  position: fixed;
+  right: 120px;
+  top: 160px;
+}
+
+#licoes_a_aprender {
+  position: fixed;
+  right: 390px;
+  top: 160px;
+}
+
+#licoes {
+  position: absolute;
+  height: 355px;
+  width: 500px;
+  display: block;
+  top: 100px;
+  right: 100px;
+  border-radius: 15px;
+  border: solid 2px rgb(50, 50, 50);
+}
+
+#licoes h2 {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(50, 50, 50);
+}
+
+#licoes ol , #licoes ul {
+  list-style: upper-roman;
+  font-size: 16px;
+}
+
+#licoes ol li , #licoes ul li {
+  line-height: 25px;
+}
+
+main section article {
+  position: absolute;
+  width: 700px;
+  height: 200px;
+  border: 2px solid rgb(50, 50, 50);
+  border-radius: 15px;
+  right: 50px;
+  bottom: 75px;
+  font-size: 18px;
+  text-align: center;
+  padding: 25px 15px;
+  letter-spacing: 1px;
+}
+
+main aside {
+  width: 390px;
+  border: 2px dashed rgb(50, 50, 50);
+  border-radius: 15px;
+  position: absolute;
+  left: 80px;
+  bottom: 75px;
+  height: 180px;
+  font-size: 18px;
+  padding: 20px 15px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+#rodape {
+  position: fixed;
+  width: 100%;
+  color: black;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  text-align: center;
+  line-height: 35px;
+  border-top: solid 1px grey;
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+
+#rodape #help-icon {
+  float: right;
+  margin-right: 5px;
+  margin-top: 3px;
+}
+
+#rodape img:hover {
+  width: 27px;
+}
