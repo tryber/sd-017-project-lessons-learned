@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+li {
+    list-style-type: none;
+    line-height: 23px;
+}
+
+#cabecalho {
+    top: 0;
+    position: fixed;
+    margin-bottom: 10px;
+    background-color: rgb(253, 251, 251);
+    width: 100%;
+    padding: 30px;
+    box-shadow: 0 9px 7px -2px #989898;
+    color: rgb(81, 69, 189);
+}
+nav {
+    float: right;
+    margin-right: 160px;
+    margin-top: 10px;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:hover{
+    opacity: 0.5;
+}
+nav a::before{
+    transition: 0.5s;
+}
+
+#cabecalho h1 {
+    display: inline-block;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+
+.homepage {
+    background-image: url(src/capaprojeto.jpg);
+    padding: 100px;
+    vertical-align: middle;
+}
+
+.homepage section   {
+    max-width: 500px;
+    float: right;
+    padding: 30px;
+    margin-top: 100px;
+    color:rgb(253, 251, 251);
+}
+.homepage h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    
+}
+.homepage p {
+    line-height: 30px;
+}
+
+section {
+    margin-top: 50px;
+}
+
+#minha_foto{
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 10%;
+    border-radius: 20px;
+}
+
+.secaodelistas {
+    text-align: center;
+}
+.secaodelistas section {
+    display: inline-block;
+    margin: 60px;
+    padding: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 0px;
+    width: 300px;
+    box-shadow: 0 9px 7px -2px #989898;
+    border-color: #989898;
+    background-color: snow;
+}
+
+.secaodelistas h1  {
+    margin-bottom: 30px;
+    color: rgb(81, 69, 189);
+
+}
+.secaodelistas li {
+    color: rgb(73, 73, 73);
+}
+
+.secaodelistas img {
+    width: 50px;
+    margin-bottom: 30px;
+}
+
+.button {
+    background-color: rgb(81, 69, 189);
+    padding: 15px;
+    border-radius: 5px;
+    color: rgb(253, 251, 251);
+    text-decoration: none;
+    width: 10px;
+    box-shadow: 0 9px 7px -2px #989898;
+
+}
+.button:hover{
+    opacity: 0.5;
+
+
+}
+
+.ultimasecao {
+    text-align: center;
+    background-image: url(src/capaprojeto.jpg);
+    padding: 100px;
+    height: 400px;
+}
+
+.lado-esquerdo {
+    margin: 60px;
+    padding: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 0px;
+    width: 400px;
+    box-shadow: 0 9px 7px -2px #989898;
+    border-color: #989898;
+    background-color: snow;
+    float:left;
+    line-height: 23px;
+
+}
+.lado-esquerdo h1{
+    font-size: x-large;
+}
+
+.lado-direito {
+    display: none;
+    float: right;
+
+}
+
+.chamado {
+    font-size: 12px;
+
+}
+
+.principatext {
+    color: rgb(81, 69, 189);
+    line-height: 20px;
+}
+
+.secaobonus {
+    text-align: center;
+    vertical-align: middle;
+}
+.secaobonus h1 {    
+    font-size: 40px;
+    margin: 80px 80px 40px 80px;
+    color: rgb(81, 69, 189);
+}
+.secaobonus p {
+    margin-bottom: 100px;
+
+}
+
+table{
+    width: 80%;
+    margin:auto;
+
+}
+thead {
+
+    width: 100%;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 0px;
+    box-shadow: 0 9px 7px -2px #989898;
+    border-color: #989898;
+    line-height: 23px;
+    margin: auto;
+}
+
+tbody {
+
+    width: 100%;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 9px 7px -2px #989898;
+    border-color: #989898;
+    line-height: 23px;
+    margin: auto;
+    height: 500px;
+}
+
+th {
+    width: 100px;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 0px;
+    box-shadow: 0 9px 7px -2px #989898;
+    border-color: #989898;
+    line-height: 23px;
+    margin: auto;
+    color: rgb(81, 69, 189);
+
+}
+
+td {
+    width: 100px;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 0px;
+    box-shadow: 0 9px 7px -2px #989898;
+    border-color: #989898;
+    line-height: 23px;
+    margin: auto;
+}
+
+footer {
+    height: 70px;
+    margin-top: 60px;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 3px 6px 3px 8px #989898;
+    line-height: 23px;
+    text-align: center;
+
+}
+
+footer p{
+        margin-top: 30px;
+}
+footer strong {
+    color: rgb(81, 69, 189);
+}
+
+
+
+
