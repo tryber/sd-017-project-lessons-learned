@@ -1,0 +1,84 @@
+* {
+  font-family: Nunito, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-color: rgb(10, 126, 81);
+  color: white;
+  width: 100%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#titulo {
+  text-align: center;
+  font-size: 2em;
+}
+
+nav ul li {
+  list-style-type: none;
+  font-weight: 900;
+  margin-left: 50px;
+}
+
+main {
+  margin: 20px;
+}
+
+#minha_foto {
+  width: 200px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+
+.listas {
+  display: inline-block;
+  width: 10%;
+  padding: 15px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+.lado-esquerdo {
+  width: 30%;
+  margin-right: 50px;
+  float: left;
+}
+
+.lado-direito {
+  width: 30%;
+  vertical-align: top;
+  float: right;
+}
+
+.section {
+  display: inline-block;
+  margin-bottom: 50px;
+}
+
+article , aside {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+table , th , td {
+  border: 1px solid black;
+}
+
+table td {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+footer {
+  margin-top: 100px;
+}
