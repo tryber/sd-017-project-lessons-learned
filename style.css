@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0%;
+  padding: 0%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: black;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+header {
+  text-align: center;
+  background-color: dimgray;
+  padding: 30px;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0%;
+}
+
+#minha_foto {
+  margin: 25px;
+  padding-inline-start: 10px;
+}
+
+nav {
+  padding-inline-start: 40px;
+}
+
+section h2 {
+  margin: 20px;
+  padding: 20px;
+}
+
+.boxes {
+  width: 40%;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: bottom;
+  border: initial;
+}
+
+.lado-direito {
+    margin-left: 30%;
+}
+
+#tabela {
+  position:absolute;
+  border: 1px solid black;
+  width: 100%;
+  margin: 40px;
+  margin-bottom: 0px;
+}
+
+#licoes {
+  margin: 30px;
+  margin-top: 75px;
+}
+
