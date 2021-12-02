@@ -1,0 +1,58 @@
+body {
+background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+position: fixed;
+top: 0;
+background-color: cornflowerblue;
+width: 100%;
+
+}
+
+p {
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 20px;
+    color: blue
+    
+}
+
+li {
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 20px;
+    color: blue;
+}
+
+
+#licoes_a_aprender {
+    border: solid 3px red;
+    margin: 10px; 
+    padding: 20px;
+}
+
+#licoes_aprendidas {
+    border: solid 3px yellow;
+    margin: 20px;
+    padding: 50px;
+}
+
+.lado-esquerdo {
+    width: 40%;
+    float: left;
+    left: 30px;
+    
+}
+
+.lado-direito {
+    width: 40%;
+    float: right;
+    left: 50%;
+    
+
+}
+
+#rodape {
+    padding-top: 0%;
+}
