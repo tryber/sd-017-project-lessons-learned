@@ -1,0 +1,83 @@
+/* BODY */
+body {
+background-color: rgb(253, 251, 251);
+background-attachment: scroll
+}
+/* HEARDER */
+#cabecalho {
+    position: fixed;
+    top: 0;
+    background-color: #FCA311;
+    width: 100%;
+    height: 50px;
+    z-index: 2;
+}
+
+#titulo {
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    font-size: 100%;   
+}
+
+.navegacao-interna {
+    padding: 0 ;
+    width: 100%;
+    z-index: 2;
+    background: #FCA311;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: #14213D;
+}
+.navegacao-interna:hover{
+    background-color: white;
+}
+/* SECTION RIGHT */
+img {
+    margin-inline-start: 3%;
+    margin-top: 5;
+    border-radius: 80%;
+    min-height: 1px;
+    box-sizing: content-box;
+    position: absolute;
+}
+
+p {
+
+}
+
+#bottom  {
+    font-family: Montserrat, sans-serif;
+    border: #FCA311;
+    display: inline-block;
+    text-decoration: none;
+    color: #14213D;
+    background: white;
+    scroll-behavior: smooth;
+   background-size: contain;
+   justify-content: center;
+   box-sizing: border-box;
+   padding: 0 100px;
+}
+
+#bottom:hover {
+    background-color:#FCA311;
+}
+/*  SECTION LEFT */
+.lado-direito {
+    position: absolute;
+}
+
+#licoes_aprendidas {
+
+}
+
+#licoes_a_aprender {
+
+}
+/* FOOTER */
+#rodape {
+
+}
