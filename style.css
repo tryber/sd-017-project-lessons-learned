@@ -4,15 +4,18 @@
   margin: 0;
 
   /* Setando margin e padding inicial da pagina para 0 */
-  padding: 0;
 }
 
 body {
   background-color: rgb(253, 251, 251);
   font-family: Lato, sans-serif;
-  font-size: 13px;
+  font-size: 18px;
   color: black;
-  line-height: 1em;
+  height: 100vh;
+}
+
+#label1 , #label2 {
+  line-height: 100px;
 }
 
 
@@ -25,12 +28,13 @@ body {
 }
 
 #titulo {
+  line-height: 100px;
   text-align: center;
   color: white;
 }
 
 #minha_foto {
-  margin-top: 100px;
+  margin: auto;
   border-radius: 50%;
 }
 
@@ -44,23 +48,56 @@ body {
   margin-left: 80px;
 }
 
+#link {
+  position: absolute;
+  top: 100px;
+}
+
+#rodape {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background-color: black;
+}
+
 .lessonslearned {
   display: flex;
+  justify-content: right;
+  margin-top: 100px;
+  margin-right: 25%;
+  line-height: 1.3em;
 }
 
 .articles {
-  display: table;
+  display: flex;
   margin: 10px;
 }
 
 .lado-esquerdo p {
   max-width: 50%;
-  display: table-cell;
   float: left;
 }
 
-.lado-direito {
+.lado-direito p {
   max-width: 50%;
-  display: table-cell;
   float: right;
+}
+
+.tabela {
+  display: flex;
+  justify-content: center;
+  margin: 40px 25%;
+  border: 1px solid black;
+}
+
+.Listas {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Foto {
+  display: flex;
+  justify-content: left;
+  margin-top: 100px;
 }
