@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: black;
+  line-height: 10px;
+  background-color: rgb(253, 251, 251);
+}
+
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-color: green;
+  border: 100px;
+}
