@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: monospace;
+}
+
+h1 , h2 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+header li {
+  margin: 1px 20px;
+}
+
+header a {
+  color: white;
+}
+
+header a:hover {
+  border-bottom: 3px solid rgb(51, 51, 51);
+}
+
+header , footer {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(102, 179, 255);
+}
+
+main {
+  margin: 100px 20px 20px;
+}
+
+section {
+  line-height: 20px;
+}
+
+.about {
+  padding: 40px;
+  background-image: url('https://cdn.pixabay.com/photo/2021/09/23/19/08/background-6650672_960_720.jpg');
+}
+
+.about h1 {
+  margin-top: 40px;
+}
+
+.about img {
+  display: block;
+  width: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.lessons {
+  padding: 40px;
+  background-color: rgb(51, 51, 51);
+  color: white;
+}
+
+.lessons-wrap {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+}
+
+.lessons-right , .lessons-left {
+  width: 45%;
+  border: 1px solid white;
+  padding: 20px;
+  background-color: white;
+  color: black;
+  vertical-align: top;
+}
+
+.lessons-left {
+  margin-right: 52px;
+}
+
+.learned {
+  background-image: url('https://cdn.pixabay.com/photo/2015/06/01/00/20/man-792821_960_720.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px;
+  height: 100vh;
+  display: block;
+}
+
+.lado-direito {
+  margin-left: 60px;
+  position: relative;
+}
+
+.lado-esquerdo , .lado-direito {
+  width: 45%;
+  vertical-align: top;
+  height: 200px;
+}
+
+.lado-esquerdo p , .lado-direito p {
+  text-align: justify;
+  text-shadow: 1px 1px 2px white;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+
+.lado-direito h2 , .lado-esquerdo h2 {
+  text-shadow: 2px 2px 4px black;
+  color: white;
+}
+
+.information {
+  background-image: url('https://cdn.pixabay.com/photo/2019/09/04/11/49/men-4451375_960_720.png');
+  background-size: cover;
+  padding: 30px;
+  border: 3px solid black;
+}
+
+.information h1 a:hover {
+  border-bottom: 3px solid red;
+}
+
+table {
+  width: 30%;
+  background-color: white;
+  border: 3px solid black;
+  margin-top: 30px;
+  padding: 10px;
+  border-spacing: 20px 10px;
+}
+
+td , tr {
+  width: 50%;
+}
+
+td {
+  border-bottom: 3px solid rgb(51, 51, 51);
+}
+
+td:hover {
+  border-bottom: 3px solid rgb(102, 179, 255);
+}
+
+footer {
+  height: 100px;
+}
+
+footer span , footer nav {
+  vertical-align: middle;
+  margin: 20px;
+}
+
+.icon-contact {
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.made-by {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.inline-b {
+  display: inline-block;
+}
+
+.margin-b {
+  margin-bottom: 30px;
+}

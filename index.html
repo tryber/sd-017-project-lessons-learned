@@ -1,0 +1,170 @@
+<!-- 
+  Usado para pegar os valores rgb/hexadecimal das cores
+  Source: https://www.w3schools.com/colors/colors_picker.asp
+
+  Imagens gratuitas, livres para utilização
+  Source: https://pixabay.com/
+
+  Aplicado atributo Transition com base nos exemplos de W3School
+  Source: https://www.w3schools.com/css/css3_transitions.asp
+
+  Consulta de estrutura e coisas relacionadas a tabelas em HTML
+  Source: https://www.w3schools.com/html/html_tables.asp
+
+  Vagas abertas para home office, por itforum
+  Source: https://itforum.com.br/noticias/trabalhe-em-home-office-10-empresas-com-vagas-abertas-em-ti/
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+  <title>Projeto Lessons Learned</title>
+</head>
+
+<body>
+
+  <header id=cabecalho>
+
+    <h1 id="titulo">[1/42] Projeto Lessons Learned</h1>
+    <nav>
+      <ul>
+        <li class="inline-b"><a href="#section1" target="_self">Autor</a></li>
+        <li class="inline-b"><a href="#section2" target="_self">Lições</a></li>
+        <li class="inline-b"><a href="#section3" target="_self">Aprendizado contínuo</a></li>
+        <li class="inline-b"><a href="#section4" target="_self">Vagas home office</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main>
+    <section id="section1" class="about">
+    
+      <img id="minha_foto" class="img-perfil" src="img/me.png" alt="Foto atual de perfil de Jonatas Queiroz Lima" />
+      <h1>
+        Jonatas Queiroz Lima
+      </h1>
+    </section>
+
+    <section id="section2" class="lessons">
+      <h1> Lições</h1>
+      <div class="lessons-wrap">
+        <div class="lessons-left inline-b">
+          <h2 class="margin-b">aprendidos </h2>
+          <ol id="licoes_aprendidas">
+            <li>Unix: o que é, conceitos</li>
+            <li>Shell: quais tipos de shells</li>
+            <li>Bash: comandos</li>
+            <li>Git/<a href="https://github.com/jonatasqueirozlima" target="_blank">Github</a></li>
+            <li>HTML: introdução</li>
+            <li>HTML: listas, imagens, parágrafos, etc</li>
+            <li>HTML: html5 semântica</li>
+            <li>CSS: introdução</li>
+            <li>CSS: posicionamento & box model</li>
+            <li>CSS: display</li>
+          </ol>
+        </div>
+        <div class="lessons-right inline-b">
+          <h2 class="margin-b">desejo aprender</h2>
+          <ul id="licoes_a_aprender">
+            <li>FrontEnd</li>
+            <li>React Native</li>
+            <li>React</li>
+            <li>TailwindCSS</li>
+            <li>BackEnd</li>
+            <li>Nodejs</li>
+            <li>Rest</li>
+            <li>Testes unitáriso</li>
+            <li>Python</li>
+            <li>Ciência da computação</li>
+          </ul>
+        </div>
+      </div>      
+    </section>
+
+    <section id="section3" class="learned">
+      <h1 class="margin-b">Aprendizado contínuo</h1>
+      <section class="lado-esquerdo inline-b">
+        
+          <article>
+          <h2 class="margin-b">Novos conhecimentos</h2>
+          <p>
+            Utilização do Git e Github em conjunto, porquê o versionamento de códigos é importante </p>
+            <p>Como támbem, colaborar em projetos com várias pessoas codando juntas, mesmo, se for no mesmo arquivo </p>
+            <p>A importância das tags semânticas e a acessiblidade das páginas na internet e qual os benefícios de utilizar esses recursos corretamente
+          </p>
+        </article>
+
+      </section>
+      <section class="lado-direito inline-b">
+          <aside>
+            <h2 class="margin-b">Passagem</h2>
+        <p>
+          Em setembro, tive a honra de me juntar à Trybe </p>
+          <p>Sou aluno de desenvolvimento web e está sendo uma experiência incrível</p>
+          <p>Estou ansioso para os próximos dias de conteúdo, exercícios e projetos!!!  </p>          
+        </aside>
+
+      </section>
+
+    </section>
+
+    <section id="section4" class="information">
+      <h1>Vagas para home office - <a href="https://itforum.com.br/noticias/trabalhe-em-home-office-10-empresas-com-vagas-abertas-em-ti/" target="_blank">itforum</a></h1>
+      <table class="table-info">
+        <tr>
+          <th colspan="4">Empresas</th>
+        </tr>
+        <tr>
+      
+          <td><a href="https://remotar.com.br/empresas/aiqfome?utm_source=itforum&utm_medium=vagas&utm_campaign=13set" target="_blank">aiqfome</a></td>
+          <td><a href="https://remotar.com.br/empresas/byne/?utm_source=itforum&utm_medium=vagas&utm_campaign=13set" target="_blank">BYNE</a></td>
+        </tr>
+        <tr>
+      
+          <td><a href="https://remotar.com.br/empresas/promobit/?utm_source=itforum&utm_medium=vagas&utm_campaign=13set" target="_blank">Promobit</a></td>
+          <td><a href="https://remotar.com.br/empresas/pier/?utm_source=itforum&utm_medium=vagas&utm_campaign=13set" target="_blank">Pier</a></td>
+        </tr>
+        <tr>
+      
+          <td><a href="https://remotar.com.br/empresas/mundiale/?utm_source=itforum&utm_medium=vagas&utm_campaign=13set" target="_blank">Mundiale</a></td>
+          <td><a href="https://remotar.com.br/empresas/nexoos/?utm_source=itforum&utm_medium=vagas&utm_campaign=13set" target="_blank">Nexoos</a></td>
+        </tr>
+        <tr>
+      
+          <td><a href="https://remotar.com.br/empresas/birdie/?utm_source=itforum&utm_medium=vagas&utm_campaign=13set" target="_blank">Birdie</a></td>
+          <td><a href="https://remotar.com.br/empresas/zup-innovation/?utm_source=itforum&utm_medium=vagas&utm_campaign=13set" target="_blank">Zup Innovation</a></td>
+        </tr>
+        <tr>
+      
+          <td><a href="https://remotar.com.br/empresas/enjoei?utm_source=itforum&utm_medium=vagas&utm_campaign=13set" target="_blank">enjoeei</a></td>
+          <td><a href="https://remotar.com.br/empresas/take-blip/?utm_source=itforum&utm_medium=vagas&utm_campaign=13set" target="_blank">Take Blip</a></td>
+        </tr>
+      
+      </table>
+    </section>
+  </main>
+
+
+
+  <footer id="rodape">
+    <nav class="navigation-links inline-b">
+      <a href="https://github.com/jonatasqueirozlima" target="_blank">
+        <img class="icon-contact" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Link para visitar meu perfil no Github"/></a>
+      <a href="https://www.linkedin.com/in/jonatasqueirozlima/" target="_blank">
+        <img class="icon-contact" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="Link para visitar meu perfil no LinkedIn" /></a>
+    </nav>
+    <span class="inline-b made-by">Projeto desenvolvido por Jonatas Queiroz Lima, 2021.</span>
+  </footer>
+
+</body>
+
+</html>
