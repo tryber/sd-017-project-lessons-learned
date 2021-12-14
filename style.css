@@ -1,0 +1,91 @@
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+  padding: 0;
+  font-family: Oxygen, sans-serif;
+  line-height: 25px;
+}
+
+header {
+  top: 0;
+  position: fixed;
+  background-color: rgb(3, 107, 82);
+  width: 100%;
+  border-bottom: rgb(47, 193, 140) 10px solid;
+  color: white;
+  font-weight: 700;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 18px;
+  margin-left: 10vw;
+}
+
+
+main {
+  margin: 0 15vw;
+}
+
+nav li {
+  text-decoration: none;
+  margin-top: 100px;
+  display: inline-block;
+}
+
+nav {
+  text-align: center;
+}
+
+.nav-item {
+  margin-right: 70px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#minha_foto {
+  max-width: 25vw;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lista {
+  display: inline-block;
+  width: 30vw;
+}
+
+.lista li {
+  margin-left: 10vw;
+}
+
+aside {
+  float: right;
+  width: 20vw;
+  box-shadow: rgb(207, 199, 199) 3px 3px;
+  background-color: rgb(212, 238, 228);
+  margin-top: 100px;
+}
+
+
+article {
+  width: 40vw;
+  margin: 10vh 2vw;
+  display: inline-block;
+}
+
+footer p {
+  text-align: center;
+  background-color: rgb(65, 26, 127);
+  margin: 0;
+  width: 100%;
+  padding: 20px 0;
+  color: white;
+}
