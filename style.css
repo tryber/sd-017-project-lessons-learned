@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+main {
+  width: 100%;
+  max-width: 1280px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+nav {
+  margin-top: 30px;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 10px;
+}
+
+#titulo {
+  font-size: 30px;
+  font-weight: 500;
+  color: rgb(34, 34, 34);
+  letter-spacing: -1px;
+  line-height: 30px;
+}
+
+#cabecalho {
+  background-color: rgb(235, 235, 235);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 25px;
+  text-align: center;
+}
+
+#minha_foto {
+  margin: 200px auto;
+  display: block;
+  width: 300px;
+  border-radius: 50%;
+}
+
+#licoes_aprendidas , #licoes_a_aprender {
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+#licoes_aprendidas li , #licoes_a_aprender li {
+  margin-bottom: 10px;
+}
+
+#rodape {
+  background: rgb(34, 34, 34);
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+
+#rodape a {
+  background: white;
+  display: block;
+  border-radius: 100px;
+  width: 45px;
+  height: 45px;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+#github-icon {
+  width: 30px;
+  margin-top: 1.5px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 100px auto;
+}
+
+table th , table td {
+  padding: 15px;
+}
+
+table td {
+  color: rgb(50, 50, 50);
+}
+
+#container {
+  display: flex;
+}
+
+.lado-esquerdo {
+  padding-right: 30px;
+}
+
