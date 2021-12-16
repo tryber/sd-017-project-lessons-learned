@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  width: 100vw;
+  font-family: 'Epilogue', sans-serif;
+}
+
+/*HEADER
+=====================================*/
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 90px 10px 94px;
+  background-color: #036b52;
+  border-bottom: 7px solid #2fc18c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: baseline;
+  z-index: 100;
+}
+
+#cabecalho a img {
+  width: 80px;
+
+}
+
+#cabecalho nav a {
+  text-decoration: none;
+  color: #9ae6ca;
+}
+
+#cabecalho nav a:hover {
+  color: #73af99;
+}
+
+#titulo {
+  font-weight: 900;
+  font-size: 50px;
+  color: #fff;
+}
+
+/*MAIN
+=========================================================*/
+main {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.licoes {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  color: #525252;
+}
+
+#minha_foto {
+  position: relative;
+  top: 180px;
+  width: 20%;
+  border-radius: 50%;
+  border: 10px solid #036b52;
+  box-shadow: 0px 0px 0px 10px #2fc18c;
+}
+
+#licoes_aprendidas li,
+#licoes_a_aprender li {
+  margin-bottom: 2.5px;
+}
+
+/*Como colocar um título na ol & ul
+https://stackoverflow.com/questions/1141639/how-to-semantically-provide-a-caption-title-or-label-for-a-list-in-html / Option 2*/
+/*=====================================*/
+ol[title]::before,
+ul[title]::before {
+  content: attr(title);
+  position: relative;
+  bottom: 15px;
+  font-size: 22px;
+  font-style: italic;
+}
+
+/* Article
+=====================================*/
+
+.art {
+  margin: 40px 0;
+  position: relative;
+  top: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.art article {
+  width: 500px;
+  background-color: rgba(219, 221, 227, 0.5);
+  padding: 50px 80px;
+  border-top: 7px solid #2fc18c;
+  border-bottom: 7px solid #2fc18c;
+}
+
+h2 {
+  margin-bottom: 15px;
+  text-align: center;
+  color: #036b52;
+}
+
+.art article p,
+aside p {
+  text-align: justify;
+  text-indent: 25px;
+  line-height: 1.2;
+}
+
+aside {
+  width: 300px;
+}
+
+h3 {
+  text-align: center;
+  color: #036b52;
+  margin-top: 15px;
+}
+
+.btn {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #006dfb;
+  width: 200px;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 25px auto;
+}
+
+.btn:hover {
+  background-color: #003f91;
+}
+
+aside a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/*Footer
+=====================================*/
+footer {
+  position: relative;
+  top: 150px;
+  margin-top: 40px;
+  background-color: #444955;
+  color: #fff;
+  font-weight: 500;
+  padding: 30px;
+  text-align: center;
+}
