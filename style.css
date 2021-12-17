@@ -1,0 +1,106 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb( 2, 115, 83);
+  border: 2px solid rgb(3, 166, 120);
+  border-radius: 4px;
+}
+
+#titulo {
+  text-align: center;
+  color: white;
+}
+
+.menu a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 18px;
+  background-color: rgb(242, 61, 61);
+  margin: 2px 12px 12px 10px;
+  padding: 5px;
+}
+
+.menu a:hover {
+  background-color: rgb(115, 29, 29);
+}
+
+.adiciona-foto-3 img {
+  display: inline-block;
+  margin-top: 160px;
+  margin-left: 20px;
+  border-radius: 10%;
+}
+
+.lista-ol-ul {
+  font-size: 19px;
+  font-family: monospace;
+}
+
+.lista-ol-ul > h2 {
+  font-family: serif;
+  font-size: 35px;
+  color: rgb(242, 61, 61);
+  margin-left: 20px;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  left: 20px;
+}
+
+.lado-direito {
+  display: inline-block;
+  right: 20px;
+}
+
+.aprendizado {
+  display: inline-block;
+  line-height: 1.9;
+  font-family: monospace;
+  font-size: 18px;
+}
+
+#portifolio {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(3, 166, 120);
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+#portifolio:hover {
+  background-color: rgb( 2, 115, 83);
+}
+
+.tabela-12 {
+  width: 200px;
+  border: 2px solid black;
+}
+
+#rodape {
+  text-align: center;
+  background-color: rgb(242, 175, 92);
+  width: 100%;
+  height: 40px;
+  padding-top: 2px;
+  margin-top: 2px;
+}
+
+#linkedin {
+  text-decoration: none;
+  color: rgb(73, 73, 73);
+  font-style: italic;
+}
+
+#linkedin:hover {
+  color: rgb(32, 131, 179);
+  font-size: 15px;
+}
