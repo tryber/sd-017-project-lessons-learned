@@ -1,0 +1,189 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Ubuntu, sans-serif;
+  line-height: 25px;
+}
+
+h2 {
+  color: rgb(16, 58, 82);
+  font-size: 20px;
+  text-shadow: 2px 2px 2px black;
+}
+
+#cabecalho {
+  top: 0;
+  position: fixed;
+  background: rgb(46, 119, 142);
+  width: 100%;
+  max-height: 200px;
+  border-radius: 1px 1px 20px 20px;
+  z-index: 1;
+}
+
+#titulo {
+  color: white;
+  font-size: 50px;
+  font-style: oblique;
+  position: relative;
+  float: right;
+  margin-right: 80px;
+  top: 15px;
+  text-shadow: 6px 6px 5px black;
+  transition: 0.7s;
+}
+
+#titulo:hover {
+  color: rgb(158, 62, 68);
+}
+
+#minha_foto {
+  width: 113px;
+  height: 120px;
+  border-radius: 20px;
+  margin: 10px 50px;
+}
+
+.menu_superior {
+  background-color: rgb(158, 62, 68);
+  display: inline-block;
+  width: 100%;
+  border-radius: 20px;
+  top: 10px;
+}
+
+.menu_content {
+  display: inline;
+  margin-left: 40px;
+}
+
+.menu_superior h2 {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.menu_content li {
+  display: inline;
+  margin: 20px;
+}
+
+main {
+  position: absolute;
+  top: 200px;
+  margin: 20px 20px 40px;
+}
+
+.lists p {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+#licoes_aprendidas , #licoes_a_aprender {
+  display: inline-block;
+}
+
+#licoes_aprendidas li:hover {
+  color: green;
+  transition: 0.8s;
+}
+
+#licoes_a_aprender li:hover {
+  color: red;
+  transition: 0.8s;
+}
+
+#licoes_aprendidas p {
+  text-align: left;
+  color: green;
+}
+
+#licoes_a_aprender p {
+  color: red;
+}
+
+#licoes_a_aprender {
+  margin-right: 20px;
+}
+
+.lists {
+  border: 4px solid rgb(158, 155, 30);
+  border-radius: 10px;
+  padding: 30px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.lado-direito {
+  display: inline-block;
+  float: right;
+  max-width: 20%;
+  text-align: justify;
+  margin-right: 50px;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  max-width: 70%;
+  text-align: justify;
+  float: left;
+  margin: auto auto 20px;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(16, 58, 82);
+  color: rgb(158, 62, 68);
+  border-radius: 20px 20px 1px 1px;
+}
+
+table , td , tr {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+  margin: 80px 100px;
+}
+
+.tablep {
+  position: absolute;
+  text-align: center;
+  top: 210px;
+  right: 471px;
+  max-width: 300px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.tabela {
+  float: right;
+  padding: 10px;
+  margin: 20px 50px 10px 10px;
+  max-height: 2px;
+}
+
+#instagram {
+  width: 2%;
+  height: auto;
+  margin-top: 15px;
+}
+
+#github {
+  width: 8%;
+  height: auto;
+}
+
+#whatsapp {
+  width: 5%;
+  height: auto;
+}
+
+#linkedin {
+  width: 5%;
+  height: auto;
+}
