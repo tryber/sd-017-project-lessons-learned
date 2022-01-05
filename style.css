@@ -5,4 +5,13 @@
 #cabecalho {
   top: 0;
   position: fixed;
+  margin: auto;
+}
+
+#titulo {
+  position: fixed;
+}
+
+#minha_foto {
+  width: 200px;
 }
