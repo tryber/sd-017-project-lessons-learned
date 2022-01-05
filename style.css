@@ -1,0 +1,44 @@
+* {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  top: 0;
+  position: fixed;
+  margin: auto;
+}
+
+#titulo {
+  position: fixed;
+}
+
+#minha_foto {
+  width: 200px;
+}
+
+.lado-esquerdo {
+  width: 400px;
+  float: left;
+  font-family: Cambria, Cochin, Georgia, Times, serif;
+  font-size: 20px;
+  line-height: 25px;
+  color: chocolate;
+  margin: 10px;
+  padding: 10px;
+  border: 10px;
+}
+
+.lado-direito {
+  width: 300px;
+  font-family: Courier, monospace;
+  font-size: 20px;
+  color: coral;
+  float: right;
+  margin: 10px;
+  padding: 10px;
+  border: 10px;
+}
+
+.links {
+  text-decoration: none;
+}
