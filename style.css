@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 5px;
+  color: rgb(32, 167, 66);
+  font-size: 17px;
+}
+
+img {
+  margin: 10px;
+  padding: 40px;
+  border: 1px blue solid;
+}
+
+#minha_foto {
+  margin-top: 100px;
+}
