@@ -4,82 +4,122 @@
 }
 
 body {
-  background-color: rgb(253, 251, 251);
-  max-width: 1366px;
-}
+  line-height: 25px;
+  gap: 5px;
+  background-color: rgb(253, 251, 251);}
+
 #cabecalho {
+  gap: 5px;
+  padding: 10px;
+  font-size: 10px;
   color: rgb(253, 251, 251);
+  font-family: Arial, sans-serif;
   position: fixed;
   top: 0;
-  background-color:seagreen;
-  display: block;
+  border-radius: 0.5rem;
+  background-color: darkcyan;
+  box-shadow: 0 3px 5px 2px rgba(24, 24, 24, 0.397);
+  display: flex;
+  justify-content: center;
   text-align: center;
-  min-width: 1366px;
-}
+  width: 100%;}
 
 #minha_foto {
-  max-width: 300px;
+  width: 100px;
   display: block;
   margin-top: 5%;
   border-radius: 50%;
   margin-bottom: 10px;
 }
+
+
 .info {
-  max-width: 310px;
-  margin-top: 5%;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: start;
   margin-left: 5%;
+  justify-content: center;
+  align-items: center;
+
 }
 
-.aprendidas {
-  margin-top: 5%;
-  margin: 0 auto;
-  display: inline-block;
-  margin-left: 20px;
-  background-color: seagreen;
-  padding: 25px;
-  border-radius: 10%;
-  border-style: solid;
-  border-color:green;
-  color: white;
-}
-
-.a_aprender {
-  display: inline-block;
-  background-color: rgb(241, 241, 241);
-  margin-left: 5%;
-  margin-top: 5%;
-  padding: 25px;
-  border-radius: 10%;
+.info a {
+  text-decoration: none;
+  text-align: start;
   color: black;
-  border-style: solid;
-  border-color: seagreen;
+  font-family: Courier, monospace;
+
+}
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.lado-esquerdo {
+  align-items: center;
+  list-style: none;
+  margin-left: 10px;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 3px 5px 2px rgba(128, 128, 128, 0.397);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 90px;
+  padding: 50px;
+  transition: all 0.5s;
+  width: 30%;
+}
+
+.lado-direito {
+  margin-left: 10px;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 3px 5px 2px rgba(128, 128, 128, 0.397);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 90px;
+  padding: 50px;
+  transition: all 0.5s;
+  width: 30%;
 }
 
 .artigo_1 {
-  max-width: 610px;
-  margin-top: 2%;
-  padding: 50px;
-  background-color: seagreen;
-  border-radius: 10%;
-  margin-left: 10px;
-  border-style: solid;
-  border-color:green;
-  color: white;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 3px 5px 2px rgba(128, 128, 128, 0.397);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  transition: all 0.5s;
+  width: 500px;
+  margin: 50px;
+}
+
+.section2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .lateral {
-  display: inline-block;
+  box-shadow: 0 3px 5px 2px rgba(34, 33, 33, 0.397);
+  border-radius: 0.5rem;
   background-color: white;
-  max-width: 250px;
-  min-height: 400px;
+  width: 10%;
   position: fixed;
   right: 0;
-  top: 10%;
+  top: 20%;
   padding: 20px;
   border-style: solid;
   border-color: teal;
-  
 }
 
 #rodape {
