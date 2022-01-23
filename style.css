@@ -1,0 +1,108 @@
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+  font-family: Impact, sans-serif;
+  width: 1366px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  background-color: lightgreen;
+  width: 100%;
+  margin-left: 0;
+  padding-left: 10px;
+  text-align: center;
+  padding-bottom: 3px;
+}
+
+main {
+  margin-top: 50px;
+  padding-left: 8px;
+}
+
+#minha_foto {
+  position: absolute;
+  right: 0;
+  top: 3px;
+  width: 100px;
+  border-radius: 28%;
+}
+
+article {
+  margin: 120px 20px 0;
+  display: inline-block;
+  max-width: 46%;
+  text-align: justify;
+  font-size: 20px;
+  vertical-align: top;
+}
+
+article p {
+  margin: 0;
+}
+
+aside {
+  margin: 120px 20px 0;
+  display: inline-block;
+  max-width: 40%;
+  text-align: justify;
+  background-color: rgb(102, 101, 101);
+  color: white;
+  padding: 8px;
+  border: 3px solid lightgreen;
+  border-radius: 10px;
+  line-height: 24px;
+}
+
+.first {
+  display: inline-block;
+  max-width: 35%;
+  font-size: 12px;
+  margin: 10px;
+}
+
+.second {
+  display: inline-block;
+  max-width: 35%;
+  font-size: 12px;
+  margin: 10px;
+}
+
+footer {
+  background-color: lightgreen;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 30px;
+  padding: 10px;
+}
+
+table {
+  display: inline-block;
+  border: 1px solid rgb(136, 135, 135);
+  margin: 10px 100px 10px 400px;
+  border-collapse: collapse;
+}
+
+th {
+  border: 1px solid lightgray;
+  background-color: rgb(0, 128, 53);
+  color: white;
+  padding: 5px;
+}
+
+td {
+  border: 1px solid lightgray;
+  padding: 3px;
+  text-align: center;
+}
+
+tr:nth-child( odd ) {
+  background-color: rgb(210, 240, 210);
+}
+
+tr:nth-child( even ) {
+  background-color: rgb(242, 255, 242);
+}
