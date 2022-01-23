@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+}
+
+#minha_foto {
+  margin: 50px;
+  padding: 30px;
+  border: solid blue 5px;
+}
+
+article {
+  font-size: 15px;
+  color: brown;
+  line-height: 17px;
+  font-family: Impact, Haettenschweiler, sans-serif;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 300px;
+}
