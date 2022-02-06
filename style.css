@@ -1,0 +1,105 @@
+body {
+background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    background-color: green;
+    color: rgb(253, 251, 251);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#link{
+    color: rgb(253, 251, 251); 
+    text-decoration: none; 
+    font-weight: normal; 
+}
+
+#licoes_a_aprender, #licoes_aprendidas {
+    display: inline-block;
+}
+
+a {
+    color: rgb(253, 251, 251);
+    margin-inline: 5px;
+}
+
+a:link{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(253, 251, 251);
+}
+
+.lado-direito, .lado-esquerdo {
+    display: inline-block;
+}
+
+.lado-direito{
+    float: right;
+    width: 800px;
+}
+
+.lado-esquerdo {
+    float: left;
+    width: 840px;
+}
+
+
+article {
+    background-color: green;
+    color: rgb(253, 251, 251);
+    border: 2px black solid;
+    border-radius: 15px;
+    height: 100px;
+    width: 800px;
+    text-align: center;
+    padding: 0.1cm;
+}
+
+h2{
+    font-size: 1cm;
+}
+
+#nome_foto{
+    font-size: 1cm;
+    font-style:oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tabela{
+    margin-top: 150px;
+}
+
+aside {
+    background-color: green;
+    color: rgb(253, 251, 251);
+    border: 2px black solid;
+    border-radius: 15px;
+    height: 100px;
+    width: 800px;
+    text-align: center;
+    padding: 0.1cm;
+    font-size: 0.57cm;
+    line-height: 20px;
+}
+
+li {font-size: 20px;
+}
+
+#tela {
+    margin-top: 110px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
