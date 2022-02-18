@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: 0;
+  border: 0;
+  padding: 35px;
+  text-align: center;
+  background-color: green;
+}
+
+#titulo {
+  color: white;
+}
+
+#minha_foto {
+  margin: 100px;
+}
+
+.artigos {
+  line-height: 1.5;
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
+
+#rodape {
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: 0;
+  border: 0;
+  padding: 35px;
+  text-align: left;
+  background-color: grey;
+}
+
+#link_github {
+  font-size: 24px;
+  font-family: inherit;
+  text-decoration: none;
+  color: white;
+}
