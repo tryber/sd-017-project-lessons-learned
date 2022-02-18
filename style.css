@@ -1,0 +1,22 @@
+body { background-color: rgb(253, 251, 251);}
+
+#cabecalho { position: fixed;
+  top: 0;}
+
+p { padding: 10px;
+  border: 20px;
+  margin: 10px;
+}
+
+li {font-size: large;
+  color: green;
+  line-height: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lado-direito { float: right;
+  bottom: -60px;
+  position: relative;
+}
+
+.lado-esquerdo { float: left;}
