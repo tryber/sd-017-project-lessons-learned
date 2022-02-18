@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Impact, Haettenschweiler, sans-serif;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+}
+
+#minha_foto {
+  width: 400px;
+  height: 400px;
+  margin-top: 100px;
+}
+
+ul , ol {
+  display: inline-block;
+  margin-right: 50px;
+  line-height: 25px;
+}
+
+footer {
+  text-align: center;
+}
+
+#cursos {
+  padding: 7px;
+  width: 300px;
+  background-color: rgb(207, 201, 201);
+  left: 580px;
+  top: 220px;
+  position: relative;
+  display: inline-block;
+}
+
+article {
+  max-width: 400px;
+}
+
+.lado-direito {
+  width: 300px;
+  background-color: rgb(207, 201, 201);
+  position: relative;
+  bottom: 350px;
+  left: 983px;
+  padding: 2px 10px;
+}
+
+table {
+  position: relative;
+  bottom: 100px;
+  border-color: green;
+}
+
+#titulo {
+  color: green;
+  text-align: center;
+}
+
+header {
+  width: 100%;
+}
+
+p {
+  font-size: 20px;
+}
+
+.lado-esquerdo {
+  margin-top: 70px;
+}
