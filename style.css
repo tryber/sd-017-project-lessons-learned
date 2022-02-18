@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  height: 150px;
+  width: 100%;
+  background-color: lightblue;
+  padding-left: 30px;
+}
+
+#minha_foto {
+  margin-top: 150px;
+}
+
+table {
+  margin: 15px 0;
+}
+
+table , th {
+  border: 1px solid green;
+}
+
+tr , th {
+  padding: 10px 30px;
+  text-align: center;
+}
+
+tr {
+  font-size: 20px;
+}
+
+th {
+  color: green;
+}
+
+ol {
+  font-style: italic;
+}
+
+li {
+  line-height: 25px;
+}
+
+section , aside , article {
+  display: inline-block;
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
