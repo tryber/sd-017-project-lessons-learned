@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  padding: 10px;
+}
+
+#minha_foto {
+  margin: 150px;
+  border-radius: 10px;
+}
+
+p {
+  font-size: 18px;
+  color: mediumseagreen;
+  line-height: 3;
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
