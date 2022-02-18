@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: green;
+  border: 1px;
+}
+
+#titulo {
+  line-height: 5px;
+  line-break: 2px;
+  font-size: x-large;
+  color: rgb(253, 251, 251);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#minha_foto {
+  margin-top: 100px;
+}
+
+#licoes_aprendidas {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
+}
+
+#licoes_a_aprender {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
+}
+
+#rodape {
+  background-color: green;
+  width: 100%;
+  height: 40px;
+  bottom: 0;
+  position: fixed;
+}
+
+#artigo {
+  display: inline-block;
+  width: 600px;
+  height: 100px;
+  padding: 10px;
+}
+
+#delado {
+  display: inline-block;
+  margin-left: 300px;
+  background-color: green;
+  color: white;
+}
+
+#navegacao {
+  background-color: greenyellow;
+  height: 20px;
+  width: 100%;
+  position: fixed;
+  top: 80px;
+}
+
+#tabela {
+  display: inline-block;
+}
+
+.lado-esquerdo {
+  border: 0;
+}
+
+.lado-direito {
+  border: 0;
+}
