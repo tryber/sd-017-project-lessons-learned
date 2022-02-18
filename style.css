@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-color: green;
+  font-size: 15px;
+}
+
+#minha_foto {
+  margin-top: 100px;
+  border-style: solid;
+  padding: 10px;
+}
+
+#nav {
+  position: fixed;
+  margin-top: 70px;
+}
+
+#tit-art {
+  color: red;
+}
+
+#text-art {
+  line-height: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.x {
+  display: inline-block;
+}
+
+.lado-esquerdo {
+  border: red 2px solid;
+  margin-inline-end: 60%;
+  float: left;
+}
+
+.lado-direito {
+  border: 2px solid black;
+  margin-inline-start: 60%;
+}
