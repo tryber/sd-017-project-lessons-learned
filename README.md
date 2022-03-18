@@ -1,5 +1,5 @@
 # Boas vindas ao repositório do projeto Lições Aprendidas!
-"Este é o primeiro projeto realizado no curso da Trybe. Eu precisei desenvolver um site usando os conhecimentos aprendidos nas aulas de HTML e CSS, seguindo algumas regras definidas por eles sobre quais requisitos precisavam existir no projeto e, ao final, estilizar a página para ficar o mais parecida possível com o exemplo abaixo." Gabi Ferraz
+"Este é o primeiro projeto realizado no curso da Trybe. Eu precisei desenvolver um site usando os conhecimentos aprendidos nas aulas de HTML e CSS, seguindo algumas regras definidas por eles sobre quais requisitos precisavam existir no projeto e, ao final, estilizar a página." Gabi Ferraz
 
 ## Habilidades
 
