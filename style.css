@@ -1,0 +1,84 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Courier, monospace;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-color: rgb(0, 158, 0);
+  width: 100%;
+}
+
+#titulo {
+  text-align: center;
+  color: white;
+}
+
+.home {
+  color: white;
+  padding-left: 15px;
+}
+
+.login {
+  color: white;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+main {
+  padding-left: 15px;
+}
+
+#minha_foto {
+  margin-top: 12%;
+  border-radius: 20px;
+}
+
+.licoes_aprendidas {
+  width: 400px;
+  height: 200px;
+  display: inline-block;
+  line-height: 20px;
+  font-size: 16px;
+}
+
+.licoes_a_aprender {
+  width: 400px;
+  height: 200px;
+  display: inline-block;
+  line-height: 20px;
+  font-size: 16px;
+}
+
+.articles {
+  margin-top: 30px;
+  text-align: justify;
+  font-size: 16px;
+}
+
+.articles article {
+  display: inline-block;
+  width: 45%;
+}
+
+.articles aside {
+  display: inline-block;
+  width: 45%;
+  margin-left: 50px;
+  transform: translateY(-65%);
+
+  /*
+    source: Breno Santos que me ensinou
+    para eu conseguir movimentar o elemento para onde eu queria.
+  */
+}
+
+.table {
+  margin-top: 30px;
+}
+
+#rodape {
+  padding-top: 30px;
+  padding-left: 15px;
+}
