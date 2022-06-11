@@ -1,0 +1,88 @@
+body {
+  background-color: rgb(253, 251, 251);
+  width: auto;
+  margin: 1cm;
+  padding: auto;
+  border: 1 px solid black;
+  font-family: Geneva, Verdana, sans-serif;
+}
+
+
+main {
+  padding-top: 0.5cm;
+  line-height: 2;
+}
+
+
+header {
+  top: 0;
+  background-color: aquamarine;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+
+nav {
+  text-align: left;
+}
+
+
+#titulo {
+  font-family: Arial, sans-serif;
+}
+
+
+#minha_foto {
+  top: 90px;
+  align-items: center;
+  position: relative;
+  border-radius: 30%;
+}
+
+
+.name {
+  position: relative;
+  padding-top: 2cm;
+}
+
+
+.grupArticle {
+  text-align: justify;
+}
+
+
+.tableLearn , tr , td , caption {
+  width: auto;
+  border: 2px solid black;
+}
+
+
+th {
+  border: 2px solid black;
+  text-align: center;
+}
+
+
+#rodape {
+  margin-top: 1cm;
+  height: 2cm;
+  font-size: 12px;
+  text-align: right;
+  color: blue;
+}
+
+
+.lado-esquerdo {
+  object-position: left;
+  display: inline-block;
+  width: auto;
+}
+
+
+.lado-direito {
+  object-position: right;
+  display: inline-block;
+  width: auto;
+  margin-left: 20px;
+}
