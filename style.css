@@ -1,0 +1,122 @@
+html , body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+
+}
+
+h2 {
+  text-align: center;
+}
+
+.artigo h1 {
+  text-align: center;
+}
+
+p {
+  padding: 2px;
+  text-align: justify;
+  line-height: 12px;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: darkgrey;
+  width: 100%;
+
+}
+
+#titulo {
+  font-size: 32px;
+  margin-left: 39%;
+  margin-top: 2px;
+
+}
+
+img {
+  width: 180px;
+  height: 120px;
+  margin: 2%;
+
+}
+
+nav ul {
+  display: inline;
+
+}
+
+nav li {
+  display: inline;
+  float: right;
+  margin-right: 20px;
+  margin-top: 10%;
+
+}
+
+.listas {
+  margin-top: 19%;
+
+}
+
+#rodape {
+  background-color: darkgrey;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5%;
+  text-align: center;
+
+}
+
+.lado-esquerdo , .lado-direito {
+  font-size: 14px;
+  font-family: system-ui;
+  border: 1px solid black;
+
+}
+
+.lado-esquerdo {
+  max-width: 49%;
+  display: inline;
+  float: left;
+  margin-left: 8px;
+
+}
+
+.lado-direito {
+  max-width: 49%;
+  display: inline;
+  float: right;
+  margin-right: 8px;
+
+}
+
+table {
+  display: flex;
+  width: 90%;
+  margin-top: 200px;
+  border: 2px solid black;
+  padding: 52px;
+
+}
+
+table td {
+  border: 2px solid black;
+
+}
+
+caption {
+  text-align: center;
+
+}
