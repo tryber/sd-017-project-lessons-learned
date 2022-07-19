@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+}
+
+#minha_foto {
+  height: auto;
+  width: 20%;
+}
+
+.hobbit {
+  height: 30%;
+  width: 60%;
+}
+
+#titulo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: rgb(15, 136, 89);
+  line-height: normal;
+}
+
+tr , td , th {
+  border-style: 'solid';
+  border: '1px';
+}
+
+.lado-esquerdo , .lado-direito {
+  float: left;
+}
+
+.box-model {
+  border: 1px solid;
+  margin-left: 20px;
+  padding-left: 95px;
+}
